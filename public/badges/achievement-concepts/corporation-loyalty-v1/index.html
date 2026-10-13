@@ -47,7 +47,7 @@
   </style>
   <link rel="stylesheet" href="../navigation.css">
   <script defer src="../sections.js"></script>
-  <script defer src="../navigation.js"></script>
+  <script defer src="../navigation.js?v=no-arrows-v1"></script>
 </head>
 <body>
   <main>
@@ -129,7 +129,7 @@
       const original = document.createElement('a');
       original.className = 'original';
       original.href = item.file;
-      original.textContent = 'Open transparent emblem ↗';
+      original.textContent = 'Open transparent emblem';
       caption.append(number, title, description, label, sizes, original);
       article.append(visual, caption);
       byId('gallery').append(article);

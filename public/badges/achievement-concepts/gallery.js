@@ -67,7 +67,7 @@
     title.append(count);
     const open = document.createElement('a');
     open.href = new URL(section.id + '/index.html', root).href;
-    open.textContent = 'Open section →';
+    open.textContent = 'Open section';
     open.setAttribute('aria-label', 'Open ' + section.title);
     heading.append(title, open);
     const grid = document.createElement('div');

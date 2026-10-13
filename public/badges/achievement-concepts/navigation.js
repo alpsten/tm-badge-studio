@@ -14,7 +14,7 @@
   mount.className = 'achievement-navigation';
   const top = document.createElement('div');
   top.className = 'nav-top';
-  top.append(link('Achievement gallery', 'index.html', 'nav-brand'), link('Badge studio ↗', '../preview.html', 'nav-studio'));
+  top.append(link('Achievement gallery', 'index.html', 'nav-brand'), link('Badge studio', '../preview.html', 'nav-studio'));
   const nav = document.createElement('nav');
   nav.className = 'section-links';
   nav.setAttribute('aria-label', 'Achievement sections');
@@ -33,8 +33,8 @@
     pager.setAttribute('aria-label', 'Previous and next achievement section');
     const previous = sections[activeIndex - 1];
     const next = sections[activeIndex + 1];
-    pager.append(previous ? link('← ' + previous.title, previous.id + '/index.html') : link('← All achievements', 'index.html'));
-    pager.append(next ? link(next.title + ' →', next.id + '/index.html', 'next') : link('All achievements →', 'index.html', 'next'));
+    pager.append(previous ? link(previous.title, previous.id + '/index.html') : link('All achievements', 'index.html'));
+    pager.append(next ? link(next.title, next.id + '/index.html', 'next') : link('All achievements', 'index.html', 'next'));
     document.querySelector('main').append(pager);
   }
 
