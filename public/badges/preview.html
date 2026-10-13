@@ -69,32 +69,35 @@
     .wide-copy { width: 100%; display: flex; flex-direction: column; align-items: center; gap: 0.8cqw; }
     .wide-title { max-width: 100%; font-weight: 750; font-size: 4.3cqw; line-height: 1.12; overflow-wrap: anywhere; }
     .wide-subtitle { max-width: 100%; font-size: 2.5cqw; line-height: 1.2; color: #d9dfe8; overflow-wrap: anywhere; }
+    #achievements-frame { width: 100%; display: block; border: 0; border-radius: 16px; min-height: 600px; background: #10151d; }
     footer { margin-top: 30px; }
     @media (max-width: 600px) { body { padding: 16px; } .podium { grid-template-columns: 1fr; } .tiers { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
   </style>
 </head>
 <body>
   <h1>Badge studio</h1>
-  <p><a href="achievement-concepts/index.html">Browse all achievement sections →</a></p>
   <p>Try corporation colors and mix the separate ornaments. The Champion keeps its exclusive crown and laurels.</p>
   <nav class="tabs" role="tablist" aria-label="Badge views">
     <button id="tab-mixer" type="button" role="tab" data-panel="mixer" aria-controls="mixer-panel" aria-selected="true">Badge mixer</button>
     <button id="tab-corporations" type="button" role="tab" data-panel="corporations" aria-controls="corporations-panel" aria-selected="false" tabindex="-1">All corporations</button>
+    <button id="tab-achievements" type="button" role="tab" data-panel="achievements" aria-controls="achievements-panel" aria-selected="false" tabindex="-1">All achievements</button>
   </nav>
-  <div class="controls mixer-choice">
-    <label>Corporation<select id="corporation"><option value="custom">Custom colors</option></select></label>
-    <label id="variant-label" hidden>Color alternative<select id="variant"></select></label>
-    <label class="custom-choice">Frame<select id="metal"><option>gold</option><option>silver</option><option>bronze</option><option>steel</option><option>black</option><option>white</option></select></label>
-    <label class="custom-choice">Center<select id="color"></select></label>
+  <div class="controls">
+    <label class="mixer-choice">Corporation<select id="corporation"><option value="custom">Custom colors</option></select></label>
+    <label id="variant-label" class="mixer-choice" hidden>Color alternative<select id="variant"></select></label>
+    <label class="custom-choice mixer-choice">Center<select id="color"></select></label>
+    <label class="custom-choice mixer-choice">Frame<select id="metal"><option>gold</option><option>silver</option><option>bronze</option><option>steel</option><option>black</option><option>white</option></select></label>
+    <label>Outer border<select id="border"><option value="off">Off</option><option value="on" selected>On</option></select></label>
+    <label>Outer border color<select id="outer-color"><option value="auto">Match badge palette</option></select></label>
   </div>
   <div class="controls">
-    <label>Palette<select id="palette-mode"><option value="distinct">Distinct colors</option><option value="original">Original colors</option></select></label>
     <label>Wings<select id="wings"><option value="none">None</option><option value="small" selected>Small pair</option><option value="ascendant">Ascendant pair</option></select></label>
     <label>Wing color<select id="wing-color"><option value="auto">Match frame</option></select></label>
     <label>Crest<select id="crest"><option value="off">Off</option><option value="on" selected>On</option></select></label>
     <label>Crest color<select id="crest-color"><option value="auto">Match badge palette</option></select></label>
-    <label>Outer border<select id="border"><option value="off">Off</option><option value="on" selected>On</option></select></label>
-    <label>Outer border color<select id="outer-color"><option value="auto">Match badge palette</option></select></label>
+  </div>
+  <div class="controls">
+    <label>Palette<select id="palette-mode"><option value="distinct">Distinct colors</option><option value="original">Original colors</option></select></label>
     <label>Suggested accents<select id="accents"><option value="off">Off · Center and frame</option><option value="on">On · Compare suggestions</option></select></label>
     <label>Milestone<select id="rank"><option>1</option><option>3</option><option>5</option><option>10</option><option>20</option><option>25</option><option>50</option></select></label>
     <label>Source size<select id="resolution"><option value="512">512 px</option><option value="256">256 px</option></select></label>
@@ -159,9 +162,12 @@
     <p id="gallery-empty" hidden>No corporations match that search.</p>
     <div class="corporation-gallery" id="corporation-gallery"></div>
   </section>
+  <section id="achievements-panel" role="tabpanel" aria-labelledby="tab-achievements" hidden>
+    <iframe id="achievements-frame" src="achievement-concepts/index.html" title="All achievements"></iframe>
+  </section>
   <footer><p><a href="README.md">Usage guide</a> · <a href="corporations.md">Corporation color table</a> · <a href="manifest.json">Asset manifest</a> · <a href="layout.json">Layer order</a></p></footer>
   <script src="corporations.js?v=distinct-palettes-v5"></script>
   <script src="logos.js?v=corporation-logos-v15"></script>
-  <script src="preview.js?v=updated-logos-v14"></script>
+  <script src="preview.js?v=achievements-tab-v15"></script>
 </body>
 </html>

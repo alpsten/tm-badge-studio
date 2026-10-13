@@ -217,8 +217,10 @@ function renderGallery() {
   galleryDirty = false;
 }
 
+const panels = ['mixer', 'corporations', 'achievements'];
+
 function setPanel(panel) {
-  activePanel = panel === 'corporations' ? 'corporations' : 'mixer';
+  activePanel = panels.includes(panel) ? panel : 'mixer';
   for (const button of document.querySelectorAll('[data-panel]')) {
     const selected = button.dataset.panel === activePanel;
     button.setAttribute('aria-selected', String(selected));
@@ -226,11 +228,21 @@ function setPanel(panel) {
   }
   byId('mixer-panel').hidden = activePanel !== 'mixer';
   byId('corporations-panel').hidden = activePanel !== 'corporations';
+  byId('achievements-panel').hidden = activePanel !== 'achievements';
   document.querySelectorAll('.mixer-choice').forEach(label => { label.hidden = activePanel !== 'mixer'; });
   history.replaceState(null, '', `#${activePanel}`);
   if (activePanel === 'corporations' && galleryDirty) renderGallery();
   if (activePanel === 'mixer') fitWideText();
+  if (activePanel === 'achievements') resizeAchievementsFrame();
   updateLogoHelp();
+}
+
+function resizeAchievementsFrame() {
+  const frame = byId('achievements-frame');
+  try {
+    const root = frame.contentDocument?.documentElement;
+    if (root) frame.style.height = `${root.scrollHeight}px`;
+  } catch { /* cross-origin iframe content; keep the CSS min-height fallback */ }
 }
 
 function updateWideText() {
@@ -293,12 +305,25 @@ document.querySelectorAll('[data-panel]').forEach(button => {
   button.addEventListener('keydown', event => {
     if (!['ArrowLeft', 'ArrowRight', 'Home', 'End'].includes(event.key)) return;
     event.preventDefault();
-    const panel = event.key === 'Home' ? 'mixer' : event.key === 'End' ? 'corporations' : activePanel === 'mixer' ? 'corporations' : 'mixer';
+    let panel;
+    if (event.key === 'Home') panel = panels[0];
+    else if (event.key === 'End') panel = panels[panels.length - 1];
+    else {
+      const delta = event.key === 'ArrowRight' ? 1 : -1;
+      panel = panels[(panels.indexOf(activePanel) + delta + panels.length) % panels.length];
+    }
     setPanel(panel);
     document.querySelector(`[data-panel="${panel}"]`).focus();
   });
 });
 window.addEventListener('hashchange', () => setPanel(location.hash.slice(1)));
+byId('achievements-frame').addEventListener('load', () => {
+  resizeAchievementsFrame();
+  try {
+    const root = byId('achievements-frame').contentDocument?.documentElement;
+    if (root) new ResizeObserver(resizeAchievementsFrame).observe(root);
+  } catch { /* cross-origin iframe content; keep the CSS min-height fallback */ }
+});
 new ResizeObserver(fitWideText).observe(document.querySelector('.wide-badge'));
 byId('wide-image').addEventListener('load', fitWideText);
 const queryParams = new URLSearchParams(location.search);
