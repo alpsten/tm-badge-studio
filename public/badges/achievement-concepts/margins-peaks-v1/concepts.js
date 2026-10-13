@@ -1,0 +1,343 @@
+window.MARGINS_PEAKS_CONCEPTS = [
+  {
+    "id": "biggest-win",
+    "name": "Biggest Win",
+    "symbol": "Two score bars with a large winning gap.",
+    "description": "Won the game with the tournament\u2019s largest TR margin between first and second place.",
+    "preferredFrame": "gold",
+    "file": "icons/biggest-win.png",
+    "sourceSha256": "3d1a03deeba0c7d73654258398185bf25984023ff98a2bed26c06b6791a137dd",
+    "size": [
+      1254,
+      1254
+    ],
+    "crop": [
+      76,
+      61,
+      1238,
+      1254
+    ],
+    "badgePlacement": {
+      "left": 34.72554221536968,
+      "top": 34.2744646932733,
+      "width": 29.153987917696238,
+      "height": 29.153987917696238
+    },
+    "symbolPlacement": {
+      "left": 7.044425817267391,
+      "top": 7.01173512154233,
+      "width": 81.98826487845767,
+      "height": 81.98826487845767
+    }
+  },
+  {
+    "id": "photo-finish",
+    "name": "Photo Finish",
+    "symbol": "A simple camera.",
+    "description": "Played at the tournament\u2019s closest table, measured from first to last place.",
+    "preferredFrame": "gold",
+    "file": "icons/photo-finish.png",
+    "sourceSha256": "d7c428264768738aa6eb7a6bd5eca61f2fbb02fcd54780819c508494f1af3b98",
+    "size": [
+      1254,
+      1254
+    ],
+    "crop": [
+      49,
+      36,
+      1218,
+      1158
+    ],
+    "badgePlacement": {
+      "left": 35.21300786269639,
+      "top": 35.625528238898575,
+      "width": 29.270541657740683,
+      "height": 29.270541657740683
+    },
+    "symbolPlacement": {
+      "left": 7.730538922155693,
+      "top": 10.165953806672372,
+      "width": 83.67151411462788,
+      "height": 83.67151411462788
+    }
+  },
+  {
+    "id": "nail-biter",
+    "name": "Nail-Biter",
+    "symbol": "The number 5 between inward-pointing arrows.",
+    "description": "Played at a table where first and last place finished no more than 5 TR apart.",
+    "preferredFrame": "gold",
+    "file": "icons/nail-biter.png",
+    "sourceSha256": "6b7ef31d8cfca5f31044615ae4f01bf996872f3154671a273e65bc9360f6a3ae",
+    "size": [
+      1254,
+      1254
+    ],
+    "crop": [
+      30,
+      23,
+      1223,
+      1212
+    ],
+    "badgePlacement": {
+      "left": 36.11144650312201,
+      "top": 35.87150970928227,
+      "width": 27.799275474995998,
+      "height": 27.799275474995998
+    },
+    "symbolPlacement": {
+      "left": 9.038558256496227,
+      "top": 9.62699077954736,
+      "width": 81.98826487845767,
+      "height": 81.98826487845767
+    }
+  },
+  {
+    "id": "mercy-rule",
+    "name": "Mercy Rule",
+    "symbol": "A crowned 30+.",
+    "description": "Won a game by at least 30 TR over second place.",
+    "preferredFrame": "gold",
+    "file": "icons/mercy-rule.png",
+    "sourceSha256": "588870408f1eccc4947b92d5717b21ee5a3ae98b6c1b722ad7425ae2f637ecc6",
+    "size": [
+      1254,
+      1254
+    ],
+    "crop": [
+      47,
+      25,
+      1216,
+      1254
+    ],
+    "badgePlacement": {
+      "left": 36.22390144816058,
+      "top": 35.609929259954384,
+      "width": 27.355863157571864,
+      "height": 27.355863157571864
+    },
+    "symbolPlacement": {
+      "left": 9.921074043938164,
+      "top": 9.413344182262001,
+      "width": 79.58665581773799,
+      "height": 79.58665581773799
+    }
+  },
+  {
+    "id": "dominant-force",
+    "name": "Dominant Force",
+    "symbol": "A flag planted on a mountain summit.",
+    "description": "Finished a tournament with the single highest cumulative TR margin.",
+    "preferredFrame": "gold",
+    "file": "icons/dominant-force.png",
+    "sourceSha256": "0a65407e32c3428f9bc04f9fb73a0d1e5a02aa86e755a6758dc4542c5c303495",
+    "size": [
+      1254,
+      1254
+    ],
+    "crop": [
+      0,
+      77,
+      1226,
+      1254
+    ],
+    "badgePlacement": {
+      "left": 36.62612736225128,
+      "top": 35.04127731476873,
+      "width": 27.358623634154803,
+      "height": 27.358623634154803
+    },
+    "symbolPlacement": {
+      "left": 10.999999999999995,
+      "top": 7.65986949429037,
+      "width": 79.78140293637848,
+      "height": 79.78140293637848
+    }
+  },
+  {
+    "id": "gauntlet-runner",
+    "name": "Gauntlet Runner",
+    "symbol": "An upright armored gauntlet.",
+    "description": "Finished a tournament with the single highest Buchholz opponent-strength score.",
+    "preferredFrame": "gold",
+    "file": "icons/gauntlet-runner.png",
+    "sourceSha256": "978a38fccd990b63ae05cbd62afd864a808b370bdbe0fc5f066018d6b90c6852",
+    "size": [
+      1254,
+      1254
+    ],
+    "crop": [
+      25,
+      63,
+      1240,
+      1254
+    ],
+    "badgePlacement": {
+      "left": 36.1429674144635,
+      "top": 35.13389713970231,
+      "width": 27.473073300020197,
+      "height": 27.473073300020197
+    },
+    "symbolPlacement": {
+      "left": 9.395061728395062,
+      "top": 7.725925925925931,
+      "width": 80.50370370370369,
+      "height": 80.50370370370369
+    }
+  },
+  {
+    "id": "toperf-and-beyond",
+    "name": "ToPerf and Beyond!",
+    "symbol": "A rocket lifting off.",
+    "description": "Finished a tournament with the single highest TPerf.",
+    "preferredFrame": "gold",
+    "file": "icons/toperf-and-beyond.png",
+    "sourceSha256": "d9cfc1a4b2944b23ac99f84da8428e0ed0b5f850841b64528b0e2999b0efc7c5",
+    "size": [
+      1254,
+      1254
+    ],
+    "crop": [
+      21,
+      53,
+      1230,
+      1254
+    ],
+    "badgePlacement": {
+      "left": 36.002197499310704,
+      "top": 34.93614410249727,
+      "width": 28.06274074478717,
+      "height": 28.06274074478717
+    },
+    "symbolPlacement": {
+      "left": 9.645161290322582,
+      "top": 7.838709677419354,
+      "width": 80.9032258064516,
+      "height": 80.9032258064516
+    }
+  },
+  {
+    "id": "high-score",
+    "name": "High Score",
+    "symbol": "A TR score tile with an upward marker.",
+    "description": "Recorded the single highest game TR in the tournament, regardless of placement.",
+    "preferredFrame": "gold",
+    "file": "icons/high-score.png",
+    "sourceSha256": "f8851c4a26d0435794e820045d17b1c666acb88c910e351279e4349002ff7e80",
+    "size": [
+      1254,
+      1254
+    ],
+    "crop": [
+      144,
+      99,
+      1200,
+      1254
+    ],
+    "badgePlacement": {
+      "left": 33.60767364501954,
+      "top": 33.058450477463865,
+      "width": 30.589251858847472,
+      "height": 30.589251858847472
+    },
+    "symbolPlacement": {
+      "left": 4.61818181818182,
+      "top": 4.314285714285714,
+      "width": 84.68571428571428,
+      "height": 84.68571428571428
+    }
+  },
+  {
+    "id": "low-score",
+    "name": "Low Score",
+    "symbol": "A TR score tile with a downward marker.",
+    "description": "Recorded the single lowest game TR in the tournament, regardless of placement.",
+    "preferredFrame": "gold",
+    "file": "icons/low-score.png",
+    "sourceSha256": "88dff5f7cc4206a5ca7db759c1b0e80bdcd48af2159e11bf49219a9183e4d954",
+    "size": [
+      1254,
+      1254
+    ],
+    "crop": [
+      0,
+      17,
+      1234,
+      1254
+    ],
+    "badgePlacement": {
+      "left": 37.34457384894332,
+      "top": 36.5256630516669,
+      "width": 25.721076812682462,
+      "height": 25.721076812682462
+    },
+    "symbolPlacement": {
+      "left": 11.094583670169767,
+      "top": 9.92805173807599,
+      "width": 79.07194826192402,
+      "height": 79.07194826192402
+    }
+  },
+  {
+    "id": "against-all-odds",
+    "name": "Against All Odds",
+    "symbol": "A crowned die showing one pip.",
+    "description": "Won with the lowest TR recorded by any game winner in that tournament.",
+    "preferredFrame": "gold",
+    "file": "icons/against-all-odds.png",
+    "sourceSha256": "5a2dddcb061b90a7da780efd9f88017138a6bd084315b6d9e21e171c40bb1a39",
+    "size": [
+      1254,
+      1254
+    ],
+    "crop": [
+      0,
+      54,
+      1214,
+      1254
+    ],
+    "badgePlacement": {
+      "left": 36.45411729812622,
+      "top": 34.9658066986813,
+      "width": 27.98441006284962,
+      "height": 27.98441006284962
+    },
+    "symbolPlacement": {
+      "left": 11.0,
+      "top": 7.980230642504117,
+      "width": 80.57001647446458,
+      "height": 80.57001647446458
+    }
+  },
+  {
+    "id": "so-close",
+    "name": "So Close",
+    "symbol": "A broken heart marked \u22121.",
+    "description": "Finished second, exactly 1 TR behind the winner.",
+    "preferredFrame": "gold",
+    "file": "icons/so-close.png",
+    "sourceSha256": "5e094687b0b4089ddcdfeab4c4639746c5e31f938898313324174da217e1bedd",
+    "size": [
+      1254,
+      1254
+    ],
+    "crop": [
+      0,
+      37,
+      1238,
+      1254
+    ],
+    "badgePlacement": {
+      "left": 35.83134710788727,
+      "top": 34.785319989929285,
+      "width": 28.703539138464244,
+      "height": 28.703539138464244
+    },
+    "symbolPlacement": {
+      "left": 11.0,
+      "top": 9.330371567043613,
+      "width": 79.0080775444265,
+      "height": 79.0080775444265
+    }
+  }
+];

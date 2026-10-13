@@ -1,0 +1,113 @@
+{
+  "tool": "Built-in image_gen",
+  "status": "First concepts for review",
+  "style": "Minimal ivory-and-gold pictograms in the shared achievement badge frame.",
+  "notes": {
+    "underwater": "Below 50 TR, confirmed by the user. The emblem intentionally has no numeric threshold.",
+    "theBigTable": "A five-player game in a tournament with a Final, as requested.",
+    "beatTheFryx": "The F is a name cue, paired with a victory check; no portrait or likeness.",
+    "welcomeToMars": "A first-landing bootprint is the welcoming flavor metaphor; the description retains the last-place requirement."
+  },
+  "jobs": [
+    {
+      "id": "underwater",
+      "name": "Underwater",
+      "symbol": "A downward arrow below two water lines.",
+      "description": "Finished a game with TR below 50.",
+      "prompt": "Input image is a MATERIAL AND STYLE reference only. Match its smooth ivory enamel, warm gold, restrained raised bevels, thin dark edges and upper-left highlights. Do not copy the heart or card silhouette.\nUse case: logo-brand.\nAsset type: ONE minimalist achievement emblem for the center of an existing game badge.\nStyle: front-on orthographic pictogram, broad solid shapes, smooth surfaces, no texture or engraved detail. Immediately readable at small display sizes.\nComposition: one compact centered icon, square canvas, at least 15 percent clear margin all around. Only the described objects.\nBackground: actual transparent alpha PNG. Fully transparent outside the objects and in all gaps. No backdrop, black fill, glow, haze or cast shadow.\nAvoid: outer badge frame, extra objects, background panels, laurels, scenery, captions, tiny markings, presentation sheet. No letters or numerals unless explicitly requested below.\nSubject: Two short parallel ivory wave lines with narrow gold edges, each a smooth simple sine wave, across the upper half. Centered immediately BELOW the wave lines, one large chunky gold arrow points straight DOWN. Arrow and waves clearly separated by transparent gaps. Only two waves and one downward arrow. No numbers or text.",
+      "referenced_image_paths": [
+        "output/imagegen/achievements/corporation-loyalty-v1/one-corp-wonder.png"
+      ],
+      "generated_path": "output/imagegen/achievements/flavor-v1/underwater.png"
+    },
+    {
+      "id": "full-field",
+      "name": "Full Field",
+      "symbol": "A crowd above the number 100.",
+      "description": "Played in a tournament with at least 100 entrants.",
+      "prompt": "Input image is a MATERIAL AND STYLE reference only. Match its smooth ivory enamel, warm gold, restrained raised bevels, thin dark edges and upper-left highlights. Do not copy the heart or card silhouette.\nUse case: logo-brand.\nAsset type: ONE minimalist achievement emblem for the center of an existing game badge.\nStyle: front-on orthographic pictogram, broad solid shapes, smooth surfaces, no texture or engraved detail. Immediately readable at small display sizes.\nComposition: one compact centered icon, square canvas, at least 15 percent clear margin all around. Only the described objects.\nBackground: actual transparent alpha PNG. Fully transparent outside the objects and in all gaps. No backdrop, black fill, glow, haze or cast shadow.\nAvoid: outer badge frame, extra objects, background panels, laurels, scenery, captions, tiny markings, presentation sheet. No letters or numerals unless explicitly requested below.\nSubject: Exactly THREE simple ivory person-bust silhouettes with gold edging arranged in a tight row: large center head-and-shoulders, two slightly smaller heads-and-shoulders either side. No facial features. Directly beneath them, the large bold GOLD NUMBER '100' on one line. The digits should be broad and clear, not tiny. Crowd and 100 form one balanced compact icon, no panel behind them.",
+      "referenced_image_paths": [
+        "output/imagegen/achievements/corporation-loyalty-v1/one-corp-wonder.png"
+      ],
+      "generated_path": "output/imagegen/achievements/flavor-v1/full-field.png"
+    },
+    {
+      "id": "spoiler",
+      "name": "Spoiler",
+      "symbol": "A crown split into two pieces.",
+      "description": "Finished ahead of the eventual tournament champion at a shared table in a qualifying round.",
+      "prompt": "Input image is a MATERIAL AND STYLE reference only. Match its smooth ivory enamel, warm gold, restrained raised bevels, thin dark edges and upper-left highlights. Do not copy the heart or card silhouette.\nUse case: logo-brand.\nAsset type: ONE minimalist achievement emblem for the center of an existing game badge.\nStyle: front-on orthographic pictogram, broad solid shapes, smooth surfaces, no texture or engraved detail. Immediately readable at small display sizes.\nComposition: one compact centered icon, square canvas, at least 15 percent clear margin all around. Only the described objects.\nBackground: actual transparent alpha PNG. Fully transparent outside the objects and in all gaps. No backdrop, black fill, glow, haze or cast shadow.\nAvoid: outer badge frame, extra objects, background panels, laurels, scenery, captions, tiny markings, presentation sheet. No letters or numerals unless explicitly requested below.\nSubject: One simple broad gold THREE-POINT CROWN split down its middle by ONE bold jagged transparent crack. The two crown halves are slightly separated and tilted apart, but the overall silhouette is unmistakably a crown. Small ivory face highlights only. The crack is thick enough to read at small sizes. No lightning bolt added, no weapon, no shards, no extra floating fragments, no text.",
+      "referenced_image_paths": [
+        "output/imagegen/achievements/corporation-loyalty-v1/one-corp-wonder.png"
+      ],
+      "generated_path": "output/imagegen/achievements/flavor-v1/spoiler.png"
+    },
+    {
+      "id": "growth-mindset",
+      "name": "Growth Mindset",
+      "symbol": "Three rising bars with an upward arrow.",
+      "description": "Improved your TR in every successive round of a tournament.",
+      "prompt": "Input image is a MATERIAL AND STYLE reference only. Match its smooth ivory enamel, warm gold, restrained raised bevels, thin dark edges and upper-left highlights. Do not copy the heart or card silhouette.\nUse case: logo-brand.\nAsset type: ONE minimalist achievement emblem for the center of an existing game badge.\nStyle: front-on orthographic pictogram, broad solid shapes, smooth surfaces, no texture or engraved detail. Immediately readable at small display sizes.\nComposition: one compact centered icon, square canvas, at least 15 percent clear margin all around. Only the described objects.\nBackground: actual transparent alpha PNG. Fully transparent outside the objects and in all gaps. No backdrop, black fill, glow, haze or cast shadow.\nAvoid: outer badge frame, extra objects, background panels, laurels, scenery, captions, tiny markings, presentation sheet. No letters or numerals unless explicitly requested below.\nSubject: Exactly THREE broad ivory vertical bars with narrow gold rims, aligned along one baseline, strictly increasing in height from left to right. Above their tops is ONE simple chunky gold arrow running diagonally upward from lower left to upper right, indicating steady growth. Keep the arrow separated from the bars by transparent space and visually dominant. No axes, grid, numbers, points or labels.",
+      "referenced_image_paths": [
+        "output/imagegen/achievements/corporation-loyalty-v1/one-corp-wonder.png"
+      ],
+      "generated_path": "output/imagegen/achievements/flavor-v1/growth-mindset.png"
+    },
+    {
+      "id": "jack-of-all-trades",
+      "name": "Jack of All Trades",
+      "symbol": "One milestone flag paired with one award medal.",
+      "description": "Claimed at least one milestone and won at least one award in every recorded round.",
+      "prompt": "Input images are the established milestone flag and award medal designs. Match their materials and shape, using just ONE flag and ONE medal as described below.\nUse case: logo-brand.\nAsset type: ONE minimalist achievement emblem for the center of an existing game badge.\nStyle: front-on orthographic pictogram, broad solid shapes, smooth surfaces, no texture or engraved detail. Immediately readable at small display sizes.\nComposition: one compact centered icon, square canvas, at least 15 percent clear margin all around. Only the described objects.\nBackground: actual transparent alpha PNG. Fully transparent outside the objects and in all gaps. No backdrop, black fill, glow, haze or cast shadow.\nAvoid: outer badge frame, extra objects, background panels, laurels, scenery, captions, tiny markings, presentation sheet. No letters or numerals unless explicitly requested below.\nSubject: Exactly ONE ivory pennant flag on a gold pole on the LEFT, paired side by side with exactly ONE ivory circular award medal with gold rim and two short gold ribbon tails on the RIGHT. Equal visual weight, both large, transparent gap between them. Flag is a simple rectangular swallowtail pennant. Medal face is blank. No extra flags, extra medals, stars, check marks, letters or numbers.",
+      "referenced_image_paths": [
+        "output/imagegen/achievements/milestones-awards-v1/milestone-collector.png",
+        "output/imagegen/achievements/milestones-awards-v1/award-season.png"
+      ],
+      "generated_path": "output/imagegen/achievements/flavor-v1/jack-of-all-trades.png"
+    },
+    {
+      "id": "the-big-table",
+      "name": "The Big Table",
+      "symbol": "A crowned table with five seats.",
+      "description": "Won a five-player game in a tournament with a Final.",
+      "prompt": "Input image is a MATERIAL AND STYLE reference only. Match its smooth ivory enamel, warm gold, restrained raised bevels, thin dark edges and upper-left highlights. Do not copy the heart or card silhouette.\nUse case: logo-brand.\nAsset type: ONE minimalist achievement emblem for the center of an existing game badge.\nStyle: front-on orthographic pictogram, broad solid shapes, smooth surfaces, no texture or engraved detail. Immediately readable at small display sizes.\nComposition: one compact centered icon, square canvas, at least 15 percent clear margin all around. Only the described objects.\nBackground: actual transparent alpha PNG. Fully transparent outside the objects and in all gaps. No backdrop, black fill, glow, haze or cast shadow.\nAvoid: outer badge frame, extra objects, background panels, laurels, scenery, captions, tiny markings, presentation sheet. No letters or numerals unless explicitly requested below.\nSubject: Top-down plan-view pictogram of ONE round ivory tabletop with narrow gold rim. EXACTLY FIVE chunky small ivory seats with gold edges are evenly spaced around the outside, each separated from the table by a clear transparent gap. Seat positions: top center, upper-right, lower-right, lower-left, upper-left, a fivefold arrangement. At the center of the ivory tabletop is one large simple solid GOLD THREE-POINT CROWN. No table legs, perspective room, people, cards, chips, text or numerals. The circular table and exactly five seats are the full icon.",
+      "referenced_image_paths": [
+        "output/imagegen/achievements/corporation-loyalty-v1/one-corp-wonder.png"
+      ],
+      "generated_path": "output/imagegen/achievements/flavor-v1/the-big-table.png"
+    },
+    {
+      "id": "beat-the-fryx",
+      "name": "Beat the Fryx",
+      "symbol": "An F with a victory check mark.",
+      "description": "Finished ahead of a player whose name contains “Fryx” at the same table.",
+      "prompt": "Input image is a MATERIAL AND STYLE reference only. Match its smooth ivory enamel, warm gold, restrained raised bevels, thin dark edges and upper-left highlights. Do not copy the heart or card silhouette.\nUse case: logo-brand.\nAsset type: ONE minimalist achievement emblem for the center of an existing game badge.\nStyle: front-on orthographic pictogram, broad solid shapes, smooth surfaces, no texture or engraved detail. Immediately readable at small display sizes.\nComposition: one compact centered icon, square canvas, at least 15 percent clear margin all around. Only the described objects.\nBackground: actual transparent alpha PNG. Fully transparent outside the objects and in all gaps. No backdrop, black fill, glow, haze or cast shadow.\nAvoid: outer badge frame, extra objects, background panels, laurels, scenery, captions, tiny markings, presentation sheet. No letters or numerals unless explicitly requested below.\nSubject: One large upright chunky capital letter 'F' in IVORY with a narrow gold rim. One bold simple GOLD CHECK MARK overlaps its lower-right corner, crossing in front of the lower-right area but leaving the F fully readable. The F is the primary shape and takes roughly two thirds of the composition width; the check is large enough to read instantly. Only the letter F and the check. No badge panel, crown, person, portrait, other letters or text.",
+      "referenced_image_paths": [
+        "output/imagegen/achievements/corporation-loyalty-v1/one-corp-wonder.png"
+      ],
+      "generated_path": "output/imagegen/achievements/flavor-v1/beat-the-fryx.png"
+    },
+    {
+      "id": "welcome-to-mars",
+      "name": "Welcome to Mars",
+      "symbol": "A bootprint on a cratered planet.",
+      "description": "Finished last at a table at least once.",
+      "prompt": "Input image is a MATERIAL AND STYLE reference only. Match its smooth ivory enamel, warm gold, restrained raised bevels, thin dark edges and upper-left highlights. Do not copy the heart or card silhouette.\nUse case: logo-brand.\nAsset type: ONE minimalist achievement emblem for the center of an existing game badge.\nStyle: front-on orthographic pictogram, broad solid shapes, smooth surfaces, no texture or engraved detail. Immediately readable at small display sizes.\nComposition: one compact centered icon, square canvas, at least 15 percent clear margin all around. Only the described objects.\nBackground: actual transparent alpha PNG. Fully transparent outside the objects and in all gaps. No backdrop, black fill, glow, haze or cast shadow.\nAvoid: outer badge frame, extra objects, background panels, laurels, scenery, captions, tiny markings, presentation sheet. No letters or numerals unless explicitly requested below.\nSubject: ONE simple round warm-gold planet with just TWO broad shallow circular craters, one near the upper-left and one near the lower-right. Across the front of the planet, centered and tilted slightly clockwise, ONE large raised IVORY BOOTPRINT with thin gold edging, made of a broad rounded sole and a smaller heel separated by a single clear gap. Bootprint has only TWO thick simple horizontal tread grooves, no tiny tread details. The planet and astronaut bootprint represent a first arrival on Mars. No landmasses, rings, stars, flag, spacecraft, person or lettering. Keep the bootprint instantly recognizable.",
+      "referenced_image_paths": [
+        "output/imagegen/achievements/corporation-loyalty-v1/one-corp-wonder.png"
+      ],
+      "generated_path": "output/imagegen/achievements/flavor-v1/welcome-to-mars.png"
+    },
+    {
+      "id": "lucky-seat",
+      "name": "Lucky Seat",
+      "symbol": "A chair with a four-leaf clover.",
+      "description": "Won at least three games while seated as first player.",
+      "prompt": "Input image is a MATERIAL AND STYLE reference only. Match its smooth ivory enamel, warm gold, restrained raised bevels, thin dark edges and upper-left highlights. Do not copy the heart or card silhouette.\nUse case: logo-brand.\nAsset type: ONE minimalist achievement emblem for the center of an existing game badge.\nStyle: front-on orthographic pictogram, broad solid shapes, smooth surfaces, no texture or engraved detail. Immediately readable at small display sizes.\nComposition: one compact centered icon, square canvas, at least 15 percent clear margin all around. Only the described objects.\nBackground: actual transparent alpha PNG. Fully transparent outside the objects and in all gaps. No backdrop, black fill, glow, haze or cast shadow.\nAvoid: outer badge frame, extra objects, background panels, laurels, scenery, captions, tiny markings, presentation sheet. No letters or numerals unless explicitly requested below.\nSubject: ONE simple front-facing ivory CHAIR with narrow gold edging: broad upright backrest, short visible seat and two strong short front legs. A single large solid GOLD FOUR-LEAF CLOVER is centered on its backrest. The clover has exactly four rounded heart-shaped leaves arranged symmetrically around a central point, with one short stem. Make the chair silhouette and clover both unmistakable. No upholstery texture, perspective room, other chairs, numerals, people or text.",
+      "referenced_image_paths": [
+        "output/imagegen/achievements/corporation-loyalty-v1/one-corp-wonder.png"
+      ],
+      "generated_path": "output/imagegen/achievements/flavor-v1/lucky-seat.png"
+    }
+  ]
+}

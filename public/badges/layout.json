@@ -1,0 +1,1914 @@
+{
+  "sizes": [
+    256,
+    512
+  ],
+  "ranks": [
+    1,
+    3,
+    5,
+    10,
+    20,
+    25,
+    50
+  ],
+  "metals": {
+    "bronze": "#9C6239",
+    "silver": "#A8AAAD",
+    "gold": "#C99A2E",
+    "steel": "#596B79",
+    "black": "#14181E",
+    "white": "#E6E9EE"
+  },
+  "finishes": {
+    "bronze": {
+      "shadow": "#000000",
+      "midtone": "#9C6239",
+      "highlight": "#FFFFFF",
+      "ink": "#F0C6A4"
+    },
+    "silver": {
+      "shadow": "#000000",
+      "midtone": "#A8AAAD",
+      "highlight": "#FFFFFF",
+      "ink": "#F1F4F8"
+    },
+    "gold": {
+      "shadow": "#000000",
+      "midtone": "#C99A2E",
+      "highlight": "#FFFFFF",
+      "ink": "#F5DB92"
+    },
+    "steel": {
+      "shadow": "#151D24",
+      "midtone": "#596B79",
+      "highlight": "#B6C4CF",
+      "ink": "#E2ECF5"
+    },
+    "black": {
+      "shadow": "#030405",
+      "midtone": "#14181E",
+      "highlight": "#4A525E",
+      "ink": "#E5ECF6"
+    },
+    "white": {
+      "shadow": "#939BA6",
+      "midtone": "#E6E9EE",
+      "highlight": "#FFFFFF",
+      "ink": "#26303A"
+    }
+  },
+  "tiers": [
+    {
+      "id": "plate",
+      "file_prefix": "stage-1-plate",
+      "layers": [
+        "badge",
+        "bottom-plate"
+      ],
+      "label": "Plate"
+    },
+    {
+      "id": "crest-only",
+      "file_prefix": "crest-only",
+      "layers": [
+        "crest",
+        "badge",
+        "bottom-plate"
+      ],
+      "label": "Crest only"
+    },
+    {
+      "id": "small-wings",
+      "file_prefix": "small-wings",
+      "layers": [
+        "wings-small",
+        "badge",
+        "bottom-plate"
+      ],
+      "label": "Small wings"
+    },
+    {
+      "id": "small-wings-crest",
+      "file_prefix": "small-wings-crest",
+      "layers": [
+        "wings-small",
+        "crest",
+        "badge",
+        "bottom-plate"
+      ],
+      "label": "Small wings + Crest"
+    },
+    {
+      "id": "wings",
+      "file_prefix": "stage-2-wings",
+      "layers": [
+        "wings",
+        "badge",
+        "bottom-plate"
+      ],
+      "label": "Ascendant wings"
+    },
+    {
+      "id": "crest",
+      "file_prefix": "stage-3-crest",
+      "layers": [
+        "wings",
+        "crest",
+        "badge",
+        "bottom-plate"
+      ],
+      "label": "Ascendant wings + Crest"
+    }
+  ],
+  "styles": [
+    {
+      "id": "plate",
+      "file_prefix": "stage-1-plate",
+      "layers": [
+        "badge",
+        "bottom-plate"
+      ],
+      "label": "Plate"
+    },
+    {
+      "id": "crest-only",
+      "file_prefix": "crest-only",
+      "layers": [
+        "crest",
+        "badge",
+        "bottom-plate"
+      ],
+      "label": "Crest only"
+    },
+    {
+      "id": "small-wings",
+      "file_prefix": "small-wings",
+      "layers": [
+        "wings-small",
+        "badge",
+        "bottom-plate"
+      ],
+      "label": "Small wings"
+    },
+    {
+      "id": "small-wings-crest",
+      "file_prefix": "small-wings-crest",
+      "layers": [
+        "wings-small",
+        "crest",
+        "badge",
+        "bottom-plate"
+      ],
+      "label": "Small wings + Crest"
+    },
+    {
+      "id": "wings",
+      "file_prefix": "stage-2-wings",
+      "layers": [
+        "wings",
+        "badge",
+        "bottom-plate"
+      ],
+      "label": "Ascendant wings"
+    },
+    {
+      "id": "crest",
+      "file_prefix": "stage-3-crest",
+      "layers": [
+        "wings",
+        "crest",
+        "badge",
+        "bottom-plate"
+      ],
+      "label": "Ascendant wings + Crest"
+    }
+  ],
+  "wing_attachment": {
+    "outer_border_offset": 68,
+    "normal": {
+      "small": "wings-small",
+      "ascendant": "wings"
+    },
+    "outer_border": {
+      "small": "wings-small-border",
+      "ascendant": "wings-border"
+    },
+    "note": "Border variants translate each wing outward separately; they retain the original pixels and canvas."
+  },
+  "optional_layers": {
+    "outer-border": {
+      "path": "layers/{metal}/outer-border.webp",
+      "order": "After wings, before crest and badge",
+      "available_finishes": [
+        "bronze",
+        "silver",
+        "gold",
+        "steel",
+        "black",
+        "white"
+      ]
+    }
+  },
+  "wide_concept": {
+    "master": "masters/wide-hex-gold.png",
+    "file": "concepts/wide-hex-gold.webp",
+    "crop": [
+      8,
+      130,
+      2054,
+      623
+    ],
+    "size": [
+      2046,
+      493
+    ],
+    "text_box_fraction": [
+      0.18,
+      0.24,
+      0.82,
+      0.76
+    ],
+    "note": "Wide badge concept; overlay live text. Its proportions need their own ornament positions."
+  },
+  "assemblies": {
+    "progression/bronze/stage-1-plate-rank-1.webp": [
+      "layers/bronze/badge.webp",
+      "layers/bronze/bottom-plate.webp",
+      "layers/bronze/rank-1.webp"
+    ],
+    "progression/bronze/stage-1-plate-rank-3.webp": [
+      "layers/bronze/badge.webp",
+      "layers/bronze/bottom-plate.webp",
+      "layers/bronze/rank-3.webp"
+    ],
+    "progression/bronze/stage-1-plate-rank-5.webp": [
+      "layers/bronze/badge.webp",
+      "layers/bronze/bottom-plate.webp",
+      "layers/bronze/rank-5.webp"
+    ],
+    "progression/bronze/stage-1-plate-rank-10.webp": [
+      "layers/bronze/badge.webp",
+      "layers/bronze/bottom-plate.webp",
+      "layers/bronze/rank-10.webp"
+    ],
+    "progression/bronze/stage-1-plate-rank-20.webp": [
+      "layers/bronze/badge.webp",
+      "layers/bronze/bottom-plate.webp",
+      "layers/bronze/rank-20.webp"
+    ],
+    "progression/bronze/stage-1-plate-rank-25.webp": [
+      "layers/bronze/badge.webp",
+      "layers/bronze/bottom-plate.webp",
+      "layers/bronze/rank-25.webp"
+    ],
+    "progression/bronze/stage-1-plate-rank-50.webp": [
+      "layers/bronze/badge.webp",
+      "layers/bronze/bottom-plate.webp",
+      "layers/bronze/rank-50.webp"
+    ],
+    "progression/bronze/crest-only-rank-1.webp": [
+      "layers/bronze/crest.webp",
+      "layers/bronze/badge.webp",
+      "layers/bronze/bottom-plate.webp",
+      "layers/bronze/rank-1.webp"
+    ],
+    "progression/bronze/crest-only-rank-3.webp": [
+      "layers/bronze/crest.webp",
+      "layers/bronze/badge.webp",
+      "layers/bronze/bottom-plate.webp",
+      "layers/bronze/rank-3.webp"
+    ],
+    "progression/bronze/crest-only-rank-5.webp": [
+      "layers/bronze/crest.webp",
+      "layers/bronze/badge.webp",
+      "layers/bronze/bottom-plate.webp",
+      "layers/bronze/rank-5.webp"
+    ],
+    "progression/bronze/crest-only-rank-10.webp": [
+      "layers/bronze/crest.webp",
+      "layers/bronze/badge.webp",
+      "layers/bronze/bottom-plate.webp",
+      "layers/bronze/rank-10.webp"
+    ],
+    "progression/bronze/crest-only-rank-20.webp": [
+      "layers/bronze/crest.webp",
+      "layers/bronze/badge.webp",
+      "layers/bronze/bottom-plate.webp",
+      "layers/bronze/rank-20.webp"
+    ],
+    "progression/bronze/crest-only-rank-25.webp": [
+      "layers/bronze/crest.webp",
+      "layers/bronze/badge.webp",
+      "layers/bronze/bottom-plate.webp",
+      "layers/bronze/rank-25.webp"
+    ],
+    "progression/bronze/crest-only-rank-50.webp": [
+      "layers/bronze/crest.webp",
+      "layers/bronze/badge.webp",
+      "layers/bronze/bottom-plate.webp",
+      "layers/bronze/rank-50.webp"
+    ],
+    "progression/bronze/small-wings-rank-1.webp": [
+      "layers/bronze/wings-small.webp",
+      "layers/bronze/badge.webp",
+      "layers/bronze/bottom-plate.webp",
+      "layers/bronze/rank-1.webp"
+    ],
+    "progression/bronze/small-wings-rank-3.webp": [
+      "layers/bronze/wings-small.webp",
+      "layers/bronze/badge.webp",
+      "layers/bronze/bottom-plate.webp",
+      "layers/bronze/rank-3.webp"
+    ],
+    "progression/bronze/small-wings-rank-5.webp": [
+      "layers/bronze/wings-small.webp",
+      "layers/bronze/badge.webp",
+      "layers/bronze/bottom-plate.webp",
+      "layers/bronze/rank-5.webp"
+    ],
+    "progression/bronze/small-wings-rank-10.webp": [
+      "layers/bronze/wings-small.webp",
+      "layers/bronze/badge.webp",
+      "layers/bronze/bottom-plate.webp",
+      "layers/bronze/rank-10.webp"
+    ],
+    "progression/bronze/small-wings-rank-20.webp": [
+      "layers/bronze/wings-small.webp",
+      "layers/bronze/badge.webp",
+      "layers/bronze/bottom-plate.webp",
+      "layers/bronze/rank-20.webp"
+    ],
+    "progression/bronze/small-wings-rank-25.webp": [
+      "layers/bronze/wings-small.webp",
+      "layers/bronze/badge.webp",
+      "layers/bronze/bottom-plate.webp",
+      "layers/bronze/rank-25.webp"
+    ],
+    "progression/bronze/small-wings-rank-50.webp": [
+      "layers/bronze/wings-small.webp",
+      "layers/bronze/badge.webp",
+      "layers/bronze/bottom-plate.webp",
+      "layers/bronze/rank-50.webp"
+    ],
+    "progression/bronze/small-wings-crest-rank-1.webp": [
+      "layers/bronze/wings-small.webp",
+      "layers/bronze/crest.webp",
+      "layers/bronze/badge.webp",
+      "layers/bronze/bottom-plate.webp",
+      "layers/bronze/rank-1.webp"
+    ],
+    "progression/bronze/small-wings-crest-rank-3.webp": [
+      "layers/bronze/wings-small.webp",
+      "layers/bronze/crest.webp",
+      "layers/bronze/badge.webp",
+      "layers/bronze/bottom-plate.webp",
+      "layers/bronze/rank-3.webp"
+    ],
+    "progression/bronze/small-wings-crest-rank-5.webp": [
+      "layers/bronze/wings-small.webp",
+      "layers/bronze/crest.webp",
+      "layers/bronze/badge.webp",
+      "layers/bronze/bottom-plate.webp",
+      "layers/bronze/rank-5.webp"
+    ],
+    "progression/bronze/small-wings-crest-rank-10.webp": [
+      "layers/bronze/wings-small.webp",
+      "layers/bronze/crest.webp",
+      "layers/bronze/badge.webp",
+      "layers/bronze/bottom-plate.webp",
+      "layers/bronze/rank-10.webp"
+    ],
+    "progression/bronze/small-wings-crest-rank-20.webp": [
+      "layers/bronze/wings-small.webp",
+      "layers/bronze/crest.webp",
+      "layers/bronze/badge.webp",
+      "layers/bronze/bottom-plate.webp",
+      "layers/bronze/rank-20.webp"
+    ],
+    "progression/bronze/small-wings-crest-rank-25.webp": [
+      "layers/bronze/wings-small.webp",
+      "layers/bronze/crest.webp",
+      "layers/bronze/badge.webp",
+      "layers/bronze/bottom-plate.webp",
+      "layers/bronze/rank-25.webp"
+    ],
+    "progression/bronze/small-wings-crest-rank-50.webp": [
+      "layers/bronze/wings-small.webp",
+      "layers/bronze/crest.webp",
+      "layers/bronze/badge.webp",
+      "layers/bronze/bottom-plate.webp",
+      "layers/bronze/rank-50.webp"
+    ],
+    "progression/bronze/stage-2-wings-rank-1.webp": [
+      "layers/bronze/wings.webp",
+      "layers/bronze/badge.webp",
+      "layers/bronze/bottom-plate.webp",
+      "layers/bronze/rank-1.webp"
+    ],
+    "progression/bronze/stage-2-wings-rank-3.webp": [
+      "layers/bronze/wings.webp",
+      "layers/bronze/badge.webp",
+      "layers/bronze/bottom-plate.webp",
+      "layers/bronze/rank-3.webp"
+    ],
+    "progression/bronze/stage-2-wings-rank-5.webp": [
+      "layers/bronze/wings.webp",
+      "layers/bronze/badge.webp",
+      "layers/bronze/bottom-plate.webp",
+      "layers/bronze/rank-5.webp"
+    ],
+    "progression/bronze/stage-2-wings-rank-10.webp": [
+      "layers/bronze/wings.webp",
+      "layers/bronze/badge.webp",
+      "layers/bronze/bottom-plate.webp",
+      "layers/bronze/rank-10.webp"
+    ],
+    "progression/bronze/stage-2-wings-rank-20.webp": [
+      "layers/bronze/wings.webp",
+      "layers/bronze/badge.webp",
+      "layers/bronze/bottom-plate.webp",
+      "layers/bronze/rank-20.webp"
+    ],
+    "progression/bronze/stage-2-wings-rank-25.webp": [
+      "layers/bronze/wings.webp",
+      "layers/bronze/badge.webp",
+      "layers/bronze/bottom-plate.webp",
+      "layers/bronze/rank-25.webp"
+    ],
+    "progression/bronze/stage-2-wings-rank-50.webp": [
+      "layers/bronze/wings.webp",
+      "layers/bronze/badge.webp",
+      "layers/bronze/bottom-plate.webp",
+      "layers/bronze/rank-50.webp"
+    ],
+    "progression/bronze/stage-3-crest-rank-1.webp": [
+      "layers/bronze/wings.webp",
+      "layers/bronze/crest.webp",
+      "layers/bronze/badge.webp",
+      "layers/bronze/bottom-plate.webp",
+      "layers/bronze/rank-1.webp"
+    ],
+    "progression/bronze/stage-3-crest-rank-3.webp": [
+      "layers/bronze/wings.webp",
+      "layers/bronze/crest.webp",
+      "layers/bronze/badge.webp",
+      "layers/bronze/bottom-plate.webp",
+      "layers/bronze/rank-3.webp"
+    ],
+    "progression/bronze/stage-3-crest-rank-5.webp": [
+      "layers/bronze/wings.webp",
+      "layers/bronze/crest.webp",
+      "layers/bronze/badge.webp",
+      "layers/bronze/bottom-plate.webp",
+      "layers/bronze/rank-5.webp"
+    ],
+    "progression/bronze/stage-3-crest-rank-10.webp": [
+      "layers/bronze/wings.webp",
+      "layers/bronze/crest.webp",
+      "layers/bronze/badge.webp",
+      "layers/bronze/bottom-plate.webp",
+      "layers/bronze/rank-10.webp"
+    ],
+    "progression/bronze/stage-3-crest-rank-20.webp": [
+      "layers/bronze/wings.webp",
+      "layers/bronze/crest.webp",
+      "layers/bronze/badge.webp",
+      "layers/bronze/bottom-plate.webp",
+      "layers/bronze/rank-20.webp"
+    ],
+    "progression/bronze/stage-3-crest-rank-25.webp": [
+      "layers/bronze/wings.webp",
+      "layers/bronze/crest.webp",
+      "layers/bronze/badge.webp",
+      "layers/bronze/bottom-plate.webp",
+      "layers/bronze/rank-25.webp"
+    ],
+    "progression/bronze/stage-3-crest-rank-50.webp": [
+      "layers/bronze/wings.webp",
+      "layers/bronze/crest.webp",
+      "layers/bronze/badge.webp",
+      "layers/bronze/bottom-plate.webp",
+      "layers/bronze/rank-50.webp"
+    ],
+    "progression/silver/stage-1-plate-rank-1.webp": [
+      "layers/silver/badge.webp",
+      "layers/silver/bottom-plate.webp",
+      "layers/silver/rank-1.webp"
+    ],
+    "progression/silver/stage-1-plate-rank-3.webp": [
+      "layers/silver/badge.webp",
+      "layers/silver/bottom-plate.webp",
+      "layers/silver/rank-3.webp"
+    ],
+    "progression/silver/stage-1-plate-rank-5.webp": [
+      "layers/silver/badge.webp",
+      "layers/silver/bottom-plate.webp",
+      "layers/silver/rank-5.webp"
+    ],
+    "progression/silver/stage-1-plate-rank-10.webp": [
+      "layers/silver/badge.webp",
+      "layers/silver/bottom-plate.webp",
+      "layers/silver/rank-10.webp"
+    ],
+    "progression/silver/stage-1-plate-rank-20.webp": [
+      "layers/silver/badge.webp",
+      "layers/silver/bottom-plate.webp",
+      "layers/silver/rank-20.webp"
+    ],
+    "progression/silver/stage-1-plate-rank-25.webp": [
+      "layers/silver/badge.webp",
+      "layers/silver/bottom-plate.webp",
+      "layers/silver/rank-25.webp"
+    ],
+    "progression/silver/stage-1-plate-rank-50.webp": [
+      "layers/silver/badge.webp",
+      "layers/silver/bottom-plate.webp",
+      "layers/silver/rank-50.webp"
+    ],
+    "progression/silver/crest-only-rank-1.webp": [
+      "layers/silver/crest.webp",
+      "layers/silver/badge.webp",
+      "layers/silver/bottom-plate.webp",
+      "layers/silver/rank-1.webp"
+    ],
+    "progression/silver/crest-only-rank-3.webp": [
+      "layers/silver/crest.webp",
+      "layers/silver/badge.webp",
+      "layers/silver/bottom-plate.webp",
+      "layers/silver/rank-3.webp"
+    ],
+    "progression/silver/crest-only-rank-5.webp": [
+      "layers/silver/crest.webp",
+      "layers/silver/badge.webp",
+      "layers/silver/bottom-plate.webp",
+      "layers/silver/rank-5.webp"
+    ],
+    "progression/silver/crest-only-rank-10.webp": [
+      "layers/silver/crest.webp",
+      "layers/silver/badge.webp",
+      "layers/silver/bottom-plate.webp",
+      "layers/silver/rank-10.webp"
+    ],
+    "progression/silver/crest-only-rank-20.webp": [
+      "layers/silver/crest.webp",
+      "layers/silver/badge.webp",
+      "layers/silver/bottom-plate.webp",
+      "layers/silver/rank-20.webp"
+    ],
+    "progression/silver/crest-only-rank-25.webp": [
+      "layers/silver/crest.webp",
+      "layers/silver/badge.webp",
+      "layers/silver/bottom-plate.webp",
+      "layers/silver/rank-25.webp"
+    ],
+    "progression/silver/crest-only-rank-50.webp": [
+      "layers/silver/crest.webp",
+      "layers/silver/badge.webp",
+      "layers/silver/bottom-plate.webp",
+      "layers/silver/rank-50.webp"
+    ],
+    "progression/silver/small-wings-rank-1.webp": [
+      "layers/silver/wings-small.webp",
+      "layers/silver/badge.webp",
+      "layers/silver/bottom-plate.webp",
+      "layers/silver/rank-1.webp"
+    ],
+    "progression/silver/small-wings-rank-3.webp": [
+      "layers/silver/wings-small.webp",
+      "layers/silver/badge.webp",
+      "layers/silver/bottom-plate.webp",
+      "layers/silver/rank-3.webp"
+    ],
+    "progression/silver/small-wings-rank-5.webp": [
+      "layers/silver/wings-small.webp",
+      "layers/silver/badge.webp",
+      "layers/silver/bottom-plate.webp",
+      "layers/silver/rank-5.webp"
+    ],
+    "progression/silver/small-wings-rank-10.webp": [
+      "layers/silver/wings-small.webp",
+      "layers/silver/badge.webp",
+      "layers/silver/bottom-plate.webp",
+      "layers/silver/rank-10.webp"
+    ],
+    "progression/silver/small-wings-rank-20.webp": [
+      "layers/silver/wings-small.webp",
+      "layers/silver/badge.webp",
+      "layers/silver/bottom-plate.webp",
+      "layers/silver/rank-20.webp"
+    ],
+    "progression/silver/small-wings-rank-25.webp": [
+      "layers/silver/wings-small.webp",
+      "layers/silver/badge.webp",
+      "layers/silver/bottom-plate.webp",
+      "layers/silver/rank-25.webp"
+    ],
+    "progression/silver/small-wings-rank-50.webp": [
+      "layers/silver/wings-small.webp",
+      "layers/silver/badge.webp",
+      "layers/silver/bottom-plate.webp",
+      "layers/silver/rank-50.webp"
+    ],
+    "progression/silver/small-wings-crest-rank-1.webp": [
+      "layers/silver/wings-small.webp",
+      "layers/silver/crest.webp",
+      "layers/silver/badge.webp",
+      "layers/silver/bottom-plate.webp",
+      "layers/silver/rank-1.webp"
+    ],
+    "progression/silver/small-wings-crest-rank-3.webp": [
+      "layers/silver/wings-small.webp",
+      "layers/silver/crest.webp",
+      "layers/silver/badge.webp",
+      "layers/silver/bottom-plate.webp",
+      "layers/silver/rank-3.webp"
+    ],
+    "progression/silver/small-wings-crest-rank-5.webp": [
+      "layers/silver/wings-small.webp",
+      "layers/silver/crest.webp",
+      "layers/silver/badge.webp",
+      "layers/silver/bottom-plate.webp",
+      "layers/silver/rank-5.webp"
+    ],
+    "progression/silver/small-wings-crest-rank-10.webp": [
+      "layers/silver/wings-small.webp",
+      "layers/silver/crest.webp",
+      "layers/silver/badge.webp",
+      "layers/silver/bottom-plate.webp",
+      "layers/silver/rank-10.webp"
+    ],
+    "progression/silver/small-wings-crest-rank-20.webp": [
+      "layers/silver/wings-small.webp",
+      "layers/silver/crest.webp",
+      "layers/silver/badge.webp",
+      "layers/silver/bottom-plate.webp",
+      "layers/silver/rank-20.webp"
+    ],
+    "progression/silver/small-wings-crest-rank-25.webp": [
+      "layers/silver/wings-small.webp",
+      "layers/silver/crest.webp",
+      "layers/silver/badge.webp",
+      "layers/silver/bottom-plate.webp",
+      "layers/silver/rank-25.webp"
+    ],
+    "progression/silver/small-wings-crest-rank-50.webp": [
+      "layers/silver/wings-small.webp",
+      "layers/silver/crest.webp",
+      "layers/silver/badge.webp",
+      "layers/silver/bottom-plate.webp",
+      "layers/silver/rank-50.webp"
+    ],
+    "progression/silver/stage-2-wings-rank-1.webp": [
+      "layers/silver/wings.webp",
+      "layers/silver/badge.webp",
+      "layers/silver/bottom-plate.webp",
+      "layers/silver/rank-1.webp"
+    ],
+    "progression/silver/stage-2-wings-rank-3.webp": [
+      "layers/silver/wings.webp",
+      "layers/silver/badge.webp",
+      "layers/silver/bottom-plate.webp",
+      "layers/silver/rank-3.webp"
+    ],
+    "progression/silver/stage-2-wings-rank-5.webp": [
+      "layers/silver/wings.webp",
+      "layers/silver/badge.webp",
+      "layers/silver/bottom-plate.webp",
+      "layers/silver/rank-5.webp"
+    ],
+    "progression/silver/stage-2-wings-rank-10.webp": [
+      "layers/silver/wings.webp",
+      "layers/silver/badge.webp",
+      "layers/silver/bottom-plate.webp",
+      "layers/silver/rank-10.webp"
+    ],
+    "progression/silver/stage-2-wings-rank-20.webp": [
+      "layers/silver/wings.webp",
+      "layers/silver/badge.webp",
+      "layers/silver/bottom-plate.webp",
+      "layers/silver/rank-20.webp"
+    ],
+    "progression/silver/stage-2-wings-rank-25.webp": [
+      "layers/silver/wings.webp",
+      "layers/silver/badge.webp",
+      "layers/silver/bottom-plate.webp",
+      "layers/silver/rank-25.webp"
+    ],
+    "progression/silver/stage-2-wings-rank-50.webp": [
+      "layers/silver/wings.webp",
+      "layers/silver/badge.webp",
+      "layers/silver/bottom-plate.webp",
+      "layers/silver/rank-50.webp"
+    ],
+    "progression/silver/stage-3-crest-rank-1.webp": [
+      "layers/silver/wings.webp",
+      "layers/silver/crest.webp",
+      "layers/silver/badge.webp",
+      "layers/silver/bottom-plate.webp",
+      "layers/silver/rank-1.webp"
+    ],
+    "progression/silver/stage-3-crest-rank-3.webp": [
+      "layers/silver/wings.webp",
+      "layers/silver/crest.webp",
+      "layers/silver/badge.webp",
+      "layers/silver/bottom-plate.webp",
+      "layers/silver/rank-3.webp"
+    ],
+    "progression/silver/stage-3-crest-rank-5.webp": [
+      "layers/silver/wings.webp",
+      "layers/silver/crest.webp",
+      "layers/silver/badge.webp",
+      "layers/silver/bottom-plate.webp",
+      "layers/silver/rank-5.webp"
+    ],
+    "progression/silver/stage-3-crest-rank-10.webp": [
+      "layers/silver/wings.webp",
+      "layers/silver/crest.webp",
+      "layers/silver/badge.webp",
+      "layers/silver/bottom-plate.webp",
+      "layers/silver/rank-10.webp"
+    ],
+    "progression/silver/stage-3-crest-rank-20.webp": [
+      "layers/silver/wings.webp",
+      "layers/silver/crest.webp",
+      "layers/silver/badge.webp",
+      "layers/silver/bottom-plate.webp",
+      "layers/silver/rank-20.webp"
+    ],
+    "progression/silver/stage-3-crest-rank-25.webp": [
+      "layers/silver/wings.webp",
+      "layers/silver/crest.webp",
+      "layers/silver/badge.webp",
+      "layers/silver/bottom-plate.webp",
+      "layers/silver/rank-25.webp"
+    ],
+    "progression/silver/stage-3-crest-rank-50.webp": [
+      "layers/silver/wings.webp",
+      "layers/silver/crest.webp",
+      "layers/silver/badge.webp",
+      "layers/silver/bottom-plate.webp",
+      "layers/silver/rank-50.webp"
+    ],
+    "progression/gold/stage-1-plate-rank-1.webp": [
+      "layers/gold/badge.webp",
+      "layers/gold/bottom-plate.webp",
+      "layers/gold/rank-1.webp"
+    ],
+    "progression/gold/stage-1-plate-rank-3.webp": [
+      "layers/gold/badge.webp",
+      "layers/gold/bottom-plate.webp",
+      "layers/gold/rank-3.webp"
+    ],
+    "progression/gold/stage-1-plate-rank-5.webp": [
+      "layers/gold/badge.webp",
+      "layers/gold/bottom-plate.webp",
+      "layers/gold/rank-5.webp"
+    ],
+    "progression/gold/stage-1-plate-rank-10.webp": [
+      "layers/gold/badge.webp",
+      "layers/gold/bottom-plate.webp",
+      "layers/gold/rank-10.webp"
+    ],
+    "progression/gold/stage-1-plate-rank-20.webp": [
+      "layers/gold/badge.webp",
+      "layers/gold/bottom-plate.webp",
+      "layers/gold/rank-20.webp"
+    ],
+    "progression/gold/stage-1-plate-rank-25.webp": [
+      "layers/gold/badge.webp",
+      "layers/gold/bottom-plate.webp",
+      "layers/gold/rank-25.webp"
+    ],
+    "progression/gold/stage-1-plate-rank-50.webp": [
+      "layers/gold/badge.webp",
+      "layers/gold/bottom-plate.webp",
+      "layers/gold/rank-50.webp"
+    ],
+    "progression/gold/crest-only-rank-1.webp": [
+      "layers/gold/crest.webp",
+      "layers/gold/badge.webp",
+      "layers/gold/bottom-plate.webp",
+      "layers/gold/rank-1.webp"
+    ],
+    "progression/gold/crest-only-rank-3.webp": [
+      "layers/gold/crest.webp",
+      "layers/gold/badge.webp",
+      "layers/gold/bottom-plate.webp",
+      "layers/gold/rank-3.webp"
+    ],
+    "progression/gold/crest-only-rank-5.webp": [
+      "layers/gold/crest.webp",
+      "layers/gold/badge.webp",
+      "layers/gold/bottom-plate.webp",
+      "layers/gold/rank-5.webp"
+    ],
+    "progression/gold/crest-only-rank-10.webp": [
+      "layers/gold/crest.webp",
+      "layers/gold/badge.webp",
+      "layers/gold/bottom-plate.webp",
+      "layers/gold/rank-10.webp"
+    ],
+    "progression/gold/crest-only-rank-20.webp": [
+      "layers/gold/crest.webp",
+      "layers/gold/badge.webp",
+      "layers/gold/bottom-plate.webp",
+      "layers/gold/rank-20.webp"
+    ],
+    "progression/gold/crest-only-rank-25.webp": [
+      "layers/gold/crest.webp",
+      "layers/gold/badge.webp",
+      "layers/gold/bottom-plate.webp",
+      "layers/gold/rank-25.webp"
+    ],
+    "progression/gold/crest-only-rank-50.webp": [
+      "layers/gold/crest.webp",
+      "layers/gold/badge.webp",
+      "layers/gold/bottom-plate.webp",
+      "layers/gold/rank-50.webp"
+    ],
+    "progression/gold/small-wings-rank-1.webp": [
+      "layers/gold/wings-small.webp",
+      "layers/gold/badge.webp",
+      "layers/gold/bottom-plate.webp",
+      "layers/gold/rank-1.webp"
+    ],
+    "progression/gold/small-wings-rank-3.webp": [
+      "layers/gold/wings-small.webp",
+      "layers/gold/badge.webp",
+      "layers/gold/bottom-plate.webp",
+      "layers/gold/rank-3.webp"
+    ],
+    "progression/gold/small-wings-rank-5.webp": [
+      "layers/gold/wings-small.webp",
+      "layers/gold/badge.webp",
+      "layers/gold/bottom-plate.webp",
+      "layers/gold/rank-5.webp"
+    ],
+    "progression/gold/small-wings-rank-10.webp": [
+      "layers/gold/wings-small.webp",
+      "layers/gold/badge.webp",
+      "layers/gold/bottom-plate.webp",
+      "layers/gold/rank-10.webp"
+    ],
+    "progression/gold/small-wings-rank-20.webp": [
+      "layers/gold/wings-small.webp",
+      "layers/gold/badge.webp",
+      "layers/gold/bottom-plate.webp",
+      "layers/gold/rank-20.webp"
+    ],
+    "progression/gold/small-wings-rank-25.webp": [
+      "layers/gold/wings-small.webp",
+      "layers/gold/badge.webp",
+      "layers/gold/bottom-plate.webp",
+      "layers/gold/rank-25.webp"
+    ],
+    "progression/gold/small-wings-rank-50.webp": [
+      "layers/gold/wings-small.webp",
+      "layers/gold/badge.webp",
+      "layers/gold/bottom-plate.webp",
+      "layers/gold/rank-50.webp"
+    ],
+    "progression/gold/small-wings-crest-rank-1.webp": [
+      "layers/gold/wings-small.webp",
+      "layers/gold/crest.webp",
+      "layers/gold/badge.webp",
+      "layers/gold/bottom-plate.webp",
+      "layers/gold/rank-1.webp"
+    ],
+    "progression/gold/small-wings-crest-rank-3.webp": [
+      "layers/gold/wings-small.webp",
+      "layers/gold/crest.webp",
+      "layers/gold/badge.webp",
+      "layers/gold/bottom-plate.webp",
+      "layers/gold/rank-3.webp"
+    ],
+    "progression/gold/small-wings-crest-rank-5.webp": [
+      "layers/gold/wings-small.webp",
+      "layers/gold/crest.webp",
+      "layers/gold/badge.webp",
+      "layers/gold/bottom-plate.webp",
+      "layers/gold/rank-5.webp"
+    ],
+    "progression/gold/small-wings-crest-rank-10.webp": [
+      "layers/gold/wings-small.webp",
+      "layers/gold/crest.webp",
+      "layers/gold/badge.webp",
+      "layers/gold/bottom-plate.webp",
+      "layers/gold/rank-10.webp"
+    ],
+    "progression/gold/small-wings-crest-rank-20.webp": [
+      "layers/gold/wings-small.webp",
+      "layers/gold/crest.webp",
+      "layers/gold/badge.webp",
+      "layers/gold/bottom-plate.webp",
+      "layers/gold/rank-20.webp"
+    ],
+    "progression/gold/small-wings-crest-rank-25.webp": [
+      "layers/gold/wings-small.webp",
+      "layers/gold/crest.webp",
+      "layers/gold/badge.webp",
+      "layers/gold/bottom-plate.webp",
+      "layers/gold/rank-25.webp"
+    ],
+    "progression/gold/small-wings-crest-rank-50.webp": [
+      "layers/gold/wings-small.webp",
+      "layers/gold/crest.webp",
+      "layers/gold/badge.webp",
+      "layers/gold/bottom-plate.webp",
+      "layers/gold/rank-50.webp"
+    ],
+    "progression/gold/stage-2-wings-rank-1.webp": [
+      "layers/gold/wings.webp",
+      "layers/gold/badge.webp",
+      "layers/gold/bottom-plate.webp",
+      "layers/gold/rank-1.webp"
+    ],
+    "progression/gold/stage-2-wings-rank-3.webp": [
+      "layers/gold/wings.webp",
+      "layers/gold/badge.webp",
+      "layers/gold/bottom-plate.webp",
+      "layers/gold/rank-3.webp"
+    ],
+    "progression/gold/stage-2-wings-rank-5.webp": [
+      "layers/gold/wings.webp",
+      "layers/gold/badge.webp",
+      "layers/gold/bottom-plate.webp",
+      "layers/gold/rank-5.webp"
+    ],
+    "progression/gold/stage-2-wings-rank-10.webp": [
+      "layers/gold/wings.webp",
+      "layers/gold/badge.webp",
+      "layers/gold/bottom-plate.webp",
+      "layers/gold/rank-10.webp"
+    ],
+    "progression/gold/stage-2-wings-rank-20.webp": [
+      "layers/gold/wings.webp",
+      "layers/gold/badge.webp",
+      "layers/gold/bottom-plate.webp",
+      "layers/gold/rank-20.webp"
+    ],
+    "progression/gold/stage-2-wings-rank-25.webp": [
+      "layers/gold/wings.webp",
+      "layers/gold/badge.webp",
+      "layers/gold/bottom-plate.webp",
+      "layers/gold/rank-25.webp"
+    ],
+    "progression/gold/stage-2-wings-rank-50.webp": [
+      "layers/gold/wings.webp",
+      "layers/gold/badge.webp",
+      "layers/gold/bottom-plate.webp",
+      "layers/gold/rank-50.webp"
+    ],
+    "progression/gold/stage-3-crest-rank-1.webp": [
+      "layers/gold/wings.webp",
+      "layers/gold/crest.webp",
+      "layers/gold/badge.webp",
+      "layers/gold/bottom-plate.webp",
+      "layers/gold/rank-1.webp"
+    ],
+    "progression/gold/stage-3-crest-rank-3.webp": [
+      "layers/gold/wings.webp",
+      "layers/gold/crest.webp",
+      "layers/gold/badge.webp",
+      "layers/gold/bottom-plate.webp",
+      "layers/gold/rank-3.webp"
+    ],
+    "progression/gold/stage-3-crest-rank-5.webp": [
+      "layers/gold/wings.webp",
+      "layers/gold/crest.webp",
+      "layers/gold/badge.webp",
+      "layers/gold/bottom-plate.webp",
+      "layers/gold/rank-5.webp"
+    ],
+    "progression/gold/stage-3-crest-rank-10.webp": [
+      "layers/gold/wings.webp",
+      "layers/gold/crest.webp",
+      "layers/gold/badge.webp",
+      "layers/gold/bottom-plate.webp",
+      "layers/gold/rank-10.webp"
+    ],
+    "progression/gold/stage-3-crest-rank-20.webp": [
+      "layers/gold/wings.webp",
+      "layers/gold/crest.webp",
+      "layers/gold/badge.webp",
+      "layers/gold/bottom-plate.webp",
+      "layers/gold/rank-20.webp"
+    ],
+    "progression/gold/stage-3-crest-rank-25.webp": [
+      "layers/gold/wings.webp",
+      "layers/gold/crest.webp",
+      "layers/gold/badge.webp",
+      "layers/gold/bottom-plate.webp",
+      "layers/gold/rank-25.webp"
+    ],
+    "progression/gold/stage-3-crest-rank-50.webp": [
+      "layers/gold/wings.webp",
+      "layers/gold/crest.webp",
+      "layers/gold/badge.webp",
+      "layers/gold/bottom-plate.webp",
+      "layers/gold/rank-50.webp"
+    ],
+    "progression/steel/stage-1-plate-rank-1.webp": [
+      "layers/steel/badge.webp",
+      "layers/steel/bottom-plate.webp",
+      "layers/steel/rank-1.webp"
+    ],
+    "progression/steel/stage-1-plate-rank-3.webp": [
+      "layers/steel/badge.webp",
+      "layers/steel/bottom-plate.webp",
+      "layers/steel/rank-3.webp"
+    ],
+    "progression/steel/stage-1-plate-rank-5.webp": [
+      "layers/steel/badge.webp",
+      "layers/steel/bottom-plate.webp",
+      "layers/steel/rank-5.webp"
+    ],
+    "progression/steel/stage-1-plate-rank-10.webp": [
+      "layers/steel/badge.webp",
+      "layers/steel/bottom-plate.webp",
+      "layers/steel/rank-10.webp"
+    ],
+    "progression/steel/stage-1-plate-rank-20.webp": [
+      "layers/steel/badge.webp",
+      "layers/steel/bottom-plate.webp",
+      "layers/steel/rank-20.webp"
+    ],
+    "progression/steel/stage-1-plate-rank-25.webp": [
+      "layers/steel/badge.webp",
+      "layers/steel/bottom-plate.webp",
+      "layers/steel/rank-25.webp"
+    ],
+    "progression/steel/stage-1-plate-rank-50.webp": [
+      "layers/steel/badge.webp",
+      "layers/steel/bottom-plate.webp",
+      "layers/steel/rank-50.webp"
+    ],
+    "progression/steel/crest-only-rank-1.webp": [
+      "layers/steel/crest.webp",
+      "layers/steel/badge.webp",
+      "layers/steel/bottom-plate.webp",
+      "layers/steel/rank-1.webp"
+    ],
+    "progression/steel/crest-only-rank-3.webp": [
+      "layers/steel/crest.webp",
+      "layers/steel/badge.webp",
+      "layers/steel/bottom-plate.webp",
+      "layers/steel/rank-3.webp"
+    ],
+    "progression/steel/crest-only-rank-5.webp": [
+      "layers/steel/crest.webp",
+      "layers/steel/badge.webp",
+      "layers/steel/bottom-plate.webp",
+      "layers/steel/rank-5.webp"
+    ],
+    "progression/steel/crest-only-rank-10.webp": [
+      "layers/steel/crest.webp",
+      "layers/steel/badge.webp",
+      "layers/steel/bottom-plate.webp",
+      "layers/steel/rank-10.webp"
+    ],
+    "progression/steel/crest-only-rank-20.webp": [
+      "layers/steel/crest.webp",
+      "layers/steel/badge.webp",
+      "layers/steel/bottom-plate.webp",
+      "layers/steel/rank-20.webp"
+    ],
+    "progression/steel/crest-only-rank-25.webp": [
+      "layers/steel/crest.webp",
+      "layers/steel/badge.webp",
+      "layers/steel/bottom-plate.webp",
+      "layers/steel/rank-25.webp"
+    ],
+    "progression/steel/crest-only-rank-50.webp": [
+      "layers/steel/crest.webp",
+      "layers/steel/badge.webp",
+      "layers/steel/bottom-plate.webp",
+      "layers/steel/rank-50.webp"
+    ],
+    "progression/steel/small-wings-rank-1.webp": [
+      "layers/steel/wings-small.webp",
+      "layers/steel/badge.webp",
+      "layers/steel/bottom-plate.webp",
+      "layers/steel/rank-1.webp"
+    ],
+    "progression/steel/small-wings-rank-3.webp": [
+      "layers/steel/wings-small.webp",
+      "layers/steel/badge.webp",
+      "layers/steel/bottom-plate.webp",
+      "layers/steel/rank-3.webp"
+    ],
+    "progression/steel/small-wings-rank-5.webp": [
+      "layers/steel/wings-small.webp",
+      "layers/steel/badge.webp",
+      "layers/steel/bottom-plate.webp",
+      "layers/steel/rank-5.webp"
+    ],
+    "progression/steel/small-wings-rank-10.webp": [
+      "layers/steel/wings-small.webp",
+      "layers/steel/badge.webp",
+      "layers/steel/bottom-plate.webp",
+      "layers/steel/rank-10.webp"
+    ],
+    "progression/steel/small-wings-rank-20.webp": [
+      "layers/steel/wings-small.webp",
+      "layers/steel/badge.webp",
+      "layers/steel/bottom-plate.webp",
+      "layers/steel/rank-20.webp"
+    ],
+    "progression/steel/small-wings-rank-25.webp": [
+      "layers/steel/wings-small.webp",
+      "layers/steel/badge.webp",
+      "layers/steel/bottom-plate.webp",
+      "layers/steel/rank-25.webp"
+    ],
+    "progression/steel/small-wings-rank-50.webp": [
+      "layers/steel/wings-small.webp",
+      "layers/steel/badge.webp",
+      "layers/steel/bottom-plate.webp",
+      "layers/steel/rank-50.webp"
+    ],
+    "progression/steel/small-wings-crest-rank-1.webp": [
+      "layers/steel/wings-small.webp",
+      "layers/steel/crest.webp",
+      "layers/steel/badge.webp",
+      "layers/steel/bottom-plate.webp",
+      "layers/steel/rank-1.webp"
+    ],
+    "progression/steel/small-wings-crest-rank-3.webp": [
+      "layers/steel/wings-small.webp",
+      "layers/steel/crest.webp",
+      "layers/steel/badge.webp",
+      "layers/steel/bottom-plate.webp",
+      "layers/steel/rank-3.webp"
+    ],
+    "progression/steel/small-wings-crest-rank-5.webp": [
+      "layers/steel/wings-small.webp",
+      "layers/steel/crest.webp",
+      "layers/steel/badge.webp",
+      "layers/steel/bottom-plate.webp",
+      "layers/steel/rank-5.webp"
+    ],
+    "progression/steel/small-wings-crest-rank-10.webp": [
+      "layers/steel/wings-small.webp",
+      "layers/steel/crest.webp",
+      "layers/steel/badge.webp",
+      "layers/steel/bottom-plate.webp",
+      "layers/steel/rank-10.webp"
+    ],
+    "progression/steel/small-wings-crest-rank-20.webp": [
+      "layers/steel/wings-small.webp",
+      "layers/steel/crest.webp",
+      "layers/steel/badge.webp",
+      "layers/steel/bottom-plate.webp",
+      "layers/steel/rank-20.webp"
+    ],
+    "progression/steel/small-wings-crest-rank-25.webp": [
+      "layers/steel/wings-small.webp",
+      "layers/steel/crest.webp",
+      "layers/steel/badge.webp",
+      "layers/steel/bottom-plate.webp",
+      "layers/steel/rank-25.webp"
+    ],
+    "progression/steel/small-wings-crest-rank-50.webp": [
+      "layers/steel/wings-small.webp",
+      "layers/steel/crest.webp",
+      "layers/steel/badge.webp",
+      "layers/steel/bottom-plate.webp",
+      "layers/steel/rank-50.webp"
+    ],
+    "progression/steel/stage-2-wings-rank-1.webp": [
+      "layers/steel/wings.webp",
+      "layers/steel/badge.webp",
+      "layers/steel/bottom-plate.webp",
+      "layers/steel/rank-1.webp"
+    ],
+    "progression/steel/stage-2-wings-rank-3.webp": [
+      "layers/steel/wings.webp",
+      "layers/steel/badge.webp",
+      "layers/steel/bottom-plate.webp",
+      "layers/steel/rank-3.webp"
+    ],
+    "progression/steel/stage-2-wings-rank-5.webp": [
+      "layers/steel/wings.webp",
+      "layers/steel/badge.webp",
+      "layers/steel/bottom-plate.webp",
+      "layers/steel/rank-5.webp"
+    ],
+    "progression/steel/stage-2-wings-rank-10.webp": [
+      "layers/steel/wings.webp",
+      "layers/steel/badge.webp",
+      "layers/steel/bottom-plate.webp",
+      "layers/steel/rank-10.webp"
+    ],
+    "progression/steel/stage-2-wings-rank-20.webp": [
+      "layers/steel/wings.webp",
+      "layers/steel/badge.webp",
+      "layers/steel/bottom-plate.webp",
+      "layers/steel/rank-20.webp"
+    ],
+    "progression/steel/stage-2-wings-rank-25.webp": [
+      "layers/steel/wings.webp",
+      "layers/steel/badge.webp",
+      "layers/steel/bottom-plate.webp",
+      "layers/steel/rank-25.webp"
+    ],
+    "progression/steel/stage-2-wings-rank-50.webp": [
+      "layers/steel/wings.webp",
+      "layers/steel/badge.webp",
+      "layers/steel/bottom-plate.webp",
+      "layers/steel/rank-50.webp"
+    ],
+    "progression/steel/stage-3-crest-rank-1.webp": [
+      "layers/steel/wings.webp",
+      "layers/steel/crest.webp",
+      "layers/steel/badge.webp",
+      "layers/steel/bottom-plate.webp",
+      "layers/steel/rank-1.webp"
+    ],
+    "progression/steel/stage-3-crest-rank-3.webp": [
+      "layers/steel/wings.webp",
+      "layers/steel/crest.webp",
+      "layers/steel/badge.webp",
+      "layers/steel/bottom-plate.webp",
+      "layers/steel/rank-3.webp"
+    ],
+    "progression/steel/stage-3-crest-rank-5.webp": [
+      "layers/steel/wings.webp",
+      "layers/steel/crest.webp",
+      "layers/steel/badge.webp",
+      "layers/steel/bottom-plate.webp",
+      "layers/steel/rank-5.webp"
+    ],
+    "progression/steel/stage-3-crest-rank-10.webp": [
+      "layers/steel/wings.webp",
+      "layers/steel/crest.webp",
+      "layers/steel/badge.webp",
+      "layers/steel/bottom-plate.webp",
+      "layers/steel/rank-10.webp"
+    ],
+    "progression/steel/stage-3-crest-rank-20.webp": [
+      "layers/steel/wings.webp",
+      "layers/steel/crest.webp",
+      "layers/steel/badge.webp",
+      "layers/steel/bottom-plate.webp",
+      "layers/steel/rank-20.webp"
+    ],
+    "progression/steel/stage-3-crest-rank-25.webp": [
+      "layers/steel/wings.webp",
+      "layers/steel/crest.webp",
+      "layers/steel/badge.webp",
+      "layers/steel/bottom-plate.webp",
+      "layers/steel/rank-25.webp"
+    ],
+    "progression/steel/stage-3-crest-rank-50.webp": [
+      "layers/steel/wings.webp",
+      "layers/steel/crest.webp",
+      "layers/steel/badge.webp",
+      "layers/steel/bottom-plate.webp",
+      "layers/steel/rank-50.webp"
+    ],
+    "progression/black/stage-1-plate-rank-1.webp": [
+      "layers/black/badge.webp",
+      "layers/black/bottom-plate.webp",
+      "layers/black/rank-1.webp"
+    ],
+    "progression/black/stage-1-plate-rank-3.webp": [
+      "layers/black/badge.webp",
+      "layers/black/bottom-plate.webp",
+      "layers/black/rank-3.webp"
+    ],
+    "progression/black/stage-1-plate-rank-5.webp": [
+      "layers/black/badge.webp",
+      "layers/black/bottom-plate.webp",
+      "layers/black/rank-5.webp"
+    ],
+    "progression/black/stage-1-plate-rank-10.webp": [
+      "layers/black/badge.webp",
+      "layers/black/bottom-plate.webp",
+      "layers/black/rank-10.webp"
+    ],
+    "progression/black/stage-1-plate-rank-20.webp": [
+      "layers/black/badge.webp",
+      "layers/black/bottom-plate.webp",
+      "layers/black/rank-20.webp"
+    ],
+    "progression/black/stage-1-plate-rank-25.webp": [
+      "layers/black/badge.webp",
+      "layers/black/bottom-plate.webp",
+      "layers/black/rank-25.webp"
+    ],
+    "progression/black/stage-1-plate-rank-50.webp": [
+      "layers/black/badge.webp",
+      "layers/black/bottom-plate.webp",
+      "layers/black/rank-50.webp"
+    ],
+    "progression/black/crest-only-rank-1.webp": [
+      "layers/black/crest.webp",
+      "layers/black/badge.webp",
+      "layers/black/bottom-plate.webp",
+      "layers/black/rank-1.webp"
+    ],
+    "progression/black/crest-only-rank-3.webp": [
+      "layers/black/crest.webp",
+      "layers/black/badge.webp",
+      "layers/black/bottom-plate.webp",
+      "layers/black/rank-3.webp"
+    ],
+    "progression/black/crest-only-rank-5.webp": [
+      "layers/black/crest.webp",
+      "layers/black/badge.webp",
+      "layers/black/bottom-plate.webp",
+      "layers/black/rank-5.webp"
+    ],
+    "progression/black/crest-only-rank-10.webp": [
+      "layers/black/crest.webp",
+      "layers/black/badge.webp",
+      "layers/black/bottom-plate.webp",
+      "layers/black/rank-10.webp"
+    ],
+    "progression/black/crest-only-rank-20.webp": [
+      "layers/black/crest.webp",
+      "layers/black/badge.webp",
+      "layers/black/bottom-plate.webp",
+      "layers/black/rank-20.webp"
+    ],
+    "progression/black/crest-only-rank-25.webp": [
+      "layers/black/crest.webp",
+      "layers/black/badge.webp",
+      "layers/black/bottom-plate.webp",
+      "layers/black/rank-25.webp"
+    ],
+    "progression/black/crest-only-rank-50.webp": [
+      "layers/black/crest.webp",
+      "layers/black/badge.webp",
+      "layers/black/bottom-plate.webp",
+      "layers/black/rank-50.webp"
+    ],
+    "progression/black/small-wings-rank-1.webp": [
+      "layers/black/wings-small.webp",
+      "layers/black/badge.webp",
+      "layers/black/bottom-plate.webp",
+      "layers/black/rank-1.webp"
+    ],
+    "progression/black/small-wings-rank-3.webp": [
+      "layers/black/wings-small.webp",
+      "layers/black/badge.webp",
+      "layers/black/bottom-plate.webp",
+      "layers/black/rank-3.webp"
+    ],
+    "progression/black/small-wings-rank-5.webp": [
+      "layers/black/wings-small.webp",
+      "layers/black/badge.webp",
+      "layers/black/bottom-plate.webp",
+      "layers/black/rank-5.webp"
+    ],
+    "progression/black/small-wings-rank-10.webp": [
+      "layers/black/wings-small.webp",
+      "layers/black/badge.webp",
+      "layers/black/bottom-plate.webp",
+      "layers/black/rank-10.webp"
+    ],
+    "progression/black/small-wings-rank-20.webp": [
+      "layers/black/wings-small.webp",
+      "layers/black/badge.webp",
+      "layers/black/bottom-plate.webp",
+      "layers/black/rank-20.webp"
+    ],
+    "progression/black/small-wings-rank-25.webp": [
+      "layers/black/wings-small.webp",
+      "layers/black/badge.webp",
+      "layers/black/bottom-plate.webp",
+      "layers/black/rank-25.webp"
+    ],
+    "progression/black/small-wings-rank-50.webp": [
+      "layers/black/wings-small.webp",
+      "layers/black/badge.webp",
+      "layers/black/bottom-plate.webp",
+      "layers/black/rank-50.webp"
+    ],
+    "progression/black/small-wings-crest-rank-1.webp": [
+      "layers/black/wings-small.webp",
+      "layers/black/crest.webp",
+      "layers/black/badge.webp",
+      "layers/black/bottom-plate.webp",
+      "layers/black/rank-1.webp"
+    ],
+    "progression/black/small-wings-crest-rank-3.webp": [
+      "layers/black/wings-small.webp",
+      "layers/black/crest.webp",
+      "layers/black/badge.webp",
+      "layers/black/bottom-plate.webp",
+      "layers/black/rank-3.webp"
+    ],
+    "progression/black/small-wings-crest-rank-5.webp": [
+      "layers/black/wings-small.webp",
+      "layers/black/crest.webp",
+      "layers/black/badge.webp",
+      "layers/black/bottom-plate.webp",
+      "layers/black/rank-5.webp"
+    ],
+    "progression/black/small-wings-crest-rank-10.webp": [
+      "layers/black/wings-small.webp",
+      "layers/black/crest.webp",
+      "layers/black/badge.webp",
+      "layers/black/bottom-plate.webp",
+      "layers/black/rank-10.webp"
+    ],
+    "progression/black/small-wings-crest-rank-20.webp": [
+      "layers/black/wings-small.webp",
+      "layers/black/crest.webp",
+      "layers/black/badge.webp",
+      "layers/black/bottom-plate.webp",
+      "layers/black/rank-20.webp"
+    ],
+    "progression/black/small-wings-crest-rank-25.webp": [
+      "layers/black/wings-small.webp",
+      "layers/black/crest.webp",
+      "layers/black/badge.webp",
+      "layers/black/bottom-plate.webp",
+      "layers/black/rank-25.webp"
+    ],
+    "progression/black/small-wings-crest-rank-50.webp": [
+      "layers/black/wings-small.webp",
+      "layers/black/crest.webp",
+      "layers/black/badge.webp",
+      "layers/black/bottom-plate.webp",
+      "layers/black/rank-50.webp"
+    ],
+    "progression/black/stage-2-wings-rank-1.webp": [
+      "layers/black/wings.webp",
+      "layers/black/badge.webp",
+      "layers/black/bottom-plate.webp",
+      "layers/black/rank-1.webp"
+    ],
+    "progression/black/stage-2-wings-rank-3.webp": [
+      "layers/black/wings.webp",
+      "layers/black/badge.webp",
+      "layers/black/bottom-plate.webp",
+      "layers/black/rank-3.webp"
+    ],
+    "progression/black/stage-2-wings-rank-5.webp": [
+      "layers/black/wings.webp",
+      "layers/black/badge.webp",
+      "layers/black/bottom-plate.webp",
+      "layers/black/rank-5.webp"
+    ],
+    "progression/black/stage-2-wings-rank-10.webp": [
+      "layers/black/wings.webp",
+      "layers/black/badge.webp",
+      "layers/black/bottom-plate.webp",
+      "layers/black/rank-10.webp"
+    ],
+    "progression/black/stage-2-wings-rank-20.webp": [
+      "layers/black/wings.webp",
+      "layers/black/badge.webp",
+      "layers/black/bottom-plate.webp",
+      "layers/black/rank-20.webp"
+    ],
+    "progression/black/stage-2-wings-rank-25.webp": [
+      "layers/black/wings.webp",
+      "layers/black/badge.webp",
+      "layers/black/bottom-plate.webp",
+      "layers/black/rank-25.webp"
+    ],
+    "progression/black/stage-2-wings-rank-50.webp": [
+      "layers/black/wings.webp",
+      "layers/black/badge.webp",
+      "layers/black/bottom-plate.webp",
+      "layers/black/rank-50.webp"
+    ],
+    "progression/black/stage-3-crest-rank-1.webp": [
+      "layers/black/wings.webp",
+      "layers/black/crest.webp",
+      "layers/black/badge.webp",
+      "layers/black/bottom-plate.webp",
+      "layers/black/rank-1.webp"
+    ],
+    "progression/black/stage-3-crest-rank-3.webp": [
+      "layers/black/wings.webp",
+      "layers/black/crest.webp",
+      "layers/black/badge.webp",
+      "layers/black/bottom-plate.webp",
+      "layers/black/rank-3.webp"
+    ],
+    "progression/black/stage-3-crest-rank-5.webp": [
+      "layers/black/wings.webp",
+      "layers/black/crest.webp",
+      "layers/black/badge.webp",
+      "layers/black/bottom-plate.webp",
+      "layers/black/rank-5.webp"
+    ],
+    "progression/black/stage-3-crest-rank-10.webp": [
+      "layers/black/wings.webp",
+      "layers/black/crest.webp",
+      "layers/black/badge.webp",
+      "layers/black/bottom-plate.webp",
+      "layers/black/rank-10.webp"
+    ],
+    "progression/black/stage-3-crest-rank-20.webp": [
+      "layers/black/wings.webp",
+      "layers/black/crest.webp",
+      "layers/black/badge.webp",
+      "layers/black/bottom-plate.webp",
+      "layers/black/rank-20.webp"
+    ],
+    "progression/black/stage-3-crest-rank-25.webp": [
+      "layers/black/wings.webp",
+      "layers/black/crest.webp",
+      "layers/black/badge.webp",
+      "layers/black/bottom-plate.webp",
+      "layers/black/rank-25.webp"
+    ],
+    "progression/black/stage-3-crest-rank-50.webp": [
+      "layers/black/wings.webp",
+      "layers/black/crest.webp",
+      "layers/black/badge.webp",
+      "layers/black/bottom-plate.webp",
+      "layers/black/rank-50.webp"
+    ],
+    "progression/white/stage-1-plate-rank-1.webp": [
+      "layers/white/badge.webp",
+      "layers/white/bottom-plate.webp",
+      "layers/white/rank-1.webp"
+    ],
+    "progression/white/stage-1-plate-rank-3.webp": [
+      "layers/white/badge.webp",
+      "layers/white/bottom-plate.webp",
+      "layers/white/rank-3.webp"
+    ],
+    "progression/white/stage-1-plate-rank-5.webp": [
+      "layers/white/badge.webp",
+      "layers/white/bottom-plate.webp",
+      "layers/white/rank-5.webp"
+    ],
+    "progression/white/stage-1-plate-rank-10.webp": [
+      "layers/white/badge.webp",
+      "layers/white/bottom-plate.webp",
+      "layers/white/rank-10.webp"
+    ],
+    "progression/white/stage-1-plate-rank-20.webp": [
+      "layers/white/badge.webp",
+      "layers/white/bottom-plate.webp",
+      "layers/white/rank-20.webp"
+    ],
+    "progression/white/stage-1-plate-rank-25.webp": [
+      "layers/white/badge.webp",
+      "layers/white/bottom-plate.webp",
+      "layers/white/rank-25.webp"
+    ],
+    "progression/white/stage-1-plate-rank-50.webp": [
+      "layers/white/badge.webp",
+      "layers/white/bottom-plate.webp",
+      "layers/white/rank-50.webp"
+    ],
+    "progression/white/crest-only-rank-1.webp": [
+      "layers/white/crest.webp",
+      "layers/white/badge.webp",
+      "layers/white/bottom-plate.webp",
+      "layers/white/rank-1.webp"
+    ],
+    "progression/white/crest-only-rank-3.webp": [
+      "layers/white/crest.webp",
+      "layers/white/badge.webp",
+      "layers/white/bottom-plate.webp",
+      "layers/white/rank-3.webp"
+    ],
+    "progression/white/crest-only-rank-5.webp": [
+      "layers/white/crest.webp",
+      "layers/white/badge.webp",
+      "layers/white/bottom-plate.webp",
+      "layers/white/rank-5.webp"
+    ],
+    "progression/white/crest-only-rank-10.webp": [
+      "layers/white/crest.webp",
+      "layers/white/badge.webp",
+      "layers/white/bottom-plate.webp",
+      "layers/white/rank-10.webp"
+    ],
+    "progression/white/crest-only-rank-20.webp": [
+      "layers/white/crest.webp",
+      "layers/white/badge.webp",
+      "layers/white/bottom-plate.webp",
+      "layers/white/rank-20.webp"
+    ],
+    "progression/white/crest-only-rank-25.webp": [
+      "layers/white/crest.webp",
+      "layers/white/badge.webp",
+      "layers/white/bottom-plate.webp",
+      "layers/white/rank-25.webp"
+    ],
+    "progression/white/crest-only-rank-50.webp": [
+      "layers/white/crest.webp",
+      "layers/white/badge.webp",
+      "layers/white/bottom-plate.webp",
+      "layers/white/rank-50.webp"
+    ],
+    "progression/white/small-wings-rank-1.webp": [
+      "layers/white/wings-small.webp",
+      "layers/white/badge.webp",
+      "layers/white/bottom-plate.webp",
+      "layers/white/rank-1.webp"
+    ],
+    "progression/white/small-wings-rank-3.webp": [
+      "layers/white/wings-small.webp",
+      "layers/white/badge.webp",
+      "layers/white/bottom-plate.webp",
+      "layers/white/rank-3.webp"
+    ],
+    "progression/white/small-wings-rank-5.webp": [
+      "layers/white/wings-small.webp",
+      "layers/white/badge.webp",
+      "layers/white/bottom-plate.webp",
+      "layers/white/rank-5.webp"
+    ],
+    "progression/white/small-wings-rank-10.webp": [
+      "layers/white/wings-small.webp",
+      "layers/white/badge.webp",
+      "layers/white/bottom-plate.webp",
+      "layers/white/rank-10.webp"
+    ],
+    "progression/white/small-wings-rank-20.webp": [
+      "layers/white/wings-small.webp",
+      "layers/white/badge.webp",
+      "layers/white/bottom-plate.webp",
+      "layers/white/rank-20.webp"
+    ],
+    "progression/white/small-wings-rank-25.webp": [
+      "layers/white/wings-small.webp",
+      "layers/white/badge.webp",
+      "layers/white/bottom-plate.webp",
+      "layers/white/rank-25.webp"
+    ],
+    "progression/white/small-wings-rank-50.webp": [
+      "layers/white/wings-small.webp",
+      "layers/white/badge.webp",
+      "layers/white/bottom-plate.webp",
+      "layers/white/rank-50.webp"
+    ],
+    "progression/white/small-wings-crest-rank-1.webp": [
+      "layers/white/wings-small.webp",
+      "layers/white/crest.webp",
+      "layers/white/badge.webp",
+      "layers/white/bottom-plate.webp",
+      "layers/white/rank-1.webp"
+    ],
+    "progression/white/small-wings-crest-rank-3.webp": [
+      "layers/white/wings-small.webp",
+      "layers/white/crest.webp",
+      "layers/white/badge.webp",
+      "layers/white/bottom-plate.webp",
+      "layers/white/rank-3.webp"
+    ],
+    "progression/white/small-wings-crest-rank-5.webp": [
+      "layers/white/wings-small.webp",
+      "layers/white/crest.webp",
+      "layers/white/badge.webp",
+      "layers/white/bottom-plate.webp",
+      "layers/white/rank-5.webp"
+    ],
+    "progression/white/small-wings-crest-rank-10.webp": [
+      "layers/white/wings-small.webp",
+      "layers/white/crest.webp",
+      "layers/white/badge.webp",
+      "layers/white/bottom-plate.webp",
+      "layers/white/rank-10.webp"
+    ],
+    "progression/white/small-wings-crest-rank-20.webp": [
+      "layers/white/wings-small.webp",
+      "layers/white/crest.webp",
+      "layers/white/badge.webp",
+      "layers/white/bottom-plate.webp",
+      "layers/white/rank-20.webp"
+    ],
+    "progression/white/small-wings-crest-rank-25.webp": [
+      "layers/white/wings-small.webp",
+      "layers/white/crest.webp",
+      "layers/white/badge.webp",
+      "layers/white/bottom-plate.webp",
+      "layers/white/rank-25.webp"
+    ],
+    "progression/white/small-wings-crest-rank-50.webp": [
+      "layers/white/wings-small.webp",
+      "layers/white/crest.webp",
+      "layers/white/badge.webp",
+      "layers/white/bottom-plate.webp",
+      "layers/white/rank-50.webp"
+    ],
+    "progression/white/stage-2-wings-rank-1.webp": [
+      "layers/white/wings.webp",
+      "layers/white/badge.webp",
+      "layers/white/bottom-plate.webp",
+      "layers/white/rank-1.webp"
+    ],
+    "progression/white/stage-2-wings-rank-3.webp": [
+      "layers/white/wings.webp",
+      "layers/white/badge.webp",
+      "layers/white/bottom-plate.webp",
+      "layers/white/rank-3.webp"
+    ],
+    "progression/white/stage-2-wings-rank-5.webp": [
+      "layers/white/wings.webp",
+      "layers/white/badge.webp",
+      "layers/white/bottom-plate.webp",
+      "layers/white/rank-5.webp"
+    ],
+    "progression/white/stage-2-wings-rank-10.webp": [
+      "layers/white/wings.webp",
+      "layers/white/badge.webp",
+      "layers/white/bottom-plate.webp",
+      "layers/white/rank-10.webp"
+    ],
+    "progression/white/stage-2-wings-rank-20.webp": [
+      "layers/white/wings.webp",
+      "layers/white/badge.webp",
+      "layers/white/bottom-plate.webp",
+      "layers/white/rank-20.webp"
+    ],
+    "progression/white/stage-2-wings-rank-25.webp": [
+      "layers/white/wings.webp",
+      "layers/white/badge.webp",
+      "layers/white/bottom-plate.webp",
+      "layers/white/rank-25.webp"
+    ],
+    "progression/white/stage-2-wings-rank-50.webp": [
+      "layers/white/wings.webp",
+      "layers/white/badge.webp",
+      "layers/white/bottom-plate.webp",
+      "layers/white/rank-50.webp"
+    ],
+    "progression/white/stage-3-crest-rank-1.webp": [
+      "layers/white/wings.webp",
+      "layers/white/crest.webp",
+      "layers/white/badge.webp",
+      "layers/white/bottom-plate.webp",
+      "layers/white/rank-1.webp"
+    ],
+    "progression/white/stage-3-crest-rank-3.webp": [
+      "layers/white/wings.webp",
+      "layers/white/crest.webp",
+      "layers/white/badge.webp",
+      "layers/white/bottom-plate.webp",
+      "layers/white/rank-3.webp"
+    ],
+    "progression/white/stage-3-crest-rank-5.webp": [
+      "layers/white/wings.webp",
+      "layers/white/crest.webp",
+      "layers/white/badge.webp",
+      "layers/white/bottom-plate.webp",
+      "layers/white/rank-5.webp"
+    ],
+    "progression/white/stage-3-crest-rank-10.webp": [
+      "layers/white/wings.webp",
+      "layers/white/crest.webp",
+      "layers/white/badge.webp",
+      "layers/white/bottom-plate.webp",
+      "layers/white/rank-10.webp"
+    ],
+    "progression/white/stage-3-crest-rank-20.webp": [
+      "layers/white/wings.webp",
+      "layers/white/crest.webp",
+      "layers/white/badge.webp",
+      "layers/white/bottom-plate.webp",
+      "layers/white/rank-20.webp"
+    ],
+    "progression/white/stage-3-crest-rank-25.webp": [
+      "layers/white/wings.webp",
+      "layers/white/crest.webp",
+      "layers/white/badge.webp",
+      "layers/white/bottom-plate.webp",
+      "layers/white/rank-25.webp"
+    ],
+    "progression/white/stage-3-crest-rank-50.webp": [
+      "layers/white/wings.webp",
+      "layers/white/crest.webp",
+      "layers/white/badge.webp",
+      "layers/white/bottom-plate.webp",
+      "layers/white/rank-50.webp"
+    ],
+    "awards/champion.webp": [
+      "layers/gold/laurels.webp",
+      "layers/gold/crest.webp",
+      "layers/gold/badge.webp",
+      "layers/gold/crown.webp",
+      "layers/gold/bottom-plate.webp",
+      "layers/gold/title-champion.webp"
+    ],
+    "awards/second-place.webp": [
+      "layers/silver/wings.webp",
+      "layers/silver/crest.webp",
+      "layers/silver/badge.webp",
+      "layers/silver/placement-2.webp",
+      "layers/silver/bottom-plate.webp",
+      "layers/silver/title-second-place.webp"
+    ],
+    "awards/third-place.webp": [
+      "layers/bronze/wings.webp",
+      "layers/bronze/crest.webp",
+      "layers/bronze/badge.webp",
+      "layers/bronze/placement-3.webp",
+      "layers/bronze/bottom-plate.webp",
+      "layers/bronze/title-third-place.webp"
+    ],
+    "examples/bronze/outer-border-rank-1.webp": [
+      "layers/bronze/wings-small-border.webp",
+      "layers/bronze/outer-border.webp",
+      "layers/bronze/crest.webp",
+      "layers/bronze/badge.webp",
+      "layers/bronze/bottom-plate.webp",
+      "layers/bronze/rank-1.webp"
+    ],
+    "examples/silver/outer-border-rank-1.webp": [
+      "layers/silver/wings-small-border.webp",
+      "layers/silver/outer-border.webp",
+      "layers/silver/crest.webp",
+      "layers/silver/badge.webp",
+      "layers/silver/bottom-plate.webp",
+      "layers/silver/rank-1.webp"
+    ],
+    "examples/gold/outer-border-rank-1.webp": [
+      "layers/gold/wings-small-border.webp",
+      "layers/gold/outer-border.webp",
+      "layers/gold/crest.webp",
+      "layers/gold/badge.webp",
+      "layers/gold/bottom-plate.webp",
+      "layers/gold/rank-1.webp"
+    ],
+    "examples/steel/outer-border-rank-1.webp": [
+      "layers/steel/wings-small-border.webp",
+      "layers/steel/outer-border.webp",
+      "layers/steel/crest.webp",
+      "layers/steel/badge.webp",
+      "layers/steel/bottom-plate.webp",
+      "layers/steel/rank-1.webp"
+    ],
+    "examples/black/outer-border-rank-1.webp": [
+      "layers/black/wings-small-border.webp",
+      "layers/black/outer-border.webp",
+      "layers/black/crest.webp",
+      "layers/black/badge.webp",
+      "layers/black/bottom-plate.webp",
+      "layers/black/rank-1.webp"
+    ],
+    "examples/white/outer-border-rank-1.webp": [
+      "layers/white/wings-small-border.webp",
+      "layers/white/outer-border.webp",
+      "layers/white/crest.webp",
+      "layers/white/badge.webp",
+      "layers/white/bottom-plate.webp",
+      "layers/white/rank-1.webp"
+    ]
+  },
+  "colored_badge_layer": "layers/{metal}/badges/{color}.webp",
+  "corporation_logos": {
+    "manifest": "logos.json",
+    "path": "logos/{corporation}.webp",
+    "order": "After badge center/frame, before bottom plate and rank"
+  },
+  "coordinates": {
+    "256": {
+      "canvas": [
+        256,
+        256
+      ],
+      "badge_box": [
+        49.625,
+        49.625,
+        206.375,
+        206.375
+      ],
+      "plate_text_box": [
+        100.5,
+        194.75,
+        155.5,
+        205.25
+      ]
+    },
+    "512": {
+      "canvas": [
+        512,
+        512
+      ],
+      "badge_box": [
+        99.25,
+        99.25,
+        412.75,
+        412.75
+      ],
+      "plate_text_box": [
+        201.0,
+        389.5,
+        311.0,
+        410.5
+      ]
+    }
+  },
+  "notes": [
+    "Paths are relative to either the 256/ or 512/ directory.",
+    "Stack all layers from one size directory at the same origin and display size.",
+    "Replace layers/{metal}/badge.webp with layers/{metal}/badges/{color}.webp for another center color.",
+    "Standalone colors/ and framed/ images use a tighter canvas; use the aligned layers/ paths when adding ornaments.",
+    "Plates are compact exports with their aspect ratio retained.",
+    "Choose a precomposed progression/ or awards/ image for a single image request, or layers/ to build a combination."
+  ]
+}

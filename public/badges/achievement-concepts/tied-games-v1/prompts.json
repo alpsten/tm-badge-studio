@@ -1,0 +1,25 @@
+{
+  "tool": "Built-in image_gen",
+  "status": "First concept for review",
+  "style": "Minimal ivory equals sign and gold upward rank arrow, matching the shared achievement emblem materials.",
+  "notes": {
+    "meaning": "Equal tournament points separated by a standings tiebreaker.",
+    "scope": "Final tournament standings: TR margin, Buchholz, or TPerf.",
+    "suppliedRule": "tieKind(standing) is non-null",
+    "exclusion": "The in-game money-to-production tiebreak chain is not represented.",
+    "implementation": "Artwork and preview only; no achievement eligibility code changed."
+  },
+  "jobs": [
+    {
+      "id": "won-it-on-tiebreaker",
+      "name": "Won It on Tiebreaker",
+      "symbol": "An equals sign paired with an upward rank arrow.",
+      "description": "Your final tournament rank was decided by a tiebreaker—TR margin, Buchholz, or TPerf—after a tie on tournament points.",
+      "referenced_image_paths": [
+        "output/imagegen/achievements/flavor-v1/growth-mindset.png"
+      ],
+      "prompt": "Use case: logo-brand.\nAsset type: ONE minimalist achievement emblem for the center of an existing game badge.\nPrimary request: a pictogram for “Won It on Tiebreaker”: equal tournament points separated by a tiebreaker in the standings.\nInput image: MATERIAL AND STYLE reference only. Match its smooth ivory enamel faces, warm-gold edging, restrained raised bevels, thin dark edges, and upper-left highlights. Do not reproduce the chart or bar heights.\nSubject: On the LEFT, one unmistakable large EQUALS SIGN, made of exactly TWO thick short horizontal rounded ivory bars with narrow gold rims, equal length, aligned one above the other with a generous transparent gap. On the RIGHT, one bold warm-GOLD ARROW pointing straight UP, with a short thick vertical shaft and a broad triangular arrowhead. The arrow is clearly separated from the equals sign by transparent space. Its arrowhead rises above the top bar of the equals sign, expressing a rank rising out of a points tie. All three shapes form one compact balanced icon.\nComposition: front-on orthographic view, centered on a square transparent canvas, at least 15 percent clear margin around the whole icon. The equals sign is about half the icon width, the upward arrow about one third; both remain clear at small sizes.\nStyle: broad solid pictogram shapes, smooth polished surfaces, shallow bevels, no fine texture. Same ivory-and-gold family as reference.\nBackground: actual transparent alpha PNG. Fully transparent outside objects and in all gaps. No backdrop, black fill, glow, haze or cast shadow.\nAvoid: outer badge frame, bar chart, tilted bars, balance scales, podium, crown, coins, money, numbers, letters, captions, extra shapes, scenery, presentation sheet. Exactly the two horizontal bars and one upward arrow.",
+      "generated_path": "output/imagegen/achievements/tied-games-v1/won-it-on-tiebreaker.png"
+    }
+  ]
+}

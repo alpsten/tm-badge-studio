@@ -1,0 +1,3803 @@
+{
+  "canvas": [
+    2048,
+    2048
+  ],
+  "badge_position": [
+    397,
+    397
+  ],
+  "metals": {
+    "bronze": "#9C6239",
+    "silver": "#A8AAAD",
+    "gold": "#C99A2E",
+    "steel": "#596B79",
+    "black": "#14181E",
+    "white": "#E6E9EE"
+  },
+  "finishes": {
+    "bronze": {
+      "shadow": "#000000",
+      "midtone": "#9C6239",
+      "highlight": "#FFFFFF",
+      "ink": "#F0C6A4"
+    },
+    "silver": {
+      "shadow": "#000000",
+      "midtone": "#A8AAAD",
+      "highlight": "#FFFFFF",
+      "ink": "#F1F4F8"
+    },
+    "gold": {
+      "shadow": "#000000",
+      "midtone": "#C99A2E",
+      "highlight": "#FFFFFF",
+      "ink": "#F5DB92"
+    },
+    "steel": {
+      "shadow": "#151D24",
+      "midtone": "#596B79",
+      "highlight": "#B6C4CF",
+      "ink": "#E2ECF5"
+    },
+    "black": {
+      "shadow": "#030405",
+      "midtone": "#14181E",
+      "highlight": "#4A525E",
+      "ink": "#E5ECF6"
+    },
+    "white": {
+      "shadow": "#939BA6",
+      "midtone": "#E6E9EE",
+      "highlight": "#FFFFFF",
+      "ink": "#26303A"
+    }
+  },
+  "ranks": [
+    1,
+    3,
+    5,
+    10,
+    20,
+    25,
+    50
+  ],
+  "plate_text_box": [
+    804,
+    1558,
+    1244,
+    1642
+  ],
+  "components": {
+    "layers/bronze/bottom-plate.png": {
+      "master": "masters/bottom-plate-silver.png",
+      "crop": [
+        59,
+        146,
+        1921,
+        706
+      ],
+      "size": [
+        640,
+        192
+      ],
+      "position": [
+        704,
+        1510
+      ]
+    },
+    "layers/bronze/outer-border.png": {
+      "master": "masters/outer-border-silver.png",
+      "crop": [
+        78,
+        14,
+        1176,
+        1238
+      ],
+      "size": [
+        1260,
+        1405
+      ],
+      "position": [
+        394,
+        316
+      ]
+    },
+    "layers/bronze/wings.png": {
+      "master": "masters/wings-ascendant-silver.png",
+      "crop": [
+        59,
+        13,
+        1385,
+        1074
+      ],
+      "size": [
+        1900,
+        1520
+      ],
+      "position": [
+        74,
+        140
+      ]
+    },
+    "layers/bronze/wings-border.png": {
+      "source_layer": "layers/bronze/wings.png",
+      "left_offset": [
+        -68,
+        0
+      ],
+      "right_offset": [
+        68,
+        0
+      ]
+    },
+    "layers/bronze/wings-small.png": {
+      "master": "masters/wings-small-silver.png",
+      "crop": [
+        44,
+        79,
+        2004,
+        691
+      ],
+      "size": [
+        1900,
+        593
+      ],
+      "position": [
+        74,
+        680
+      ]
+    },
+    "layers/bronze/wings-small-border.png": {
+      "source_layer": "layers/bronze/wings-small.png",
+      "left_offset": [
+        -68,
+        0
+      ],
+      "right_offset": [
+        68,
+        0
+      ]
+    },
+    "layers/bronze/crest.png": {
+      "master": "masters/crest-silver.png",
+      "crop": [
+        48,
+        80,
+        1727,
+        809
+      ],
+      "size": [
+        560,
+        243
+      ],
+      "position": [
+        744,
+        210
+      ]
+    },
+    "layers/silver/bottom-plate.png": {
+      "master": "masters/bottom-plate-silver.png",
+      "crop": [
+        59,
+        146,
+        1921,
+        706
+      ],
+      "size": [
+        640,
+        192
+      ],
+      "position": [
+        704,
+        1510
+      ]
+    },
+    "layers/silver/outer-border.png": {
+      "master": "masters/outer-border-silver.png",
+      "crop": [
+        78,
+        14,
+        1176,
+        1238
+      ],
+      "size": [
+        1260,
+        1405
+      ],
+      "position": [
+        394,
+        316
+      ]
+    },
+    "layers/silver/wings.png": {
+      "master": "masters/wings-ascendant-silver.png",
+      "crop": [
+        59,
+        13,
+        1385,
+        1074
+      ],
+      "size": [
+        1900,
+        1520
+      ],
+      "position": [
+        74,
+        140
+      ]
+    },
+    "layers/silver/wings-border.png": {
+      "source_layer": "layers/silver/wings.png",
+      "left_offset": [
+        -68,
+        0
+      ],
+      "right_offset": [
+        68,
+        0
+      ]
+    },
+    "layers/silver/wings-small.png": {
+      "master": "masters/wings-small-silver.png",
+      "crop": [
+        44,
+        79,
+        2004,
+        691
+      ],
+      "size": [
+        1900,
+        593
+      ],
+      "position": [
+        74,
+        680
+      ]
+    },
+    "layers/silver/wings-small-border.png": {
+      "source_layer": "layers/silver/wings-small.png",
+      "left_offset": [
+        -68,
+        0
+      ],
+      "right_offset": [
+        68,
+        0
+      ]
+    },
+    "layers/silver/crest.png": {
+      "master": "masters/crest-silver.png",
+      "crop": [
+        48,
+        80,
+        1727,
+        809
+      ],
+      "size": [
+        560,
+        243
+      ],
+      "position": [
+        744,
+        210
+      ]
+    },
+    "layers/gold/bottom-plate.png": {
+      "master": "masters/bottom-plate-silver.png",
+      "crop": [
+        59,
+        146,
+        1921,
+        706
+      ],
+      "size": [
+        640,
+        192
+      ],
+      "position": [
+        704,
+        1510
+      ]
+    },
+    "layers/gold/outer-border.png": {
+      "master": "masters/outer-border-silver.png",
+      "crop": [
+        78,
+        14,
+        1176,
+        1238
+      ],
+      "size": [
+        1260,
+        1405
+      ],
+      "position": [
+        394,
+        316
+      ]
+    },
+    "layers/gold/wings.png": {
+      "master": "masters/wings-ascendant-silver.png",
+      "crop": [
+        59,
+        13,
+        1385,
+        1074
+      ],
+      "size": [
+        1900,
+        1520
+      ],
+      "position": [
+        74,
+        140
+      ]
+    },
+    "layers/gold/wings-border.png": {
+      "source_layer": "layers/gold/wings.png",
+      "left_offset": [
+        -68,
+        0
+      ],
+      "right_offset": [
+        68,
+        0
+      ]
+    },
+    "layers/gold/wings-small.png": {
+      "master": "masters/wings-small-silver.png",
+      "crop": [
+        44,
+        79,
+        2004,
+        691
+      ],
+      "size": [
+        1900,
+        593
+      ],
+      "position": [
+        74,
+        680
+      ]
+    },
+    "layers/gold/wings-small-border.png": {
+      "source_layer": "layers/gold/wings-small.png",
+      "left_offset": [
+        -68,
+        0
+      ],
+      "right_offset": [
+        68,
+        0
+      ]
+    },
+    "layers/gold/crest.png": {
+      "master": "masters/crest-silver.png",
+      "crop": [
+        48,
+        80,
+        1727,
+        809
+      ],
+      "size": [
+        560,
+        243
+      ],
+      "position": [
+        744,
+        210
+      ]
+    },
+    "layers/gold/laurels.png": {
+      "master": "masters/laurels-silver.png",
+      "crop": [
+        21,
+        58,
+        1233,
+        1207
+      ],
+      "size": [
+        1660,
+        1574
+      ],
+      "position": [
+        194,
+        260
+      ]
+    },
+    "layers/gold/crown.png": {
+      "master": "masters/crown-silver.png",
+      "crop": [
+        83,
+        111,
+        1477,
+        918
+      ],
+      "size": [
+        560,
+        324
+      ],
+      "position": [
+        744,
+        830
+      ]
+    },
+    "layers/steel/bottom-plate.png": {
+      "master": "masters/bottom-plate-silver.png",
+      "crop": [
+        59,
+        146,
+        1921,
+        706
+      ],
+      "size": [
+        640,
+        192
+      ],
+      "position": [
+        704,
+        1510
+      ]
+    },
+    "layers/steel/outer-border.png": {
+      "master": "masters/outer-border-silver.png",
+      "crop": [
+        78,
+        14,
+        1176,
+        1238
+      ],
+      "size": [
+        1260,
+        1405
+      ],
+      "position": [
+        394,
+        316
+      ]
+    },
+    "layers/steel/wings.png": {
+      "master": "masters/wings-ascendant-silver.png",
+      "crop": [
+        59,
+        13,
+        1385,
+        1074
+      ],
+      "size": [
+        1900,
+        1520
+      ],
+      "position": [
+        74,
+        140
+      ]
+    },
+    "layers/steel/wings-border.png": {
+      "source_layer": "layers/steel/wings.png",
+      "left_offset": [
+        -68,
+        0
+      ],
+      "right_offset": [
+        68,
+        0
+      ]
+    },
+    "layers/steel/wings-small.png": {
+      "master": "masters/wings-small-silver.png",
+      "crop": [
+        44,
+        79,
+        2004,
+        691
+      ],
+      "size": [
+        1900,
+        593
+      ],
+      "position": [
+        74,
+        680
+      ]
+    },
+    "layers/steel/wings-small-border.png": {
+      "source_layer": "layers/steel/wings-small.png",
+      "left_offset": [
+        -68,
+        0
+      ],
+      "right_offset": [
+        68,
+        0
+      ]
+    },
+    "layers/steel/crest.png": {
+      "master": "masters/crest-silver.png",
+      "crop": [
+        48,
+        80,
+        1727,
+        809
+      ],
+      "size": [
+        560,
+        243
+      ],
+      "position": [
+        744,
+        210
+      ]
+    },
+    "layers/black/bottom-plate.png": {
+      "master": "masters/bottom-plate-silver.png",
+      "crop": [
+        59,
+        146,
+        1921,
+        706
+      ],
+      "size": [
+        640,
+        192
+      ],
+      "position": [
+        704,
+        1510
+      ]
+    },
+    "layers/black/outer-border.png": {
+      "master": "masters/outer-border-silver.png",
+      "crop": [
+        78,
+        14,
+        1176,
+        1238
+      ],
+      "size": [
+        1260,
+        1405
+      ],
+      "position": [
+        394,
+        316
+      ]
+    },
+    "layers/black/wings.png": {
+      "master": "masters/wings-ascendant-silver.png",
+      "crop": [
+        59,
+        13,
+        1385,
+        1074
+      ],
+      "size": [
+        1900,
+        1520
+      ],
+      "position": [
+        74,
+        140
+      ]
+    },
+    "layers/black/wings-border.png": {
+      "source_layer": "layers/black/wings.png",
+      "left_offset": [
+        -68,
+        0
+      ],
+      "right_offset": [
+        68,
+        0
+      ]
+    },
+    "layers/black/wings-small.png": {
+      "master": "masters/wings-small-silver.png",
+      "crop": [
+        44,
+        79,
+        2004,
+        691
+      ],
+      "size": [
+        1900,
+        593
+      ],
+      "position": [
+        74,
+        680
+      ]
+    },
+    "layers/black/wings-small-border.png": {
+      "source_layer": "layers/black/wings-small.png",
+      "left_offset": [
+        -68,
+        0
+      ],
+      "right_offset": [
+        68,
+        0
+      ]
+    },
+    "layers/black/crest.png": {
+      "master": "masters/crest-silver.png",
+      "crop": [
+        48,
+        80,
+        1727,
+        809
+      ],
+      "size": [
+        560,
+        243
+      ],
+      "position": [
+        744,
+        210
+      ]
+    },
+    "layers/white/bottom-plate.png": {
+      "master": "masters/bottom-plate-silver.png",
+      "crop": [
+        59,
+        146,
+        1921,
+        706
+      ],
+      "size": [
+        640,
+        192
+      ],
+      "position": [
+        704,
+        1510
+      ]
+    },
+    "layers/white/outer-border.png": {
+      "master": "masters/outer-border-silver.png",
+      "crop": [
+        78,
+        14,
+        1176,
+        1238
+      ],
+      "size": [
+        1260,
+        1405
+      ],
+      "position": [
+        394,
+        316
+      ]
+    },
+    "layers/white/wings.png": {
+      "master": "masters/wings-ascendant-silver.png",
+      "crop": [
+        59,
+        13,
+        1385,
+        1074
+      ],
+      "size": [
+        1900,
+        1520
+      ],
+      "position": [
+        74,
+        140
+      ]
+    },
+    "layers/white/wings-border.png": {
+      "source_layer": "layers/white/wings.png",
+      "left_offset": [
+        -68,
+        0
+      ],
+      "right_offset": [
+        68,
+        0
+      ]
+    },
+    "layers/white/wings-small.png": {
+      "master": "masters/wings-small-silver.png",
+      "crop": [
+        44,
+        79,
+        2004,
+        691
+      ],
+      "size": [
+        1900,
+        593
+      ],
+      "position": [
+        74,
+        680
+      ]
+    },
+    "layers/white/wings-small-border.png": {
+      "source_layer": "layers/white/wings-small.png",
+      "left_offset": [
+        -68,
+        0
+      ],
+      "right_offset": [
+        68,
+        0
+      ]
+    },
+    "layers/white/crest.png": {
+      "master": "masters/crest-silver.png",
+      "crop": [
+        48,
+        80,
+        1727,
+        809
+      ],
+      "size": [
+        560,
+        243
+      ],
+      "position": [
+        744,
+        210
+      ]
+    }
+  },
+  "assemblies": {
+    "progression/bronze/stage-1-plate-rank-1.png": [
+      "layers/bronze/badge.png",
+      "layers/bronze/bottom-plate.png",
+      "layers/bronze/rank-1.png"
+    ],
+    "progression/bronze/stage-1-plate-rank-3.png": [
+      "layers/bronze/badge.png",
+      "layers/bronze/bottom-plate.png",
+      "layers/bronze/rank-3.png"
+    ],
+    "progression/bronze/stage-1-plate-rank-5.png": [
+      "layers/bronze/badge.png",
+      "layers/bronze/bottom-plate.png",
+      "layers/bronze/rank-5.png"
+    ],
+    "progression/bronze/stage-1-plate-rank-10.png": [
+      "layers/bronze/badge.png",
+      "layers/bronze/bottom-plate.png",
+      "layers/bronze/rank-10.png"
+    ],
+    "progression/bronze/stage-1-plate-rank-20.png": [
+      "layers/bronze/badge.png",
+      "layers/bronze/bottom-plate.png",
+      "layers/bronze/rank-20.png"
+    ],
+    "progression/bronze/stage-1-plate-rank-25.png": [
+      "layers/bronze/badge.png",
+      "layers/bronze/bottom-plate.png",
+      "layers/bronze/rank-25.png"
+    ],
+    "progression/bronze/stage-1-plate-rank-50.png": [
+      "layers/bronze/badge.png",
+      "layers/bronze/bottom-plate.png",
+      "layers/bronze/rank-50.png"
+    ],
+    "progression/bronze/crest-only-rank-1.png": [
+      "layers/bronze/crest.png",
+      "layers/bronze/badge.png",
+      "layers/bronze/bottom-plate.png",
+      "layers/bronze/rank-1.png"
+    ],
+    "progression/bronze/crest-only-rank-3.png": [
+      "layers/bronze/crest.png",
+      "layers/bronze/badge.png",
+      "layers/bronze/bottom-plate.png",
+      "layers/bronze/rank-3.png"
+    ],
+    "progression/bronze/crest-only-rank-5.png": [
+      "layers/bronze/crest.png",
+      "layers/bronze/badge.png",
+      "layers/bronze/bottom-plate.png",
+      "layers/bronze/rank-5.png"
+    ],
+    "progression/bronze/crest-only-rank-10.png": [
+      "layers/bronze/crest.png",
+      "layers/bronze/badge.png",
+      "layers/bronze/bottom-plate.png",
+      "layers/bronze/rank-10.png"
+    ],
+    "progression/bronze/crest-only-rank-20.png": [
+      "layers/bronze/crest.png",
+      "layers/bronze/badge.png",
+      "layers/bronze/bottom-plate.png",
+      "layers/bronze/rank-20.png"
+    ],
+    "progression/bronze/crest-only-rank-25.png": [
+      "layers/bronze/crest.png",
+      "layers/bronze/badge.png",
+      "layers/bronze/bottom-plate.png",
+      "layers/bronze/rank-25.png"
+    ],
+    "progression/bronze/crest-only-rank-50.png": [
+      "layers/bronze/crest.png",
+      "layers/bronze/badge.png",
+      "layers/bronze/bottom-plate.png",
+      "layers/bronze/rank-50.png"
+    ],
+    "progression/bronze/small-wings-rank-1.png": [
+      "layers/bronze/wings-small.png",
+      "layers/bronze/badge.png",
+      "layers/bronze/bottom-plate.png",
+      "layers/bronze/rank-1.png"
+    ],
+    "progression/bronze/small-wings-rank-3.png": [
+      "layers/bronze/wings-small.png",
+      "layers/bronze/badge.png",
+      "layers/bronze/bottom-plate.png",
+      "layers/bronze/rank-3.png"
+    ],
+    "progression/bronze/small-wings-rank-5.png": [
+      "layers/bronze/wings-small.png",
+      "layers/bronze/badge.png",
+      "layers/bronze/bottom-plate.png",
+      "layers/bronze/rank-5.png"
+    ],
+    "progression/bronze/small-wings-rank-10.png": [
+      "layers/bronze/wings-small.png",
+      "layers/bronze/badge.png",
+      "layers/bronze/bottom-plate.png",
+      "layers/bronze/rank-10.png"
+    ],
+    "progression/bronze/small-wings-rank-20.png": [
+      "layers/bronze/wings-small.png",
+      "layers/bronze/badge.png",
+      "layers/bronze/bottom-plate.png",
+      "layers/bronze/rank-20.png"
+    ],
+    "progression/bronze/small-wings-rank-25.png": [
+      "layers/bronze/wings-small.png",
+      "layers/bronze/badge.png",
+      "layers/bronze/bottom-plate.png",
+      "layers/bronze/rank-25.png"
+    ],
+    "progression/bronze/small-wings-rank-50.png": [
+      "layers/bronze/wings-small.png",
+      "layers/bronze/badge.png",
+      "layers/bronze/bottom-plate.png",
+      "layers/bronze/rank-50.png"
+    ],
+    "progression/bronze/small-wings-crest-rank-1.png": [
+      "layers/bronze/wings-small.png",
+      "layers/bronze/crest.png",
+      "layers/bronze/badge.png",
+      "layers/bronze/bottom-plate.png",
+      "layers/bronze/rank-1.png"
+    ],
+    "progression/bronze/small-wings-crest-rank-3.png": [
+      "layers/bronze/wings-small.png",
+      "layers/bronze/crest.png",
+      "layers/bronze/badge.png",
+      "layers/bronze/bottom-plate.png",
+      "layers/bronze/rank-3.png"
+    ],
+    "progression/bronze/small-wings-crest-rank-5.png": [
+      "layers/bronze/wings-small.png",
+      "layers/bronze/crest.png",
+      "layers/bronze/badge.png",
+      "layers/bronze/bottom-plate.png",
+      "layers/bronze/rank-5.png"
+    ],
+    "progression/bronze/small-wings-crest-rank-10.png": [
+      "layers/bronze/wings-small.png",
+      "layers/bronze/crest.png",
+      "layers/bronze/badge.png",
+      "layers/bronze/bottom-plate.png",
+      "layers/bronze/rank-10.png"
+    ],
+    "progression/bronze/small-wings-crest-rank-20.png": [
+      "layers/bronze/wings-small.png",
+      "layers/bronze/crest.png",
+      "layers/bronze/badge.png",
+      "layers/bronze/bottom-plate.png",
+      "layers/bronze/rank-20.png"
+    ],
+    "progression/bronze/small-wings-crest-rank-25.png": [
+      "layers/bronze/wings-small.png",
+      "layers/bronze/crest.png",
+      "layers/bronze/badge.png",
+      "layers/bronze/bottom-plate.png",
+      "layers/bronze/rank-25.png"
+    ],
+    "progression/bronze/small-wings-crest-rank-50.png": [
+      "layers/bronze/wings-small.png",
+      "layers/bronze/crest.png",
+      "layers/bronze/badge.png",
+      "layers/bronze/bottom-plate.png",
+      "layers/bronze/rank-50.png"
+    ],
+    "progression/bronze/stage-2-wings-rank-1.png": [
+      "layers/bronze/wings.png",
+      "layers/bronze/badge.png",
+      "layers/bronze/bottom-plate.png",
+      "layers/bronze/rank-1.png"
+    ],
+    "progression/bronze/stage-2-wings-rank-3.png": [
+      "layers/bronze/wings.png",
+      "layers/bronze/badge.png",
+      "layers/bronze/bottom-plate.png",
+      "layers/bronze/rank-3.png"
+    ],
+    "progression/bronze/stage-2-wings-rank-5.png": [
+      "layers/bronze/wings.png",
+      "layers/bronze/badge.png",
+      "layers/bronze/bottom-plate.png",
+      "layers/bronze/rank-5.png"
+    ],
+    "progression/bronze/stage-2-wings-rank-10.png": [
+      "layers/bronze/wings.png",
+      "layers/bronze/badge.png",
+      "layers/bronze/bottom-plate.png",
+      "layers/bronze/rank-10.png"
+    ],
+    "progression/bronze/stage-2-wings-rank-20.png": [
+      "layers/bronze/wings.png",
+      "layers/bronze/badge.png",
+      "layers/bronze/bottom-plate.png",
+      "layers/bronze/rank-20.png"
+    ],
+    "progression/bronze/stage-2-wings-rank-25.png": [
+      "layers/bronze/wings.png",
+      "layers/bronze/badge.png",
+      "layers/bronze/bottom-plate.png",
+      "layers/bronze/rank-25.png"
+    ],
+    "progression/bronze/stage-2-wings-rank-50.png": [
+      "layers/bronze/wings.png",
+      "layers/bronze/badge.png",
+      "layers/bronze/bottom-plate.png",
+      "layers/bronze/rank-50.png"
+    ],
+    "progression/bronze/stage-3-crest-rank-1.png": [
+      "layers/bronze/wings.png",
+      "layers/bronze/crest.png",
+      "layers/bronze/badge.png",
+      "layers/bronze/bottom-plate.png",
+      "layers/bronze/rank-1.png"
+    ],
+    "progression/bronze/stage-3-crest-rank-3.png": [
+      "layers/bronze/wings.png",
+      "layers/bronze/crest.png",
+      "layers/bronze/badge.png",
+      "layers/bronze/bottom-plate.png",
+      "layers/bronze/rank-3.png"
+    ],
+    "progression/bronze/stage-3-crest-rank-5.png": [
+      "layers/bronze/wings.png",
+      "layers/bronze/crest.png",
+      "layers/bronze/badge.png",
+      "layers/bronze/bottom-plate.png",
+      "layers/bronze/rank-5.png"
+    ],
+    "progression/bronze/stage-3-crest-rank-10.png": [
+      "layers/bronze/wings.png",
+      "layers/bronze/crest.png",
+      "layers/bronze/badge.png",
+      "layers/bronze/bottom-plate.png",
+      "layers/bronze/rank-10.png"
+    ],
+    "progression/bronze/stage-3-crest-rank-20.png": [
+      "layers/bronze/wings.png",
+      "layers/bronze/crest.png",
+      "layers/bronze/badge.png",
+      "layers/bronze/bottom-plate.png",
+      "layers/bronze/rank-20.png"
+    ],
+    "progression/bronze/stage-3-crest-rank-25.png": [
+      "layers/bronze/wings.png",
+      "layers/bronze/crest.png",
+      "layers/bronze/badge.png",
+      "layers/bronze/bottom-plate.png",
+      "layers/bronze/rank-25.png"
+    ],
+    "progression/bronze/stage-3-crest-rank-50.png": [
+      "layers/bronze/wings.png",
+      "layers/bronze/crest.png",
+      "layers/bronze/badge.png",
+      "layers/bronze/bottom-plate.png",
+      "layers/bronze/rank-50.png"
+    ],
+    "progression/silver/stage-1-plate-rank-1.png": [
+      "layers/silver/badge.png",
+      "layers/silver/bottom-plate.png",
+      "layers/silver/rank-1.png"
+    ],
+    "progression/silver/stage-1-plate-rank-3.png": [
+      "layers/silver/badge.png",
+      "layers/silver/bottom-plate.png",
+      "layers/silver/rank-3.png"
+    ],
+    "progression/silver/stage-1-plate-rank-5.png": [
+      "layers/silver/badge.png",
+      "layers/silver/bottom-plate.png",
+      "layers/silver/rank-5.png"
+    ],
+    "progression/silver/stage-1-plate-rank-10.png": [
+      "layers/silver/badge.png",
+      "layers/silver/bottom-plate.png",
+      "layers/silver/rank-10.png"
+    ],
+    "progression/silver/stage-1-plate-rank-20.png": [
+      "layers/silver/badge.png",
+      "layers/silver/bottom-plate.png",
+      "layers/silver/rank-20.png"
+    ],
+    "progression/silver/stage-1-plate-rank-25.png": [
+      "layers/silver/badge.png",
+      "layers/silver/bottom-plate.png",
+      "layers/silver/rank-25.png"
+    ],
+    "progression/silver/stage-1-plate-rank-50.png": [
+      "layers/silver/badge.png",
+      "layers/silver/bottom-plate.png",
+      "layers/silver/rank-50.png"
+    ],
+    "progression/silver/crest-only-rank-1.png": [
+      "layers/silver/crest.png",
+      "layers/silver/badge.png",
+      "layers/silver/bottom-plate.png",
+      "layers/silver/rank-1.png"
+    ],
+    "progression/silver/crest-only-rank-3.png": [
+      "layers/silver/crest.png",
+      "layers/silver/badge.png",
+      "layers/silver/bottom-plate.png",
+      "layers/silver/rank-3.png"
+    ],
+    "progression/silver/crest-only-rank-5.png": [
+      "layers/silver/crest.png",
+      "layers/silver/badge.png",
+      "layers/silver/bottom-plate.png",
+      "layers/silver/rank-5.png"
+    ],
+    "progression/silver/crest-only-rank-10.png": [
+      "layers/silver/crest.png",
+      "layers/silver/badge.png",
+      "layers/silver/bottom-plate.png",
+      "layers/silver/rank-10.png"
+    ],
+    "progression/silver/crest-only-rank-20.png": [
+      "layers/silver/crest.png",
+      "layers/silver/badge.png",
+      "layers/silver/bottom-plate.png",
+      "layers/silver/rank-20.png"
+    ],
+    "progression/silver/crest-only-rank-25.png": [
+      "layers/silver/crest.png",
+      "layers/silver/badge.png",
+      "layers/silver/bottom-plate.png",
+      "layers/silver/rank-25.png"
+    ],
+    "progression/silver/crest-only-rank-50.png": [
+      "layers/silver/crest.png",
+      "layers/silver/badge.png",
+      "layers/silver/bottom-plate.png",
+      "layers/silver/rank-50.png"
+    ],
+    "progression/silver/small-wings-rank-1.png": [
+      "layers/silver/wings-small.png",
+      "layers/silver/badge.png",
+      "layers/silver/bottom-plate.png",
+      "layers/silver/rank-1.png"
+    ],
+    "progression/silver/small-wings-rank-3.png": [
+      "layers/silver/wings-small.png",
+      "layers/silver/badge.png",
+      "layers/silver/bottom-plate.png",
+      "layers/silver/rank-3.png"
+    ],
+    "progression/silver/small-wings-rank-5.png": [
+      "layers/silver/wings-small.png",
+      "layers/silver/badge.png",
+      "layers/silver/bottom-plate.png",
+      "layers/silver/rank-5.png"
+    ],
+    "progression/silver/small-wings-rank-10.png": [
+      "layers/silver/wings-small.png",
+      "layers/silver/badge.png",
+      "layers/silver/bottom-plate.png",
+      "layers/silver/rank-10.png"
+    ],
+    "progression/silver/small-wings-rank-20.png": [
+      "layers/silver/wings-small.png",
+      "layers/silver/badge.png",
+      "layers/silver/bottom-plate.png",
+      "layers/silver/rank-20.png"
+    ],
+    "progression/silver/small-wings-rank-25.png": [
+      "layers/silver/wings-small.png",
+      "layers/silver/badge.png",
+      "layers/silver/bottom-plate.png",
+      "layers/silver/rank-25.png"
+    ],
+    "progression/silver/small-wings-rank-50.png": [
+      "layers/silver/wings-small.png",
+      "layers/silver/badge.png",
+      "layers/silver/bottom-plate.png",
+      "layers/silver/rank-50.png"
+    ],
+    "progression/silver/small-wings-crest-rank-1.png": [
+      "layers/silver/wings-small.png",
+      "layers/silver/crest.png",
+      "layers/silver/badge.png",
+      "layers/silver/bottom-plate.png",
+      "layers/silver/rank-1.png"
+    ],
+    "progression/silver/small-wings-crest-rank-3.png": [
+      "layers/silver/wings-small.png",
+      "layers/silver/crest.png",
+      "layers/silver/badge.png",
+      "layers/silver/bottom-plate.png",
+      "layers/silver/rank-3.png"
+    ],
+    "progression/silver/small-wings-crest-rank-5.png": [
+      "layers/silver/wings-small.png",
+      "layers/silver/crest.png",
+      "layers/silver/badge.png",
+      "layers/silver/bottom-plate.png",
+      "layers/silver/rank-5.png"
+    ],
+    "progression/silver/small-wings-crest-rank-10.png": [
+      "layers/silver/wings-small.png",
+      "layers/silver/crest.png",
+      "layers/silver/badge.png",
+      "layers/silver/bottom-plate.png",
+      "layers/silver/rank-10.png"
+    ],
+    "progression/silver/small-wings-crest-rank-20.png": [
+      "layers/silver/wings-small.png",
+      "layers/silver/crest.png",
+      "layers/silver/badge.png",
+      "layers/silver/bottom-plate.png",
+      "layers/silver/rank-20.png"
+    ],
+    "progression/silver/small-wings-crest-rank-25.png": [
+      "layers/silver/wings-small.png",
+      "layers/silver/crest.png",
+      "layers/silver/badge.png",
+      "layers/silver/bottom-plate.png",
+      "layers/silver/rank-25.png"
+    ],
+    "progression/silver/small-wings-crest-rank-50.png": [
+      "layers/silver/wings-small.png",
+      "layers/silver/crest.png",
+      "layers/silver/badge.png",
+      "layers/silver/bottom-plate.png",
+      "layers/silver/rank-50.png"
+    ],
+    "progression/silver/stage-2-wings-rank-1.png": [
+      "layers/silver/wings.png",
+      "layers/silver/badge.png",
+      "layers/silver/bottom-plate.png",
+      "layers/silver/rank-1.png"
+    ],
+    "progression/silver/stage-2-wings-rank-3.png": [
+      "layers/silver/wings.png",
+      "layers/silver/badge.png",
+      "layers/silver/bottom-plate.png",
+      "layers/silver/rank-3.png"
+    ],
+    "progression/silver/stage-2-wings-rank-5.png": [
+      "layers/silver/wings.png",
+      "layers/silver/badge.png",
+      "layers/silver/bottom-plate.png",
+      "layers/silver/rank-5.png"
+    ],
+    "progression/silver/stage-2-wings-rank-10.png": [
+      "layers/silver/wings.png",
+      "layers/silver/badge.png",
+      "layers/silver/bottom-plate.png",
+      "layers/silver/rank-10.png"
+    ],
+    "progression/silver/stage-2-wings-rank-20.png": [
+      "layers/silver/wings.png",
+      "layers/silver/badge.png",
+      "layers/silver/bottom-plate.png",
+      "layers/silver/rank-20.png"
+    ],
+    "progression/silver/stage-2-wings-rank-25.png": [
+      "layers/silver/wings.png",
+      "layers/silver/badge.png",
+      "layers/silver/bottom-plate.png",
+      "layers/silver/rank-25.png"
+    ],
+    "progression/silver/stage-2-wings-rank-50.png": [
+      "layers/silver/wings.png",
+      "layers/silver/badge.png",
+      "layers/silver/bottom-plate.png",
+      "layers/silver/rank-50.png"
+    ],
+    "progression/silver/stage-3-crest-rank-1.png": [
+      "layers/silver/wings.png",
+      "layers/silver/crest.png",
+      "layers/silver/badge.png",
+      "layers/silver/bottom-plate.png",
+      "layers/silver/rank-1.png"
+    ],
+    "progression/silver/stage-3-crest-rank-3.png": [
+      "layers/silver/wings.png",
+      "layers/silver/crest.png",
+      "layers/silver/badge.png",
+      "layers/silver/bottom-plate.png",
+      "layers/silver/rank-3.png"
+    ],
+    "progression/silver/stage-3-crest-rank-5.png": [
+      "layers/silver/wings.png",
+      "layers/silver/crest.png",
+      "layers/silver/badge.png",
+      "layers/silver/bottom-plate.png",
+      "layers/silver/rank-5.png"
+    ],
+    "progression/silver/stage-3-crest-rank-10.png": [
+      "layers/silver/wings.png",
+      "layers/silver/crest.png",
+      "layers/silver/badge.png",
+      "layers/silver/bottom-plate.png",
+      "layers/silver/rank-10.png"
+    ],
+    "progression/silver/stage-3-crest-rank-20.png": [
+      "layers/silver/wings.png",
+      "layers/silver/crest.png",
+      "layers/silver/badge.png",
+      "layers/silver/bottom-plate.png",
+      "layers/silver/rank-20.png"
+    ],
+    "progression/silver/stage-3-crest-rank-25.png": [
+      "layers/silver/wings.png",
+      "layers/silver/crest.png",
+      "layers/silver/badge.png",
+      "layers/silver/bottom-plate.png",
+      "layers/silver/rank-25.png"
+    ],
+    "progression/silver/stage-3-crest-rank-50.png": [
+      "layers/silver/wings.png",
+      "layers/silver/crest.png",
+      "layers/silver/badge.png",
+      "layers/silver/bottom-plate.png",
+      "layers/silver/rank-50.png"
+    ],
+    "progression/gold/stage-1-plate-rank-1.png": [
+      "layers/gold/badge.png",
+      "layers/gold/bottom-plate.png",
+      "layers/gold/rank-1.png"
+    ],
+    "progression/gold/stage-1-plate-rank-3.png": [
+      "layers/gold/badge.png",
+      "layers/gold/bottom-plate.png",
+      "layers/gold/rank-3.png"
+    ],
+    "progression/gold/stage-1-plate-rank-5.png": [
+      "layers/gold/badge.png",
+      "layers/gold/bottom-plate.png",
+      "layers/gold/rank-5.png"
+    ],
+    "progression/gold/stage-1-plate-rank-10.png": [
+      "layers/gold/badge.png",
+      "layers/gold/bottom-plate.png",
+      "layers/gold/rank-10.png"
+    ],
+    "progression/gold/stage-1-plate-rank-20.png": [
+      "layers/gold/badge.png",
+      "layers/gold/bottom-plate.png",
+      "layers/gold/rank-20.png"
+    ],
+    "progression/gold/stage-1-plate-rank-25.png": [
+      "layers/gold/badge.png",
+      "layers/gold/bottom-plate.png",
+      "layers/gold/rank-25.png"
+    ],
+    "progression/gold/stage-1-plate-rank-50.png": [
+      "layers/gold/badge.png",
+      "layers/gold/bottom-plate.png",
+      "layers/gold/rank-50.png"
+    ],
+    "progression/gold/crest-only-rank-1.png": [
+      "layers/gold/crest.png",
+      "layers/gold/badge.png",
+      "layers/gold/bottom-plate.png",
+      "layers/gold/rank-1.png"
+    ],
+    "progression/gold/crest-only-rank-3.png": [
+      "layers/gold/crest.png",
+      "layers/gold/badge.png",
+      "layers/gold/bottom-plate.png",
+      "layers/gold/rank-3.png"
+    ],
+    "progression/gold/crest-only-rank-5.png": [
+      "layers/gold/crest.png",
+      "layers/gold/badge.png",
+      "layers/gold/bottom-plate.png",
+      "layers/gold/rank-5.png"
+    ],
+    "progression/gold/crest-only-rank-10.png": [
+      "layers/gold/crest.png",
+      "layers/gold/badge.png",
+      "layers/gold/bottom-plate.png",
+      "layers/gold/rank-10.png"
+    ],
+    "progression/gold/crest-only-rank-20.png": [
+      "layers/gold/crest.png",
+      "layers/gold/badge.png",
+      "layers/gold/bottom-plate.png",
+      "layers/gold/rank-20.png"
+    ],
+    "progression/gold/crest-only-rank-25.png": [
+      "layers/gold/crest.png",
+      "layers/gold/badge.png",
+      "layers/gold/bottom-plate.png",
+      "layers/gold/rank-25.png"
+    ],
+    "progression/gold/crest-only-rank-50.png": [
+      "layers/gold/crest.png",
+      "layers/gold/badge.png",
+      "layers/gold/bottom-plate.png",
+      "layers/gold/rank-50.png"
+    ],
+    "progression/gold/small-wings-rank-1.png": [
+      "layers/gold/wings-small.png",
+      "layers/gold/badge.png",
+      "layers/gold/bottom-plate.png",
+      "layers/gold/rank-1.png"
+    ],
+    "progression/gold/small-wings-rank-3.png": [
+      "layers/gold/wings-small.png",
+      "layers/gold/badge.png",
+      "layers/gold/bottom-plate.png",
+      "layers/gold/rank-3.png"
+    ],
+    "progression/gold/small-wings-rank-5.png": [
+      "layers/gold/wings-small.png",
+      "layers/gold/badge.png",
+      "layers/gold/bottom-plate.png",
+      "layers/gold/rank-5.png"
+    ],
+    "progression/gold/small-wings-rank-10.png": [
+      "layers/gold/wings-small.png",
+      "layers/gold/badge.png",
+      "layers/gold/bottom-plate.png",
+      "layers/gold/rank-10.png"
+    ],
+    "progression/gold/small-wings-rank-20.png": [
+      "layers/gold/wings-small.png",
+      "layers/gold/badge.png",
+      "layers/gold/bottom-plate.png",
+      "layers/gold/rank-20.png"
+    ],
+    "progression/gold/small-wings-rank-25.png": [
+      "layers/gold/wings-small.png",
+      "layers/gold/badge.png",
+      "layers/gold/bottom-plate.png",
+      "layers/gold/rank-25.png"
+    ],
+    "progression/gold/small-wings-rank-50.png": [
+      "layers/gold/wings-small.png",
+      "layers/gold/badge.png",
+      "layers/gold/bottom-plate.png",
+      "layers/gold/rank-50.png"
+    ],
+    "progression/gold/small-wings-crest-rank-1.png": [
+      "layers/gold/wings-small.png",
+      "layers/gold/crest.png",
+      "layers/gold/badge.png",
+      "layers/gold/bottom-plate.png",
+      "layers/gold/rank-1.png"
+    ],
+    "progression/gold/small-wings-crest-rank-3.png": [
+      "layers/gold/wings-small.png",
+      "layers/gold/crest.png",
+      "layers/gold/badge.png",
+      "layers/gold/bottom-plate.png",
+      "layers/gold/rank-3.png"
+    ],
+    "progression/gold/small-wings-crest-rank-5.png": [
+      "layers/gold/wings-small.png",
+      "layers/gold/crest.png",
+      "layers/gold/badge.png",
+      "layers/gold/bottom-plate.png",
+      "layers/gold/rank-5.png"
+    ],
+    "progression/gold/small-wings-crest-rank-10.png": [
+      "layers/gold/wings-small.png",
+      "layers/gold/crest.png",
+      "layers/gold/badge.png",
+      "layers/gold/bottom-plate.png",
+      "layers/gold/rank-10.png"
+    ],
+    "progression/gold/small-wings-crest-rank-20.png": [
+      "layers/gold/wings-small.png",
+      "layers/gold/crest.png",
+      "layers/gold/badge.png",
+      "layers/gold/bottom-plate.png",
+      "layers/gold/rank-20.png"
+    ],
+    "progression/gold/small-wings-crest-rank-25.png": [
+      "layers/gold/wings-small.png",
+      "layers/gold/crest.png",
+      "layers/gold/badge.png",
+      "layers/gold/bottom-plate.png",
+      "layers/gold/rank-25.png"
+    ],
+    "progression/gold/small-wings-crest-rank-50.png": [
+      "layers/gold/wings-small.png",
+      "layers/gold/crest.png",
+      "layers/gold/badge.png",
+      "layers/gold/bottom-plate.png",
+      "layers/gold/rank-50.png"
+    ],
+    "progression/gold/stage-2-wings-rank-1.png": [
+      "layers/gold/wings.png",
+      "layers/gold/badge.png",
+      "layers/gold/bottom-plate.png",
+      "layers/gold/rank-1.png"
+    ],
+    "progression/gold/stage-2-wings-rank-3.png": [
+      "layers/gold/wings.png",
+      "layers/gold/badge.png",
+      "layers/gold/bottom-plate.png",
+      "layers/gold/rank-3.png"
+    ],
+    "progression/gold/stage-2-wings-rank-5.png": [
+      "layers/gold/wings.png",
+      "layers/gold/badge.png",
+      "layers/gold/bottom-plate.png",
+      "layers/gold/rank-5.png"
+    ],
+    "progression/gold/stage-2-wings-rank-10.png": [
+      "layers/gold/wings.png",
+      "layers/gold/badge.png",
+      "layers/gold/bottom-plate.png",
+      "layers/gold/rank-10.png"
+    ],
+    "progression/gold/stage-2-wings-rank-20.png": [
+      "layers/gold/wings.png",
+      "layers/gold/badge.png",
+      "layers/gold/bottom-plate.png",
+      "layers/gold/rank-20.png"
+    ],
+    "progression/gold/stage-2-wings-rank-25.png": [
+      "layers/gold/wings.png",
+      "layers/gold/badge.png",
+      "layers/gold/bottom-plate.png",
+      "layers/gold/rank-25.png"
+    ],
+    "progression/gold/stage-2-wings-rank-50.png": [
+      "layers/gold/wings.png",
+      "layers/gold/badge.png",
+      "layers/gold/bottom-plate.png",
+      "layers/gold/rank-50.png"
+    ],
+    "progression/gold/stage-3-crest-rank-1.png": [
+      "layers/gold/wings.png",
+      "layers/gold/crest.png",
+      "layers/gold/badge.png",
+      "layers/gold/bottom-plate.png",
+      "layers/gold/rank-1.png"
+    ],
+    "progression/gold/stage-3-crest-rank-3.png": [
+      "layers/gold/wings.png",
+      "layers/gold/crest.png",
+      "layers/gold/badge.png",
+      "layers/gold/bottom-plate.png",
+      "layers/gold/rank-3.png"
+    ],
+    "progression/gold/stage-3-crest-rank-5.png": [
+      "layers/gold/wings.png",
+      "layers/gold/crest.png",
+      "layers/gold/badge.png",
+      "layers/gold/bottom-plate.png",
+      "layers/gold/rank-5.png"
+    ],
+    "progression/gold/stage-3-crest-rank-10.png": [
+      "layers/gold/wings.png",
+      "layers/gold/crest.png",
+      "layers/gold/badge.png",
+      "layers/gold/bottom-plate.png",
+      "layers/gold/rank-10.png"
+    ],
+    "progression/gold/stage-3-crest-rank-20.png": [
+      "layers/gold/wings.png",
+      "layers/gold/crest.png",
+      "layers/gold/badge.png",
+      "layers/gold/bottom-plate.png",
+      "layers/gold/rank-20.png"
+    ],
+    "progression/gold/stage-3-crest-rank-25.png": [
+      "layers/gold/wings.png",
+      "layers/gold/crest.png",
+      "layers/gold/badge.png",
+      "layers/gold/bottom-plate.png",
+      "layers/gold/rank-25.png"
+    ],
+    "progression/gold/stage-3-crest-rank-50.png": [
+      "layers/gold/wings.png",
+      "layers/gold/crest.png",
+      "layers/gold/badge.png",
+      "layers/gold/bottom-plate.png",
+      "layers/gold/rank-50.png"
+    ],
+    "progression/steel/stage-1-plate-rank-1.png": [
+      "layers/steel/badge.png",
+      "layers/steel/bottom-plate.png",
+      "layers/steel/rank-1.png"
+    ],
+    "progression/steel/stage-1-plate-rank-3.png": [
+      "layers/steel/badge.png",
+      "layers/steel/bottom-plate.png",
+      "layers/steel/rank-3.png"
+    ],
+    "progression/steel/stage-1-plate-rank-5.png": [
+      "layers/steel/badge.png",
+      "layers/steel/bottom-plate.png",
+      "layers/steel/rank-5.png"
+    ],
+    "progression/steel/stage-1-plate-rank-10.png": [
+      "layers/steel/badge.png",
+      "layers/steel/bottom-plate.png",
+      "layers/steel/rank-10.png"
+    ],
+    "progression/steel/stage-1-plate-rank-20.png": [
+      "layers/steel/badge.png",
+      "layers/steel/bottom-plate.png",
+      "layers/steel/rank-20.png"
+    ],
+    "progression/steel/stage-1-plate-rank-25.png": [
+      "layers/steel/badge.png",
+      "layers/steel/bottom-plate.png",
+      "layers/steel/rank-25.png"
+    ],
+    "progression/steel/stage-1-plate-rank-50.png": [
+      "layers/steel/badge.png",
+      "layers/steel/bottom-plate.png",
+      "layers/steel/rank-50.png"
+    ],
+    "progression/steel/crest-only-rank-1.png": [
+      "layers/steel/crest.png",
+      "layers/steel/badge.png",
+      "layers/steel/bottom-plate.png",
+      "layers/steel/rank-1.png"
+    ],
+    "progression/steel/crest-only-rank-3.png": [
+      "layers/steel/crest.png",
+      "layers/steel/badge.png",
+      "layers/steel/bottom-plate.png",
+      "layers/steel/rank-3.png"
+    ],
+    "progression/steel/crest-only-rank-5.png": [
+      "layers/steel/crest.png",
+      "layers/steel/badge.png",
+      "layers/steel/bottom-plate.png",
+      "layers/steel/rank-5.png"
+    ],
+    "progression/steel/crest-only-rank-10.png": [
+      "layers/steel/crest.png",
+      "layers/steel/badge.png",
+      "layers/steel/bottom-plate.png",
+      "layers/steel/rank-10.png"
+    ],
+    "progression/steel/crest-only-rank-20.png": [
+      "layers/steel/crest.png",
+      "layers/steel/badge.png",
+      "layers/steel/bottom-plate.png",
+      "layers/steel/rank-20.png"
+    ],
+    "progression/steel/crest-only-rank-25.png": [
+      "layers/steel/crest.png",
+      "layers/steel/badge.png",
+      "layers/steel/bottom-plate.png",
+      "layers/steel/rank-25.png"
+    ],
+    "progression/steel/crest-only-rank-50.png": [
+      "layers/steel/crest.png",
+      "layers/steel/badge.png",
+      "layers/steel/bottom-plate.png",
+      "layers/steel/rank-50.png"
+    ],
+    "progression/steel/small-wings-rank-1.png": [
+      "layers/steel/wings-small.png",
+      "layers/steel/badge.png",
+      "layers/steel/bottom-plate.png",
+      "layers/steel/rank-1.png"
+    ],
+    "progression/steel/small-wings-rank-3.png": [
+      "layers/steel/wings-small.png",
+      "layers/steel/badge.png",
+      "layers/steel/bottom-plate.png",
+      "layers/steel/rank-3.png"
+    ],
+    "progression/steel/small-wings-rank-5.png": [
+      "layers/steel/wings-small.png",
+      "layers/steel/badge.png",
+      "layers/steel/bottom-plate.png",
+      "layers/steel/rank-5.png"
+    ],
+    "progression/steel/small-wings-rank-10.png": [
+      "layers/steel/wings-small.png",
+      "layers/steel/badge.png",
+      "layers/steel/bottom-plate.png",
+      "layers/steel/rank-10.png"
+    ],
+    "progression/steel/small-wings-rank-20.png": [
+      "layers/steel/wings-small.png",
+      "layers/steel/badge.png",
+      "layers/steel/bottom-plate.png",
+      "layers/steel/rank-20.png"
+    ],
+    "progression/steel/small-wings-rank-25.png": [
+      "layers/steel/wings-small.png",
+      "layers/steel/badge.png",
+      "layers/steel/bottom-plate.png",
+      "layers/steel/rank-25.png"
+    ],
+    "progression/steel/small-wings-rank-50.png": [
+      "layers/steel/wings-small.png",
+      "layers/steel/badge.png",
+      "layers/steel/bottom-plate.png",
+      "layers/steel/rank-50.png"
+    ],
+    "progression/steel/small-wings-crest-rank-1.png": [
+      "layers/steel/wings-small.png",
+      "layers/steel/crest.png",
+      "layers/steel/badge.png",
+      "layers/steel/bottom-plate.png",
+      "layers/steel/rank-1.png"
+    ],
+    "progression/steel/small-wings-crest-rank-3.png": [
+      "layers/steel/wings-small.png",
+      "layers/steel/crest.png",
+      "layers/steel/badge.png",
+      "layers/steel/bottom-plate.png",
+      "layers/steel/rank-3.png"
+    ],
+    "progression/steel/small-wings-crest-rank-5.png": [
+      "layers/steel/wings-small.png",
+      "layers/steel/crest.png",
+      "layers/steel/badge.png",
+      "layers/steel/bottom-plate.png",
+      "layers/steel/rank-5.png"
+    ],
+    "progression/steel/small-wings-crest-rank-10.png": [
+      "layers/steel/wings-small.png",
+      "layers/steel/crest.png",
+      "layers/steel/badge.png",
+      "layers/steel/bottom-plate.png",
+      "layers/steel/rank-10.png"
+    ],
+    "progression/steel/small-wings-crest-rank-20.png": [
+      "layers/steel/wings-small.png",
+      "layers/steel/crest.png",
+      "layers/steel/badge.png",
+      "layers/steel/bottom-plate.png",
+      "layers/steel/rank-20.png"
+    ],
+    "progression/steel/small-wings-crest-rank-25.png": [
+      "layers/steel/wings-small.png",
+      "layers/steel/crest.png",
+      "layers/steel/badge.png",
+      "layers/steel/bottom-plate.png",
+      "layers/steel/rank-25.png"
+    ],
+    "progression/steel/small-wings-crest-rank-50.png": [
+      "layers/steel/wings-small.png",
+      "layers/steel/crest.png",
+      "layers/steel/badge.png",
+      "layers/steel/bottom-plate.png",
+      "layers/steel/rank-50.png"
+    ],
+    "progression/steel/stage-2-wings-rank-1.png": [
+      "layers/steel/wings.png",
+      "layers/steel/badge.png",
+      "layers/steel/bottom-plate.png",
+      "layers/steel/rank-1.png"
+    ],
+    "progression/steel/stage-2-wings-rank-3.png": [
+      "layers/steel/wings.png",
+      "layers/steel/badge.png",
+      "layers/steel/bottom-plate.png",
+      "layers/steel/rank-3.png"
+    ],
+    "progression/steel/stage-2-wings-rank-5.png": [
+      "layers/steel/wings.png",
+      "layers/steel/badge.png",
+      "layers/steel/bottom-plate.png",
+      "layers/steel/rank-5.png"
+    ],
+    "progression/steel/stage-2-wings-rank-10.png": [
+      "layers/steel/wings.png",
+      "layers/steel/badge.png",
+      "layers/steel/bottom-plate.png",
+      "layers/steel/rank-10.png"
+    ],
+    "progression/steel/stage-2-wings-rank-20.png": [
+      "layers/steel/wings.png",
+      "layers/steel/badge.png",
+      "layers/steel/bottom-plate.png",
+      "layers/steel/rank-20.png"
+    ],
+    "progression/steel/stage-2-wings-rank-25.png": [
+      "layers/steel/wings.png",
+      "layers/steel/badge.png",
+      "layers/steel/bottom-plate.png",
+      "layers/steel/rank-25.png"
+    ],
+    "progression/steel/stage-2-wings-rank-50.png": [
+      "layers/steel/wings.png",
+      "layers/steel/badge.png",
+      "layers/steel/bottom-plate.png",
+      "layers/steel/rank-50.png"
+    ],
+    "progression/steel/stage-3-crest-rank-1.png": [
+      "layers/steel/wings.png",
+      "layers/steel/crest.png",
+      "layers/steel/badge.png",
+      "layers/steel/bottom-plate.png",
+      "layers/steel/rank-1.png"
+    ],
+    "progression/steel/stage-3-crest-rank-3.png": [
+      "layers/steel/wings.png",
+      "layers/steel/crest.png",
+      "layers/steel/badge.png",
+      "layers/steel/bottom-plate.png",
+      "layers/steel/rank-3.png"
+    ],
+    "progression/steel/stage-3-crest-rank-5.png": [
+      "layers/steel/wings.png",
+      "layers/steel/crest.png",
+      "layers/steel/badge.png",
+      "layers/steel/bottom-plate.png",
+      "layers/steel/rank-5.png"
+    ],
+    "progression/steel/stage-3-crest-rank-10.png": [
+      "layers/steel/wings.png",
+      "layers/steel/crest.png",
+      "layers/steel/badge.png",
+      "layers/steel/bottom-plate.png",
+      "layers/steel/rank-10.png"
+    ],
+    "progression/steel/stage-3-crest-rank-20.png": [
+      "layers/steel/wings.png",
+      "layers/steel/crest.png",
+      "layers/steel/badge.png",
+      "layers/steel/bottom-plate.png",
+      "layers/steel/rank-20.png"
+    ],
+    "progression/steel/stage-3-crest-rank-25.png": [
+      "layers/steel/wings.png",
+      "layers/steel/crest.png",
+      "layers/steel/badge.png",
+      "layers/steel/bottom-plate.png",
+      "layers/steel/rank-25.png"
+    ],
+    "progression/steel/stage-3-crest-rank-50.png": [
+      "layers/steel/wings.png",
+      "layers/steel/crest.png",
+      "layers/steel/badge.png",
+      "layers/steel/bottom-plate.png",
+      "layers/steel/rank-50.png"
+    ],
+    "progression/black/stage-1-plate-rank-1.png": [
+      "layers/black/badge.png",
+      "layers/black/bottom-plate.png",
+      "layers/black/rank-1.png"
+    ],
+    "progression/black/stage-1-plate-rank-3.png": [
+      "layers/black/badge.png",
+      "layers/black/bottom-plate.png",
+      "layers/black/rank-3.png"
+    ],
+    "progression/black/stage-1-plate-rank-5.png": [
+      "layers/black/badge.png",
+      "layers/black/bottom-plate.png",
+      "layers/black/rank-5.png"
+    ],
+    "progression/black/stage-1-plate-rank-10.png": [
+      "layers/black/badge.png",
+      "layers/black/bottom-plate.png",
+      "layers/black/rank-10.png"
+    ],
+    "progression/black/stage-1-plate-rank-20.png": [
+      "layers/black/badge.png",
+      "layers/black/bottom-plate.png",
+      "layers/black/rank-20.png"
+    ],
+    "progression/black/stage-1-plate-rank-25.png": [
+      "layers/black/badge.png",
+      "layers/black/bottom-plate.png",
+      "layers/black/rank-25.png"
+    ],
+    "progression/black/stage-1-plate-rank-50.png": [
+      "layers/black/badge.png",
+      "layers/black/bottom-plate.png",
+      "layers/black/rank-50.png"
+    ],
+    "progression/black/crest-only-rank-1.png": [
+      "layers/black/crest.png",
+      "layers/black/badge.png",
+      "layers/black/bottom-plate.png",
+      "layers/black/rank-1.png"
+    ],
+    "progression/black/crest-only-rank-3.png": [
+      "layers/black/crest.png",
+      "layers/black/badge.png",
+      "layers/black/bottom-plate.png",
+      "layers/black/rank-3.png"
+    ],
+    "progression/black/crest-only-rank-5.png": [
+      "layers/black/crest.png",
+      "layers/black/badge.png",
+      "layers/black/bottom-plate.png",
+      "layers/black/rank-5.png"
+    ],
+    "progression/black/crest-only-rank-10.png": [
+      "layers/black/crest.png",
+      "layers/black/badge.png",
+      "layers/black/bottom-plate.png",
+      "layers/black/rank-10.png"
+    ],
+    "progression/black/crest-only-rank-20.png": [
+      "layers/black/crest.png",
+      "layers/black/badge.png",
+      "layers/black/bottom-plate.png",
+      "layers/black/rank-20.png"
+    ],
+    "progression/black/crest-only-rank-25.png": [
+      "layers/black/crest.png",
+      "layers/black/badge.png",
+      "layers/black/bottom-plate.png",
+      "layers/black/rank-25.png"
+    ],
+    "progression/black/crest-only-rank-50.png": [
+      "layers/black/crest.png",
+      "layers/black/badge.png",
+      "layers/black/bottom-plate.png",
+      "layers/black/rank-50.png"
+    ],
+    "progression/black/small-wings-rank-1.png": [
+      "layers/black/wings-small.png",
+      "layers/black/badge.png",
+      "layers/black/bottom-plate.png",
+      "layers/black/rank-1.png"
+    ],
+    "progression/black/small-wings-rank-3.png": [
+      "layers/black/wings-small.png",
+      "layers/black/badge.png",
+      "layers/black/bottom-plate.png",
+      "layers/black/rank-3.png"
+    ],
+    "progression/black/small-wings-rank-5.png": [
+      "layers/black/wings-small.png",
+      "layers/black/badge.png",
+      "layers/black/bottom-plate.png",
+      "layers/black/rank-5.png"
+    ],
+    "progression/black/small-wings-rank-10.png": [
+      "layers/black/wings-small.png",
+      "layers/black/badge.png",
+      "layers/black/bottom-plate.png",
+      "layers/black/rank-10.png"
+    ],
+    "progression/black/small-wings-rank-20.png": [
+      "layers/black/wings-small.png",
+      "layers/black/badge.png",
+      "layers/black/bottom-plate.png",
+      "layers/black/rank-20.png"
+    ],
+    "progression/black/small-wings-rank-25.png": [
+      "layers/black/wings-small.png",
+      "layers/black/badge.png",
+      "layers/black/bottom-plate.png",
+      "layers/black/rank-25.png"
+    ],
+    "progression/black/small-wings-rank-50.png": [
+      "layers/black/wings-small.png",
+      "layers/black/badge.png",
+      "layers/black/bottom-plate.png",
+      "layers/black/rank-50.png"
+    ],
+    "progression/black/small-wings-crest-rank-1.png": [
+      "layers/black/wings-small.png",
+      "layers/black/crest.png",
+      "layers/black/badge.png",
+      "layers/black/bottom-plate.png",
+      "layers/black/rank-1.png"
+    ],
+    "progression/black/small-wings-crest-rank-3.png": [
+      "layers/black/wings-small.png",
+      "layers/black/crest.png",
+      "layers/black/badge.png",
+      "layers/black/bottom-plate.png",
+      "layers/black/rank-3.png"
+    ],
+    "progression/black/small-wings-crest-rank-5.png": [
+      "layers/black/wings-small.png",
+      "layers/black/crest.png",
+      "layers/black/badge.png",
+      "layers/black/bottom-plate.png",
+      "layers/black/rank-5.png"
+    ],
+    "progression/black/small-wings-crest-rank-10.png": [
+      "layers/black/wings-small.png",
+      "layers/black/crest.png",
+      "layers/black/badge.png",
+      "layers/black/bottom-plate.png",
+      "layers/black/rank-10.png"
+    ],
+    "progression/black/small-wings-crest-rank-20.png": [
+      "layers/black/wings-small.png",
+      "layers/black/crest.png",
+      "layers/black/badge.png",
+      "layers/black/bottom-plate.png",
+      "layers/black/rank-20.png"
+    ],
+    "progression/black/small-wings-crest-rank-25.png": [
+      "layers/black/wings-small.png",
+      "layers/black/crest.png",
+      "layers/black/badge.png",
+      "layers/black/bottom-plate.png",
+      "layers/black/rank-25.png"
+    ],
+    "progression/black/small-wings-crest-rank-50.png": [
+      "layers/black/wings-small.png",
+      "layers/black/crest.png",
+      "layers/black/badge.png",
+      "layers/black/bottom-plate.png",
+      "layers/black/rank-50.png"
+    ],
+    "progression/black/stage-2-wings-rank-1.png": [
+      "layers/black/wings.png",
+      "layers/black/badge.png",
+      "layers/black/bottom-plate.png",
+      "layers/black/rank-1.png"
+    ],
+    "progression/black/stage-2-wings-rank-3.png": [
+      "layers/black/wings.png",
+      "layers/black/badge.png",
+      "layers/black/bottom-plate.png",
+      "layers/black/rank-3.png"
+    ],
+    "progression/black/stage-2-wings-rank-5.png": [
+      "layers/black/wings.png",
+      "layers/black/badge.png",
+      "layers/black/bottom-plate.png",
+      "layers/black/rank-5.png"
+    ],
+    "progression/black/stage-2-wings-rank-10.png": [
+      "layers/black/wings.png",
+      "layers/black/badge.png",
+      "layers/black/bottom-plate.png",
+      "layers/black/rank-10.png"
+    ],
+    "progression/black/stage-2-wings-rank-20.png": [
+      "layers/black/wings.png",
+      "layers/black/badge.png",
+      "layers/black/bottom-plate.png",
+      "layers/black/rank-20.png"
+    ],
+    "progression/black/stage-2-wings-rank-25.png": [
+      "layers/black/wings.png",
+      "layers/black/badge.png",
+      "layers/black/bottom-plate.png",
+      "layers/black/rank-25.png"
+    ],
+    "progression/black/stage-2-wings-rank-50.png": [
+      "layers/black/wings.png",
+      "layers/black/badge.png",
+      "layers/black/bottom-plate.png",
+      "layers/black/rank-50.png"
+    ],
+    "progression/black/stage-3-crest-rank-1.png": [
+      "layers/black/wings.png",
+      "layers/black/crest.png",
+      "layers/black/badge.png",
+      "layers/black/bottom-plate.png",
+      "layers/black/rank-1.png"
+    ],
+    "progression/black/stage-3-crest-rank-3.png": [
+      "layers/black/wings.png",
+      "layers/black/crest.png",
+      "layers/black/badge.png",
+      "layers/black/bottom-plate.png",
+      "layers/black/rank-3.png"
+    ],
+    "progression/black/stage-3-crest-rank-5.png": [
+      "layers/black/wings.png",
+      "layers/black/crest.png",
+      "layers/black/badge.png",
+      "layers/black/bottom-plate.png",
+      "layers/black/rank-5.png"
+    ],
+    "progression/black/stage-3-crest-rank-10.png": [
+      "layers/black/wings.png",
+      "layers/black/crest.png",
+      "layers/black/badge.png",
+      "layers/black/bottom-plate.png",
+      "layers/black/rank-10.png"
+    ],
+    "progression/black/stage-3-crest-rank-20.png": [
+      "layers/black/wings.png",
+      "layers/black/crest.png",
+      "layers/black/badge.png",
+      "layers/black/bottom-plate.png",
+      "layers/black/rank-20.png"
+    ],
+    "progression/black/stage-3-crest-rank-25.png": [
+      "layers/black/wings.png",
+      "layers/black/crest.png",
+      "layers/black/badge.png",
+      "layers/black/bottom-plate.png",
+      "layers/black/rank-25.png"
+    ],
+    "progression/black/stage-3-crest-rank-50.png": [
+      "layers/black/wings.png",
+      "layers/black/crest.png",
+      "layers/black/badge.png",
+      "layers/black/bottom-plate.png",
+      "layers/black/rank-50.png"
+    ],
+    "progression/white/stage-1-plate-rank-1.png": [
+      "layers/white/badge.png",
+      "layers/white/bottom-plate.png",
+      "layers/white/rank-1.png"
+    ],
+    "progression/white/stage-1-plate-rank-3.png": [
+      "layers/white/badge.png",
+      "layers/white/bottom-plate.png",
+      "layers/white/rank-3.png"
+    ],
+    "progression/white/stage-1-plate-rank-5.png": [
+      "layers/white/badge.png",
+      "layers/white/bottom-plate.png",
+      "layers/white/rank-5.png"
+    ],
+    "progression/white/stage-1-plate-rank-10.png": [
+      "layers/white/badge.png",
+      "layers/white/bottom-plate.png",
+      "layers/white/rank-10.png"
+    ],
+    "progression/white/stage-1-plate-rank-20.png": [
+      "layers/white/badge.png",
+      "layers/white/bottom-plate.png",
+      "layers/white/rank-20.png"
+    ],
+    "progression/white/stage-1-plate-rank-25.png": [
+      "layers/white/badge.png",
+      "layers/white/bottom-plate.png",
+      "layers/white/rank-25.png"
+    ],
+    "progression/white/stage-1-plate-rank-50.png": [
+      "layers/white/badge.png",
+      "layers/white/bottom-plate.png",
+      "layers/white/rank-50.png"
+    ],
+    "progression/white/crest-only-rank-1.png": [
+      "layers/white/crest.png",
+      "layers/white/badge.png",
+      "layers/white/bottom-plate.png",
+      "layers/white/rank-1.png"
+    ],
+    "progression/white/crest-only-rank-3.png": [
+      "layers/white/crest.png",
+      "layers/white/badge.png",
+      "layers/white/bottom-plate.png",
+      "layers/white/rank-3.png"
+    ],
+    "progression/white/crest-only-rank-5.png": [
+      "layers/white/crest.png",
+      "layers/white/badge.png",
+      "layers/white/bottom-plate.png",
+      "layers/white/rank-5.png"
+    ],
+    "progression/white/crest-only-rank-10.png": [
+      "layers/white/crest.png",
+      "layers/white/badge.png",
+      "layers/white/bottom-plate.png",
+      "layers/white/rank-10.png"
+    ],
+    "progression/white/crest-only-rank-20.png": [
+      "layers/white/crest.png",
+      "layers/white/badge.png",
+      "layers/white/bottom-plate.png",
+      "layers/white/rank-20.png"
+    ],
+    "progression/white/crest-only-rank-25.png": [
+      "layers/white/crest.png",
+      "layers/white/badge.png",
+      "layers/white/bottom-plate.png",
+      "layers/white/rank-25.png"
+    ],
+    "progression/white/crest-only-rank-50.png": [
+      "layers/white/crest.png",
+      "layers/white/badge.png",
+      "layers/white/bottom-plate.png",
+      "layers/white/rank-50.png"
+    ],
+    "progression/white/small-wings-rank-1.png": [
+      "layers/white/wings-small.png",
+      "layers/white/badge.png",
+      "layers/white/bottom-plate.png",
+      "layers/white/rank-1.png"
+    ],
+    "progression/white/small-wings-rank-3.png": [
+      "layers/white/wings-small.png",
+      "layers/white/badge.png",
+      "layers/white/bottom-plate.png",
+      "layers/white/rank-3.png"
+    ],
+    "progression/white/small-wings-rank-5.png": [
+      "layers/white/wings-small.png",
+      "layers/white/badge.png",
+      "layers/white/bottom-plate.png",
+      "layers/white/rank-5.png"
+    ],
+    "progression/white/small-wings-rank-10.png": [
+      "layers/white/wings-small.png",
+      "layers/white/badge.png",
+      "layers/white/bottom-plate.png",
+      "layers/white/rank-10.png"
+    ],
+    "progression/white/small-wings-rank-20.png": [
+      "layers/white/wings-small.png",
+      "layers/white/badge.png",
+      "layers/white/bottom-plate.png",
+      "layers/white/rank-20.png"
+    ],
+    "progression/white/small-wings-rank-25.png": [
+      "layers/white/wings-small.png",
+      "layers/white/badge.png",
+      "layers/white/bottom-plate.png",
+      "layers/white/rank-25.png"
+    ],
+    "progression/white/small-wings-rank-50.png": [
+      "layers/white/wings-small.png",
+      "layers/white/badge.png",
+      "layers/white/bottom-plate.png",
+      "layers/white/rank-50.png"
+    ],
+    "progression/white/small-wings-crest-rank-1.png": [
+      "layers/white/wings-small.png",
+      "layers/white/crest.png",
+      "layers/white/badge.png",
+      "layers/white/bottom-plate.png",
+      "layers/white/rank-1.png"
+    ],
+    "progression/white/small-wings-crest-rank-3.png": [
+      "layers/white/wings-small.png",
+      "layers/white/crest.png",
+      "layers/white/badge.png",
+      "layers/white/bottom-plate.png",
+      "layers/white/rank-3.png"
+    ],
+    "progression/white/small-wings-crest-rank-5.png": [
+      "layers/white/wings-small.png",
+      "layers/white/crest.png",
+      "layers/white/badge.png",
+      "layers/white/bottom-plate.png",
+      "layers/white/rank-5.png"
+    ],
+    "progression/white/small-wings-crest-rank-10.png": [
+      "layers/white/wings-small.png",
+      "layers/white/crest.png",
+      "layers/white/badge.png",
+      "layers/white/bottom-plate.png",
+      "layers/white/rank-10.png"
+    ],
+    "progression/white/small-wings-crest-rank-20.png": [
+      "layers/white/wings-small.png",
+      "layers/white/crest.png",
+      "layers/white/badge.png",
+      "layers/white/bottom-plate.png",
+      "layers/white/rank-20.png"
+    ],
+    "progression/white/small-wings-crest-rank-25.png": [
+      "layers/white/wings-small.png",
+      "layers/white/crest.png",
+      "layers/white/badge.png",
+      "layers/white/bottom-plate.png",
+      "layers/white/rank-25.png"
+    ],
+    "progression/white/small-wings-crest-rank-50.png": [
+      "layers/white/wings-small.png",
+      "layers/white/crest.png",
+      "layers/white/badge.png",
+      "layers/white/bottom-plate.png",
+      "layers/white/rank-50.png"
+    ],
+    "progression/white/stage-2-wings-rank-1.png": [
+      "layers/white/wings.png",
+      "layers/white/badge.png",
+      "layers/white/bottom-plate.png",
+      "layers/white/rank-1.png"
+    ],
+    "progression/white/stage-2-wings-rank-3.png": [
+      "layers/white/wings.png",
+      "layers/white/badge.png",
+      "layers/white/bottom-plate.png",
+      "layers/white/rank-3.png"
+    ],
+    "progression/white/stage-2-wings-rank-5.png": [
+      "layers/white/wings.png",
+      "layers/white/badge.png",
+      "layers/white/bottom-plate.png",
+      "layers/white/rank-5.png"
+    ],
+    "progression/white/stage-2-wings-rank-10.png": [
+      "layers/white/wings.png",
+      "layers/white/badge.png",
+      "layers/white/bottom-plate.png",
+      "layers/white/rank-10.png"
+    ],
+    "progression/white/stage-2-wings-rank-20.png": [
+      "layers/white/wings.png",
+      "layers/white/badge.png",
+      "layers/white/bottom-plate.png",
+      "layers/white/rank-20.png"
+    ],
+    "progression/white/stage-2-wings-rank-25.png": [
+      "layers/white/wings.png",
+      "layers/white/badge.png",
+      "layers/white/bottom-plate.png",
+      "layers/white/rank-25.png"
+    ],
+    "progression/white/stage-2-wings-rank-50.png": [
+      "layers/white/wings.png",
+      "layers/white/badge.png",
+      "layers/white/bottom-plate.png",
+      "layers/white/rank-50.png"
+    ],
+    "progression/white/stage-3-crest-rank-1.png": [
+      "layers/white/wings.png",
+      "layers/white/crest.png",
+      "layers/white/badge.png",
+      "layers/white/bottom-plate.png",
+      "layers/white/rank-1.png"
+    ],
+    "progression/white/stage-3-crest-rank-3.png": [
+      "layers/white/wings.png",
+      "layers/white/crest.png",
+      "layers/white/badge.png",
+      "layers/white/bottom-plate.png",
+      "layers/white/rank-3.png"
+    ],
+    "progression/white/stage-3-crest-rank-5.png": [
+      "layers/white/wings.png",
+      "layers/white/crest.png",
+      "layers/white/badge.png",
+      "layers/white/bottom-plate.png",
+      "layers/white/rank-5.png"
+    ],
+    "progression/white/stage-3-crest-rank-10.png": [
+      "layers/white/wings.png",
+      "layers/white/crest.png",
+      "layers/white/badge.png",
+      "layers/white/bottom-plate.png",
+      "layers/white/rank-10.png"
+    ],
+    "progression/white/stage-3-crest-rank-20.png": [
+      "layers/white/wings.png",
+      "layers/white/crest.png",
+      "layers/white/badge.png",
+      "layers/white/bottom-plate.png",
+      "layers/white/rank-20.png"
+    ],
+    "progression/white/stage-3-crest-rank-25.png": [
+      "layers/white/wings.png",
+      "layers/white/crest.png",
+      "layers/white/badge.png",
+      "layers/white/bottom-plate.png",
+      "layers/white/rank-25.png"
+    ],
+    "progression/white/stage-3-crest-rank-50.png": [
+      "layers/white/wings.png",
+      "layers/white/crest.png",
+      "layers/white/badge.png",
+      "layers/white/bottom-plate.png",
+      "layers/white/rank-50.png"
+    ],
+    "awards/champion.png": [
+      "layers/gold/laurels.png",
+      "layers/gold/crest.png",
+      "layers/gold/badge.png",
+      "layers/gold/crown.png",
+      "layers/gold/bottom-plate.png",
+      "layers/gold/title-champion.png"
+    ],
+    "awards/second-place.png": [
+      "layers/silver/wings.png",
+      "layers/silver/crest.png",
+      "layers/silver/badge.png",
+      "layers/silver/placement-2.png",
+      "layers/silver/bottom-plate.png",
+      "layers/silver/title-second-place.png"
+    ],
+    "awards/third-place.png": [
+      "layers/bronze/wings.png",
+      "layers/bronze/crest.png",
+      "layers/bronze/badge.png",
+      "layers/bronze/placement-3.png",
+      "layers/bronze/bottom-plate.png",
+      "layers/bronze/title-third-place.png"
+    ],
+    "examples/bronze/outer-border-rank-1.png": [
+      "layers/bronze/wings-small-border.png",
+      "layers/bronze/outer-border.png",
+      "layers/bronze/crest.png",
+      "layers/bronze/badge.png",
+      "layers/bronze/bottom-plate.png",
+      "layers/bronze/rank-1.png"
+    ],
+    "examples/silver/outer-border-rank-1.png": [
+      "layers/silver/wings-small-border.png",
+      "layers/silver/outer-border.png",
+      "layers/silver/crest.png",
+      "layers/silver/badge.png",
+      "layers/silver/bottom-plate.png",
+      "layers/silver/rank-1.png"
+    ],
+    "examples/gold/outer-border-rank-1.png": [
+      "layers/gold/wings-small-border.png",
+      "layers/gold/outer-border.png",
+      "layers/gold/crest.png",
+      "layers/gold/badge.png",
+      "layers/gold/bottom-plate.png",
+      "layers/gold/rank-1.png"
+    ],
+    "examples/steel/outer-border-rank-1.png": [
+      "layers/steel/wings-small-border.png",
+      "layers/steel/outer-border.png",
+      "layers/steel/crest.png",
+      "layers/steel/badge.png",
+      "layers/steel/bottom-plate.png",
+      "layers/steel/rank-1.png"
+    ],
+    "examples/black/outer-border-rank-1.png": [
+      "layers/black/wings-small-border.png",
+      "layers/black/outer-border.png",
+      "layers/black/crest.png",
+      "layers/black/badge.png",
+      "layers/black/bottom-plate.png",
+      "layers/black/rank-1.png"
+    ],
+    "examples/white/outer-border-rank-1.png": [
+      "layers/white/wings-small-border.png",
+      "layers/white/outer-border.png",
+      "layers/white/crest.png",
+      "layers/white/badge.png",
+      "layers/white/bottom-plate.png",
+      "layers/white/rank-1.png"
+    ]
+  },
+  "plates": {
+    "plates/bronze/plate-rank-1.png": {
+      "layers": [
+        "layers/bronze/bottom-plate.png",
+        "layers/bronze/rank-1.png"
+      ],
+      "crop": [
+        704,
+        1510,
+        1344,
+        1702
+      ]
+    },
+    "plates/bronze/plate-rank-3.png": {
+      "layers": [
+        "layers/bronze/bottom-plate.png",
+        "layers/bronze/rank-3.png"
+      ],
+      "crop": [
+        704,
+        1510,
+        1344,
+        1702
+      ]
+    },
+    "plates/bronze/plate-rank-5.png": {
+      "layers": [
+        "layers/bronze/bottom-plate.png",
+        "layers/bronze/rank-5.png"
+      ],
+      "crop": [
+        704,
+        1510,
+        1344,
+        1702
+      ]
+    },
+    "plates/bronze/plate-rank-10.png": {
+      "layers": [
+        "layers/bronze/bottom-plate.png",
+        "layers/bronze/rank-10.png"
+      ],
+      "crop": [
+        704,
+        1510,
+        1344,
+        1702
+      ]
+    },
+    "plates/bronze/plate-rank-20.png": {
+      "layers": [
+        "layers/bronze/bottom-plate.png",
+        "layers/bronze/rank-20.png"
+      ],
+      "crop": [
+        704,
+        1510,
+        1344,
+        1702
+      ]
+    },
+    "plates/bronze/plate-rank-25.png": {
+      "layers": [
+        "layers/bronze/bottom-plate.png",
+        "layers/bronze/rank-25.png"
+      ],
+      "crop": [
+        704,
+        1510,
+        1344,
+        1702
+      ]
+    },
+    "plates/bronze/plate-rank-50.png": {
+      "layers": [
+        "layers/bronze/bottom-plate.png",
+        "layers/bronze/rank-50.png"
+      ],
+      "crop": [
+        704,
+        1510,
+        1344,
+        1702
+      ]
+    },
+    "plates/silver/plate-rank-1.png": {
+      "layers": [
+        "layers/silver/bottom-plate.png",
+        "layers/silver/rank-1.png"
+      ],
+      "crop": [
+        704,
+        1510,
+        1344,
+        1702
+      ]
+    },
+    "plates/silver/plate-rank-3.png": {
+      "layers": [
+        "layers/silver/bottom-plate.png",
+        "layers/silver/rank-3.png"
+      ],
+      "crop": [
+        704,
+        1510,
+        1344,
+        1702
+      ]
+    },
+    "plates/silver/plate-rank-5.png": {
+      "layers": [
+        "layers/silver/bottom-plate.png",
+        "layers/silver/rank-5.png"
+      ],
+      "crop": [
+        704,
+        1510,
+        1344,
+        1702
+      ]
+    },
+    "plates/silver/plate-rank-10.png": {
+      "layers": [
+        "layers/silver/bottom-plate.png",
+        "layers/silver/rank-10.png"
+      ],
+      "crop": [
+        704,
+        1510,
+        1344,
+        1702
+      ]
+    },
+    "plates/silver/plate-rank-20.png": {
+      "layers": [
+        "layers/silver/bottom-plate.png",
+        "layers/silver/rank-20.png"
+      ],
+      "crop": [
+        704,
+        1510,
+        1344,
+        1702
+      ]
+    },
+    "plates/silver/plate-rank-25.png": {
+      "layers": [
+        "layers/silver/bottom-plate.png",
+        "layers/silver/rank-25.png"
+      ],
+      "crop": [
+        704,
+        1510,
+        1344,
+        1702
+      ]
+    },
+    "plates/silver/plate-rank-50.png": {
+      "layers": [
+        "layers/silver/bottom-plate.png",
+        "layers/silver/rank-50.png"
+      ],
+      "crop": [
+        704,
+        1510,
+        1344,
+        1702
+      ]
+    },
+    "plates/gold/plate-rank-1.png": {
+      "layers": [
+        "layers/gold/bottom-plate.png",
+        "layers/gold/rank-1.png"
+      ],
+      "crop": [
+        704,
+        1510,
+        1344,
+        1702
+      ]
+    },
+    "plates/gold/plate-rank-3.png": {
+      "layers": [
+        "layers/gold/bottom-plate.png",
+        "layers/gold/rank-3.png"
+      ],
+      "crop": [
+        704,
+        1510,
+        1344,
+        1702
+      ]
+    },
+    "plates/gold/plate-rank-5.png": {
+      "layers": [
+        "layers/gold/bottom-plate.png",
+        "layers/gold/rank-5.png"
+      ],
+      "crop": [
+        704,
+        1510,
+        1344,
+        1702
+      ]
+    },
+    "plates/gold/plate-rank-10.png": {
+      "layers": [
+        "layers/gold/bottom-plate.png",
+        "layers/gold/rank-10.png"
+      ],
+      "crop": [
+        704,
+        1510,
+        1344,
+        1702
+      ]
+    },
+    "plates/gold/plate-rank-20.png": {
+      "layers": [
+        "layers/gold/bottom-plate.png",
+        "layers/gold/rank-20.png"
+      ],
+      "crop": [
+        704,
+        1510,
+        1344,
+        1702
+      ]
+    },
+    "plates/gold/plate-rank-25.png": {
+      "layers": [
+        "layers/gold/bottom-plate.png",
+        "layers/gold/rank-25.png"
+      ],
+      "crop": [
+        704,
+        1510,
+        1344,
+        1702
+      ]
+    },
+    "plates/gold/plate-rank-50.png": {
+      "layers": [
+        "layers/gold/bottom-plate.png",
+        "layers/gold/rank-50.png"
+      ],
+      "crop": [
+        704,
+        1510,
+        1344,
+        1702
+      ]
+    },
+    "plates/steel/plate-rank-1.png": {
+      "layers": [
+        "layers/steel/bottom-plate.png",
+        "layers/steel/rank-1.png"
+      ],
+      "crop": [
+        704,
+        1510,
+        1344,
+        1702
+      ]
+    },
+    "plates/steel/plate-rank-3.png": {
+      "layers": [
+        "layers/steel/bottom-plate.png",
+        "layers/steel/rank-3.png"
+      ],
+      "crop": [
+        704,
+        1510,
+        1344,
+        1702
+      ]
+    },
+    "plates/steel/plate-rank-5.png": {
+      "layers": [
+        "layers/steel/bottom-plate.png",
+        "layers/steel/rank-5.png"
+      ],
+      "crop": [
+        704,
+        1510,
+        1344,
+        1702
+      ]
+    },
+    "plates/steel/plate-rank-10.png": {
+      "layers": [
+        "layers/steel/bottom-plate.png",
+        "layers/steel/rank-10.png"
+      ],
+      "crop": [
+        704,
+        1510,
+        1344,
+        1702
+      ]
+    },
+    "plates/steel/plate-rank-20.png": {
+      "layers": [
+        "layers/steel/bottom-plate.png",
+        "layers/steel/rank-20.png"
+      ],
+      "crop": [
+        704,
+        1510,
+        1344,
+        1702
+      ]
+    },
+    "plates/steel/plate-rank-25.png": {
+      "layers": [
+        "layers/steel/bottom-plate.png",
+        "layers/steel/rank-25.png"
+      ],
+      "crop": [
+        704,
+        1510,
+        1344,
+        1702
+      ]
+    },
+    "plates/steel/plate-rank-50.png": {
+      "layers": [
+        "layers/steel/bottom-plate.png",
+        "layers/steel/rank-50.png"
+      ],
+      "crop": [
+        704,
+        1510,
+        1344,
+        1702
+      ]
+    },
+    "plates/black/plate-rank-1.png": {
+      "layers": [
+        "layers/black/bottom-plate.png",
+        "layers/black/rank-1.png"
+      ],
+      "crop": [
+        704,
+        1510,
+        1344,
+        1702
+      ]
+    },
+    "plates/black/plate-rank-3.png": {
+      "layers": [
+        "layers/black/bottom-plate.png",
+        "layers/black/rank-3.png"
+      ],
+      "crop": [
+        704,
+        1510,
+        1344,
+        1702
+      ]
+    },
+    "plates/black/plate-rank-5.png": {
+      "layers": [
+        "layers/black/bottom-plate.png",
+        "layers/black/rank-5.png"
+      ],
+      "crop": [
+        704,
+        1510,
+        1344,
+        1702
+      ]
+    },
+    "plates/black/plate-rank-10.png": {
+      "layers": [
+        "layers/black/bottom-plate.png",
+        "layers/black/rank-10.png"
+      ],
+      "crop": [
+        704,
+        1510,
+        1344,
+        1702
+      ]
+    },
+    "plates/black/plate-rank-20.png": {
+      "layers": [
+        "layers/black/bottom-plate.png",
+        "layers/black/rank-20.png"
+      ],
+      "crop": [
+        704,
+        1510,
+        1344,
+        1702
+      ]
+    },
+    "plates/black/plate-rank-25.png": {
+      "layers": [
+        "layers/black/bottom-plate.png",
+        "layers/black/rank-25.png"
+      ],
+      "crop": [
+        704,
+        1510,
+        1344,
+        1702
+      ]
+    },
+    "plates/black/plate-rank-50.png": {
+      "layers": [
+        "layers/black/bottom-plate.png",
+        "layers/black/rank-50.png"
+      ],
+      "crop": [
+        704,
+        1510,
+        1344,
+        1702
+      ]
+    },
+    "plates/white/plate-rank-1.png": {
+      "layers": [
+        "layers/white/bottom-plate.png",
+        "layers/white/rank-1.png"
+      ],
+      "crop": [
+        704,
+        1510,
+        1344,
+        1702
+      ]
+    },
+    "plates/white/plate-rank-3.png": {
+      "layers": [
+        "layers/white/bottom-plate.png",
+        "layers/white/rank-3.png"
+      ],
+      "crop": [
+        704,
+        1510,
+        1344,
+        1702
+      ]
+    },
+    "plates/white/plate-rank-5.png": {
+      "layers": [
+        "layers/white/bottom-plate.png",
+        "layers/white/rank-5.png"
+      ],
+      "crop": [
+        704,
+        1510,
+        1344,
+        1702
+      ]
+    },
+    "plates/white/plate-rank-10.png": {
+      "layers": [
+        "layers/white/bottom-plate.png",
+        "layers/white/rank-10.png"
+      ],
+      "crop": [
+        704,
+        1510,
+        1344,
+        1702
+      ]
+    },
+    "plates/white/plate-rank-20.png": {
+      "layers": [
+        "layers/white/bottom-plate.png",
+        "layers/white/rank-20.png"
+      ],
+      "crop": [
+        704,
+        1510,
+        1344,
+        1702
+      ]
+    },
+    "plates/white/plate-rank-25.png": {
+      "layers": [
+        "layers/white/bottom-plate.png",
+        "layers/white/rank-25.png"
+      ],
+      "crop": [
+        704,
+        1510,
+        1344,
+        1702
+      ]
+    },
+    "plates/white/plate-rank-50.png": {
+      "layers": [
+        "layers/white/bottom-plate.png",
+        "layers/white/rank-50.png"
+      ],
+      "crop": [
+        704,
+        1510,
+        1344,
+        1702
+      ]
+    }
+  },
+  "text": {
+    "layers/bronze/rank-1.png": {
+      "text": "1",
+      "fit_box": [
+        804,
+        1558,
+        1244,
+        1642
+      ],
+      "font_size": 108,
+      "bounds": [
+        1001,
+        1559,
+        1038,
+        1641
+      ]
+    },
+    "layers/bronze/rank-3.png": {
+      "text": "3",
+      "fit_box": [
+        804,
+        1558,
+        1244,
+        1642
+      ],
+      "font_size": 108,
+      "bounds": [
+        997,
+        1559,
+        1051,
+        1642
+      ]
+    },
+    "layers/bronze/rank-5.png": {
+      "text": "5",
+      "fit_box": [
+        804,
+        1558,
+        1244,
+        1642
+      ],
+      "font_size": 108,
+      "bounds": [
+        997,
+        1559,
+        1052,
+        1641
+      ]
+    },
+    "layers/bronze/rank-10.png": {
+      "text": "10",
+      "fit_box": [
+        804,
+        1558,
+        1244,
+        1642
+      ],
+      "font_size": 108,
+      "bounds": [
+        971,
+        1559,
+        1080,
+        1642
+      ]
+    },
+    "layers/bronze/rank-20.png": {
+      "text": "20",
+      "fit_box": [
+        804,
+        1558,
+        1244,
+        1642
+      ],
+      "font_size": 108,
+      "bounds": [
+        965,
+        1559,
+        1080,
+        1642
+      ]
+    },
+    "layers/bronze/rank-25.png": {
+      "text": "25",
+      "fit_box": [
+        804,
+        1558,
+        1244,
+        1642
+      ],
+      "font_size": 108,
+      "bounds": [
+        965,
+        1559,
+        1082,
+        1642
+      ]
+    },
+    "layers/bronze/rank-50.png": {
+      "text": "50",
+      "fit_box": [
+        804,
+        1558,
+        1244,
+        1642
+      ],
+      "font_size": 108,
+      "bounds": [
+        967,
+        1559,
+        1080,
+        1642
+      ]
+    },
+    "layers/silver/rank-1.png": {
+      "text": "1",
+      "fit_box": [
+        804,
+        1558,
+        1244,
+        1642
+      ],
+      "font_size": 108,
+      "bounds": [
+        1001,
+        1559,
+        1038,
+        1641
+      ]
+    },
+    "layers/silver/rank-3.png": {
+      "text": "3",
+      "fit_box": [
+        804,
+        1558,
+        1244,
+        1642
+      ],
+      "font_size": 108,
+      "bounds": [
+        997,
+        1559,
+        1051,
+        1642
+      ]
+    },
+    "layers/silver/rank-5.png": {
+      "text": "5",
+      "fit_box": [
+        804,
+        1558,
+        1244,
+        1642
+      ],
+      "font_size": 108,
+      "bounds": [
+        997,
+        1559,
+        1052,
+        1641
+      ]
+    },
+    "layers/silver/rank-10.png": {
+      "text": "10",
+      "fit_box": [
+        804,
+        1558,
+        1244,
+        1642
+      ],
+      "font_size": 108,
+      "bounds": [
+        971,
+        1559,
+        1080,
+        1642
+      ]
+    },
+    "layers/silver/rank-20.png": {
+      "text": "20",
+      "fit_box": [
+        804,
+        1558,
+        1244,
+        1642
+      ],
+      "font_size": 108,
+      "bounds": [
+        965,
+        1559,
+        1080,
+        1642
+      ]
+    },
+    "layers/silver/rank-25.png": {
+      "text": "25",
+      "fit_box": [
+        804,
+        1558,
+        1244,
+        1642
+      ],
+      "font_size": 108,
+      "bounds": [
+        965,
+        1559,
+        1082,
+        1642
+      ]
+    },
+    "layers/silver/rank-50.png": {
+      "text": "50",
+      "fit_box": [
+        804,
+        1558,
+        1244,
+        1642
+      ],
+      "font_size": 108,
+      "bounds": [
+        967,
+        1559,
+        1080,
+        1642
+      ]
+    },
+    "layers/gold/rank-1.png": {
+      "text": "1",
+      "fit_box": [
+        804,
+        1558,
+        1244,
+        1642
+      ],
+      "font_size": 108,
+      "bounds": [
+        1001,
+        1559,
+        1038,
+        1641
+      ]
+    },
+    "layers/gold/rank-3.png": {
+      "text": "3",
+      "fit_box": [
+        804,
+        1558,
+        1244,
+        1642
+      ],
+      "font_size": 108,
+      "bounds": [
+        997,
+        1559,
+        1051,
+        1642
+      ]
+    },
+    "layers/gold/rank-5.png": {
+      "text": "5",
+      "fit_box": [
+        804,
+        1558,
+        1244,
+        1642
+      ],
+      "font_size": 108,
+      "bounds": [
+        997,
+        1559,
+        1052,
+        1641
+      ]
+    },
+    "layers/gold/rank-10.png": {
+      "text": "10",
+      "fit_box": [
+        804,
+        1558,
+        1244,
+        1642
+      ],
+      "font_size": 108,
+      "bounds": [
+        971,
+        1559,
+        1080,
+        1642
+      ]
+    },
+    "layers/gold/rank-20.png": {
+      "text": "20",
+      "fit_box": [
+        804,
+        1558,
+        1244,
+        1642
+      ],
+      "font_size": 108,
+      "bounds": [
+        965,
+        1559,
+        1080,
+        1642
+      ]
+    },
+    "layers/gold/rank-25.png": {
+      "text": "25",
+      "fit_box": [
+        804,
+        1558,
+        1244,
+        1642
+      ],
+      "font_size": 108,
+      "bounds": [
+        965,
+        1559,
+        1082,
+        1642
+      ]
+    },
+    "layers/gold/rank-50.png": {
+      "text": "50",
+      "fit_box": [
+        804,
+        1558,
+        1244,
+        1642
+      ],
+      "font_size": 108,
+      "bounds": [
+        967,
+        1559,
+        1080,
+        1642
+      ]
+    },
+    "layers/steel/rank-1.png": {
+      "text": "1",
+      "fit_box": [
+        804,
+        1558,
+        1244,
+        1642
+      ],
+      "font_size": 108,
+      "bounds": [
+        1001,
+        1559,
+        1038,
+        1641
+      ]
+    },
+    "layers/steel/rank-3.png": {
+      "text": "3",
+      "fit_box": [
+        804,
+        1558,
+        1244,
+        1642
+      ],
+      "font_size": 108,
+      "bounds": [
+        997,
+        1559,
+        1051,
+        1642
+      ]
+    },
+    "layers/steel/rank-5.png": {
+      "text": "5",
+      "fit_box": [
+        804,
+        1558,
+        1244,
+        1642
+      ],
+      "font_size": 108,
+      "bounds": [
+        997,
+        1559,
+        1052,
+        1641
+      ]
+    },
+    "layers/steel/rank-10.png": {
+      "text": "10",
+      "fit_box": [
+        804,
+        1558,
+        1244,
+        1642
+      ],
+      "font_size": 108,
+      "bounds": [
+        971,
+        1559,
+        1080,
+        1642
+      ]
+    },
+    "layers/steel/rank-20.png": {
+      "text": "20",
+      "fit_box": [
+        804,
+        1558,
+        1244,
+        1642
+      ],
+      "font_size": 108,
+      "bounds": [
+        965,
+        1559,
+        1080,
+        1642
+      ]
+    },
+    "layers/steel/rank-25.png": {
+      "text": "25",
+      "fit_box": [
+        804,
+        1558,
+        1244,
+        1642
+      ],
+      "font_size": 108,
+      "bounds": [
+        965,
+        1559,
+        1082,
+        1642
+      ]
+    },
+    "layers/steel/rank-50.png": {
+      "text": "50",
+      "fit_box": [
+        804,
+        1558,
+        1244,
+        1642
+      ],
+      "font_size": 108,
+      "bounds": [
+        967,
+        1559,
+        1080,
+        1642
+      ]
+    },
+    "layers/black/rank-1.png": {
+      "text": "1",
+      "fit_box": [
+        804,
+        1558,
+        1244,
+        1642
+      ],
+      "font_size": 108,
+      "bounds": [
+        1001,
+        1559,
+        1038,
+        1641
+      ]
+    },
+    "layers/black/rank-3.png": {
+      "text": "3",
+      "fit_box": [
+        804,
+        1558,
+        1244,
+        1642
+      ],
+      "font_size": 108,
+      "bounds": [
+        997,
+        1559,
+        1051,
+        1642
+      ]
+    },
+    "layers/black/rank-5.png": {
+      "text": "5",
+      "fit_box": [
+        804,
+        1558,
+        1244,
+        1642
+      ],
+      "font_size": 108,
+      "bounds": [
+        997,
+        1559,
+        1052,
+        1641
+      ]
+    },
+    "layers/black/rank-10.png": {
+      "text": "10",
+      "fit_box": [
+        804,
+        1558,
+        1244,
+        1642
+      ],
+      "font_size": 108,
+      "bounds": [
+        971,
+        1559,
+        1080,
+        1642
+      ]
+    },
+    "layers/black/rank-20.png": {
+      "text": "20",
+      "fit_box": [
+        804,
+        1558,
+        1244,
+        1642
+      ],
+      "font_size": 108,
+      "bounds": [
+        965,
+        1559,
+        1080,
+        1642
+      ]
+    },
+    "layers/black/rank-25.png": {
+      "text": "25",
+      "fit_box": [
+        804,
+        1558,
+        1244,
+        1642
+      ],
+      "font_size": 108,
+      "bounds": [
+        965,
+        1559,
+        1082,
+        1642
+      ]
+    },
+    "layers/black/rank-50.png": {
+      "text": "50",
+      "fit_box": [
+        804,
+        1558,
+        1244,
+        1642
+      ],
+      "font_size": 108,
+      "bounds": [
+        967,
+        1559,
+        1080,
+        1642
+      ]
+    },
+    "layers/white/rank-1.png": {
+      "text": "1",
+      "fit_box": [
+        804,
+        1558,
+        1244,
+        1642
+      ],
+      "font_size": 108,
+      "bounds": [
+        1001,
+        1559,
+        1038,
+        1641
+      ]
+    },
+    "layers/white/rank-3.png": {
+      "text": "3",
+      "fit_box": [
+        804,
+        1558,
+        1244,
+        1642
+      ],
+      "font_size": 108,
+      "bounds": [
+        997,
+        1559,
+        1051,
+        1642
+      ]
+    },
+    "layers/white/rank-5.png": {
+      "text": "5",
+      "fit_box": [
+        804,
+        1558,
+        1244,
+        1642
+      ],
+      "font_size": 108,
+      "bounds": [
+        997,
+        1559,
+        1052,
+        1641
+      ]
+    },
+    "layers/white/rank-10.png": {
+      "text": "10",
+      "fit_box": [
+        804,
+        1558,
+        1244,
+        1642
+      ],
+      "font_size": 108,
+      "bounds": [
+        971,
+        1559,
+        1080,
+        1642
+      ]
+    },
+    "layers/white/rank-20.png": {
+      "text": "20",
+      "fit_box": [
+        804,
+        1558,
+        1244,
+        1642
+      ],
+      "font_size": 108,
+      "bounds": [
+        965,
+        1559,
+        1080,
+        1642
+      ]
+    },
+    "layers/white/rank-25.png": {
+      "text": "25",
+      "fit_box": [
+        804,
+        1558,
+        1244,
+        1642
+      ],
+      "font_size": 108,
+      "bounds": [
+        965,
+        1559,
+        1082,
+        1642
+      ]
+    },
+    "layers/white/rank-50.png": {
+      "text": "50",
+      "fit_box": [
+        804,
+        1558,
+        1244,
+        1642
+      ],
+      "font_size": 108,
+      "bounds": [
+        967,
+        1559,
+        1080,
+        1642
+      ]
+    },
+    "layers/gold/title-champion.png": {
+      "text": "CHAMPION",
+      "fit_box": [
+        804,
+        1558,
+        1244,
+        1642
+      ],
+      "font_size": 69,
+      "bounds": [
+        838,
+        1573,
+        1208,
+        1628
+      ]
+    },
+    "layers/silver/placement-2.png": {
+      "text": "2",
+      "center": [
+        1024,
+        1000
+      ],
+      "font_size": 430
+    },
+    "layers/silver/title-second-place.png": {
+      "text": "2ND PLACE",
+      "fit_box": [
+        804,
+        1558,
+        1244,
+        1642
+      ],
+      "font_size": 69,
+      "bounds": [
+        828,
+        1573,
+        1217,
+        1627
+      ]
+    },
+    "layers/bronze/placement-3.png": {
+      "text": "3",
+      "center": [
+        1024,
+        1000
+      ],
+      "font_size": 430
+    },
+    "layers/bronze/title-third-place.png": {
+      "text": "3RD PLACE",
+      "fit_box": [
+        804,
+        1558,
+        1244,
+        1642
+      ],
+      "font_size": 69,
+      "bounds": [
+        829,
+        1573,
+        1217,
+        1628
+      ]
+    }
+  },
+  "styles": [
+    {
+      "id": "plate",
+      "file_prefix": "stage-1-plate",
+      "layers": [
+        "badge",
+        "bottom-plate"
+      ],
+      "label": "Plate"
+    },
+    {
+      "id": "crest-only",
+      "file_prefix": "crest-only",
+      "layers": [
+        "crest",
+        "badge",
+        "bottom-plate"
+      ],
+      "label": "Crest only"
+    },
+    {
+      "id": "small-wings",
+      "file_prefix": "small-wings",
+      "layers": [
+        "wings-small",
+        "badge",
+        "bottom-plate"
+      ],
+      "label": "Small wings"
+    },
+    {
+      "id": "small-wings-crest",
+      "file_prefix": "small-wings-crest",
+      "layers": [
+        "wings-small",
+        "crest",
+        "badge",
+        "bottom-plate"
+      ],
+      "label": "Small wings + Crest"
+    },
+    {
+      "id": "wings",
+      "file_prefix": "stage-2-wings",
+      "layers": [
+        "wings",
+        "badge",
+        "bottom-plate"
+      ],
+      "label": "Ascendant wings"
+    },
+    {
+      "id": "crest",
+      "file_prefix": "stage-3-crest",
+      "layers": [
+        "wings",
+        "crest",
+        "badge",
+        "bottom-plate"
+      ],
+      "label": "Ascendant wings + Crest"
+    }
+  ],
+  "tiers": [
+    {
+      "id": "plate",
+      "file_prefix": "stage-1-plate",
+      "layers": [
+        "badge",
+        "bottom-plate"
+      ],
+      "label": "Plate"
+    },
+    {
+      "id": "crest-only",
+      "file_prefix": "crest-only",
+      "layers": [
+        "crest",
+        "badge",
+        "bottom-plate"
+      ],
+      "label": "Crest only"
+    },
+    {
+      "id": "small-wings",
+      "file_prefix": "small-wings",
+      "layers": [
+        "wings-small",
+        "badge",
+        "bottom-plate"
+      ],
+      "label": "Small wings"
+    },
+    {
+      "id": "small-wings-crest",
+      "file_prefix": "small-wings-crest",
+      "layers": [
+        "wings-small",
+        "crest",
+        "badge",
+        "bottom-plate"
+      ],
+      "label": "Small wings + Crest"
+    },
+    {
+      "id": "wings",
+      "file_prefix": "stage-2-wings",
+      "layers": [
+        "wings",
+        "badge",
+        "bottom-plate"
+      ],
+      "label": "Ascendant wings"
+    },
+    {
+      "id": "crest",
+      "file_prefix": "stage-3-crest",
+      "layers": [
+        "wings",
+        "crest",
+        "badge",
+        "bottom-plate"
+      ],
+      "label": "Ascendant wings + Crest"
+    }
+  ],
+  "optional_layers": {
+    "outer-border": {
+      "path": "layers/{metal}/outer-border.png",
+      "order": "After wings, before crest and badge",
+      "available_finishes": [
+        "bronze",
+        "silver",
+        "gold",
+        "steel",
+        "black",
+        "white"
+      ]
+    }
+  },
+  "wing_attachment": {
+    "outer_border_offset": 68,
+    "normal": {
+      "small": "wings-small",
+      "ascendant": "wings"
+    },
+    "outer_border": {
+      "small": "wings-small-border",
+      "ascendant": "wings-border"
+    },
+    "note": "Border variants translate each wing outward separately; they retain the original pixels and canvas."
+  },
+  "wide_concept": {
+    "master": "masters/wide-hex-gold.png",
+    "file": "concepts/wide-hex-gold.png",
+    "crop": [
+      8,
+      130,
+      2054,
+      623
+    ],
+    "size": [
+      2046,
+      493
+    ],
+    "text_box_fraction": [
+      0.18,
+      0.24,
+      0.82,
+      0.76
+    ],
+    "note": "Wide badge concept; overlay live text. Its proportions need their own ornament positions."
+  },
+  "notes": [
+    "All layers share a 2048 \u00d7 2048 transparent canvas.",
+    "Badge pixels are retained at their original size; new accessories are scaled into place.",
+    "Six independently selectable ornament styles each support milestones 1, 3, 5, 10, 20, 25, 50.",
+    "Small wings and ascendant wings are separate designs; the superseded old full wings remain retired.",
+    "Every plate marker and title is measured and centered within the plate's safe text area.",
+    "Podium awards are independent of progression styles.",
+    "Champion uses a central crown and exclusive gold laurels; no placement numeral 1."
+  ]
+}

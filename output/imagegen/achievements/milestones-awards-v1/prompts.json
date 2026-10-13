@@ -1,0 +1,46 @@
+{
+  "tool": "Built-in image_gen",
+  "status": "First concepts for review",
+  "style": "Minimal ivory-and-gold pictograms matching the approved sections.",
+  "jobs": [
+    {
+      "id": "milestone-collector",
+      "name": "Milestone Collector",
+      "symbol": "Three milestone flags.",
+      "description": "Claimed every milestone in a round, at least once.",
+      "prompt": "Use case: logo-brand.\nAsset type: ONE minimalist tournament achievement emblem for the center of an existing hexagonal game badge.\nStyle: match a clean raised enamel pictogram collection. Broad solid geometric shapes, smooth ivory faces with warm gold rims, narrow polished bevels, thin dark perimeter, gentle upper-left highlights. Front-on orthographic view. Consistent restrained depth. Warm gold and ivory only. No texture, no photographic detail. Instantly recognizable at 48 pixels tall.\nComposition: one compact, balanced centered emblem occupying around 75 percent of a square canvas, generous transparent margins; every part fully visible.\nBackground: genuinely transparent alpha everywhere outside the objects AND in all gaps and openings. No black backdrop, no opaque or translucent backdrop, no glow, no haze, no stray pixels.\nDo not include a badge frame, hexagon, backing disc, laurels, wings, sparkles, scene, floor shadow, letters, words, labels, or additional objects. Only include a numeral when explicitly requested below. Single asset, not a presentation sheet.\nSubject: exactly THREE clearly separate upright milestone flags, arranged as a compact group with the middle flag slightly taller and the two flanking flags equal height. Each is one broad simple ivory pennant attached to one thick gold vertical pole. All three pennants point right and have one simple swallowtail notch at their right edge. Identical flag designs, equal importance, clean empty gaps between them. The poles are short and chunky so the flag faces remain large and readable. Three flags total; no shared base, no terrain, no number, no checkmarks, no ribbon, no extra ornament.",
+      "edit_prompt": "Use case: background-extraction. Edit target: the supplied three ivory-and-gold flags achievement emblem. Remove ALL background, black backdrop, gold glow, haze and floor shadows around the objects AND from ALL spaces between them. Return ONLY the three exact objects as crisp clean cutouts on a genuinely transparent alpha background. Preserve their existing shapes, colors, bevels, highlights, relative positions, spacing and proportions. Nothing else may be changed or added. No drop shadow, no glow, no halo. Fit the complete group, centered without cropping any object, on a square transparent canvas with generous empty margins.",
+      "referenced_image_paths": [],
+      "historical_reference_filenames": [
+        "exec-8951d362-bf91-458a-9084-8e28a2185db2.png"
+      ],
+      "generated_path": "output/imagegen/achievements/milestones-awards-v1/milestone-collector.png"
+    },
+    {
+      "id": "award-season",
+      "name": "Award Season",
+      "symbol": "Three matching award medals.",
+      "description": "Won every award in a round, at least once.",
+      "prompt": "Use case: logo-brand.\nAsset type: ONE minimalist tournament achievement emblem for the center of an existing hexagonal game badge.\nStyle: match a clean raised enamel pictogram collection. Broad solid geometric shapes, smooth ivory faces with warm gold rims, narrow polished bevels, thin dark perimeter, gentle upper-left highlights. Front-on orthographic view. Consistent restrained depth. Warm gold and ivory only. No texture, no photographic detail. Instantly recognizable at 48 pixels tall.\nComposition: one compact, balanced centered emblem occupying around 75 percent of a square canvas, generous transparent margins; every part fully visible.\nBackground: genuinely transparent alpha everywhere outside the objects AND in all gaps and openings. No black backdrop, no opaque or translucent backdrop, no glow, no haze, no stray pixels.\nDo not include a badge frame, hexagon, backing disc, laurels, wings, sparkles, scene, floor shadow, letters, words, labels, or additional objects. Only include a numeral when explicitly requested below. Single asset, not a presentation sheet.\nSubject: exactly THREE identical award medals arranged in a compact group, the central medal slightly higher than the two equal flanking medals. Each medal is a simple broad round ivory face with a narrow gold rim and TWO short thick gold ribbon tails visible below it. All three medals have the SAME size and the SAME gold-and-ivory finish; these are three awards, not podium places. Faces are completely plain, with no numbers, stars, letters or tiny engraved details. The medals must remain clearly separated by transparent gaps, with no overlap hiding a medal. Three medals total. No background ribbon, no trophy, no wreath, no extra ornament.",
+      "edit_prompt": "Use case: background-extraction. Edit target: the supplied three ivory-and-gold award medals achievement emblem. Remove ALL background, black backdrop, gold glow, haze and floor shadows around the objects AND from ALL spaces between them. Return ONLY the three exact objects as crisp clean cutouts on a genuinely transparent alpha background. Preserve their existing shapes, colors, bevels, highlights, relative positions, spacing and proportions. Nothing else may be changed or added. No drop shadow, no glow, no halo. Fit the complete group, centered without cropping any object, on a square transparent canvas with generous empty margins.",
+      "referenced_image_paths": [],
+      "historical_reference_filenames": [
+        "exec-b65b2c76-acf0-4c71-81f3-f6c5875fa038.png"
+      ],
+      "generated_path": "output/imagegen/achievements/milestones-awards-v1/award-season.png"
+    },
+    {
+      "id": "shut-out",
+      "name": "Shut Out",
+      "symbol": "A crown above a bold zero.",
+      "description": "Won a round while claiming zero milestones and winning zero awards.",
+      "prompt": "Use case: logo-brand.\nAsset type: ONE minimalist tournament achievement emblem for the center of an existing hexagonal game badge.\nStyle: match a clean raised enamel pictogram collection. Broad solid geometric shapes, smooth ivory faces with warm gold rims, narrow polished bevels, thin dark perimeter, gentle upper-left highlights. Front-on orthographic view. Consistent restrained depth. Warm gold and ivory only. No texture, no photographic detail. Instantly recognizable at 48 pixels tall.\nComposition: one compact, balanced centered emblem occupying around 75 percent of a square canvas, generous transparent margins; every part fully visible.\nBackground: genuinely transparent alpha everywhere outside the objects AND in all gaps and openings. No black backdrop, no opaque or translucent backdrop, no glow, no haze, no stray pixels.\nDo not include a badge frame, hexagon, backing disc, laurels, wings, sparkles, scene, floor shadow, letters, words, labels, or additional objects. Only include a numeral when explicitly requested below. Single asset, not a presentation sheet.\nSubject: ONE large bold upright numeral \"0\", with a broad ivory face and narrow gold bevel, topped by ONE small plain gold three-point crown. The zero is the dominant element: tall oval sans-serif shape, thick sides and a large transparent central opening. The crown floats directly above it with a small clear transparent gap and has no jewels or decoration. Only these two elements. This means victory with zero milestones and awards. No other digits, no letters, no slashes, no symbols within the zero, no laurels. Keep the finish consistent with a simple ivory-and-gold crowned paw achievement emblem.",
+      "edit_prompt": "Edit the supplied emblem only by extracting its background. Preserve the exact ivory-and-gold zero and gold three-point crown, their shapes, materials, bevels, spacing, and relative sizes. Remove every part of the black background, ALL golden glow and haze around the objects, all cast shadows, and ALL background inside the central hole of the zero and in the gap between crown and zero. Those areas must be completely transparent alpha, not black or checkerboard. Keep only the sharply bounded solid crown and zero. Do not add or redesign anything. Center the intact emblem on a square transparent canvas with comfortable transparent margins. Output a clean transparent PNG cutout with no ambient halo.",
+      "referenced_image_paths": [],
+      "historical_reference_filenames": [
+        "exec-f7415e2e-bafe-4bc3-9c00-2baf69fd8791.png"
+      ],
+      "generated_path": "output/imagegen/achievements/milestones-awards-v1/shut-out.png"
+    }
+  ]
+}

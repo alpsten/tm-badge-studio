@@ -1,0 +1,24 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.env.*
+.idea/
+.vscode/
+
+# Keep originals and web exports in Git; full-resolution derivatives rebuild locally.
+/output/badges/**/*.png
+/output/badges/*.png
+/output/badges/*.zip
+!/output/badges/badge-original.png
+!/output/badges/badge-center-mask.png
+!/output/badges/badge-gold-frame-black-center.png
+!/output/badges/awards-kit/masters/*.png
+!/output/badges/upgrade-sketch/masters/*.png
+!/output/badges/logos/originals/*.png
+/output/badges/retired-assets/
+/output/badges/retired-awards-kit-v1/
+/output/badges/retired-wings-v1/
+/output/imagegen/achievements/**/*-preview.png
+/output/imagegen/achievements/*-preview.png

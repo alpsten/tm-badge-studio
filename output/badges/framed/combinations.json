@@ -1,0 +1,2438 @@
+[
+  {
+    "file": "bronze-frame/badge-gold.png",
+    "frame": "bronze",
+    "frame_color": "#9C6239",
+    "frame_profile": {
+      "shadow": "#000000",
+      "midtone": "#9C6239",
+      "highlight": "#FFFFFF",
+      "ink": "#F0C6A4"
+    },
+    "center": "gold",
+    "center_label": "Gold",
+    "center_color": "#C99A2E"
+  },
+  {
+    "file": "bronze-frame/badge-silver.png",
+    "frame": "bronze",
+    "frame_color": "#9C6239",
+    "frame_profile": {
+      "shadow": "#000000",
+      "midtone": "#9C6239",
+      "highlight": "#FFFFFF",
+      "ink": "#F0C6A4"
+    },
+    "center": "silver",
+    "center_label": "Silver",
+    "center_color": "#A8AAAD"
+  },
+  {
+    "file": "bronze-frame/badge-steel.png",
+    "frame": "bronze",
+    "frame_color": "#9C6239",
+    "frame_profile": {
+      "shadow": "#000000",
+      "midtone": "#9C6239",
+      "highlight": "#FFFFFF",
+      "ink": "#F0C6A4"
+    },
+    "center": "steel",
+    "center_label": "Steel",
+    "center_color": "#596B79"
+  },
+  {
+    "file": "bronze-frame/badge-bronze.png",
+    "frame": "bronze",
+    "frame_color": "#9C6239",
+    "frame_profile": {
+      "shadow": "#000000",
+      "midtone": "#9C6239",
+      "highlight": "#FFFFFF",
+      "ink": "#F0C6A4"
+    },
+    "center": "bronze",
+    "center_label": "Bronze",
+    "center_color": "#9C6239"
+  },
+  {
+    "file": "bronze-frame/badge-black.png",
+    "frame": "bronze",
+    "frame_color": "#9C6239",
+    "frame_profile": {
+      "shadow": "#000000",
+      "midtone": "#9C6239",
+      "highlight": "#FFFFFF",
+      "ink": "#F0C6A4"
+    },
+    "center": "black",
+    "center_label": "Black",
+    "center_color": "#181A1E"
+  },
+  {
+    "file": "bronze-frame/badge-white.png",
+    "frame": "bronze",
+    "frame_color": "#9C6239",
+    "frame_profile": {
+      "shadow": "#000000",
+      "midtone": "#9C6239",
+      "highlight": "#FFFFFF",
+      "ink": "#F0C6A4"
+    },
+    "center": "white",
+    "center_label": "White",
+    "center_color": "#E8E8E8"
+  },
+  {
+    "file": "bronze-frame/badge-turquoise.png",
+    "frame": "bronze",
+    "frame_color": "#9C6239",
+    "frame_profile": {
+      "shadow": "#000000",
+      "midtone": "#9C6239",
+      "highlight": "#FFFFFF",
+      "ink": "#F0C6A4"
+    },
+    "center": "turquoise",
+    "center_label": "Turquoise",
+    "center_color": "#16BFB2"
+  },
+  {
+    "file": "bronze-frame/badge-pink.png",
+    "frame": "bronze",
+    "frame_color": "#9C6239",
+    "frame_profile": {
+      "shadow": "#000000",
+      "midtone": "#9C6239",
+      "highlight": "#FFFFFF",
+      "ink": "#F0C6A4"
+    },
+    "center": "pink",
+    "center_label": "Pink",
+    "center_color": "#ED69AD"
+  },
+  {
+    "file": "bronze-frame/badge-yellow.png",
+    "frame": "bronze",
+    "frame_color": "#9C6239",
+    "frame_profile": {
+      "shadow": "#000000",
+      "midtone": "#9C6239",
+      "highlight": "#FFFFFF",
+      "ink": "#F0C6A4"
+    },
+    "center": "yellow",
+    "center_label": "Yellow",
+    "center_color": "#E7C925"
+  },
+  {
+    "file": "bronze-frame/badge-dark-yellow.png",
+    "frame": "bronze",
+    "frame_color": "#9C6239",
+    "frame_profile": {
+      "shadow": "#000000",
+      "midtone": "#9C6239",
+      "highlight": "#FFFFFF",
+      "ink": "#F0C6A4"
+    },
+    "center": "dark-yellow",
+    "center_label": "Dark yellow",
+    "center_color": "#A68B08"
+  },
+  {
+    "file": "bronze-frame/badge-dark-green.png",
+    "frame": "bronze",
+    "frame_color": "#9C6239",
+    "frame_profile": {
+      "shadow": "#000000",
+      "midtone": "#9C6239",
+      "highlight": "#FFFFFF",
+      "ink": "#F0C6A4"
+    },
+    "center": "dark-green",
+    "center_label": "Dark green",
+    "center_color": "#154E35"
+  },
+  {
+    "file": "bronze-frame/badge-green.png",
+    "frame": "bronze",
+    "frame_color": "#9C6239",
+    "frame_profile": {
+      "shadow": "#000000",
+      "midtone": "#9C6239",
+      "highlight": "#FFFFFF",
+      "ink": "#F0C6A4"
+    },
+    "center": "green",
+    "center_label": "Green",
+    "center_color": "#27A647"
+  },
+  {
+    "file": "bronze-frame/badge-blue.png",
+    "frame": "bronze",
+    "frame_color": "#9C6239",
+    "frame_profile": {
+      "shadow": "#000000",
+      "midtone": "#9C6239",
+      "highlight": "#FFFFFF",
+      "ink": "#F0C6A4"
+    },
+    "center": "blue",
+    "center_label": "Blue",
+    "center_color": "#2563EB"
+  },
+  {
+    "file": "bronze-frame/badge-red.png",
+    "frame": "bronze",
+    "frame_color": "#9C6239",
+    "frame_profile": {
+      "shadow": "#000000",
+      "midtone": "#9C6239",
+      "highlight": "#FFFFFF",
+      "ink": "#F0C6A4"
+    },
+    "center": "red",
+    "center_label": "Red",
+    "center_color": "#CE2D39"
+  },
+  {
+    "file": "bronze-frame/badge-purple.png",
+    "frame": "bronze",
+    "frame_color": "#9C6239",
+    "frame_profile": {
+      "shadow": "#000000",
+      "midtone": "#9C6239",
+      "highlight": "#FFFFFF",
+      "ink": "#F0C6A4"
+    },
+    "center": "purple",
+    "center_label": "Purple",
+    "center_color": "#9333EA"
+  },
+  {
+    "file": "bronze-frame/badge-brown.png",
+    "frame": "bronze",
+    "frame_color": "#9C6239",
+    "frame_profile": {
+      "shadow": "#000000",
+      "midtone": "#9C6239",
+      "highlight": "#FFFFFF",
+      "ink": "#F0C6A4"
+    },
+    "center": "brown",
+    "center_label": "Brown",
+    "center_color": "#785038"
+  },
+  {
+    "file": "bronze-frame/badge-orange.png",
+    "frame": "bronze",
+    "frame_color": "#9C6239",
+    "frame_profile": {
+      "shadow": "#000000",
+      "midtone": "#9C6239",
+      "highlight": "#FFFFFF",
+      "ink": "#F0C6A4"
+    },
+    "center": "orange",
+    "center_label": "Orange",
+    "center_color": "#E98026"
+  },
+  {
+    "file": "bronze-frame/badge-dark-orange.png",
+    "frame": "bronze",
+    "frame_color": "#9C6239",
+    "frame_profile": {
+      "shadow": "#000000",
+      "midtone": "#9C6239",
+      "highlight": "#FFFFFF",
+      "ink": "#F0C6A4"
+    },
+    "center": "dark-orange",
+    "center_label": "Dark orange",
+    "center_color": "#B84A08"
+  },
+  {
+    "file": "bronze-frame/badge-bright-orange.png",
+    "frame": "bronze",
+    "frame_color": "#9C6239",
+    "frame_profile": {
+      "shadow": "#000000",
+      "midtone": "#9C6239",
+      "highlight": "#FFFFFF",
+      "ink": "#F0C6A4"
+    },
+    "center": "bright-orange",
+    "center_label": "Bright orange",
+    "center_color": "#FF9A00"
+  },
+  {
+    "file": "bronze-frame/badge-gray.png",
+    "frame": "bronze",
+    "frame_color": "#9C6239",
+    "frame_profile": {
+      "shadow": "#000000",
+      "midtone": "#9C6239",
+      "highlight": "#FFFFFF",
+      "ink": "#F0C6A4"
+    },
+    "center": "gray",
+    "center_label": "Dark grey",
+    "center_color": "#70757D"
+  },
+  {
+    "file": "bronze-frame/badge-light-gray.png",
+    "frame": "bronze",
+    "frame_color": "#9C6239",
+    "frame_profile": {
+      "shadow": "#000000",
+      "midtone": "#9C6239",
+      "highlight": "#FFFFFF",
+      "ink": "#F0C6A4"
+    },
+    "center": "light-gray",
+    "center_label": "Light grey",
+    "center_color": "#BFC3C9"
+  },
+  {
+    "file": "bronze-frame/badge-light-blue.png",
+    "frame": "bronze",
+    "frame_color": "#9C6239",
+    "frame_profile": {
+      "shadow": "#000000",
+      "midtone": "#9C6239",
+      "highlight": "#FFFFFF",
+      "ink": "#F0C6A4"
+    },
+    "center": "light-blue",
+    "center_label": "Light blue",
+    "center_color": "#64B5F6"
+  },
+  {
+    "file": "bronze-frame/badge-navy.png",
+    "frame": "bronze",
+    "frame_color": "#9C6239",
+    "frame_profile": {
+      "shadow": "#000000",
+      "midtone": "#9C6239",
+      "highlight": "#FFFFFF",
+      "ink": "#F0C6A4"
+    },
+    "center": "navy",
+    "center_label": "Navy",
+    "center_color": "#172554"
+  },
+  {
+    "file": "bronze-frame/badge-beige.png",
+    "frame": "bronze",
+    "frame_color": "#9C6239",
+    "frame_profile": {
+      "shadow": "#000000",
+      "midtone": "#9C6239",
+      "highlight": "#FFFFFF",
+      "ink": "#F0C6A4"
+    },
+    "center": "beige",
+    "center_label": "Beige",
+    "center_color": "#D9C5A0"
+  },
+  {
+    "file": "bronze-frame/badge-teal.png",
+    "frame": "bronze",
+    "frame_color": "#9C6239",
+    "frame_profile": {
+      "shadow": "#000000",
+      "midtone": "#9C6239",
+      "highlight": "#FFFFFF",
+      "ink": "#F0C6A4"
+    },
+    "center": "teal",
+    "center_label": "Teal",
+    "center_color": "#0F766E"
+  },
+  {
+    "file": "bronze-frame/badge-magenta.png",
+    "frame": "bronze",
+    "frame_color": "#9C6239",
+    "frame_profile": {
+      "shadow": "#000000",
+      "midtone": "#9C6239",
+      "highlight": "#FFFFFF",
+      "ink": "#F0C6A4"
+    },
+    "center": "magenta",
+    "center_label": "Magenta",
+    "center_color": "#D426C0"
+  },
+  {
+    "file": "bronze-frame/badge-burgundy.png",
+    "frame": "bronze",
+    "frame_color": "#9C6239",
+    "frame_profile": {
+      "shadow": "#000000",
+      "midtone": "#9C6239",
+      "highlight": "#FFFFFF",
+      "ink": "#F0C6A4"
+    },
+    "center": "burgundy",
+    "center_label": "Burgundy",
+    "center_color": "#7F1D3A"
+  },
+  {
+    "file": "bronze-frame/badge-coral.png",
+    "frame": "bronze",
+    "frame_color": "#9C6239",
+    "frame_profile": {
+      "shadow": "#000000",
+      "midtone": "#9C6239",
+      "highlight": "#FFFFFF",
+      "ink": "#F0C6A4"
+    },
+    "center": "coral",
+    "center_label": "Coral",
+    "center_color": "#F08080"
+  },
+  {
+    "file": "bronze-frame/badge-lavender.png",
+    "frame": "bronze",
+    "frame_color": "#9C6239",
+    "frame_profile": {
+      "shadow": "#000000",
+      "midtone": "#9C6239",
+      "highlight": "#FFFFFF",
+      "ink": "#F0C6A4"
+    },
+    "center": "lavender",
+    "center_label": "Lavender",
+    "center_color": "#B497D6"
+  },
+  {
+    "file": "silver-frame/badge-gold.png",
+    "frame": "silver",
+    "frame_color": "#A8AAAD",
+    "frame_profile": {
+      "shadow": "#000000",
+      "midtone": "#A8AAAD",
+      "highlight": "#FFFFFF",
+      "ink": "#F1F4F8"
+    },
+    "center": "gold",
+    "center_label": "Gold",
+    "center_color": "#C99A2E"
+  },
+  {
+    "file": "silver-frame/badge-silver.png",
+    "frame": "silver",
+    "frame_color": "#A8AAAD",
+    "frame_profile": {
+      "shadow": "#000000",
+      "midtone": "#A8AAAD",
+      "highlight": "#FFFFFF",
+      "ink": "#F1F4F8"
+    },
+    "center": "silver",
+    "center_label": "Silver",
+    "center_color": "#A8AAAD"
+  },
+  {
+    "file": "silver-frame/badge-steel.png",
+    "frame": "silver",
+    "frame_color": "#A8AAAD",
+    "frame_profile": {
+      "shadow": "#000000",
+      "midtone": "#A8AAAD",
+      "highlight": "#FFFFFF",
+      "ink": "#F1F4F8"
+    },
+    "center": "steel",
+    "center_label": "Steel",
+    "center_color": "#596B79"
+  },
+  {
+    "file": "silver-frame/badge-bronze.png",
+    "frame": "silver",
+    "frame_color": "#A8AAAD",
+    "frame_profile": {
+      "shadow": "#000000",
+      "midtone": "#A8AAAD",
+      "highlight": "#FFFFFF",
+      "ink": "#F1F4F8"
+    },
+    "center": "bronze",
+    "center_label": "Bronze",
+    "center_color": "#9C6239"
+  },
+  {
+    "file": "silver-frame/badge-black.png",
+    "frame": "silver",
+    "frame_color": "#A8AAAD",
+    "frame_profile": {
+      "shadow": "#000000",
+      "midtone": "#A8AAAD",
+      "highlight": "#FFFFFF",
+      "ink": "#F1F4F8"
+    },
+    "center": "black",
+    "center_label": "Black",
+    "center_color": "#181A1E"
+  },
+  {
+    "file": "silver-frame/badge-white.png",
+    "frame": "silver",
+    "frame_color": "#A8AAAD",
+    "frame_profile": {
+      "shadow": "#000000",
+      "midtone": "#A8AAAD",
+      "highlight": "#FFFFFF",
+      "ink": "#F1F4F8"
+    },
+    "center": "white",
+    "center_label": "White",
+    "center_color": "#E8E8E8"
+  },
+  {
+    "file": "silver-frame/badge-turquoise.png",
+    "frame": "silver",
+    "frame_color": "#A8AAAD",
+    "frame_profile": {
+      "shadow": "#000000",
+      "midtone": "#A8AAAD",
+      "highlight": "#FFFFFF",
+      "ink": "#F1F4F8"
+    },
+    "center": "turquoise",
+    "center_label": "Turquoise",
+    "center_color": "#16BFB2"
+  },
+  {
+    "file": "silver-frame/badge-pink.png",
+    "frame": "silver",
+    "frame_color": "#A8AAAD",
+    "frame_profile": {
+      "shadow": "#000000",
+      "midtone": "#A8AAAD",
+      "highlight": "#FFFFFF",
+      "ink": "#F1F4F8"
+    },
+    "center": "pink",
+    "center_label": "Pink",
+    "center_color": "#ED69AD"
+  },
+  {
+    "file": "silver-frame/badge-yellow.png",
+    "frame": "silver",
+    "frame_color": "#A8AAAD",
+    "frame_profile": {
+      "shadow": "#000000",
+      "midtone": "#A8AAAD",
+      "highlight": "#FFFFFF",
+      "ink": "#F1F4F8"
+    },
+    "center": "yellow",
+    "center_label": "Yellow",
+    "center_color": "#E7C925"
+  },
+  {
+    "file": "silver-frame/badge-dark-yellow.png",
+    "frame": "silver",
+    "frame_color": "#A8AAAD",
+    "frame_profile": {
+      "shadow": "#000000",
+      "midtone": "#A8AAAD",
+      "highlight": "#FFFFFF",
+      "ink": "#F1F4F8"
+    },
+    "center": "dark-yellow",
+    "center_label": "Dark yellow",
+    "center_color": "#A68B08"
+  },
+  {
+    "file": "silver-frame/badge-dark-green.png",
+    "frame": "silver",
+    "frame_color": "#A8AAAD",
+    "frame_profile": {
+      "shadow": "#000000",
+      "midtone": "#A8AAAD",
+      "highlight": "#FFFFFF",
+      "ink": "#F1F4F8"
+    },
+    "center": "dark-green",
+    "center_label": "Dark green",
+    "center_color": "#154E35"
+  },
+  {
+    "file": "silver-frame/badge-green.png",
+    "frame": "silver",
+    "frame_color": "#A8AAAD",
+    "frame_profile": {
+      "shadow": "#000000",
+      "midtone": "#A8AAAD",
+      "highlight": "#FFFFFF",
+      "ink": "#F1F4F8"
+    },
+    "center": "green",
+    "center_label": "Green",
+    "center_color": "#27A647"
+  },
+  {
+    "file": "silver-frame/badge-blue.png",
+    "frame": "silver",
+    "frame_color": "#A8AAAD",
+    "frame_profile": {
+      "shadow": "#000000",
+      "midtone": "#A8AAAD",
+      "highlight": "#FFFFFF",
+      "ink": "#F1F4F8"
+    },
+    "center": "blue",
+    "center_label": "Blue",
+    "center_color": "#2563EB"
+  },
+  {
+    "file": "silver-frame/badge-red.png",
+    "frame": "silver",
+    "frame_color": "#A8AAAD",
+    "frame_profile": {
+      "shadow": "#000000",
+      "midtone": "#A8AAAD",
+      "highlight": "#FFFFFF",
+      "ink": "#F1F4F8"
+    },
+    "center": "red",
+    "center_label": "Red",
+    "center_color": "#CE2D39"
+  },
+  {
+    "file": "silver-frame/badge-purple.png",
+    "frame": "silver",
+    "frame_color": "#A8AAAD",
+    "frame_profile": {
+      "shadow": "#000000",
+      "midtone": "#A8AAAD",
+      "highlight": "#FFFFFF",
+      "ink": "#F1F4F8"
+    },
+    "center": "purple",
+    "center_label": "Purple",
+    "center_color": "#9333EA"
+  },
+  {
+    "file": "silver-frame/badge-brown.png",
+    "frame": "silver",
+    "frame_color": "#A8AAAD",
+    "frame_profile": {
+      "shadow": "#000000",
+      "midtone": "#A8AAAD",
+      "highlight": "#FFFFFF",
+      "ink": "#F1F4F8"
+    },
+    "center": "brown",
+    "center_label": "Brown",
+    "center_color": "#785038"
+  },
+  {
+    "file": "silver-frame/badge-orange.png",
+    "frame": "silver",
+    "frame_color": "#A8AAAD",
+    "frame_profile": {
+      "shadow": "#000000",
+      "midtone": "#A8AAAD",
+      "highlight": "#FFFFFF",
+      "ink": "#F1F4F8"
+    },
+    "center": "orange",
+    "center_label": "Orange",
+    "center_color": "#E98026"
+  },
+  {
+    "file": "silver-frame/badge-dark-orange.png",
+    "frame": "silver",
+    "frame_color": "#A8AAAD",
+    "frame_profile": {
+      "shadow": "#000000",
+      "midtone": "#A8AAAD",
+      "highlight": "#FFFFFF",
+      "ink": "#F1F4F8"
+    },
+    "center": "dark-orange",
+    "center_label": "Dark orange",
+    "center_color": "#B84A08"
+  },
+  {
+    "file": "silver-frame/badge-bright-orange.png",
+    "frame": "silver",
+    "frame_color": "#A8AAAD",
+    "frame_profile": {
+      "shadow": "#000000",
+      "midtone": "#A8AAAD",
+      "highlight": "#FFFFFF",
+      "ink": "#F1F4F8"
+    },
+    "center": "bright-orange",
+    "center_label": "Bright orange",
+    "center_color": "#FF9A00"
+  },
+  {
+    "file": "silver-frame/badge-gray.png",
+    "frame": "silver",
+    "frame_color": "#A8AAAD",
+    "frame_profile": {
+      "shadow": "#000000",
+      "midtone": "#A8AAAD",
+      "highlight": "#FFFFFF",
+      "ink": "#F1F4F8"
+    },
+    "center": "gray",
+    "center_label": "Dark grey",
+    "center_color": "#70757D"
+  },
+  {
+    "file": "silver-frame/badge-light-gray.png",
+    "frame": "silver",
+    "frame_color": "#A8AAAD",
+    "frame_profile": {
+      "shadow": "#000000",
+      "midtone": "#A8AAAD",
+      "highlight": "#FFFFFF",
+      "ink": "#F1F4F8"
+    },
+    "center": "light-gray",
+    "center_label": "Light grey",
+    "center_color": "#BFC3C9"
+  },
+  {
+    "file": "silver-frame/badge-light-blue.png",
+    "frame": "silver",
+    "frame_color": "#A8AAAD",
+    "frame_profile": {
+      "shadow": "#000000",
+      "midtone": "#A8AAAD",
+      "highlight": "#FFFFFF",
+      "ink": "#F1F4F8"
+    },
+    "center": "light-blue",
+    "center_label": "Light blue",
+    "center_color": "#64B5F6"
+  },
+  {
+    "file": "silver-frame/badge-navy.png",
+    "frame": "silver",
+    "frame_color": "#A8AAAD",
+    "frame_profile": {
+      "shadow": "#000000",
+      "midtone": "#A8AAAD",
+      "highlight": "#FFFFFF",
+      "ink": "#F1F4F8"
+    },
+    "center": "navy",
+    "center_label": "Navy",
+    "center_color": "#172554"
+  },
+  {
+    "file": "silver-frame/badge-beige.png",
+    "frame": "silver",
+    "frame_color": "#A8AAAD",
+    "frame_profile": {
+      "shadow": "#000000",
+      "midtone": "#A8AAAD",
+      "highlight": "#FFFFFF",
+      "ink": "#F1F4F8"
+    },
+    "center": "beige",
+    "center_label": "Beige",
+    "center_color": "#D9C5A0"
+  },
+  {
+    "file": "silver-frame/badge-teal.png",
+    "frame": "silver",
+    "frame_color": "#A8AAAD",
+    "frame_profile": {
+      "shadow": "#000000",
+      "midtone": "#A8AAAD",
+      "highlight": "#FFFFFF",
+      "ink": "#F1F4F8"
+    },
+    "center": "teal",
+    "center_label": "Teal",
+    "center_color": "#0F766E"
+  },
+  {
+    "file": "silver-frame/badge-magenta.png",
+    "frame": "silver",
+    "frame_color": "#A8AAAD",
+    "frame_profile": {
+      "shadow": "#000000",
+      "midtone": "#A8AAAD",
+      "highlight": "#FFFFFF",
+      "ink": "#F1F4F8"
+    },
+    "center": "magenta",
+    "center_label": "Magenta",
+    "center_color": "#D426C0"
+  },
+  {
+    "file": "silver-frame/badge-burgundy.png",
+    "frame": "silver",
+    "frame_color": "#A8AAAD",
+    "frame_profile": {
+      "shadow": "#000000",
+      "midtone": "#A8AAAD",
+      "highlight": "#FFFFFF",
+      "ink": "#F1F4F8"
+    },
+    "center": "burgundy",
+    "center_label": "Burgundy",
+    "center_color": "#7F1D3A"
+  },
+  {
+    "file": "silver-frame/badge-coral.png",
+    "frame": "silver",
+    "frame_color": "#A8AAAD",
+    "frame_profile": {
+      "shadow": "#000000",
+      "midtone": "#A8AAAD",
+      "highlight": "#FFFFFF",
+      "ink": "#F1F4F8"
+    },
+    "center": "coral",
+    "center_label": "Coral",
+    "center_color": "#F08080"
+  },
+  {
+    "file": "silver-frame/badge-lavender.png",
+    "frame": "silver",
+    "frame_color": "#A8AAAD",
+    "frame_profile": {
+      "shadow": "#000000",
+      "midtone": "#A8AAAD",
+      "highlight": "#FFFFFF",
+      "ink": "#F1F4F8"
+    },
+    "center": "lavender",
+    "center_label": "Lavender",
+    "center_color": "#B497D6"
+  },
+  {
+    "file": "gold-frame/badge-gold.png",
+    "frame": "gold",
+    "frame_color": "#C99A2E",
+    "frame_profile": {
+      "shadow": "#000000",
+      "midtone": "#C99A2E",
+      "highlight": "#FFFFFF",
+      "ink": "#F5DB92"
+    },
+    "center": "gold",
+    "center_label": "Gold",
+    "center_color": "#C99A2E"
+  },
+  {
+    "file": "gold-frame/badge-silver.png",
+    "frame": "gold",
+    "frame_color": "#C99A2E",
+    "frame_profile": {
+      "shadow": "#000000",
+      "midtone": "#C99A2E",
+      "highlight": "#FFFFFF",
+      "ink": "#F5DB92"
+    },
+    "center": "silver",
+    "center_label": "Silver",
+    "center_color": "#A8AAAD"
+  },
+  {
+    "file": "gold-frame/badge-steel.png",
+    "frame": "gold",
+    "frame_color": "#C99A2E",
+    "frame_profile": {
+      "shadow": "#000000",
+      "midtone": "#C99A2E",
+      "highlight": "#FFFFFF",
+      "ink": "#F5DB92"
+    },
+    "center": "steel",
+    "center_label": "Steel",
+    "center_color": "#596B79"
+  },
+  {
+    "file": "gold-frame/badge-bronze.png",
+    "frame": "gold",
+    "frame_color": "#C99A2E",
+    "frame_profile": {
+      "shadow": "#000000",
+      "midtone": "#C99A2E",
+      "highlight": "#FFFFFF",
+      "ink": "#F5DB92"
+    },
+    "center": "bronze",
+    "center_label": "Bronze",
+    "center_color": "#9C6239"
+  },
+  {
+    "file": "gold-frame/badge-black.png",
+    "frame": "gold",
+    "frame_color": "#C99A2E",
+    "frame_profile": {
+      "shadow": "#000000",
+      "midtone": "#C99A2E",
+      "highlight": "#FFFFFF",
+      "ink": "#F5DB92"
+    },
+    "center": "black",
+    "center_label": "Black",
+    "center_color": "#181A1E"
+  },
+  {
+    "file": "gold-frame/badge-white.png",
+    "frame": "gold",
+    "frame_color": "#C99A2E",
+    "frame_profile": {
+      "shadow": "#000000",
+      "midtone": "#C99A2E",
+      "highlight": "#FFFFFF",
+      "ink": "#F5DB92"
+    },
+    "center": "white",
+    "center_label": "White",
+    "center_color": "#E8E8E8"
+  },
+  {
+    "file": "gold-frame/badge-turquoise.png",
+    "frame": "gold",
+    "frame_color": "#C99A2E",
+    "frame_profile": {
+      "shadow": "#000000",
+      "midtone": "#C99A2E",
+      "highlight": "#FFFFFF",
+      "ink": "#F5DB92"
+    },
+    "center": "turquoise",
+    "center_label": "Turquoise",
+    "center_color": "#16BFB2"
+  },
+  {
+    "file": "gold-frame/badge-pink.png",
+    "frame": "gold",
+    "frame_color": "#C99A2E",
+    "frame_profile": {
+      "shadow": "#000000",
+      "midtone": "#C99A2E",
+      "highlight": "#FFFFFF",
+      "ink": "#F5DB92"
+    },
+    "center": "pink",
+    "center_label": "Pink",
+    "center_color": "#ED69AD"
+  },
+  {
+    "file": "gold-frame/badge-yellow.png",
+    "frame": "gold",
+    "frame_color": "#C99A2E",
+    "frame_profile": {
+      "shadow": "#000000",
+      "midtone": "#C99A2E",
+      "highlight": "#FFFFFF",
+      "ink": "#F5DB92"
+    },
+    "center": "yellow",
+    "center_label": "Yellow",
+    "center_color": "#E7C925"
+  },
+  {
+    "file": "gold-frame/badge-dark-yellow.png",
+    "frame": "gold",
+    "frame_color": "#C99A2E",
+    "frame_profile": {
+      "shadow": "#000000",
+      "midtone": "#C99A2E",
+      "highlight": "#FFFFFF",
+      "ink": "#F5DB92"
+    },
+    "center": "dark-yellow",
+    "center_label": "Dark yellow",
+    "center_color": "#A68B08"
+  },
+  {
+    "file": "gold-frame/badge-dark-green.png",
+    "frame": "gold",
+    "frame_color": "#C99A2E",
+    "frame_profile": {
+      "shadow": "#000000",
+      "midtone": "#C99A2E",
+      "highlight": "#FFFFFF",
+      "ink": "#F5DB92"
+    },
+    "center": "dark-green",
+    "center_label": "Dark green",
+    "center_color": "#154E35"
+  },
+  {
+    "file": "gold-frame/badge-green.png",
+    "frame": "gold",
+    "frame_color": "#C99A2E",
+    "frame_profile": {
+      "shadow": "#000000",
+      "midtone": "#C99A2E",
+      "highlight": "#FFFFFF",
+      "ink": "#F5DB92"
+    },
+    "center": "green",
+    "center_label": "Green",
+    "center_color": "#27A647"
+  },
+  {
+    "file": "gold-frame/badge-blue.png",
+    "frame": "gold",
+    "frame_color": "#C99A2E",
+    "frame_profile": {
+      "shadow": "#000000",
+      "midtone": "#C99A2E",
+      "highlight": "#FFFFFF",
+      "ink": "#F5DB92"
+    },
+    "center": "blue",
+    "center_label": "Blue",
+    "center_color": "#2563EB"
+  },
+  {
+    "file": "gold-frame/badge-red.png",
+    "frame": "gold",
+    "frame_color": "#C99A2E",
+    "frame_profile": {
+      "shadow": "#000000",
+      "midtone": "#C99A2E",
+      "highlight": "#FFFFFF",
+      "ink": "#F5DB92"
+    },
+    "center": "red",
+    "center_label": "Red",
+    "center_color": "#CE2D39"
+  },
+  {
+    "file": "gold-frame/badge-purple.png",
+    "frame": "gold",
+    "frame_color": "#C99A2E",
+    "frame_profile": {
+      "shadow": "#000000",
+      "midtone": "#C99A2E",
+      "highlight": "#FFFFFF",
+      "ink": "#F5DB92"
+    },
+    "center": "purple",
+    "center_label": "Purple",
+    "center_color": "#9333EA"
+  },
+  {
+    "file": "gold-frame/badge-brown.png",
+    "frame": "gold",
+    "frame_color": "#C99A2E",
+    "frame_profile": {
+      "shadow": "#000000",
+      "midtone": "#C99A2E",
+      "highlight": "#FFFFFF",
+      "ink": "#F5DB92"
+    },
+    "center": "brown",
+    "center_label": "Brown",
+    "center_color": "#785038"
+  },
+  {
+    "file": "gold-frame/badge-orange.png",
+    "frame": "gold",
+    "frame_color": "#C99A2E",
+    "frame_profile": {
+      "shadow": "#000000",
+      "midtone": "#C99A2E",
+      "highlight": "#FFFFFF",
+      "ink": "#F5DB92"
+    },
+    "center": "orange",
+    "center_label": "Orange",
+    "center_color": "#E98026"
+  },
+  {
+    "file": "gold-frame/badge-dark-orange.png",
+    "frame": "gold",
+    "frame_color": "#C99A2E",
+    "frame_profile": {
+      "shadow": "#000000",
+      "midtone": "#C99A2E",
+      "highlight": "#FFFFFF",
+      "ink": "#F5DB92"
+    },
+    "center": "dark-orange",
+    "center_label": "Dark orange",
+    "center_color": "#B84A08"
+  },
+  {
+    "file": "gold-frame/badge-bright-orange.png",
+    "frame": "gold",
+    "frame_color": "#C99A2E",
+    "frame_profile": {
+      "shadow": "#000000",
+      "midtone": "#C99A2E",
+      "highlight": "#FFFFFF",
+      "ink": "#F5DB92"
+    },
+    "center": "bright-orange",
+    "center_label": "Bright orange",
+    "center_color": "#FF9A00"
+  },
+  {
+    "file": "gold-frame/badge-gray.png",
+    "frame": "gold",
+    "frame_color": "#C99A2E",
+    "frame_profile": {
+      "shadow": "#000000",
+      "midtone": "#C99A2E",
+      "highlight": "#FFFFFF",
+      "ink": "#F5DB92"
+    },
+    "center": "gray",
+    "center_label": "Dark grey",
+    "center_color": "#70757D"
+  },
+  {
+    "file": "gold-frame/badge-light-gray.png",
+    "frame": "gold",
+    "frame_color": "#C99A2E",
+    "frame_profile": {
+      "shadow": "#000000",
+      "midtone": "#C99A2E",
+      "highlight": "#FFFFFF",
+      "ink": "#F5DB92"
+    },
+    "center": "light-gray",
+    "center_label": "Light grey",
+    "center_color": "#BFC3C9"
+  },
+  {
+    "file": "gold-frame/badge-light-blue.png",
+    "frame": "gold",
+    "frame_color": "#C99A2E",
+    "frame_profile": {
+      "shadow": "#000000",
+      "midtone": "#C99A2E",
+      "highlight": "#FFFFFF",
+      "ink": "#F5DB92"
+    },
+    "center": "light-blue",
+    "center_label": "Light blue",
+    "center_color": "#64B5F6"
+  },
+  {
+    "file": "gold-frame/badge-navy.png",
+    "frame": "gold",
+    "frame_color": "#C99A2E",
+    "frame_profile": {
+      "shadow": "#000000",
+      "midtone": "#C99A2E",
+      "highlight": "#FFFFFF",
+      "ink": "#F5DB92"
+    },
+    "center": "navy",
+    "center_label": "Navy",
+    "center_color": "#172554"
+  },
+  {
+    "file": "gold-frame/badge-beige.png",
+    "frame": "gold",
+    "frame_color": "#C99A2E",
+    "frame_profile": {
+      "shadow": "#000000",
+      "midtone": "#C99A2E",
+      "highlight": "#FFFFFF",
+      "ink": "#F5DB92"
+    },
+    "center": "beige",
+    "center_label": "Beige",
+    "center_color": "#D9C5A0"
+  },
+  {
+    "file": "gold-frame/badge-teal.png",
+    "frame": "gold",
+    "frame_color": "#C99A2E",
+    "frame_profile": {
+      "shadow": "#000000",
+      "midtone": "#C99A2E",
+      "highlight": "#FFFFFF",
+      "ink": "#F5DB92"
+    },
+    "center": "teal",
+    "center_label": "Teal",
+    "center_color": "#0F766E"
+  },
+  {
+    "file": "gold-frame/badge-magenta.png",
+    "frame": "gold",
+    "frame_color": "#C99A2E",
+    "frame_profile": {
+      "shadow": "#000000",
+      "midtone": "#C99A2E",
+      "highlight": "#FFFFFF",
+      "ink": "#F5DB92"
+    },
+    "center": "magenta",
+    "center_label": "Magenta",
+    "center_color": "#D426C0"
+  },
+  {
+    "file": "gold-frame/badge-burgundy.png",
+    "frame": "gold",
+    "frame_color": "#C99A2E",
+    "frame_profile": {
+      "shadow": "#000000",
+      "midtone": "#C99A2E",
+      "highlight": "#FFFFFF",
+      "ink": "#F5DB92"
+    },
+    "center": "burgundy",
+    "center_label": "Burgundy",
+    "center_color": "#7F1D3A"
+  },
+  {
+    "file": "gold-frame/badge-coral.png",
+    "frame": "gold",
+    "frame_color": "#C99A2E",
+    "frame_profile": {
+      "shadow": "#000000",
+      "midtone": "#C99A2E",
+      "highlight": "#FFFFFF",
+      "ink": "#F5DB92"
+    },
+    "center": "coral",
+    "center_label": "Coral",
+    "center_color": "#F08080"
+  },
+  {
+    "file": "gold-frame/badge-lavender.png",
+    "frame": "gold",
+    "frame_color": "#C99A2E",
+    "frame_profile": {
+      "shadow": "#000000",
+      "midtone": "#C99A2E",
+      "highlight": "#FFFFFF",
+      "ink": "#F5DB92"
+    },
+    "center": "lavender",
+    "center_label": "Lavender",
+    "center_color": "#B497D6"
+  },
+  {
+    "file": "steel-frame/badge-gold.png",
+    "frame": "steel",
+    "frame_color": "#596B79",
+    "frame_profile": {
+      "shadow": "#151D24",
+      "midtone": "#596B79",
+      "highlight": "#B6C4CF",
+      "ink": "#E2ECF5"
+    },
+    "center": "gold",
+    "center_label": "Gold",
+    "center_color": "#C99A2E"
+  },
+  {
+    "file": "steel-frame/badge-silver.png",
+    "frame": "steel",
+    "frame_color": "#596B79",
+    "frame_profile": {
+      "shadow": "#151D24",
+      "midtone": "#596B79",
+      "highlight": "#B6C4CF",
+      "ink": "#E2ECF5"
+    },
+    "center": "silver",
+    "center_label": "Silver",
+    "center_color": "#A8AAAD"
+  },
+  {
+    "file": "steel-frame/badge-steel.png",
+    "frame": "steel",
+    "frame_color": "#596B79",
+    "frame_profile": {
+      "shadow": "#151D24",
+      "midtone": "#596B79",
+      "highlight": "#B6C4CF",
+      "ink": "#E2ECF5"
+    },
+    "center": "steel",
+    "center_label": "Steel",
+    "center_color": "#596B79"
+  },
+  {
+    "file": "steel-frame/badge-bronze.png",
+    "frame": "steel",
+    "frame_color": "#596B79",
+    "frame_profile": {
+      "shadow": "#151D24",
+      "midtone": "#596B79",
+      "highlight": "#B6C4CF",
+      "ink": "#E2ECF5"
+    },
+    "center": "bronze",
+    "center_label": "Bronze",
+    "center_color": "#9C6239"
+  },
+  {
+    "file": "steel-frame/badge-black.png",
+    "frame": "steel",
+    "frame_color": "#596B79",
+    "frame_profile": {
+      "shadow": "#151D24",
+      "midtone": "#596B79",
+      "highlight": "#B6C4CF",
+      "ink": "#E2ECF5"
+    },
+    "center": "black",
+    "center_label": "Black",
+    "center_color": "#181A1E"
+  },
+  {
+    "file": "steel-frame/badge-white.png",
+    "frame": "steel",
+    "frame_color": "#596B79",
+    "frame_profile": {
+      "shadow": "#151D24",
+      "midtone": "#596B79",
+      "highlight": "#B6C4CF",
+      "ink": "#E2ECF5"
+    },
+    "center": "white",
+    "center_label": "White",
+    "center_color": "#E8E8E8"
+  },
+  {
+    "file": "steel-frame/badge-turquoise.png",
+    "frame": "steel",
+    "frame_color": "#596B79",
+    "frame_profile": {
+      "shadow": "#151D24",
+      "midtone": "#596B79",
+      "highlight": "#B6C4CF",
+      "ink": "#E2ECF5"
+    },
+    "center": "turquoise",
+    "center_label": "Turquoise",
+    "center_color": "#16BFB2"
+  },
+  {
+    "file": "steel-frame/badge-pink.png",
+    "frame": "steel",
+    "frame_color": "#596B79",
+    "frame_profile": {
+      "shadow": "#151D24",
+      "midtone": "#596B79",
+      "highlight": "#B6C4CF",
+      "ink": "#E2ECF5"
+    },
+    "center": "pink",
+    "center_label": "Pink",
+    "center_color": "#ED69AD"
+  },
+  {
+    "file": "steel-frame/badge-yellow.png",
+    "frame": "steel",
+    "frame_color": "#596B79",
+    "frame_profile": {
+      "shadow": "#151D24",
+      "midtone": "#596B79",
+      "highlight": "#B6C4CF",
+      "ink": "#E2ECF5"
+    },
+    "center": "yellow",
+    "center_label": "Yellow",
+    "center_color": "#E7C925"
+  },
+  {
+    "file": "steel-frame/badge-dark-yellow.png",
+    "frame": "steel",
+    "frame_color": "#596B79",
+    "frame_profile": {
+      "shadow": "#151D24",
+      "midtone": "#596B79",
+      "highlight": "#B6C4CF",
+      "ink": "#E2ECF5"
+    },
+    "center": "dark-yellow",
+    "center_label": "Dark yellow",
+    "center_color": "#A68B08"
+  },
+  {
+    "file": "steel-frame/badge-dark-green.png",
+    "frame": "steel",
+    "frame_color": "#596B79",
+    "frame_profile": {
+      "shadow": "#151D24",
+      "midtone": "#596B79",
+      "highlight": "#B6C4CF",
+      "ink": "#E2ECF5"
+    },
+    "center": "dark-green",
+    "center_label": "Dark green",
+    "center_color": "#154E35"
+  },
+  {
+    "file": "steel-frame/badge-green.png",
+    "frame": "steel",
+    "frame_color": "#596B79",
+    "frame_profile": {
+      "shadow": "#151D24",
+      "midtone": "#596B79",
+      "highlight": "#B6C4CF",
+      "ink": "#E2ECF5"
+    },
+    "center": "green",
+    "center_label": "Green",
+    "center_color": "#27A647"
+  },
+  {
+    "file": "steel-frame/badge-blue.png",
+    "frame": "steel",
+    "frame_color": "#596B79",
+    "frame_profile": {
+      "shadow": "#151D24",
+      "midtone": "#596B79",
+      "highlight": "#B6C4CF",
+      "ink": "#E2ECF5"
+    },
+    "center": "blue",
+    "center_label": "Blue",
+    "center_color": "#2563EB"
+  },
+  {
+    "file": "steel-frame/badge-red.png",
+    "frame": "steel",
+    "frame_color": "#596B79",
+    "frame_profile": {
+      "shadow": "#151D24",
+      "midtone": "#596B79",
+      "highlight": "#B6C4CF",
+      "ink": "#E2ECF5"
+    },
+    "center": "red",
+    "center_label": "Red",
+    "center_color": "#CE2D39"
+  },
+  {
+    "file": "steel-frame/badge-purple.png",
+    "frame": "steel",
+    "frame_color": "#596B79",
+    "frame_profile": {
+      "shadow": "#151D24",
+      "midtone": "#596B79",
+      "highlight": "#B6C4CF",
+      "ink": "#E2ECF5"
+    },
+    "center": "purple",
+    "center_label": "Purple",
+    "center_color": "#9333EA"
+  },
+  {
+    "file": "steel-frame/badge-brown.png",
+    "frame": "steel",
+    "frame_color": "#596B79",
+    "frame_profile": {
+      "shadow": "#151D24",
+      "midtone": "#596B79",
+      "highlight": "#B6C4CF",
+      "ink": "#E2ECF5"
+    },
+    "center": "brown",
+    "center_label": "Brown",
+    "center_color": "#785038"
+  },
+  {
+    "file": "steel-frame/badge-orange.png",
+    "frame": "steel",
+    "frame_color": "#596B79",
+    "frame_profile": {
+      "shadow": "#151D24",
+      "midtone": "#596B79",
+      "highlight": "#B6C4CF",
+      "ink": "#E2ECF5"
+    },
+    "center": "orange",
+    "center_label": "Orange",
+    "center_color": "#E98026"
+  },
+  {
+    "file": "steel-frame/badge-dark-orange.png",
+    "frame": "steel",
+    "frame_color": "#596B79",
+    "frame_profile": {
+      "shadow": "#151D24",
+      "midtone": "#596B79",
+      "highlight": "#B6C4CF",
+      "ink": "#E2ECF5"
+    },
+    "center": "dark-orange",
+    "center_label": "Dark orange",
+    "center_color": "#B84A08"
+  },
+  {
+    "file": "steel-frame/badge-bright-orange.png",
+    "frame": "steel",
+    "frame_color": "#596B79",
+    "frame_profile": {
+      "shadow": "#151D24",
+      "midtone": "#596B79",
+      "highlight": "#B6C4CF",
+      "ink": "#E2ECF5"
+    },
+    "center": "bright-orange",
+    "center_label": "Bright orange",
+    "center_color": "#FF9A00"
+  },
+  {
+    "file": "steel-frame/badge-gray.png",
+    "frame": "steel",
+    "frame_color": "#596B79",
+    "frame_profile": {
+      "shadow": "#151D24",
+      "midtone": "#596B79",
+      "highlight": "#B6C4CF",
+      "ink": "#E2ECF5"
+    },
+    "center": "gray",
+    "center_label": "Dark grey",
+    "center_color": "#70757D"
+  },
+  {
+    "file": "steel-frame/badge-light-gray.png",
+    "frame": "steel",
+    "frame_color": "#596B79",
+    "frame_profile": {
+      "shadow": "#151D24",
+      "midtone": "#596B79",
+      "highlight": "#B6C4CF",
+      "ink": "#E2ECF5"
+    },
+    "center": "light-gray",
+    "center_label": "Light grey",
+    "center_color": "#BFC3C9"
+  },
+  {
+    "file": "steel-frame/badge-light-blue.png",
+    "frame": "steel",
+    "frame_color": "#596B79",
+    "frame_profile": {
+      "shadow": "#151D24",
+      "midtone": "#596B79",
+      "highlight": "#B6C4CF",
+      "ink": "#E2ECF5"
+    },
+    "center": "light-blue",
+    "center_label": "Light blue",
+    "center_color": "#64B5F6"
+  },
+  {
+    "file": "steel-frame/badge-navy.png",
+    "frame": "steel",
+    "frame_color": "#596B79",
+    "frame_profile": {
+      "shadow": "#151D24",
+      "midtone": "#596B79",
+      "highlight": "#B6C4CF",
+      "ink": "#E2ECF5"
+    },
+    "center": "navy",
+    "center_label": "Navy",
+    "center_color": "#172554"
+  },
+  {
+    "file": "steel-frame/badge-beige.png",
+    "frame": "steel",
+    "frame_color": "#596B79",
+    "frame_profile": {
+      "shadow": "#151D24",
+      "midtone": "#596B79",
+      "highlight": "#B6C4CF",
+      "ink": "#E2ECF5"
+    },
+    "center": "beige",
+    "center_label": "Beige",
+    "center_color": "#D9C5A0"
+  },
+  {
+    "file": "steel-frame/badge-teal.png",
+    "frame": "steel",
+    "frame_color": "#596B79",
+    "frame_profile": {
+      "shadow": "#151D24",
+      "midtone": "#596B79",
+      "highlight": "#B6C4CF",
+      "ink": "#E2ECF5"
+    },
+    "center": "teal",
+    "center_label": "Teal",
+    "center_color": "#0F766E"
+  },
+  {
+    "file": "steel-frame/badge-magenta.png",
+    "frame": "steel",
+    "frame_color": "#596B79",
+    "frame_profile": {
+      "shadow": "#151D24",
+      "midtone": "#596B79",
+      "highlight": "#B6C4CF",
+      "ink": "#E2ECF5"
+    },
+    "center": "magenta",
+    "center_label": "Magenta",
+    "center_color": "#D426C0"
+  },
+  {
+    "file": "steel-frame/badge-burgundy.png",
+    "frame": "steel",
+    "frame_color": "#596B79",
+    "frame_profile": {
+      "shadow": "#151D24",
+      "midtone": "#596B79",
+      "highlight": "#B6C4CF",
+      "ink": "#E2ECF5"
+    },
+    "center": "burgundy",
+    "center_label": "Burgundy",
+    "center_color": "#7F1D3A"
+  },
+  {
+    "file": "steel-frame/badge-coral.png",
+    "frame": "steel",
+    "frame_color": "#596B79",
+    "frame_profile": {
+      "shadow": "#151D24",
+      "midtone": "#596B79",
+      "highlight": "#B6C4CF",
+      "ink": "#E2ECF5"
+    },
+    "center": "coral",
+    "center_label": "Coral",
+    "center_color": "#F08080"
+  },
+  {
+    "file": "steel-frame/badge-lavender.png",
+    "frame": "steel",
+    "frame_color": "#596B79",
+    "frame_profile": {
+      "shadow": "#151D24",
+      "midtone": "#596B79",
+      "highlight": "#B6C4CF",
+      "ink": "#E2ECF5"
+    },
+    "center": "lavender",
+    "center_label": "Lavender",
+    "center_color": "#B497D6"
+  },
+  {
+    "file": "black-frame/badge-gold.png",
+    "frame": "black",
+    "frame_color": "#14181E",
+    "frame_profile": {
+      "shadow": "#030405",
+      "midtone": "#14181E",
+      "highlight": "#4A525E",
+      "ink": "#E5ECF6"
+    },
+    "center": "gold",
+    "center_label": "Gold",
+    "center_color": "#C99A2E"
+  },
+  {
+    "file": "black-frame/badge-silver.png",
+    "frame": "black",
+    "frame_color": "#14181E",
+    "frame_profile": {
+      "shadow": "#030405",
+      "midtone": "#14181E",
+      "highlight": "#4A525E",
+      "ink": "#E5ECF6"
+    },
+    "center": "silver",
+    "center_label": "Silver",
+    "center_color": "#A8AAAD"
+  },
+  {
+    "file": "black-frame/badge-steel.png",
+    "frame": "black",
+    "frame_color": "#14181E",
+    "frame_profile": {
+      "shadow": "#030405",
+      "midtone": "#14181E",
+      "highlight": "#4A525E",
+      "ink": "#E5ECF6"
+    },
+    "center": "steel",
+    "center_label": "Steel",
+    "center_color": "#596B79"
+  },
+  {
+    "file": "black-frame/badge-bronze.png",
+    "frame": "black",
+    "frame_color": "#14181E",
+    "frame_profile": {
+      "shadow": "#030405",
+      "midtone": "#14181E",
+      "highlight": "#4A525E",
+      "ink": "#E5ECF6"
+    },
+    "center": "bronze",
+    "center_label": "Bronze",
+    "center_color": "#9C6239"
+  },
+  {
+    "file": "black-frame/badge-black.png",
+    "frame": "black",
+    "frame_color": "#14181E",
+    "frame_profile": {
+      "shadow": "#030405",
+      "midtone": "#14181E",
+      "highlight": "#4A525E",
+      "ink": "#E5ECF6"
+    },
+    "center": "black",
+    "center_label": "Black",
+    "center_color": "#181A1E"
+  },
+  {
+    "file": "black-frame/badge-white.png",
+    "frame": "black",
+    "frame_color": "#14181E",
+    "frame_profile": {
+      "shadow": "#030405",
+      "midtone": "#14181E",
+      "highlight": "#4A525E",
+      "ink": "#E5ECF6"
+    },
+    "center": "white",
+    "center_label": "White",
+    "center_color": "#E8E8E8"
+  },
+  {
+    "file": "black-frame/badge-turquoise.png",
+    "frame": "black",
+    "frame_color": "#14181E",
+    "frame_profile": {
+      "shadow": "#030405",
+      "midtone": "#14181E",
+      "highlight": "#4A525E",
+      "ink": "#E5ECF6"
+    },
+    "center": "turquoise",
+    "center_label": "Turquoise",
+    "center_color": "#16BFB2"
+  },
+  {
+    "file": "black-frame/badge-pink.png",
+    "frame": "black",
+    "frame_color": "#14181E",
+    "frame_profile": {
+      "shadow": "#030405",
+      "midtone": "#14181E",
+      "highlight": "#4A525E",
+      "ink": "#E5ECF6"
+    },
+    "center": "pink",
+    "center_label": "Pink",
+    "center_color": "#ED69AD"
+  },
+  {
+    "file": "black-frame/badge-yellow.png",
+    "frame": "black",
+    "frame_color": "#14181E",
+    "frame_profile": {
+      "shadow": "#030405",
+      "midtone": "#14181E",
+      "highlight": "#4A525E",
+      "ink": "#E5ECF6"
+    },
+    "center": "yellow",
+    "center_label": "Yellow",
+    "center_color": "#E7C925"
+  },
+  {
+    "file": "black-frame/badge-dark-yellow.png",
+    "frame": "black",
+    "frame_color": "#14181E",
+    "frame_profile": {
+      "shadow": "#030405",
+      "midtone": "#14181E",
+      "highlight": "#4A525E",
+      "ink": "#E5ECF6"
+    },
+    "center": "dark-yellow",
+    "center_label": "Dark yellow",
+    "center_color": "#A68B08"
+  },
+  {
+    "file": "black-frame/badge-dark-green.png",
+    "frame": "black",
+    "frame_color": "#14181E",
+    "frame_profile": {
+      "shadow": "#030405",
+      "midtone": "#14181E",
+      "highlight": "#4A525E",
+      "ink": "#E5ECF6"
+    },
+    "center": "dark-green",
+    "center_label": "Dark green",
+    "center_color": "#154E35"
+  },
+  {
+    "file": "black-frame/badge-green.png",
+    "frame": "black",
+    "frame_color": "#14181E",
+    "frame_profile": {
+      "shadow": "#030405",
+      "midtone": "#14181E",
+      "highlight": "#4A525E",
+      "ink": "#E5ECF6"
+    },
+    "center": "green",
+    "center_label": "Green",
+    "center_color": "#27A647"
+  },
+  {
+    "file": "black-frame/badge-blue.png",
+    "frame": "black",
+    "frame_color": "#14181E",
+    "frame_profile": {
+      "shadow": "#030405",
+      "midtone": "#14181E",
+      "highlight": "#4A525E",
+      "ink": "#E5ECF6"
+    },
+    "center": "blue",
+    "center_label": "Blue",
+    "center_color": "#2563EB"
+  },
+  {
+    "file": "black-frame/badge-red.png",
+    "frame": "black",
+    "frame_color": "#14181E",
+    "frame_profile": {
+      "shadow": "#030405",
+      "midtone": "#14181E",
+      "highlight": "#4A525E",
+      "ink": "#E5ECF6"
+    },
+    "center": "red",
+    "center_label": "Red",
+    "center_color": "#CE2D39"
+  },
+  {
+    "file": "black-frame/badge-purple.png",
+    "frame": "black",
+    "frame_color": "#14181E",
+    "frame_profile": {
+      "shadow": "#030405",
+      "midtone": "#14181E",
+      "highlight": "#4A525E",
+      "ink": "#E5ECF6"
+    },
+    "center": "purple",
+    "center_label": "Purple",
+    "center_color": "#9333EA"
+  },
+  {
+    "file": "black-frame/badge-brown.png",
+    "frame": "black",
+    "frame_color": "#14181E",
+    "frame_profile": {
+      "shadow": "#030405",
+      "midtone": "#14181E",
+      "highlight": "#4A525E",
+      "ink": "#E5ECF6"
+    },
+    "center": "brown",
+    "center_label": "Brown",
+    "center_color": "#785038"
+  },
+  {
+    "file": "black-frame/badge-orange.png",
+    "frame": "black",
+    "frame_color": "#14181E",
+    "frame_profile": {
+      "shadow": "#030405",
+      "midtone": "#14181E",
+      "highlight": "#4A525E",
+      "ink": "#E5ECF6"
+    },
+    "center": "orange",
+    "center_label": "Orange",
+    "center_color": "#E98026"
+  },
+  {
+    "file": "black-frame/badge-dark-orange.png",
+    "frame": "black",
+    "frame_color": "#14181E",
+    "frame_profile": {
+      "shadow": "#030405",
+      "midtone": "#14181E",
+      "highlight": "#4A525E",
+      "ink": "#E5ECF6"
+    },
+    "center": "dark-orange",
+    "center_label": "Dark orange",
+    "center_color": "#B84A08"
+  },
+  {
+    "file": "black-frame/badge-bright-orange.png",
+    "frame": "black",
+    "frame_color": "#14181E",
+    "frame_profile": {
+      "shadow": "#030405",
+      "midtone": "#14181E",
+      "highlight": "#4A525E",
+      "ink": "#E5ECF6"
+    },
+    "center": "bright-orange",
+    "center_label": "Bright orange",
+    "center_color": "#FF9A00"
+  },
+  {
+    "file": "black-frame/badge-gray.png",
+    "frame": "black",
+    "frame_color": "#14181E",
+    "frame_profile": {
+      "shadow": "#030405",
+      "midtone": "#14181E",
+      "highlight": "#4A525E",
+      "ink": "#E5ECF6"
+    },
+    "center": "gray",
+    "center_label": "Dark grey",
+    "center_color": "#70757D"
+  },
+  {
+    "file": "black-frame/badge-light-gray.png",
+    "frame": "black",
+    "frame_color": "#14181E",
+    "frame_profile": {
+      "shadow": "#030405",
+      "midtone": "#14181E",
+      "highlight": "#4A525E",
+      "ink": "#E5ECF6"
+    },
+    "center": "light-gray",
+    "center_label": "Light grey",
+    "center_color": "#BFC3C9"
+  },
+  {
+    "file": "black-frame/badge-light-blue.png",
+    "frame": "black",
+    "frame_color": "#14181E",
+    "frame_profile": {
+      "shadow": "#030405",
+      "midtone": "#14181E",
+      "highlight": "#4A525E",
+      "ink": "#E5ECF6"
+    },
+    "center": "light-blue",
+    "center_label": "Light blue",
+    "center_color": "#64B5F6"
+  },
+  {
+    "file": "black-frame/badge-navy.png",
+    "frame": "black",
+    "frame_color": "#14181E",
+    "frame_profile": {
+      "shadow": "#030405",
+      "midtone": "#14181E",
+      "highlight": "#4A525E",
+      "ink": "#E5ECF6"
+    },
+    "center": "navy",
+    "center_label": "Navy",
+    "center_color": "#172554"
+  },
+  {
+    "file": "black-frame/badge-beige.png",
+    "frame": "black",
+    "frame_color": "#14181E",
+    "frame_profile": {
+      "shadow": "#030405",
+      "midtone": "#14181E",
+      "highlight": "#4A525E",
+      "ink": "#E5ECF6"
+    },
+    "center": "beige",
+    "center_label": "Beige",
+    "center_color": "#D9C5A0"
+  },
+  {
+    "file": "black-frame/badge-teal.png",
+    "frame": "black",
+    "frame_color": "#14181E",
+    "frame_profile": {
+      "shadow": "#030405",
+      "midtone": "#14181E",
+      "highlight": "#4A525E",
+      "ink": "#E5ECF6"
+    },
+    "center": "teal",
+    "center_label": "Teal",
+    "center_color": "#0F766E"
+  },
+  {
+    "file": "black-frame/badge-magenta.png",
+    "frame": "black",
+    "frame_color": "#14181E",
+    "frame_profile": {
+      "shadow": "#030405",
+      "midtone": "#14181E",
+      "highlight": "#4A525E",
+      "ink": "#E5ECF6"
+    },
+    "center": "magenta",
+    "center_label": "Magenta",
+    "center_color": "#D426C0"
+  },
+  {
+    "file": "black-frame/badge-burgundy.png",
+    "frame": "black",
+    "frame_color": "#14181E",
+    "frame_profile": {
+      "shadow": "#030405",
+      "midtone": "#14181E",
+      "highlight": "#4A525E",
+      "ink": "#E5ECF6"
+    },
+    "center": "burgundy",
+    "center_label": "Burgundy",
+    "center_color": "#7F1D3A"
+  },
+  {
+    "file": "black-frame/badge-coral.png",
+    "frame": "black",
+    "frame_color": "#14181E",
+    "frame_profile": {
+      "shadow": "#030405",
+      "midtone": "#14181E",
+      "highlight": "#4A525E",
+      "ink": "#E5ECF6"
+    },
+    "center": "coral",
+    "center_label": "Coral",
+    "center_color": "#F08080"
+  },
+  {
+    "file": "black-frame/badge-lavender.png",
+    "frame": "black",
+    "frame_color": "#14181E",
+    "frame_profile": {
+      "shadow": "#030405",
+      "midtone": "#14181E",
+      "highlight": "#4A525E",
+      "ink": "#E5ECF6"
+    },
+    "center": "lavender",
+    "center_label": "Lavender",
+    "center_color": "#B497D6"
+  },
+  {
+    "file": "white-frame/badge-gold.png",
+    "frame": "white",
+    "frame_color": "#E6E9EE",
+    "frame_profile": {
+      "shadow": "#939BA6",
+      "midtone": "#E6E9EE",
+      "highlight": "#FFFFFF",
+      "ink": "#26303A"
+    },
+    "center": "gold",
+    "center_label": "Gold",
+    "center_color": "#C99A2E"
+  },
+  {
+    "file": "white-frame/badge-silver.png",
+    "frame": "white",
+    "frame_color": "#E6E9EE",
+    "frame_profile": {
+      "shadow": "#939BA6",
+      "midtone": "#E6E9EE",
+      "highlight": "#FFFFFF",
+      "ink": "#26303A"
+    },
+    "center": "silver",
+    "center_label": "Silver",
+    "center_color": "#A8AAAD"
+  },
+  {
+    "file": "white-frame/badge-steel.png",
+    "frame": "white",
+    "frame_color": "#E6E9EE",
+    "frame_profile": {
+      "shadow": "#939BA6",
+      "midtone": "#E6E9EE",
+      "highlight": "#FFFFFF",
+      "ink": "#26303A"
+    },
+    "center": "steel",
+    "center_label": "Steel",
+    "center_color": "#596B79"
+  },
+  {
+    "file": "white-frame/badge-bronze.png",
+    "frame": "white",
+    "frame_color": "#E6E9EE",
+    "frame_profile": {
+      "shadow": "#939BA6",
+      "midtone": "#E6E9EE",
+      "highlight": "#FFFFFF",
+      "ink": "#26303A"
+    },
+    "center": "bronze",
+    "center_label": "Bronze",
+    "center_color": "#9C6239"
+  },
+  {
+    "file": "white-frame/badge-black.png",
+    "frame": "white",
+    "frame_color": "#E6E9EE",
+    "frame_profile": {
+      "shadow": "#939BA6",
+      "midtone": "#E6E9EE",
+      "highlight": "#FFFFFF",
+      "ink": "#26303A"
+    },
+    "center": "black",
+    "center_label": "Black",
+    "center_color": "#181A1E"
+  },
+  {
+    "file": "white-frame/badge-white.png",
+    "frame": "white",
+    "frame_color": "#E6E9EE",
+    "frame_profile": {
+      "shadow": "#939BA6",
+      "midtone": "#E6E9EE",
+      "highlight": "#FFFFFF",
+      "ink": "#26303A"
+    },
+    "center": "white",
+    "center_label": "White",
+    "center_color": "#E8E8E8"
+  },
+  {
+    "file": "white-frame/badge-turquoise.png",
+    "frame": "white",
+    "frame_color": "#E6E9EE",
+    "frame_profile": {
+      "shadow": "#939BA6",
+      "midtone": "#E6E9EE",
+      "highlight": "#FFFFFF",
+      "ink": "#26303A"
+    },
+    "center": "turquoise",
+    "center_label": "Turquoise",
+    "center_color": "#16BFB2"
+  },
+  {
+    "file": "white-frame/badge-pink.png",
+    "frame": "white",
+    "frame_color": "#E6E9EE",
+    "frame_profile": {
+      "shadow": "#939BA6",
+      "midtone": "#E6E9EE",
+      "highlight": "#FFFFFF",
+      "ink": "#26303A"
+    },
+    "center": "pink",
+    "center_label": "Pink",
+    "center_color": "#ED69AD"
+  },
+  {
+    "file": "white-frame/badge-yellow.png",
+    "frame": "white",
+    "frame_color": "#E6E9EE",
+    "frame_profile": {
+      "shadow": "#939BA6",
+      "midtone": "#E6E9EE",
+      "highlight": "#FFFFFF",
+      "ink": "#26303A"
+    },
+    "center": "yellow",
+    "center_label": "Yellow",
+    "center_color": "#E7C925"
+  },
+  {
+    "file": "white-frame/badge-dark-yellow.png",
+    "frame": "white",
+    "frame_color": "#E6E9EE",
+    "frame_profile": {
+      "shadow": "#939BA6",
+      "midtone": "#E6E9EE",
+      "highlight": "#FFFFFF",
+      "ink": "#26303A"
+    },
+    "center": "dark-yellow",
+    "center_label": "Dark yellow",
+    "center_color": "#A68B08"
+  },
+  {
+    "file": "white-frame/badge-dark-green.png",
+    "frame": "white",
+    "frame_color": "#E6E9EE",
+    "frame_profile": {
+      "shadow": "#939BA6",
+      "midtone": "#E6E9EE",
+      "highlight": "#FFFFFF",
+      "ink": "#26303A"
+    },
+    "center": "dark-green",
+    "center_label": "Dark green",
+    "center_color": "#154E35"
+  },
+  {
+    "file": "white-frame/badge-green.png",
+    "frame": "white",
+    "frame_color": "#E6E9EE",
+    "frame_profile": {
+      "shadow": "#939BA6",
+      "midtone": "#E6E9EE",
+      "highlight": "#FFFFFF",
+      "ink": "#26303A"
+    },
+    "center": "green",
+    "center_label": "Green",
+    "center_color": "#27A647"
+  },
+  {
+    "file": "white-frame/badge-blue.png",
+    "frame": "white",
+    "frame_color": "#E6E9EE",
+    "frame_profile": {
+      "shadow": "#939BA6",
+      "midtone": "#E6E9EE",
+      "highlight": "#FFFFFF",
+      "ink": "#26303A"
+    },
+    "center": "blue",
+    "center_label": "Blue",
+    "center_color": "#2563EB"
+  },
+  {
+    "file": "white-frame/badge-red.png",
+    "frame": "white",
+    "frame_color": "#E6E9EE",
+    "frame_profile": {
+      "shadow": "#939BA6",
+      "midtone": "#E6E9EE",
+      "highlight": "#FFFFFF",
+      "ink": "#26303A"
+    },
+    "center": "red",
+    "center_label": "Red",
+    "center_color": "#CE2D39"
+  },
+  {
+    "file": "white-frame/badge-purple.png",
+    "frame": "white",
+    "frame_color": "#E6E9EE",
+    "frame_profile": {
+      "shadow": "#939BA6",
+      "midtone": "#E6E9EE",
+      "highlight": "#FFFFFF",
+      "ink": "#26303A"
+    },
+    "center": "purple",
+    "center_label": "Purple",
+    "center_color": "#9333EA"
+  },
+  {
+    "file": "white-frame/badge-brown.png",
+    "frame": "white",
+    "frame_color": "#E6E9EE",
+    "frame_profile": {
+      "shadow": "#939BA6",
+      "midtone": "#E6E9EE",
+      "highlight": "#FFFFFF",
+      "ink": "#26303A"
+    },
+    "center": "brown",
+    "center_label": "Brown",
+    "center_color": "#785038"
+  },
+  {
+    "file": "white-frame/badge-orange.png",
+    "frame": "white",
+    "frame_color": "#E6E9EE",
+    "frame_profile": {
+      "shadow": "#939BA6",
+      "midtone": "#E6E9EE",
+      "highlight": "#FFFFFF",
+      "ink": "#26303A"
+    },
+    "center": "orange",
+    "center_label": "Orange",
+    "center_color": "#E98026"
+  },
+  {
+    "file": "white-frame/badge-dark-orange.png",
+    "frame": "white",
+    "frame_color": "#E6E9EE",
+    "frame_profile": {
+      "shadow": "#939BA6",
+      "midtone": "#E6E9EE",
+      "highlight": "#FFFFFF",
+      "ink": "#26303A"
+    },
+    "center": "dark-orange",
+    "center_label": "Dark orange",
+    "center_color": "#B84A08"
+  },
+  {
+    "file": "white-frame/badge-bright-orange.png",
+    "frame": "white",
+    "frame_color": "#E6E9EE",
+    "frame_profile": {
+      "shadow": "#939BA6",
+      "midtone": "#E6E9EE",
+      "highlight": "#FFFFFF",
+      "ink": "#26303A"
+    },
+    "center": "bright-orange",
+    "center_label": "Bright orange",
+    "center_color": "#FF9A00"
+  },
+  {
+    "file": "white-frame/badge-gray.png",
+    "frame": "white",
+    "frame_color": "#E6E9EE",
+    "frame_profile": {
+      "shadow": "#939BA6",
+      "midtone": "#E6E9EE",
+      "highlight": "#FFFFFF",
+      "ink": "#26303A"
+    },
+    "center": "gray",
+    "center_label": "Dark grey",
+    "center_color": "#70757D"
+  },
+  {
+    "file": "white-frame/badge-light-gray.png",
+    "frame": "white",
+    "frame_color": "#E6E9EE",
+    "frame_profile": {
+      "shadow": "#939BA6",
+      "midtone": "#E6E9EE",
+      "highlight": "#FFFFFF",
+      "ink": "#26303A"
+    },
+    "center": "light-gray",
+    "center_label": "Light grey",
+    "center_color": "#BFC3C9"
+  },
+  {
+    "file": "white-frame/badge-light-blue.png",
+    "frame": "white",
+    "frame_color": "#E6E9EE",
+    "frame_profile": {
+      "shadow": "#939BA6",
+      "midtone": "#E6E9EE",
+      "highlight": "#FFFFFF",
+      "ink": "#26303A"
+    },
+    "center": "light-blue",
+    "center_label": "Light blue",
+    "center_color": "#64B5F6"
+  },
+  {
+    "file": "white-frame/badge-navy.png",
+    "frame": "white",
+    "frame_color": "#E6E9EE",
+    "frame_profile": {
+      "shadow": "#939BA6",
+      "midtone": "#E6E9EE",
+      "highlight": "#FFFFFF",
+      "ink": "#26303A"
+    },
+    "center": "navy",
+    "center_label": "Navy",
+    "center_color": "#172554"
+  },
+  {
+    "file": "white-frame/badge-beige.png",
+    "frame": "white",
+    "frame_color": "#E6E9EE",
+    "frame_profile": {
+      "shadow": "#939BA6",
+      "midtone": "#E6E9EE",
+      "highlight": "#FFFFFF",
+      "ink": "#26303A"
+    },
+    "center": "beige",
+    "center_label": "Beige",
+    "center_color": "#D9C5A0"
+  },
+  {
+    "file": "white-frame/badge-teal.png",
+    "frame": "white",
+    "frame_color": "#E6E9EE",
+    "frame_profile": {
+      "shadow": "#939BA6",
+      "midtone": "#E6E9EE",
+      "highlight": "#FFFFFF",
+      "ink": "#26303A"
+    },
+    "center": "teal",
+    "center_label": "Teal",
+    "center_color": "#0F766E"
+  },
+  {
+    "file": "white-frame/badge-magenta.png",
+    "frame": "white",
+    "frame_color": "#E6E9EE",
+    "frame_profile": {
+      "shadow": "#939BA6",
+      "midtone": "#E6E9EE",
+      "highlight": "#FFFFFF",
+      "ink": "#26303A"
+    },
+    "center": "magenta",
+    "center_label": "Magenta",
+    "center_color": "#D426C0"
+  },
+  {
+    "file": "white-frame/badge-burgundy.png",
+    "frame": "white",
+    "frame_color": "#E6E9EE",
+    "frame_profile": {
+      "shadow": "#939BA6",
+      "midtone": "#E6E9EE",
+      "highlight": "#FFFFFF",
+      "ink": "#26303A"
+    },
+    "center": "burgundy",
+    "center_label": "Burgundy",
+    "center_color": "#7F1D3A"
+  },
+  {
+    "file": "white-frame/badge-coral.png",
+    "frame": "white",
+    "frame_color": "#E6E9EE",
+    "frame_profile": {
+      "shadow": "#939BA6",
+      "midtone": "#E6E9EE",
+      "highlight": "#FFFFFF",
+      "ink": "#26303A"
+    },
+    "center": "coral",
+    "center_label": "Coral",
+    "center_color": "#F08080"
+  },
+  {
+    "file": "white-frame/badge-lavender.png",
+    "frame": "white",
+    "frame_color": "#E6E9EE",
+    "frame_profile": {
+      "shadow": "#939BA6",
+      "midtone": "#E6E9EE",
+      "highlight": "#FFFFFF",
+      "ink": "#26303A"
+    },
+    "center": "lavender",
+    "center_label": "Lavender",
+    "center_color": "#B497D6"
+  }
+]

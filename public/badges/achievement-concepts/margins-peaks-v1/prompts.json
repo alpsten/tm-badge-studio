@@ -1,0 +1,137 @@
+{
+  "tool": "Built-in image_gen",
+  "status": "First concepts for review",
+  "style": "Minimal ivory-and-gold pictograms. High Score and Low Score share the same TR tile design.",
+  "notes": {
+    "scope": "Artwork and preview only. No achievement eligibility code has been changed.",
+    "mercyRule": "A winning margin of at least 30 TR over second place, as explicitly requested; not a raw TR total.",
+    "photoFinish": "The user's first-to-last description and the existing achievements plan refer to whole-table spread. Use closestTables/tableSpreads for this meaning; closestGames currently measures first-versus-second margin.",
+    "soClose": "The intended meaning is second place exactly 1 TR behind the winner. Current trMarginFor(second) compares to the next lower distinct placement when one exists, so it cannot generally implement this condition; compare second's TR directly with first's.",
+    "statsScope": "The current biggestWins, closestGames and tableSpreads highlights are built from completeMatches excluding round 99. Match inclusion should be explicitly settled when these achievements are implemented.",
+    "recordScope": "Descriptions retain the user's single-highest/single-lowest wording. Handling equal records belongs to eligibility implementation.",
+    "toperfName": "Use the user's requested name ToPerf and Beyond! for the highest tournament TPerf; the older plan calls this Efficiency Expert."
+  },
+  "jobs": [
+    {
+      "id": "biggest-win",
+      "name": "Biggest Win",
+      "symbol": "Two score bars with a large winning gap.",
+      "description": "Won the game with the tournament’s largest TR margin between first and second place.",
+      "prompt": "Use case: logo-brand.\nAsset type: ONE minimalist achievement emblem for the center of an existing game badge.\nInput image: MATERIAL AND STYLE reference only. Match its smooth ivory enamel, warm gold, shallow polished bevels, thin dark edges, and upper-left highlights. Do not copy the card or heart.\nStyle: front-on orthographic pictogram, chunky simple shapes, smooth surfaces without texture, immediately recognizable at small display sizes.\nComposition: one compact centered emblem on a square canvas with at least 15 percent clear margin all around. Only the requested objects.\nBackground: actual transparent alpha PNG. Fully transparent outside objects and in every gap. No backdrop, black fill, glow, haze or cast shadow.\nAvoid: outer badge frame, unrequested ornaments, laurels, scenery, people, tiny markings, captions, presentation sheet. No letters or numbers unless requested below.\nSubject: Two thick HORIZONTAL score bars aligned at the same left edge, stacked with a clear gap. The top bar is warm GOLD and long; the lower bar is IVORY with narrow gold edging and exactly ONE THIRD the top bar’s length. Above the left half of the top bar is one small but chunky GOLD THREE-POINT CROWN, visibly separate from the bar. The long winning bar and much shorter second-place bar clearly show a large gap. No axes, numerals, graph background, extra bars, arrows or lettering.",
+      "referenced_image_paths": [
+        "output/imagegen/achievements/corporation-loyalty-v1/one-corp-wonder.png"
+      ],
+      "generated_path": "output/imagegen/achievements/margins-peaks-v1/biggest-win.png"
+    },
+    {
+      "id": "photo-finish",
+      "name": "Photo Finish",
+      "symbol": "A simple camera.",
+      "description": "Played at the tournament’s closest table, measured from first to last place.",
+      "prompt": "Use case: logo-brand.\nAsset type: ONE minimalist achievement emblem for the center of an existing game badge.\nInput image: MATERIAL AND STYLE reference only. Match its smooth ivory enamel, warm gold, shallow polished bevels, thin dark edges, and upper-left highlights. Do not copy the card or heart.\nStyle: front-on orthographic pictogram, chunky simple shapes, smooth surfaces without texture, immediately recognizable at small display sizes.\nComposition: one compact centered emblem on a square canvas with at least 15 percent clear margin all around. Only the requested objects.\nBackground: actual transparent alpha PNG. Fully transparent outside objects and in every gap. No backdrop, black fill, glow, haze or cast shadow.\nAvoid: outer badge frame, unrequested ornaments, laurels, scenery, people, tiny markings, captions, presentation sheet. No letters or numbers unless requested below.\nSubject: ONE unmistakable compact CAMERA icon: a broad rounded ivory rectangular body with gold edging, one large circular GOLD lens ring with an ivory lens center, a short raised ivory-and-gold viewfinder hump at top center, and one small gold shutter button at the upper right. Front-on view, simple silhouette. Lens is a plain circle, no aperture blades or tiny reflections. Only the camera, no flash burst, photo, filmstrip, checkers, lettering or extra symbols.",
+      "referenced_image_paths": [
+        "output/imagegen/achievements/corporation-loyalty-v1/one-corp-wonder.png"
+      ],
+      "generated_path": "output/imagegen/achievements/margins-peaks-v1/photo-finish.png"
+    },
+    {
+      "id": "nail-biter",
+      "name": "Nail-Biter",
+      "symbol": "The number 5 between inward-pointing arrows.",
+      "description": "Played at a table where first and last place finished no more than 5 TR apart.",
+      "prompt": "Use case: logo-brand.\nAsset type: ONE minimalist achievement emblem for the center of an existing game badge.\nInput image: MATERIAL AND STYLE reference only. Match its smooth ivory enamel, warm gold, shallow polished bevels, thin dark edges, and upper-left highlights. Do not copy the card or heart.\nStyle: front-on orthographic pictogram, chunky simple shapes, smooth surfaces without texture, immediately recognizable at small display sizes.\nComposition: one compact centered emblem on a square canvas with at least 15 percent clear margin all around. Only the requested objects.\nBackground: actual transparent alpha PNG. Fully transparent outside objects and in every gap. No backdrop, black fill, glow, haze or cast shadow.\nAvoid: outer badge frame, unrequested ornaments, laurels, scenery, people, tiny markings, captions, presentation sheet. No letters or numbers unless requested below.\nSubject: One very large chunky IVORY NUMBER '5' with narrow gold rim in the center. On its LEFT a short broad GOLD arrow points RIGHT toward the 5; on its RIGHT an identical mirrored GOLD arrow points LEFT toward the 5. Generous transparent gaps around the digit. This compact symmetric →5← arrangement represents a tightly packed table within five points. Only the digit 5 and the two inward arrows; no text, other digits, signs, box or border around them.",
+      "referenced_image_paths": [
+        "output/imagegen/achievements/corporation-loyalty-v1/one-corp-wonder.png"
+      ],
+      "generated_path": "output/imagegen/achievements/margins-peaks-v1/nail-biter.png"
+    },
+    {
+      "id": "mercy-rule",
+      "name": "Mercy Rule",
+      "symbol": "A crowned 30+.",
+      "description": "Won a game by at least 30 TR over second place.",
+      "prompt": "Use case: logo-brand.\nAsset type: ONE minimalist achievement emblem for the center of an existing game badge.\nInput image: MATERIAL AND STYLE reference only. Match its smooth ivory enamel, warm gold, shallow polished bevels, thin dark edges, and upper-left highlights. Do not copy the card or heart.\nStyle: front-on orthographic pictogram, chunky simple shapes, smooth surfaces without texture, immediately recognizable at small display sizes.\nComposition: one compact centered emblem on a square canvas with at least 15 percent clear margin all around. Only the requested objects.\nBackground: actual transparent alpha PNG. Fully transparent outside objects and in every gap. No backdrop, black fill, glow, haze or cast shadow.\nAvoid: outer badge frame, unrequested ornaments, laurels, scenery, people, tiny markings, captions, presentation sheet. No letters or numbers unless requested below.\nSubject: Large bold IVORY numerals with gold rims reading exactly '30+' on ONE horizontal line. The plus sign is large and aligned with the middle of the numerals. Above the center is one simple compact warm-GOLD THREE-POINT CROWN, with a clear transparent gap. Broad clear digits, no tiny detail. Only the 30+ and the crown. No laurel, arrows, medal, background panel or additional text.",
+      "referenced_image_paths": [
+        "output/imagegen/achievements/corporation-loyalty-v1/one-corp-wonder.png"
+      ],
+      "generated_path": "output/imagegen/achievements/margins-peaks-v1/mercy-rule.png"
+    },
+    {
+      "id": "dominant-force",
+      "name": "Dominant Force",
+      "symbol": "A flag planted on a mountain summit.",
+      "description": "Finished a tournament with the single highest cumulative TR margin.",
+      "prompt": "Use case: logo-brand.\nAsset type: ONE minimalist achievement emblem for the center of an existing game badge.\nInput image: MATERIAL AND STYLE reference only. Match its smooth ivory enamel, warm gold, shallow polished bevels, thin dark edges, and upper-left highlights. Do not copy the card or heart.\nStyle: front-on orthographic pictogram, chunky simple shapes, smooth surfaces without texture, immediately recognizable at small display sizes.\nComposition: one compact centered emblem on a square canvas with at least 15 percent clear margin all around. Only the requested objects.\nBackground: actual transparent alpha PNG. Fully transparent outside objects and in every gap. No backdrop, black fill, glow, haze or cast shadow.\nAvoid: outer badge frame, unrequested ornaments, laurels, scenery, people, tiny markings, captions, presentation sheet. No letters or numbers unless requested below.\nSubject: ONE simple bold mountain peak, triangular IVORY silhouette with a narrow GOLD rim and just one thick GOLD diagonal ridge on its right slope. A short gold pole at the summit carries ONE small solid GOLD triangular flag flying to the right. The mountain is broad and unmistakable, flag is chunky and readable. No snow texture, landscape, second peak, ground, clouds, climber, stars, numbers or lettering.",
+      "referenced_image_paths": [
+        "output/imagegen/achievements/corporation-loyalty-v1/one-corp-wonder.png"
+      ],
+      "generated_path": "output/imagegen/achievements/margins-peaks-v1/dominant-force.png"
+    },
+    {
+      "id": "gauntlet-runner",
+      "name": "Gauntlet Runner",
+      "symbol": "An upright armored gauntlet.",
+      "description": "Finished a tournament with the single highest Buchholz opponent-strength score.",
+      "prompt": "Use case: logo-brand.\nAsset type: ONE minimalist achievement emblem for the center of an existing game badge.\nInput image: MATERIAL AND STYLE reference only. Match its smooth ivory enamel, warm gold, shallow polished bevels, thin dark edges, and upper-left highlights. Do not copy the card or heart.\nStyle: front-on orthographic pictogram, chunky simple shapes, smooth surfaces without texture, immediately recognizable at small display sizes.\nComposition: one compact centered emblem on a square canvas with at least 15 percent clear margin all around. Only the requested objects.\nBackground: actual transparent alpha PNG. Fully transparent outside objects and in every gap. No backdrop, black fill, glow, haze or cast shadow.\nAvoid: outer badge frame, unrequested ornaments, laurels, scenery, people, tiny markings, captions, presentation sheet. No letters or numbers unless requested below.\nSubject: ONE upright closed ARMORED GAUNTLET fist, viewed straight on from the back of the hand. Four broad rounded ivory knuckle plates form the top; a chunky ivory thumb folds across the lower side; a short simple flared gold wrist cuff is at the bottom. Narrow gold seams separate the fingers. Minimal simplified medieval armor glove silhouette with broad enamel plates, just a few strong divisions. No rivets, chains, fine joints, spikes, weapon, arm, second glove, stars, crown or lettering.",
+      "referenced_image_paths": [
+        "output/imagegen/achievements/corporation-loyalty-v1/one-corp-wonder.png"
+      ],
+      "generated_path": "output/imagegen/achievements/margins-peaks-v1/gauntlet-runner.png"
+    },
+    {
+      "id": "toperf-and-beyond",
+      "name": "ToPerf and Beyond!",
+      "symbol": "A rocket lifting off.",
+      "description": "Finished a tournament with the single highest TPerf.",
+      "prompt": "Use case: logo-brand.\nAsset type: ONE minimalist achievement emblem for the center of an existing game badge.\nInput image: MATERIAL AND STYLE reference only. Match its smooth ivory enamel, warm gold, shallow polished bevels, thin dark edges, and upper-left highlights. Do not copy the card or heart.\nStyle: front-on orthographic pictogram, chunky simple shapes, smooth surfaces without texture, immediately recognizable at small display sizes.\nComposition: one compact centered emblem on a square canvas with at least 15 percent clear margin all around. Only the requested objects.\nBackground: actual transparent alpha PNG. Fully transparent outside objects and in every gap. No backdrop, black fill, glow, haze or cast shadow.\nAvoid: outer badge frame, unrequested ornaments, laurels, scenery, people, tiny markings, captions, presentation sheet. No letters or numbers unless requested below.\nSubject: ONE upright small ROCKET pointing straight up, front-on symmetrical view. Smooth IVORY fuselage with narrow gold rim, one large plain round GOLD porthole, two broad GOLD side fins, and ONE short chunky GOLD flame beneath the engine. Clear simple capsule silhouette. No spacecraft details, rivets, exhaust clouds, smoke, stars, planets, letters or numbers. Only one rocket and its single small flame.",
+      "referenced_image_paths": [
+        "output/imagegen/achievements/corporation-loyalty-v1/one-corp-wonder.png"
+      ],
+      "generated_path": "output/imagegen/achievements/margins-peaks-v1/toperf-and-beyond.png"
+    },
+    {
+      "id": "high-score",
+      "name": "High Score",
+      "symbol": "A TR score tile with an upward marker.",
+      "description": "Recorded the single highest game TR in the tournament, regardless of placement.",
+      "prompt": "Use case: logo-brand.\nAsset type: ONE minimalist achievement emblem for the center of an existing game badge.\nInput image: MATERIAL AND STYLE reference only. Match its smooth ivory enamel, warm gold, shallow polished bevels, thin dark edges, and upper-left highlights. Do not copy the card or heart.\nStyle: front-on orthographic pictogram, chunky simple shapes, smooth surfaces without texture, immediately recognizable at small display sizes.\nComposition: one compact centered emblem on a square canvas with at least 15 percent clear margin all around. Only the requested objects.\nBackground: actual transparent alpha PNG. Fully transparent outside objects and in every gap. No backdrop, black fill, glow, haze or cast shadow.\nAvoid: outer badge frame, unrequested ornaments, laurels, scenery, people, tiny markings, captions, presentation sheet. No letters or numbers unless requested below.\nSubject: ONE compact upright rounded-square IVORY SCORE TILE with a narrow GOLD border. In the center of the tile, the large chunky GOLD CAPITAL LETTERS 'TR' on one line, perfectly readable. Directly ABOVE the tile, centered with a clear transparent gap, ONE broad warm-GOLD TRIANGLE pointing UP. The triangle is about half the width of the tile. This is the high-score member of a matching high/low pair. No arrow shaft, crown, pedestal, extra tiles, numbers or other text.",
+      "referenced_image_paths": [
+        "output/imagegen/achievements/corporation-loyalty-v1/one-corp-wonder.png"
+      ],
+      "generated_path": "output/imagegen/achievements/margins-peaks-v1/high-score.png"
+    },
+    {
+      "id": "low-score",
+      "name": "Low Score",
+      "symbol": "A TR score tile with a downward marker.",
+      "description": "Recorded the single lowest game TR in the tournament, regardless of placement.",
+      "prompt": "Use case: precise-object-edit.\nInput image is the High Score emblem and the exact EDIT TARGET.\nCreate the matching LOW SCORE emblem. Change only the location and direction of the gold triangle: remove it from ABOVE the TR score tile and put the same-size triangle directly BELOW the tile, pointing DOWN, with the same clear gap.\nPreserve the ivory rounded-square tile, gold border, exact upright 'TR' lettering, gold material, thin dark edge, bevels, and upper-left lighting. Keep every proportion and the tile size the same. Recenter the combined tile-and-triangle vertically so the whole icon has balanced transparent margins. Do NOT flip or rotate the tile or the lettering.\nExactly one TR tile and one downward-pointing triangle. No triangle above the tile remains. No extra elements or text.\nPreserve actual transparent alpha outside the icon and in the gap. No backdrop, glow, shadow, or haze. Square canvas.",
+      "referenced_image_paths": [
+        "output/imagegen/achievements/margins-peaks-v1/high-score.png"
+      ],
+      "generated_path": "output/imagegen/achievements/margins-peaks-v1/low-score.png"
+    },
+    {
+      "id": "against-all-odds",
+      "name": "Against All Odds",
+      "symbol": "A crowned die showing one pip.",
+      "description": "Won with the lowest TR recorded by any game winner in that tournament.",
+      "prompt": "Use case: logo-brand.\nAsset type: ONE minimalist achievement emblem for the center of an existing game badge.\nInput image: MATERIAL AND STYLE reference only. Match its smooth ivory enamel, warm gold, shallow polished bevels, thin dark edges, and upper-left highlights. Do not copy the card or heart.\nStyle: front-on orthographic pictogram, chunky simple shapes, smooth surfaces without texture, immediately recognizable at small display sizes.\nComposition: one compact centered emblem on a square canvas with at least 15 percent clear margin all around. Only the requested objects.\nBackground: actual transparent alpha PNG. Fully transparent outside objects and in every gap. No backdrop, black fill, glow, haze or cast shadow.\nAvoid: outer badge frame, unrequested ornaments, laurels, scenery, people, tiny markings, captions, presentation sheet. No letters or numbers unless requested below.\nSubject: ONE front-facing rounded-square IVORY DIE with narrow GOLD rim, displaying exactly ONE large round GOLD PIP in the center. Above the die is ONE simple warm-GOLD THREE-POINT CROWN, with a transparent gap between die and crown. Flat front view, no extra die faces or perspective cube sides. The crown and one-pip die clearly read as winning despite the lowest roll. No other dice, pips, stars, numbers, letters, chips or sparkles.",
+      "referenced_image_paths": [
+        "output/imagegen/achievements/corporation-loyalty-v1/one-corp-wonder.png"
+      ],
+      "generated_path": "output/imagegen/achievements/margins-peaks-v1/against-all-odds.png"
+    },
+    {
+      "id": "so-close",
+      "name": "So Close",
+      "symbol": "A broken heart marked −1.",
+      "description": "Finished second, exactly 1 TR behind the winner.",
+      "prompt": "Use case: logo-brand.\nAsset type: ONE minimalist achievement emblem for the center of an existing game badge.\nInput image: MATERIAL AND STYLE reference only. Match its smooth ivory enamel, warm gold, shallow polished bevels, thin dark edges, and upper-left highlights. Do not copy the card or heart.\nStyle: front-on orthographic pictogram, chunky simple shapes, smooth surfaces without texture, immediately recognizable at small display sizes.\nComposition: one compact centered emblem on a square canvas with at least 15 percent clear margin all around. Only the requested objects.\nBackground: actual transparent alpha PNG. Fully transparent outside objects and in every gap. No backdrop, black fill, glow, haze or cast shadow.\nAvoid: outer badge frame, unrequested ornaments, laurels, scenery, people, tiny markings, captions, presentation sheet. No letters or numbers unless requested below.\nSubject: ONE simple broad IVORY HEART with narrow GOLD rim, split down the middle by a single thick jagged TRANSPARENT crack into two separated halves. Directly below the heart is the large clear GOLD TEXT '−1' on one line: a horizontal minus sign followed by the numeral 1, no other characters. The two heart halves remain close enough to read as a broken heart, not floating shards. The heart dominates, and −1 is large enough to read at small size. No tears, face, crown, stars, extra fragments, background disc or other symbols.",
+      "referenced_image_paths": [
+        "output/imagegen/achievements/corporation-loyalty-v1/one-corp-wonder.png"
+      ],
+      "generated_path": "output/imagegen/achievements/margins-peaks-v1/so-close.png"
+    }
+  ]
+}

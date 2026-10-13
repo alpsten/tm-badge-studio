@@ -1,0 +1,57 @@
+{
+  "tool": "Built-in image_gen",
+  "status": "Approved by the user; proceed to Milestones & Awards",
+  "style": "Minimal pictograms matching the approved Final Table set, with related silver and bronze recurring-placement emblems.",
+  "jobs": [
+    {
+      "id": "finish-top-ten",
+      "name": "Finish Top Ten",
+      "symbol": "A bold ten.",
+      "description": "Finished in the top 10 in a tournament’s final standings.",
+      "prompt": "Use case: logo-brand.\nAsset type: ONE minimalist tournament achievement emblem, a transparent PNG cutout for the center of a hexagonal game badge.\nStyle: match a clean raised enamel pictogram collection. Broad solid geometric shapes, almost-flat smooth faces, narrow polished beveled edges, thin dark perimeter, gentle upper-left highlights. Front-on orthographic view. Warm gold and ivory only, except when a specific medal metal is requested below. Consistent restrained depth, no texture, no photographic detail. Instantly recognizable at 48 pixels tall.\nComposition: one compact balanced centered emblem occupying around 75 percent of a square canvas, generous transparent margins; every part fully visible. Genuinely transparent background and open negative spaces. No opaque or translucent backdrop, no stray pixels or haze.\nDo not add a badge frame, hexagon, backing disc, laurels, wings, sparkles, scene, shadows on an imaginary background, letters, words, labels or extra objects. Only include numerals when explicitly requested below. Produce a single asset, not a contact sheet.\nSubject: the exact numeral \"10\" as one bold compact typographic emblem. Large upright thick sans-serif digits with broad ivory faces and very narrow warm gold beveled edges, both digits equal height and clearly separated. The zero has a large clean transparent opening. No ordinal suffix, no ribbon, no extra symbols. Clear, simple, stable achievement mark, with the numeral filling the silhouette.",
+      "edit_prompt": "Use case: background-extraction. Edit target: supplied ivory and gold 10 achievement emblem. Remove ALL background, black backdrop, gold glow, haze and shadow around the digits AND within the opening of the zero. Return ONLY the exact two numerals as a crisp clean cutout on genuinely transparent alpha. Preserve their existing shape, face colors, bevels, highlights, spacing and proportions. Nothing else may be changed or added. The zero's hole and the gap between 1 and 0 must be completely transparent. No drop shadow or semi-transparent halo. Fit the whole preserved 10 centered on a square transparent canvas with generous empty margins.",
+      "referenced_image_paths": [],
+      "historical_reference_filenames": [
+        "exec-e55b56d1-53b4-4606-b695-0724465bb821.png"
+      ],
+      "generated_path": "output/imagegen/achievements/tournament-standings-v1/finish-top-ten.png"
+    },
+    {
+      "id": "clean-sweep",
+      "name": "Clean Sweep",
+      "symbol": "A simple sweeping broom.",
+      "description": "Won every round in a tournament.",
+      "prompt": "Use case: logo-brand.\nAsset type: ONE minimalist tournament achievement emblem, a transparent PNG cutout for the center of a hexagonal game badge.\nStyle: match a clean raised enamel pictogram collection. Broad solid geometric shapes, almost-flat smooth faces, narrow polished beveled edges, thin dark perimeter, gentle upper-left highlights. Front-on orthographic view. Warm gold and ivory only, except when a specific medal metal is requested below. Consistent restrained depth, no texture, no photographic detail. Instantly recognizable at 48 pixels tall.\nComposition: one compact balanced centered emblem occupying around 75 percent of a square canvas, generous transparent margins; every part fully visible. Genuinely transparent background and open negative spaces. No opaque or translucent backdrop, no stray pixels or haze.\nDo not add a badge frame, hexagon, backing disc, laurels, wings, sparkles, scene, shadows on an imaginary background, letters, words, labels or extra objects. Only include numerals when explicitly requested below. Produce a single asset, not a contact sheet.\nSubject: ONE simple unmistakable broom angled diagonally, short thick warm gold handle extending toward the upper right and a broad ivory fan-shaped brush at the lower left, joined by a plain gold ferrule. Brush is a single solid broad silhouette with just two short wide grooves suggesting bristles; no individual hairs. Keep handle short enough that the brush remains large and legible. No dust, no sparkles, no check marks, no motion lines, no other objects.",
+      "generated_path": "output/imagegen/achievements/tournament-standings-v1/clean-sweep.png"
+    },
+    {
+      "id": "forever-second",
+      "name": "Forever Second",
+      "symbol": "A silver two surrounded by repeating arrows.",
+      "description": "Finished second in every round.",
+      "prompt": "Use case: logo-brand.\nAsset type: ONE minimalist tournament achievement emblem, a transparent PNG cutout for the center of a hexagonal game badge.\nStyle: match a clean raised enamel pictogram collection. Broad solid geometric shapes, almost-flat smooth faces, narrow polished beveled edges, thin dark perimeter, gentle upper-left highlights. Front-on orthographic view. Warm gold and ivory only, except when a specific medal metal is requested below. Consistent restrained depth, no texture, no photographic detail. Instantly recognizable at 48 pixels tall.\nComposition: one compact balanced centered emblem occupying around 75 percent of a square canvas, generous transparent margins; every part fully visible. Genuinely transparent background and open negative spaces. No opaque or translucent backdrop, no stray pixels or haze.\nDo not add a badge frame, hexagon, backing disc, laurels, wings, sparkles, scene, shadows on an imaginary background, letters, words, labels or extra objects. Only include numerals when explicitly requested below. Produce a single asset, not a contact sheet.\nSubject: the exact numeral \"2\", large bold upright sans-serif, centered inside ONE simple circular repeat symbol made from two broad curved arrows chasing each other clockwise. All faces and bevels are cool SILVER metal, not gold: light silver faces, mid-silver edges, restrained charcoal perimeter. Exactly one numeral and two curved arrows. The numeral is the dominant element; arrows make a clear compact open ring around it with generous transparent space between ring and numeral. Plain broad arrowheads, no small details, no outline circles or background disc. The repeating arrows express the same placing in every round.",
+      "preferredFrame": "silver",
+      "generated_path": "output/imagegen/achievements/tournament-standings-v1/forever-second.png"
+    },
+    {
+      "id": "perpetual-bronze",
+      "name": "Perpetual Bronze",
+      "symbol": "A bronze three surrounded by repeating arrows.",
+      "description": "Finished third in every round.",
+      "preferredFrame": "bronze",
+      "referenced_image_paths": [
+        "output/imagegen/achievements/tournament-standings-v1/forever-second.png"
+      ],
+      "prompt": "Use case: precise-object-edit. Edit target: the supplied silver number 2 with circular repeat arrows. Create its matching Perpetual Bronze achievement emblem. Make only two changes: replace the central numeral 2 with a bold upright numeral 3 of the same height, weight, proportions and position; change the entire silver finish to warm copper-bronze with light bronze faces, darker bronze bevels and the same upper-left highlights. Preserve the TWO curved arrows EXACTLY in shape, direction, thickness, spacing and placement. Preserve the front-on composition, transparent outer background, transparent spaces between arrows and numeral, and clean subtle raised metal style. One image only. No additional objects, no glow, no backdrop, no text except the single numeral 3. Keep the same square canvas and generous transparent margins.",
+      "generated_path": "output/imagegen/achievements/tournament-standings-v1/perpetual-bronze.png"
+    },
+    {
+      "id": "rebuilding-season",
+      "name": "Rebuilding Season",
+      "symbol": "A masonry trowel above two bricks.",
+      "description": "Finished last in every round.",
+      "prompt": "Use case: logo-brand.\nAsset type: ONE minimalist tournament achievement emblem, a transparent PNG cutout for the center of a hexagonal game badge.\nStyle: match a clean raised enamel pictogram collection. Broad solid geometric shapes, almost-flat smooth faces, narrow polished beveled edges, thin dark perimeter, gentle upper-left highlights. Front-on orthographic view. Warm gold and ivory only, except when a specific medal metal is requested below. Consistent restrained depth, no texture, no photographic detail. Instantly recognizable at 48 pixels tall.\nComposition: one compact balanced centered emblem occupying around 75 percent of a square canvas, generous transparent margins; every part fully visible. Genuinely transparent background and open negative spaces. No opaque or translucent backdrop, no stray pixels or haze.\nDo not add a badge frame, hexagon, backing disc, laurels, wings, sparkles, scene, shadows on an imaginary background, letters, words, labels or extra objects. Only include numerals when explicitly requested below. Produce a single asset, not a contact sheet.\nSubject: ONE simple masonry trowel above TWO broad gold rectangular bricks arranged as a short staggered stack. The trowel has a large ivory triangular blade with gently rounded corners and a short thick gold handle, resting diagonally above the bricks. Strong iconic tool silhouette, no realistic hardware, no screw holes. The two bricks are solid plain rectangles with a broad transparent gap, no holes or engravings. A compact, optimistic construction symbol. Three clear objects only; no broken pieces, cracks, rubble, people, letters, or extra tools.",
+      "generated_path": "output/imagegen/achievements/tournament-standings-v1/rebuilding-season.png"
+    }
+  ]
+}

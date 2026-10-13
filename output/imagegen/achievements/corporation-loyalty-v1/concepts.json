@@ -1,0 +1,157 @@
+[
+  {
+    "id": "creature-of-habit",
+    "name": "Creature of Habit",
+    "symbol": "Two matching corporation cards.",
+    "description": "Played the same corporation in two rounds of one tournament.",
+    "preferredFrame": "gold",
+    "file": "icons/creature-of-habit.png",
+    "sourceSha256": "27afce6a2afc7571584828b68a86939ac4b55fe03ee209b74b809ac66bbe016d",
+    "size": [
+      1254,
+      1254
+    ],
+    "crop": [
+      27,
+      39,
+      1218,
+      1238
+    ],
+    "badgePlacement": {
+      "left": 35.34617552516657,
+      "top": 34.53007791567286,
+      "width": 29.51951147219457,
+      "height": 29.51951147219457
+    },
+    "symbolPlacement": {
+      "left": 9.503753127606338,
+      "top": 8.462885738115096,
+      "width": 81.57798165137615,
+      "height": 81.57798165137615
+    }
+  },
+  {
+    "id": "one-corp-wonder",
+    "name": "One Corp Wonder",
+    "symbol": "One corporation card with a heart.",
+    "description": "Played the same corporation in every round of one tournament.",
+    "preferredFrame": "gold",
+    "file": "icons/one-corp-wonder.png",
+    "sourceSha256": "ab913367b03f6b20f9579a4605fc0079fc5cfc804dd66c0c575210190e3d3d2b",
+    "size": [
+      1254,
+      1254
+    ],
+    "crop": [
+      0,
+      32,
+      1236,
+      1254
+    ],
+    "badgePlacement": {
+      "left": 36.059972643852234,
+      "top": 35.056602554606776,
+      "width": 28.286074926552264,
+      "height": 28.286074926552264
+    },
+    "symbolPlacement": {
+      "left": 10.999999999999995,
+      "top": 9.422330097087373,
+      "width": 79.13592233009709,
+      "height": 79.13592233009709
+    }
+  },
+  {
+    "id": "never-the-same-twice",
+    "name": "Never the Same Twice",
+    "symbol": "Three cards with three different symbols.",
+    "description": "Played a different corporation in every round of one tournament.",
+    "preferredFrame": "gold",
+    "file": "icons/never-the-same-twice.png",
+    "sourceSha256": "d947757ec41bbc7230362d260208ea4af6ff89743014032e9e0c3d72ff1c4538",
+    "size": [
+      1774,
+      887
+    ],
+    "crop": [
+      80,
+      96,
+      1696,
+      836
+    ],
+    "badgePlacement": {
+      "left": 30.060360720842187,
+      "top": 39.09672716318971,
+      "width": 39.834369460840044,
+      "height": 19.917184730420022
+    },
+    "symbolPlacement": {
+      "left": 7.13861386138614,
+      "top": 27.50742574257426,
+      "width": 85.62623762376236,
+      "height": 42.81311881188118
+    }
+  },
+  {
+    "id": "the-specialist",
+    "name": "The Specialist",
+    "symbol": "One corporation card topped by three victory stars.",
+    "description": "Won at least three games with the same corporation across tournament history.",
+    "preferredFrame": "gold",
+    "file": "icons/the-specialist.png",
+    "sourceSha256": "a6cd4cebb70f1ae92b0ac64ef085fdd3a26b47b15ee8ff10a3e9ed54a1ef0d31",
+    "size": [
+      1254,
+      1254
+    ],
+    "crop": [
+      0,
+      35,
+      1238,
+      1254
+    ],
+    "badgePlacement": {
+      "left": 36.6048514842987,
+      "top": 35.61357883239986,
+      "width": 27.136536734554813,
+      "height": 27.136536734554813
+    },
+    "symbolPlacement": {
+      "left": 11.0,
+      "top": 9.39337641357027,
+      "width": 79.0080775444265,
+      "height": 79.0080775444265
+    }
+  },
+  {
+    "id": "corporate-completionist",
+    "name": "Corporate Completionist",
+    "symbol": "A collected stack of corporation cards with a check mark.",
+    "description": "Won with all 12 base-box corporations at least once.",
+    "preferredFrame": "gold",
+    "file": "icons/corporate-completionist.png",
+    "sourceSha256": "2c6a69fcb7dbad6de18516242a190764695b1fb3874abbfe4b1df817eeb59ac7",
+    "size": [
+      1254,
+      1254
+    ],
+    "crop": [
+      0,
+      9,
+      1204,
+      1254
+    ],
+    "badgePlacement": {
+      "left": 36.43290485244199,
+      "top": 35.32861899180585,
+      "width": 28.261025440262028,
+      "height": 28.261025440262028
+    },
+    "symbolPlacement": {
+      "left": 12.284337349397589,
+      "top": 10.436144578313254,
+      "width": 78.56385542168675,
+      "height": 78.56385542168675
+    }
+  }
+]

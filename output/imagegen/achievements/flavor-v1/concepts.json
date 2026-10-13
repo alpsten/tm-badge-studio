@@ -1,0 +1,281 @@
+[
+  {
+    "id": "underwater",
+    "name": "Underwater",
+    "symbol": "A downward arrow below two water lines.",
+    "description": "Finished a game with TR below 50.",
+    "preferredFrame": "gold",
+    "file": "icons/underwater.png",
+    "sourceSha256": "43c940388ce41ab415861c98065edf6aa5b8cb9fcd4019ccec5adb23a552b6c2",
+    "size": [
+      1254,
+      1254
+    ],
+    "crop": [
+      49,
+      21,
+      1238,
+      1198
+    ],
+    "badgePlacement": {
+      "left": 35.17486809731733,
+      "top": 35.51871642482893,
+      "width": 28.890000630868787,
+      "height": 28.890000630868787
+    },
+    "symbolPlacement": {
+      "left": 7.785534062237174,
+      "top": 10.015979814970564,
+      "width": 82.26408746846089,
+      "height": 82.26408746846089
+    }
+  },
+  {
+    "id": "full-field",
+    "name": "Full Field",
+    "symbol": "A crowd above the number 100.",
+    "description": "Played in a tournament with at least 100 entrants.",
+    "preferredFrame": "gold",
+    "file": "icons/full-field.png",
+    "sourceSha256": "8c465c4d7dc6ccc6b3f9f4450900ea3c9467ac3903cb5e9491a500f60d24ee1e",
+    "size": [
+      1254,
+      1254
+    ],
+    "crop": [
+      0,
+      20,
+      1253,
+      1254
+    ],
+    "badgePlacement": {
+      "left": 35.143667459487915,
+      "top": 34.45522552095978,
+      "width": 29.73637830136018,
+      "height": 29.73637830136018
+    },
+    "symbolPlacement": {
+      "left": 11.0,
+      "top": 10.346368715083802,
+      "width": 78.06225059856345,
+      "height": 78.06225059856345
+    }
+  },
+  {
+    "id": "spoiler",
+    "name": "Spoiler",
+    "symbol": "A crown split into two pieces.",
+    "description": "Finished ahead of the eventual tournament champion at a shared table in a qualifying round.",
+    "preferredFrame": "gold",
+    "file": "icons/spoiler.png",
+    "sourceSha256": "a0e6df9f923a6e3a76560aae2f060fe3cea69cffa548ecab06ad5fddb6b177db",
+    "size": [
+      1254,
+      1254
+    ],
+    "crop": [
+      79,
+      55,
+      1174,
+      1222
+    ],
+    "badgePlacement": {
+      "left": 35.87635761157202,
+      "top": 35.16637981193333,
+      "width": 28.269828499742516,
+      "height": 28.269828499742516
+    },
+    "symbolPlacement": {
+      "left": 8.125964010282773,
+      "top": 7.323907455012848,
+      "width": 83.81491002570695,
+      "height": 83.81491002570695
+    }
+  },
+  {
+    "id": "growth-mindset",
+    "name": "Growth Mindset",
+    "symbol": "Three rising bars with an upward arrow.",
+    "description": "Improved your TR in every successive round of a tournament.",
+    "preferredFrame": "gold",
+    "file": "icons/growth-mindset.png",
+    "sourceSha256": "a01500784b072f5206c862d3b0d24162d11274e1c39788e68e3b8d43296ba4fa",
+    "size": [
+      1254,
+      1254
+    ],
+    "crop": [
+      0,
+      48,
+      1234,
+      1254
+    ],
+    "badgePlacement": {
+      "left": 36.13966703414917,
+      "top": 34.93643543129029,
+      "width": 28.1699473892657,
+      "height": 28.1699473892657
+    },
+    "symbolPlacement": {
+      "left": 10.999999999999995,
+      "top": 8.850891410048618,
+      "width": 79.26418152350081,
+      "height": 79.26418152350081
+    }
+  },
+  {
+    "id": "jack-of-all-trades",
+    "name": "Jack of All Trades",
+    "symbol": "One milestone flag paired with one award medal.",
+    "description": "Claimed at least one milestone and won at least one award in every recorded round.",
+    "preferredFrame": "gold",
+    "file": "icons/jack-of-all-trades.png",
+    "sourceSha256": "f10124fbaf8877dc18741c07195e757d24ef2914b7f09dd5f954f84619df986a",
+    "size": [
+      1254,
+      1254
+    ],
+    "crop": [
+      57,
+      45,
+      1216,
+      1182
+    ],
+    "badgePlacement": {
+      "left": 35.50751512167884,
+      "top": 35.59174958851134,
+      "width": 28.552358267737212,
+      "height": 28.552358267737212
+    },
+    "symbolPlacement": {
+      "left": 7.163934426229503,
+      "top": 8.711820534943913,
+      "width": 84.39344262295083,
+      "height": 84.39344262295083
+    }
+  },
+  {
+    "id": "the-big-table",
+    "name": "The Big Table",
+    "symbol": "A crowned table with five seats.",
+    "description": "Won a five-player game in a tournament with a Final.",
+    "preferredFrame": "gold",
+    "file": "icons/the-big-table.png",
+    "sourceSha256": "105cb139e1b87e2eb1715c9204b470ad28da7fa983b8a820b791252b2eda6fd5",
+    "size": [
+      1254,
+      1254
+    ],
+    "crop": [
+      33,
+      51,
+      1216,
+      1226
+    ],
+    "badgePlacement": {
+      "left": 36.17201141654085,
+      "top": 35.422563351319184,
+      "width": 27.766689645568892,
+      "height": 27.766689645568892
+    },
+    "symbolPlacement": {
+      "left": 8.824175824175825,
+      "top": 7.9010989010989,
+      "width": 82.68131868131867,
+      "height": 82.68131868131867
+    }
+  },
+  {
+    "id": "beat-the-fryx",
+    "name": "Beat the Fryx",
+    "symbol": "An F with a victory check mark.",
+    "description": "Finished ahead of a player whose name contains \u201cFryx\u201d at the same table.",
+    "preferredFrame": "gold",
+    "file": "icons/beat-the-fryx.png",
+    "sourceSha256": "325accc7da644b7a8bd464acd65c6efc3e5602fe40c75cb539c95c1eb8f17bfd",
+    "size": [
+      1254,
+      1254
+    ],
+    "crop": [
+      33,
+      27,
+      1240,
+      1254
+    ],
+    "badgePlacement": {
+      "left": 35.16959656324441,
+      "top": 34.63694373086496,
+      "width": 29.218108263458774,
+      "height": 29.218108263458774
+    },
+    "symbolPlacement": {
+      "left": 9.537897310513443,
+      "top": 9.28361858190709,
+      "width": 79.71638141809292,
+      "height": 79.71638141809292
+    }
+  },
+  {
+    "id": "welcome-to-mars",
+    "name": "Welcome to Mars",
+    "symbol": "A bootprint on a cratered planet.",
+    "description": "Finished last at a table at least once.",
+    "preferredFrame": "gold",
+    "file": "icons/welcome-to-mars.png",
+    "sourceSha256": "4040a60322e9aa0ed99ec50eca9d8b6fb22cde47c17dd40bedd95c5291105516",
+    "size": [
+      1254,
+      1254
+    ],
+    "crop": [
+      77,
+      138,
+      1184,
+      1254
+    ],
+    "badgePlacement": {
+      "left": 34.594295558429536,
+      "top": 32.5544084272077,
+      "width": 30.640370134384405,
+      "height": 30.640370134384405
+    },
+    "symbolPlacement": {
+      "left": 5.932795698924728,
+      "top": 1.3548387096774193,
+      "width": 87.64516129032259,
+      "height": 87.64516129032259
+    }
+  },
+  {
+    "id": "lucky-seat",
+    "name": "Lucky Seat",
+    "symbol": "A chair with a four-leaf clover.",
+    "description": "Won at least three games while seated as first player.",
+    "preferredFrame": "gold",
+    "file": "icons/lucky-seat.png",
+    "sourceSha256": "dbfbd50ae78035b913d3184ce0c769e4e673a72e60cc059528358414bc41b15d",
+    "size": [
+      1254,
+      1254
+    ],
+    "crop": [
+      0,
+      25,
+      1224,
+      1245
+    ],
+    "badgePlacement": {
+      "left": 37.70037889480591,
+      "top": 36.79868510735581,
+      "width": 25.20216481358397,
+      "height": 25.20216481358397
+    },
+    "symbolPlacement": {
+      "left": 11.0,
+      "top": 9.534313725490199,
+      "width": 79.91176470588235,
+      "height": 79.91176470588235
+    }
+  }
+]

@@ -1,0 +1,784 @@
+{
+  "version": 2,
+  "source": "Original user-proposed palettes plus distinct design proposals for repeated color groups; these are not official corporation colors.",
+  "slash_policy": "alternatives",
+  "slime_hex": "#B6D52D",
+  "accent_placement": [
+    "bottom-plate",
+    "crest",
+    "outer-border"
+  ],
+  "corporations": [
+    {
+      "id": "aphrodite",
+      "name": "Aphrodite",
+      "center_options": [
+        "orange"
+      ],
+      "frame_options": [
+        "yellow"
+      ],
+      "user_colors": {
+        "center": "Orange",
+        "frame": "Gul"
+      },
+      "suggested_accent": null
+    },
+    {
+      "id": "arcadian-communities",
+      "name": "Arcadian Communities",
+      "center_options": [
+        "black"
+      ],
+      "frame_options": [
+        "white"
+      ],
+      "user_colors": {
+        "center": "Black",
+        "frame": "White"
+      },
+      "suggested_accent": null
+    },
+    {
+      "id": "aridor",
+      "name": "Aridor",
+      "center_options": [
+        "orange"
+      ],
+      "frame_options": [
+        "bronze"
+      ],
+      "user_colors": {
+        "center": "Orange",
+        "frame": "Bronze"
+      },
+      "suggested_accent": null
+    },
+    {
+      "id": "arklight",
+      "name": "Arklight",
+      "center_options": [
+        "blue"
+      ],
+      "frame_options": [
+        "white",
+        "black"
+      ],
+      "user_colors": {
+        "center": "Blue",
+        "frame": "White/Black"
+      },
+      "suggested_accent": "black",
+      "distinct_palette": {
+        "center": "light-blue",
+        "frame": "navy",
+        "reason": "Light blue and navy follow the maritime logo and separate Arklight from Morning Star."
+      }
+    },
+    {
+      "id": "astrodrill",
+      "name": "Astrodrill",
+      "center_options": [
+        "orange"
+      ],
+      "frame_options": [
+        "gray",
+        "black"
+      ],
+      "user_colors": {
+        "center": "Orange",
+        "frame": "Grey/Black"
+      },
+      "suggested_accent": "yellow",
+      "distinct_palette": {
+        "center": "steel",
+        "frame": "orange",
+        "reason": "A steel center with an orange frame gives Astrodrill an industrial look."
+      }
+    },
+    {
+      "id": "celestic",
+      "name": "Celestic",
+      "center_options": [
+        "orange"
+      ],
+      "frame_options": [
+        "turquoise"
+      ],
+      "user_colors": {
+        "center": "Orange",
+        "frame": "Turquoise"
+      },
+      "suggested_accent": null
+    },
+    {
+      "id": "cheung-shing-mars",
+      "name": "Cheung Shing Mars",
+      "center_options": [
+        "red"
+      ],
+      "frame_options": [
+        "black"
+      ],
+      "user_colors": {
+        "center": "Red",
+        "frame": "Black"
+      },
+      "suggested_accent": null
+    },
+    {
+      "id": "credicor",
+      "name": "Credicor",
+      "center_options": [
+        "purple"
+      ],
+      "frame_options": [
+        "white"
+      ],
+      "user_colors": {
+        "center": "Purple",
+        "frame": "White"
+      },
+      "suggested_accent": null
+    },
+    {
+      "id": "ecoline",
+      "name": "Ecoline",
+      "center_options": [
+        "green"
+      ],
+      "frame_options": [
+        "green"
+      ],
+      "user_colors": {
+        "center": "Green",
+        "frame": "Green"
+      },
+      "suggested_accent": "white"
+    },
+    {
+      "id": "ecotec",
+      "name": "Ecotec",
+      "center_options": [
+        "green"
+      ],
+      "frame_options": [
+        "yellow"
+      ],
+      "user_colors": {
+        "center": "Green",
+        "frame": "Yellow"
+      },
+      "suggested_accent": null
+    },
+    {
+      "id": "factorum",
+      "name": "Factorum",
+      "center_options": [
+        "orange"
+      ],
+      "frame_options": [
+        "silver"
+      ],
+      "user_colors": {
+        "center": "Orange",
+        "frame": "Silver"
+      },
+      "suggested_accent": null
+    },
+    {
+      "id": "helion",
+      "name": "Helion",
+      "center_options": [
+        "yellow"
+      ],
+      "frame_options": [
+        "black"
+      ],
+      "user_colors": {
+        "center": "Yellow",
+        "frame": "Black"
+      },
+      "suggested_accent": "orange"
+    },
+    {
+      "id": "interplanetary-cinematics",
+      "name": "Interplanetary Cinematics",
+      "center_options": [
+        "red"
+      ],
+      "frame_options": [
+        "yellow"
+      ],
+      "user_colors": {
+        "center": "Red",
+        "frame": "Yellow"
+      },
+      "suggested_accent": null
+    },
+    {
+      "id": "inventrix",
+      "name": "Inventrix",
+      "center_options": [
+        "light-blue"
+      ],
+      "frame_options": [
+        "blue"
+      ],
+      "user_colors": {
+        "center": "Light blue",
+        "frame": "Blue"
+      },
+      "suggested_accent": null
+    },
+    {
+      "id": "kuiper-cooperative",
+      "name": "Kuiper Cooperative",
+      "center_options": [
+        "light-blue"
+      ],
+      "frame_options": [
+        "white"
+      ],
+      "user_colors": {
+        "center": "Light Blue",
+        "frame": "White"
+      },
+      "suggested_accent": null
+    },
+    {
+      "id": "lakefront-resorts",
+      "name": "Lakefront Resorts",
+      "center_options": [
+        "orange"
+      ],
+      "frame_options": [
+        "blue"
+      ],
+      "user_colors": {
+        "center": "Orange",
+        "frame": "Blue"
+      },
+      "suggested_accent": null
+    },
+    {
+      "id": "manutech",
+      "name": "Manutech",
+      "center_options": [
+        "red"
+      ],
+      "frame_options": [
+        "white"
+      ],
+      "user_colors": {
+        "center": "Red",
+        "frame": "White"
+      },
+      "suggested_accent": null
+    },
+    {
+      "id": "mining-guild",
+      "name": "Mining Guild",
+      "center_options": [
+        "orange"
+      ],
+      "frame_options": [
+        "black"
+      ],
+      "user_colors": {
+        "center": "Orange",
+        "frame": "Black"
+      },
+      "suggested_accent": "bronze",
+      "distinct_palette": {
+        "center": "dark-orange",
+        "frame": "steel",
+        "reason": "Dark orange suggests mineral ore, with a cool steel frame."
+      }
+    },
+    {
+      "id": "mons-insurance",
+      "name": "Mons Insurance",
+      "center_options": [
+        "orange"
+      ],
+      "frame_options": [
+        "white"
+      ],
+      "user_colors": {
+        "center": "Orange",
+        "frame": "White"
+      },
+      "suggested_accent": "red"
+    },
+    {
+      "id": "morning-star-inc",
+      "name": "Morning Star Inc.",
+      "center_options": [
+        "blue"
+      ],
+      "frame_options": [
+        "white"
+      ],
+      "user_colors": {
+        "center": "Blue",
+        "frame": "White"
+      },
+      "suggested_accent": "yellow"
+    },
+    {
+      "id": "nirgal-enterprises",
+      "name": "Nirgal Enterprises",
+      "center_options": [
+        "white"
+      ],
+      "frame_options": [
+        "orange"
+      ],
+      "user_colors": {
+        "center": "White",
+        "frame": "Orange"
+      },
+      "suggested_accent": null
+    },
+    {
+      "id": "palladin-shipping",
+      "name": "Palladin Shipping",
+      "center_options": [
+        "yellow"
+      ],
+      "frame_options": [
+        "black",
+        "gray"
+      ],
+      "user_colors": {
+        "center": "Yellow",
+        "frame": "Black/Grey"
+      },
+      "suggested_accent": "white",
+      "distinct_palette": {
+        "center": "dark-yellow",
+        "frame": "steel",
+        "reason": "Dark yellow and steel distinguish Palladin from Helion’s yellow and black."
+      }
+    },
+    {
+      "id": "pharmacy-union",
+      "name": "Pharmacy Union",
+      "center_options": [
+        "yellow",
+        "slime"
+      ],
+      "frame_options": [
+        "white"
+      ],
+      "user_colors": {
+        "center": "Yellow/Slime",
+        "frame": "White"
+      },
+      "suggested_accent": "slime"
+    },
+    {
+      "id": "philares",
+      "name": "Philares",
+      "center_options": [
+        "orange"
+      ],
+      "frame_options": [
+        "black",
+        "green"
+      ],
+      "user_colors": {
+        "center": "Orange",
+        "frame": "Black/Green"
+      },
+      "suggested_accent": "green",
+      "distinct_palette": {
+        "center": "dark-green",
+        "frame": "orange",
+        "reason": "Green takes the center, using the green in the original alternatives and keeping an orange frame."
+      }
+    },
+    {
+      "id": "phobolog",
+      "name": "PhoboLog",
+      "center_options": [
+        "navy"
+      ],
+      "frame_options": [
+        "white"
+      ],
+      "user_colors": {
+        "center": "Navy",
+        "frame": "White"
+      },
+      "suggested_accent": "turquoise",
+      "distinct_palette": {
+        "center": "white",
+        "frame": "navy",
+        "reason": "A white center and navy frame echo the moon logo and reverse the original pair."
+      }
+    },
+    {
+      "id": "polyphemos",
+      "name": "Polyphemos",
+      "center_options": [
+        "black"
+      ],
+      "frame_options": [
+        "red"
+      ],
+      "user_colors": {
+        "center": "Black",
+        "frame": "Red"
+      },
+      "suggested_accent": null
+    },
+    {
+      "id": "point-luna",
+      "name": "Point Luna",
+      "center_options": [
+        "silver"
+      ],
+      "frame_options": [
+        "gray"
+      ],
+      "user_colors": {
+        "center": "Silver",
+        "frame": "Grey"
+      },
+      "suggested_accent": null
+    },
+    {
+      "id": "poseidon",
+      "name": "Poseidon",
+      "center_options": [
+        "turquoise"
+      ],
+      "frame_options": [
+        "black"
+      ],
+      "user_colors": {
+        "center": "Turquoise",
+        "frame": "Black"
+      },
+      "suggested_accent": null
+    },
+    {
+      "id": "pristar",
+      "name": "Pristar",
+      "center_options": [
+        "orange"
+      ],
+      "frame_options": [
+        "black"
+      ],
+      "user_colors": {
+        "center": "Orange",
+        "frame": "Black"
+      },
+      "suggested_accent": "purple",
+      "distinct_palette": {
+        "center": "gold",
+        "frame": "purple",
+        "reason": "Gold complements the orange emblem while purple gives Pristar a distinct frame."
+      }
+    },
+    {
+      "id": "recyclon",
+      "name": "Recyclon",
+      "center_options": [
+        "red"
+      ],
+      "frame_options": [
+        "orange"
+      ],
+      "user_colors": {
+        "center": "Red",
+        "frame": "Orange"
+      },
+      "suggested_accent": null
+    },
+    {
+      "id": "robinson-industries",
+      "name": "Robinson Industries",
+      "center_options": [
+        "white"
+      ],
+      "frame_options": [
+        "black"
+      ],
+      "user_colors": {
+        "center": "White",
+        "frame": "Black"
+      },
+      "suggested_accent": null
+    },
+    {
+      "id": "sagitta",
+      "name": "Sagitta",
+      "center_options": [
+        "green"
+      ],
+      "frame_options": [
+        "black"
+      ],
+      "user_colors": {
+        "center": "Green",
+        "frame": "Black"
+      },
+      "suggested_accent": null
+    },
+    {
+      "id": "saturn-systems",
+      "name": "Saturn Systems",
+      "center_options": [
+        "navy"
+      ],
+      "frame_options": [
+        "white"
+      ],
+      "user_colors": {
+        "center": "Navy",
+        "frame": "White"
+      },
+      "suggested_accent": "yellow",
+      "distinct_palette": {
+        "center": "navy",
+        "frame": "gold",
+        "reason": "Navy keeps the night-sky theme; a gold frame gives Saturn a warm ring."
+      }
+    },
+    {
+      "id": "septem-tribus",
+      "name": "Septem Tribus",
+      "center_options": [
+        "beige"
+      ],
+      "frame_options": [
+        "white"
+      ],
+      "user_colors": {
+        "center": "Beige",
+        "frame": "White"
+      },
+      "suggested_accent": null
+    },
+    {
+      "id": "spire",
+      "name": "Spire",
+      "center_options": [
+        "black"
+      ],
+      "frame_options": [
+        "gray",
+        "silver"
+      ],
+      "user_colors": {
+        "center": "Black",
+        "frame": "Grey/Silver"
+      },
+      "suggested_accent": null
+    },
+    {
+      "id": "splice",
+      "name": "Splice",
+      "center_options": [
+        "white"
+      ],
+      "frame_options": [
+        "red"
+      ],
+      "user_colors": {
+        "center": "White",
+        "frame": "Red"
+      },
+      "suggested_accent": null
+    },
+    {
+      "id": "stormcraft-incorporated",
+      "name": "Stormcraft Incorporated",
+      "center_options": [
+        "orange"
+      ],
+      "frame_options": [
+        "black"
+      ],
+      "user_colors": {
+        "center": "Orange",
+        "frame": "Black"
+      },
+      "suggested_accent": "light-blue",
+      "distinct_palette": {
+        "center": "black",
+        "frame": "bright-orange",
+        "reason": "The orange logo stands against a black center, surrounded by a bright orange frame."
+      }
+    },
+    {
+      "id": "teractor",
+      "name": "Teractor",
+      "center_options": [
+        "orange"
+      ],
+      "frame_options": [
+        "black"
+      ],
+      "user_colors": {
+        "center": "Orange",
+        "frame": "Black"
+      },
+      "suggested_accent": "turquoise",
+      "distinct_palette": {
+        "center": "bright-orange",
+        "frame": "black",
+        "reason": "Bright orange keeps Teractor’s identity and separates it from Mining Guild’s darker palette."
+      }
+    },
+    {
+      "id": "terralabs-research",
+      "name": "Terralabs Research",
+      "center_options": [
+        "turquoise"
+      ],
+      "frame_options": [
+        "green"
+      ],
+      "user_colors": {
+        "center": "Turquoise",
+        "frame": "Green"
+      },
+      "suggested_accent": null
+    },
+    {
+      "id": "tharsis-republic",
+      "name": "Tharsis Republic",
+      "center_options": [
+        "orange"
+      ],
+      "frame_options": [
+        "brown"
+      ],
+      "user_colors": {
+        "center": "Orange",
+        "frame": "Brown"
+      },
+      "suggested_accent": null
+    },
+    {
+      "id": "thorgate",
+      "name": "Thorgate",
+      "center_options": [
+        "navy"
+      ],
+      "frame_options": [
+        "red"
+      ],
+      "user_colors": {
+        "center": "Navy",
+        "frame": "Red"
+      },
+      "suggested_accent": null
+    },
+    {
+      "id": "tycho-magnetics",
+      "name": "Tycho Magnetics",
+      "center_options": [
+        "yellow"
+      ],
+      "frame_options": [
+        "white"
+      ],
+      "user_colors": {
+        "center": "Yellow",
+        "frame": "White"
+      },
+      "suggested_accent": "blue",
+      "distinct_palette": {
+        "center": "yellow",
+        "frame": "blue",
+        "reason": "A blue frame uses the previously suggested accent and separates Tycho from Pharmacy Union."
+      }
+    },
+    {
+      "id": "united-nations-mars-initiative",
+      "name": "United Nations Mars Initiative",
+      "center_options": [
+        "turquoise"
+      ],
+      "frame_options": [
+        "white"
+      ],
+      "user_colors": {
+        "center": "Turquoise",
+        "frame": "White"
+      },
+      "suggested_accent": null
+    },
+    {
+      "id": "utopia-invest",
+      "name": "Utopia Invest",
+      "center_options": [
+        "green"
+      ],
+      "frame_options": [
+        "white"
+      ],
+      "user_colors": {
+        "center": "Green",
+        "frame": "White"
+      },
+      "suggested_accent": null
+    },
+    {
+      "id": "valley-trust",
+      "name": "Valley Trust",
+      "center_options": [
+        "blue"
+      ],
+      "frame_options": [
+        "gray"
+      ],
+      "user_colors": {
+        "center": "Blue",
+        "frame": "Grey"
+      },
+      "suggested_accent": null
+    },
+    {
+      "id": "viron",
+      "name": "Viron",
+      "center_options": [
+        "black"
+      ],
+      "frame_options": [
+        "beige"
+      ],
+      "user_colors": {
+        "center": "Black",
+        "frame": "Beige"
+      },
+      "suggested_accent": null
+    },
+    {
+      "id": "vitor",
+      "name": "Vitor",
+      "center_options": [
+        "orange"
+      ],
+      "frame_options": [
+        "white"
+      ],
+      "user_colors": {
+        "center": "Orange",
+        "frame": "White"
+      },
+      "suggested_accent": "purple",
+      "distinct_palette": {
+        "center": "coral",
+        "frame": "white",
+        "reason": "Coral gives Vitor a warmer pink-orange identity while retaining its white frame."
+      }
+    }
+  ]
+}

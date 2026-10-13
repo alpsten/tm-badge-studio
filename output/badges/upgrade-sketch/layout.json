@@ -1,0 +1,75 @@
+{
+  "canvas": [
+    2048,
+    2048
+  ],
+  "badge": {
+    "source": "../badge-gold-frame-black-center.png",
+    "position": [
+      397,
+      397
+    ],
+    "size": [
+      1254,
+      1254
+    ],
+    "resized": false
+  },
+  "plate": {
+    "source": "masters/bottom-plate-silver.png",
+    "source_crop": [
+      59,
+      146,
+      1921,
+      706
+    ],
+    "size": [
+      640,
+      192
+    ],
+    "position": [
+      704,
+      1510
+    ],
+    "midtone": "#C99A2E"
+  },
+  "wings": {
+    "source": "masters/wings-silver.png",
+    "source_crop": [
+      44,
+      79,
+      2004,
+      691
+    ],
+    "size": [
+      1900,
+      593
+    ],
+    "position": [
+      74,
+      680
+    ],
+    "midtone": "#C99A2E"
+  },
+  "rank": {
+    "text": "1",
+    "center": [
+      1024,
+      1600
+    ],
+    "font_size": 98,
+    "color": "#F5DB92"
+  },
+  "stage_one_order": [
+    "badge",
+    "bottom-plate-gold",
+    "rank-1"
+  ],
+  "stage_two_order": [
+    "wings-gold",
+    "badge",
+    "bottom-plate-gold",
+    "rank-1"
+  ],
+  "tier_logic": "The plate tracks rank within a tier. Adding wings starts a new tier at rank 1; no rank cap is defined by this sketch."
+}

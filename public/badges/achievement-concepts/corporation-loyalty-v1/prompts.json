@@ -1,0 +1,78 @@
+{
+  "tool": "Built-in image_gen",
+  "status": "First concepts for review",
+  "style": "Minimal ivory-and-gold corporation cards. Creature of Habit is the shared style reference.",
+  "completionistScope": {
+    "baseCorporations": [
+      "Credicor",
+      "Ecoline",
+      "Helion",
+      "Interplanetary Cinematics",
+      "Inventrix",
+      "Mining Guild",
+      "PhoboLog",
+      "Saturn Systems",
+      "Teractor",
+      "Tharsis Republic",
+      "Thorgate",
+      "United Nations Mars Initiative"
+    ],
+    "includesCorporateEra": true,
+    "includesBeginnerCorporation": false,
+    "source": "https://boardgamegeek.com/thread/2136776/base-game-corps-win-statistics"
+  },
+  "jobs": [
+    {
+      "id": "creature-of-habit",
+      "name": "Creature of Habit",
+      "symbol": "Two matching corporation cards.",
+      "description": "Played the same corporation in two rounds of one tournament.",
+      "prompt": "Use case: logo-brand.\nAsset type: ONE minimalist achievement emblem for the center of an existing game badge, part of a consistent Corporation Loyalty family.\nStyle: smooth raised ivory enamel with narrow warm-gold rims, shallow polished bevels, thin dark edges, soft highlights from upper left. Front-on orthographic pictogram. Broad solid shapes, no texture or engraved details. Recognizable at small sizes.\nThe corporation-card motif is a simple upright rounded rectangle, ivory face with a narrow gold border. No card text, no game statistics, no tiny markings. Keep any symbol on a card large and simple.\nComposition: compact and balanced, centered on a square transparent canvas with at least 15 percent clear margin; every object fully visible. Only the described objects.\nBackground: actual transparent alpha PNG. Fully transparent outside objects and in every gap. No backdrop, no black fill, no glow, no haze, no cast shadow.\nAvoid: outer badge frame, extra objects, background disc, laurels, scenery, text, letters, numerals, logos of real corporations, presentation sheet.\nSubject: Exactly TWO equal-size upright corporation cards standing side by side with a small clear gap. Each card bears the EXACT SAME large solid gold hexagon centered on its ivory face. Both cards have identical shapes, colors and symbols; no overlap. Only two cards.",
+      "generated_path": "output/imagegen/achievements/corporation-loyalty-v1/creature-of-habit.png"
+    },
+    {
+      "id": "one-corp-wonder",
+      "name": "One Corp Wonder",
+      "symbol": "One corporation card with a heart.",
+      "description": "Played the same corporation in every round of one tournament.",
+      "prompt": "Input image: style reference for the exact ivory-and-gold corporation-card motif. Preserve this card material, border, rounded corners, bevel and front-on view; create the different arrangement described below, not another pair of hexagon cards.\nUse case: logo-brand.\nAsset type: ONE minimalist achievement emblem for the center of an existing game badge, part of a consistent Corporation Loyalty family.\nStyle: smooth raised ivory enamel with narrow warm-gold rims, shallow polished bevels, thin dark edges, soft highlights from upper left. Front-on orthographic pictogram. Broad solid shapes, no texture or engraved details. Recognizable at small sizes.\nThe corporation-card motif is a simple upright rounded rectangle, ivory face with a narrow gold border. No card text, no game statistics, no tiny markings. Keep any symbol on a card large and simple.\nComposition: compact and balanced, centered on a square transparent canvas with at least 15 percent clear margin; every object fully visible. Only the described objects.\nBackground: actual transparent alpha PNG. Fully transparent outside objects and in every gap. No backdrop, no black fill, no glow, no haze, no cast shadow.\nAvoid: outer badge frame, extra objects, background disc, laurels, scenery, text, letters, numerals, logos of real corporations, presentation sheet.\nSubject: Exactly ONE upright corporation card bearing one large simple raised gold HEART centered on its ivory face. The heart means loyalty to this one corporation. The heart is bold and symmetrical, no tiny highlights or markings. Only one card and its heart symbol.",
+      "referenced_image_paths": [
+        "output/imagegen/achievements/corporation-loyalty-v1/creature-of-habit.png"
+      ],
+      "generated_path": "output/imagegen/achievements/corporation-loyalty-v1/one-corp-wonder.png"
+    },
+    {
+      "id": "never-the-same-twice",
+      "name": "Never the Same Twice",
+      "symbol": "Three cards with three different symbols.",
+      "description": "Played a different corporation in every round of one tournament.",
+      "prompt": "Input image: style reference for the exact ivory-and-gold corporation-card motif. Preserve this card material, border, rounded corners, bevel and front-on view; create the different arrangement described below, not another pair of hexagon cards.\nUse case: logo-brand.\nAsset type: ONE minimalist achievement emblem for the center of an existing game badge, part of a consistent Corporation Loyalty family.\nStyle: smooth raised ivory enamel with narrow warm-gold rims, shallow polished bevels, thin dark edges, soft highlights from upper left. Front-on orthographic pictogram. Broad solid shapes, no texture or engraved details. Recognizable at small sizes.\nThe corporation-card motif is a simple upright rounded rectangle, ivory face with a narrow gold border. No card text, no game statistics, no tiny markings. Keep any symbol on a card large and simple.\nComposition: compact and balanced, centered on a square transparent canvas with at least 15 percent clear margin; every object fully visible. Only the described objects.\nBackground: actual transparent alpha PNG. Fully transparent outside objects and in every gap. No backdrop, no black fill, no glow, no haze, no cast shadow.\nAvoid: outer badge frame, extra objects, background disc, laurels, scenery, text, letters, numerals, logos of real corporations, presentation sheet.\nSubject: Exactly THREE equal-size upright corporation cards in a compact horizontal row, clearly separated by narrow transparent gaps, no overlap. The left card bears one large solid gold CIRCLE. The middle card bears one large solid gold TRIANGLE. The right card bears one large solid gold SQUARE. Same ivory-and-gold card style, three distinctly different simple symbols. No additional shapes or symbols.",
+      "referenced_image_paths": [
+        "output/imagegen/achievements/corporation-loyalty-v1/creature-of-habit.png"
+      ],
+      "generated_path": "output/imagegen/achievements/corporation-loyalty-v1/never-the-same-twice.png"
+    },
+    {
+      "id": "the-specialist",
+      "name": "The Specialist",
+      "symbol": "One corporation card topped by three victory stars.",
+      "description": "Won at least three games with the same corporation across tournament history.",
+      "prompt": "Input image: style reference for the exact ivory-and-gold corporation-card motif. Preserve this card material, border, rounded corners, bevel and front-on view; create the different arrangement described below, not another pair of hexagon cards.\nUse case: logo-brand.\nAsset type: ONE minimalist achievement emblem for the center of an existing game badge, part of a consistent Corporation Loyalty family.\nStyle: smooth raised ivory enamel with narrow warm-gold rims, shallow polished bevels, thin dark edges, soft highlights from upper left. Front-on orthographic pictogram. Broad solid shapes, no texture or engraved details. Recognizable at small sizes.\nThe corporation-card motif is a simple upright rounded rectangle, ivory face with a narrow gold border. No card text, no game statistics, no tiny markings. Keep any symbol on a card large and simple.\nComposition: compact and balanced, centered on a square transparent canvas with at least 15 percent clear margin; every object fully visible. Only the described objects.\nBackground: actual transparent alpha PNG. Fully transparent outside objects and in every gap. No backdrop, no black fill, no glow, no haze, no cast shadow.\nAvoid: outer badge frame, extra objects, background disc, laurels, scenery, text, letters, numerals, logos of real corporations, presentation sheet.\nSubject: Exactly ONE upright corporation card bearing one large solid gold HEXAGON centered on its ivory face. Directly above the card is a short horizontal row of exactly THREE small but chunky gold FIVE-POINT STARS, each equally sized and clearly separated. The card dominates; three stars mean three victories with that same corporation. Only the single card and three stars. No crown, no pedestal.",
+      "referenced_image_paths": [
+        "output/imagegen/achievements/corporation-loyalty-v1/creature-of-habit.png"
+      ],
+      "generated_path": "output/imagegen/achievements/corporation-loyalty-v1/the-specialist.png"
+    },
+    {
+      "id": "corporate-completionist",
+      "name": "Corporate Completionist",
+      "symbol": "A collected stack of corporation cards with a check mark.",
+      "description": "Won with all 12 base-box corporations at least once.",
+      "prompt": "Input image: style reference for the exact ivory-and-gold corporation-card motif. Preserve this card material, border, rounded corners, bevel and front-on view; create the different arrangement described below, not another pair of hexagon cards.\nUse case: logo-brand.\nAsset type: ONE minimalist achievement emblem for the center of an existing game badge, part of a consistent Corporation Loyalty family.\nStyle: smooth raised ivory enamel with narrow warm-gold rims, shallow polished bevels, thin dark edges, soft highlights from upper left. Front-on orthographic pictogram. Broad solid shapes, no texture or engraved details. Recognizable at small sizes.\nThe corporation-card motif is a simple upright rounded rectangle, ivory face with a narrow gold border. No card text, no game statistics, no tiny markings. Keep any symbol on a card large and simple.\nComposition: compact and balanced, centered on a square transparent canvas with at least 15 percent clear margin; every object fully visible. Only the described objects.\nBackground: actual transparent alpha PNG. Fully transparent outside objects and in every gap. No backdrop, no black fill, no glow, no haze, no cast shadow.\nAvoid: outer badge frame, extra objects, background disc, laurels, scenery, text, letters, numerals, logos of real corporations, presentation sheet.\nSubject: One compact collected stack of THREE upright corporation cards: one full card front and center, and just the offset upper and side edges of two cards behind it, one peeking left and one peeking right. On the front ivory card, a single very large bold gold CHECK MARK dominates. The check is entirely inside the card and instantly readable. This shows the entire collection completed. No other symbols, no small logos, no text, no grid.",
+      "referenced_image_paths": [
+        "output/imagegen/achievements/corporation-loyalty-v1/creature-of-habit.png"
+      ],
+      "generated_path": "output/imagegen/achievements/corporation-loyalty-v1/corporate-completionist.png"
+    }
+  ]
+}

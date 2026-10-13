@@ -1,0 +1,92 @@
+[
+  {
+    "id": "underdog",
+    "name": "Underdog",
+    "symbol": "A crowned paw print.",
+    "description": "Won the Final after qualifying outside first, second and third place. Only awarded in tournaments with a Final.",
+    "file": "icons/underdog.png",
+    "sourceSha256": "5cb7d9a8b3bb8186459fbd4be4dd1665fe6c76ee83816c1a8250d24a80c2d929",
+    "size": [
+      1254,
+      1254
+    ],
+    "crop": [
+      0,
+      96,
+      1226,
+      1200
+    ],
+    "badgePlacement": {
+      "left": 35.036206245422356,
+      "top": 33.742376641776,
+      "width": 30.611088692072368,
+      "height": 30.611088692072368
+    },
+    "symbolPlacement": {
+      "left": 10.999999999999995,
+      "top": 8.773246329526915,
+      "width": 79.78140293637848,
+      "height": 79.78140293637848
+    }
+  },
+  {
+    "id": "worth-the-wait",
+    "name": "Worth the Wait",
+    "symbol": "A simple hourglass.",
+    "description": "Reached a five-player Final through a genuine tie for fourth place. Only awarded in tournaments with a Final.",
+    "file": "icons/worth-the-wait.png",
+    "sourceSha256": "268cfdceb522c7fd206771a35f2735f82a995f2048157f39a698d2b5423a6f38",
+    "size": [
+      1254,
+      1254
+    ],
+    "crop": [
+      19,
+      38,
+      1218,
+      1254
+    ],
+    "badgePlacement": {
+      "left": 36.50448114219073,
+      "top": 35.464984737336636,
+      "width": 27.36197356134653,
+      "height": 27.36197356134653
+    },
+    "symbolPlacement": {
+      "left": 10.326480263157897,
+      "top": 8.5625,
+      "width": 80.4375,
+      "height": 80.4375
+    }
+  },
+  {
+    "id": "front-runner",
+    "name": "Front Runner",
+    "symbol": "One large gold arrow leading two smaller ivory arrows.",
+    "description": "Led the standings after every qualifying round. Only awarded in tournaments with a Final.",
+    "file": "icons/front-runner.png",
+    "sourceSha256": "5f14538bbf68f19ff4bc88b204a85eaa34047a7754cd6f7f424276ae4699ad6c",
+    "size": [
+      1254,
+      1254
+    ],
+    "crop": [
+      27,
+      128,
+      1202,
+      1220
+    ],
+    "badgePlacement": {
+      "left": 36.13295051645725,
+      "top": 34.350796912578815,
+      "width": 28.298258832160474,
+      "height": 28.298258832160474
+    },
+    "symbolPlacement": {
+      "left": 9.207659574468085,
+      "top": 5.257872340425537,
+      "width": 83.24425531914893,
+      "height": 83.24425531914893
+    }
+  }
+]
