@@ -29,5 +29,36 @@
       "width": 79.91176470588235,
       "height": 79.91176470588235
     }
+  },
+  {
+    "id": "identical-twins",
+    "name": "Identical Twins",
+    "symbol": "Two identical player silhouettes above a gold equals sign.",
+    "description": "Still tied with another player on tournament points and both configured tiebreakers in the final standings.",
+    "preferredFrame": "gold",
+    "file": "icons/identical-twins.png",
+    "sourceSha256": "de93f0e43541aa154a07a0fb1b7e4ec627596ed807397d34083a95113081c4a1",
+    "size": [
+      1254,
+      1254
+    ],
+    "crop": [
+      51,
+      93,
+      1230,
+      1254
+    ],
+    "badgePlacement": {
+      "left": 35.69438851819997,
+      "top": 34.51787812715875,
+      "width": 28.00817610956633,
+      "height": 28.00817610956633
+    },
+    "symbolPlacement": {
+      "left": 7.625954198473282,
+      "top": 5.442748091603051,
+      "width": 82.9618320610687,
+      "height": 82.9618320610687
+    }
   }
 ]

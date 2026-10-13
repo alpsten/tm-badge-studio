@@ -1,13 +1,17 @@
 {
   "tool": "Built-in image_gen",
-  "status": "First concept for review",
-  "style": "Minimal ivory equals sign and gold upward rank arrow, matching the shared achievement emblem materials.",
+  "status": "First concepts for review",
+  "style": "Minimal ivory-and-gold pictograms with smooth enamel faces, gold rims, and restrained raised bevels.",
   "notes": {
-    "meaning": "Equal tournament points separated by a standings tiebreaker.",
-    "scope": "Final tournament standings: TR margin, Buchholz, or TPerf.",
-    "suppliedRule": "tieKind(standing) is non-null",
+    "meaning": "Standings tiebreakers and complete ties have separate emblems.",
+    "scope": "Final tournament standings using the tournament’s configured pair of tiebreakers: TR margin, Buchholz, or TPerf.",
     "exclusion": "The in-game money-to-production tiebreak chain is not represented.",
-    "implementation": "Artwork and preview only; no achievement eligibility code changed."
+    "implementation": "Artwork and preview only; no achievement eligibility code changed.",
+    "rules": {
+      "won-it-on-tiebreaker": "tieKind(standing) is non-null",
+      "identical-twins": "tieKind(standing, steps) === 'complete'; completeTieWith is non-null"
+    },
+    "identicalTwins": "Equal tournament points and both configured tiebreaker values; the players remain tied and share a rank. The second tiebreaker has not separated them."
   },
   "jobs": [
     {
@@ -20,6 +24,17 @@
       ],
       "prompt": "Use case: logo-brand.\nAsset type: ONE minimalist achievement emblem for the center of an existing game badge.\nPrimary request: a pictogram for “Won It on Tiebreaker”: equal tournament points separated by a tiebreaker in the standings.\nInput image: MATERIAL AND STYLE reference only. Match its smooth ivory enamel faces, warm-gold edging, restrained raised bevels, thin dark edges, and upper-left highlights. Do not reproduce the chart or bar heights.\nSubject: On the LEFT, one unmistakable large EQUALS SIGN, made of exactly TWO thick short horizontal rounded ivory bars with narrow gold rims, equal length, aligned one above the other with a generous transparent gap. On the RIGHT, one bold warm-GOLD ARROW pointing straight UP, with a short thick vertical shaft and a broad triangular arrowhead. The arrow is clearly separated from the equals sign by transparent space. Its arrowhead rises above the top bar of the equals sign, expressing a rank rising out of a points tie. All three shapes form one compact balanced icon.\nComposition: front-on orthographic view, centered on a square transparent canvas, at least 15 percent clear margin around the whole icon. The equals sign is about half the icon width, the upward arrow about one third; both remain clear at small sizes.\nStyle: broad solid pictogram shapes, smooth polished surfaces, shallow bevels, no fine texture. Same ivory-and-gold family as reference.\nBackground: actual transparent alpha PNG. Fully transparent outside objects and in all gaps. No backdrop, black fill, glow, haze or cast shadow.\nAvoid: outer badge frame, bar chart, tilted bars, balance scales, podium, crown, coins, money, numbers, letters, captions, extra shapes, scenery, presentation sheet. Exactly the two horizontal bars and one upward arrow.",
       "generated_path": "output/imagegen/achievements/tied-games-v1/won-it-on-tiebreaker.png"
+    },
+    {
+      "id": "identical-twins",
+      "name": "Identical Twins",
+      "symbol": "Two identical player silhouettes above a gold equals sign.",
+      "description": "Still tied with another player on tournament points and both configured tiebreakers in the final standings.",
+      "prompt": "Use case: logo-brand.\nAsset type: ONE minimalist transparent achievement emblem for the center of an existing Terraforming Mars tournament badge.\nPrimary request: \"Identical Twins\" — two players still tied on tournament points and BOTH configured standings tiebreakers.\nInput image: MATERIAL AND STYLE reference only. Match its smooth ivory enamel, polished warm-gold rims, shallow raised bevels, thin dark edges, and upper-left highlights. Do not reproduce the rank arrow.\nSubject: EXACTLY TWO identical simple PLAYER BUST pictograms standing side by side, equal size and aligned at precisely the same height. Each pictogram has one plain circular ivory head with a narrow gold rim, separated by a transparent gap from one broad ivory shoulder-and-chest silhouette with a narrow gold rim. The two busts have identical geometry and matching color, with clear transparent space separating them. No faces, hair, ears, clothes, hands or other human detail. Beneath the pair, centered between them, ONE bold GOLD EQUALS SIGN made of exactly two short, thick horizontal bars with a clear transparent gap. It should immediately read as two matching players who are equal.\nComposition: compact balanced arrangement, front-on orthographic view on a square canvas; two busts occupy the upper two thirds of the emblem, equals sign centered in the lower third. At least 15 percent clear padding around the entire emblem. Broad solid shapes and generous internal gaps readable at 48 pixels.\nBackground: genuinely transparent alpha PNG, transparent outside every shape and in all gaps.\nStyle: restrained ivory-and-gold raised pictogram, smooth solid faces and narrow polished bevels, no texture, no perspective.\nAvoid: outer badge/frame, backplate, circular backing, crown, rank arrow, pedestal, trophy, scales, twins holding hands, facial features, numbers, words, lettering, extra people, extra symbols, environment, glow, haze, cast shadow, black fill, checkerboard, presentation sheet. Only the two identical bust icons and one equals sign.",
+      "referenced_image_paths": [
+        "output/imagegen/achievements/tied-games-v1/won-it-on-tiebreaker.png"
+      ],
+      "generated_path": "output/imagegen/achievements/tied-games-v1/identical-twins.png"
     }
   ]
 }
