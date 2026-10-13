@@ -7,4 +7,5 @@ window.ACHIEVEMENT_SECTIONS = [
   {id: 'flavor-v1', title: 'Flavor', data: 'FLAVOR_CONCEPTS'},
   {id: 'tied-games-v1', title: 'Tied Games', data: 'TIED_GAMES_CONCEPTS'},
   {id: 'margins-peaks-v1', title: 'Margins & Peaks', data: 'MARGINS_PEAKS_CONCEPTS'},
+  {id: 'cross-tournament-v1', title: 'Cross-Tournament', data: 'CROSS_TOURNAMENT_CONCEPTS'},
 ];

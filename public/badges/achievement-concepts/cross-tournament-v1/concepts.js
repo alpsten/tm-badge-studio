@@ -1,0 +1,354 @@
+window.CROSS_TOURNAMENT_CONCEPTS = [
+  {
+    "id": "giant-slayer",
+    "name": "Giant Slayer",
+    "symbol": "A sword cutting through a champion's crown.",
+    "description": "Beaten a player who has won a championship in some tournament.",
+    "preferredFrame": "gold",
+    "file": "icons/giant-slayer.png",
+    "sourceSha256": "086eb2a7e4549ae2aa1968f2e82ca7013e886c52c0f6a8d940e2de1f7c5e97e3",
+    "size": [
+      1254,
+      1254
+    ],
+    "crop": [
+      106,
+      101,
+      1148,
+      1160
+    ],
+    "cropAlphaThreshold": 16,
+    "badgePlacement": {
+      "left": 36.58315008878708,
+      "top": 36.068802267312996,
+      "width": 26.833699822425842,
+      "height": 26.833699822425842
+    },
+    "symbolPlacement": {
+      "left": 3.8186968838526925,
+      "top": 3.5609065155807356,
+      "width": 92.36260623229462,
+      "height": 92.36260623229462
+    }
+  },
+  {
+    "id": "regular",
+    "name": "Regular",
+    "symbol": "A bronze tournament ticket marked 2.",
+    "description": "Played in at least 2 different tournaments.",
+    "preferredFrame": "bronze",
+    "file": "icons/regular.png",
+    "sourceSha256": "ccbd37e2fec8526038e81b237f8fc489e8f052f5898a2fde12e0ae50bb4f4852",
+    "size": [
+      1254,
+      1254
+    ],
+    "crop": [
+      109,
+      340,
+      1146,
+      914
+    ],
+    "cropAlphaThreshold": 16,
+    "badgePlacement": {
+      "left": 34.87369328737259,
+      "top": 34.446292996406555,
+      "width": 30.22850775718689,
+      "height": 30.22850775718689
+    },
+    "symbolPlacement": {
+      "left": 2.8013500482160083,
+      "top": 2.838958534233362,
+      "width": 94.32208293153327,
+      "height": 94.32208293153327
+    }
+  },
+  {
+    "id": "veteran",
+    "name": "Veteran",
+    "symbol": "A silver tournament ticket marked 3.",
+    "description": "Played in at least 3 different tournaments.",
+    "preferredFrame": "silver",
+    "file": "icons/veteran.png",
+    "sourceSha256": "9970266c81fda7b6d3710c01f9eff7461696a45fa7eaa61dd99b5c75c1df28e9",
+    "size": [
+      1254,
+      1254
+    ],
+    "crop": [
+      105,
+      338,
+      1150,
+      915
+    ],
+    "cropAlphaThreshold": 16,
+    "badgePlacement": {
+      "left": 34.98949276459844,
+      "top": 34.573960766666815,
+      "width": 29.997093343734743,
+      "height": 29.997093343734743
+    },
+    "symbolPlacement": {
+      "left": 3.162679425837321,
+      "top": 3.2373205741626747,
+      "width": 93.6,
+      "height": 93.6
+    }
+  },
+  {
+    "id": "no-rest-for-the-weary",
+    "name": "No Rest for the Weary",
+    "symbol": "A gold tournament ticket marked 5+.",
+    "description": "Played in at least 5 different tournaments.",
+    "preferredFrame": "gold",
+    "file": "icons/no-rest-for-the-weary.png",
+    "sourceSha256": "e13d2cf0535f8f2e6e04fbd5a30e52dac95daf1d59dafec2825e41e683338db0",
+    "size": [
+      1254,
+      1254
+    ],
+    "crop": [
+      108,
+      340,
+      1147,
+      914
+    ],
+    "cropAlphaThreshold": 16,
+    "badgePlacement": {
+      "left": 34.90281033590507,
+      "top": 34.47538684410356,
+      "width": 30.170320061792882,
+      "height": 30.170320061792882
+    },
+    "symbolPlacement": {
+      "left": 2.892204042348412,
+      "top": 2.929740134744947,
+      "width": 94.1405197305101,
+      "height": 94.1405197305101
+    }
+  },
+  {
+    "id": "hat-trick",
+    "name": "Hat Trick",
+    "symbol": "Three championship trophies.",
+    "description": "Won at least 3 tournaments across your recorded history.",
+    "preferredFrame": "gold",
+    "file": "icons/hat-trick.png",
+    "sourceSha256": "84cb50fcea5284c25a0a921a845eb70ef9a9b035278edff94f8be236e3b78efa",
+    "size": [
+      1254,
+      1254
+    ],
+    "crop": [
+      63,
+      168,
+      1192,
+      1104
+    ],
+    "cropAlphaThreshold": 16,
+    "badgePlacement": {
+      "left": 35.86311320006267,
+      "top": 35.23216439729459,
+      "width": 28.251244696607834,
+      "height": 28.251244696607834
+    },
+    "symbolPlacement": {
+      "left": 6.647475642161204,
+      "top": 6.060230292294065,
+      "width": 86.63596102745794,
+      "height": 86.63596102745794
+    }
+  },
+  {
+    "id": "corporation-collector",
+    "name": "Corporation Collector",
+    "symbol": "A stack of corporation cards marked 20.",
+    "description": "Played at least 20 different corporations across your tournament history.",
+    "preferredFrame": "gold",
+    "file": "icons/corporation-collector.png",
+    "sourceSha256": "f7c08b56a14cef9fbf579484c016b2edae9fec2db53eb2be6ffcf557b9912532",
+    "size": [
+      1254,
+      1254
+    ],
+    "crop": [
+      91,
+      246,
+      1164,
+      1001
+    ],
+    "cropAlphaThreshold": 16,
+    "badgePlacement": {
+      "left": 34.31498348712921,
+      "top": 33.97551453113556,
+      "width": 31.345036983489994,
+      "height": 31.345036983489994
+    },
+    "symbolPlacement": {
+      "left": 4.384902143522833,
+      "top": 4.675675675675674,
+      "width": 91.15750232991613,
+      "height": 91.15750232991613
+    }
+  },
+  {
+    "id": "on-the-rise",
+    "name": "On the Rise",
+    "symbol": "Steps with an upward arrow.",
+    "description": "Finished a tournament ranked higher than your immediately previous tournament.",
+    "preferredFrame": "gold",
+    "file": "icons/on-the-rise.png",
+    "sourceSha256": "d1565340fefdd1aab35da01c736eef946f20f22a9f68212f069537aac0735af1",
+    "size": [
+      1254,
+      1254
+    ],
+    "crop": [
+      210,
+      212,
+      1069,
+      1054
+    ],
+    "cropAlphaThreshold": 16,
+    "badgePlacement": {
+      "left": 35.30769857764244,
+      "top": 35.017580807209015,
+      "width": 28.81023609638214,
+      "height": 28.81023609638214
+    },
+    "symbolPlacement": {
+      "left": -8.068684516880095,
+      "top": -7.478463329452853,
+      "width": 113.86728754365542,
+      "height": 113.86728754365542
+    }
+  },
+  {
+    "id": "serial-finalist",
+    "name": "Serial Finalist",
+    "symbol": "A finish flag marked 3.",
+    "description": "Reached the Final in at least 3 different tournaments.",
+    "preferredFrame": "gold",
+    "file": "icons/serial-finalist.png",
+    "sourceSha256": "87c8a68618f0ff2742ec70c287d29ad96d7ea102d44fd970821c5d9782c8310d",
+    "size": [
+      1254,
+      1254
+    ],
+    "crop": [
+      216,
+      168,
+      1052,
+      1085
+    ],
+    "cropAlphaThreshold": 16,
+    "badgePlacement": {
+      "left": 35.69469237327576,
+      "top": 35.42446607351303,
+      "width": 28.29472517967224,
+      "height": 28.29472517967224
+    },
+    "symbolPlacement": {
+      "left": -3.928026172300983,
+      "top": -3.290076335877862,
+      "width": 106.66521264994547,
+      "height": 106.66521264994547
+    }
+  },
+  {
+    "id": "the-dynasty",
+    "name": "The Dynasty",
+    "symbol": "Two championship crowns joined by a link.",
+    "description": "Won 2 consecutive tournaments in your own recorded history.",
+    "preferredFrame": "gold",
+    "file": "icons/the-dynasty.png",
+    "sourceSha256": "bdf60b26c56cd6b7c1626d3739a3ba82691cc9432d5766f18b252a11eac95557",
+    "size": [
+      1254,
+      1254
+    ],
+    "crop": [
+      37,
+      391,
+      1217,
+      842
+    ],
+    "cropAlphaThreshold": 16,
+    "badgePlacement": {
+      "left": 36.28255035412514,
+      "top": 36.07281528539577,
+      "width": 27.43489929174972,
+      "height": 27.43489929174972
+    },
+    "symbolPlacement": {
+      "left": 8.554237288135592,
+      "top": 9.248305084745759,
+      "width": 82.89152542372882,
+      "height": 82.89152542372882
+    }
+  },
+  {
+    "id": "fresh-blood",
+    "name": "Fresh Blood",
+    "symbol": "A crowned droplet.",
+    "description": "Won a tournament on your first recorded tournament appearance.",
+    "preferredFrame": "gold",
+    "file": "icons/fresh-blood.png",
+    "sourceSha256": "8ab42c2d767081a12cd6cac20214675b318ecebc623cf66080d25a69ba0f7fd0",
+    "size": [
+      1254,
+      1254
+    ],
+    "crop": [
+      320,
+      90,
+      934,
+      1165
+    ],
+    "cropAlphaThreshold": 16,
+    "badgePlacement": {
+      "left": 33.124211609363556,
+      "top": 32.671300917863846,
+      "width": 33.75157678127289,
+      "height": 33.75157678127289
+    },
+    "symbolPlacement": {
+      "left": 4.506046511627903,
+      "top": 4.469767441860465,
+      "width": 90.9879069767442,
+      "height": 90.9879069767442
+    }
+  },
+  {
+    "id": "familiar-faces",
+    "name": "Familiar Faces",
+    "symbol": "Two players surrounded by repeat arrows.",
+    "description": "Played the same opponent in at least 2 different tournaments.",
+    "preferredFrame": "gold",
+    "file": "icons/familiar-faces.png",
+    "sourceSha256": "efdeb7406aab1aaa9c92d66974a5bdd4508b293175ccc91e02a54f51e6920d76",
+    "size": [
+      1254,
+      1254
+    ],
+    "crop": [
+      182,
+      154,
+      1078,
+      1107
+    ],
+    "cropAlphaThreshold": 16,
+    "badgePlacement": {
+      "left": 35.48299968242645,
+      "top": 35.03202512860298,
+      "width": 28.895743489265442,
+      "height": 28.895743489265442
+    },
+    "symbolPlacement": {
+      "left": -1.563483735571876,
+      "top": -1.604407135362014,
+      "width": 102.63588667366211,
+      "height": 102.63588667366211
+    }
+  }
+];

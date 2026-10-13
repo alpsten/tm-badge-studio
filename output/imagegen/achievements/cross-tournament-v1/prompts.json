@@ -1,0 +1,157 @@
+{
+  "tool": "Built-in image_gen",
+  "status": "First concepts for review",
+  "style": "Minimal ivory enamel pictograms with polished metal edges and restrained raised bevels. Attendance tiers share one ticket design in bronze, silver, and gold.",
+  "notes": {
+    "implementation": "Artwork and preview only; no achievement eligibility or account system is implemented here.",
+    "readiness": "Needs accounts / linked cross-tournament player history.",
+    "attendanceFamily": "Regular: bronze 2; Veteran: silver 3; No Rest for the Weary: gold 5+.",
+    "rules": {
+      "giant-slayer": "At query time, find an opponent beaten at a shared table who has a championship win in some tournament: position === 1 in a round === 99 match. This rule does not require the title to predate the game.",
+      "regular": "Count distinct tournaments in this linked player’s recorded history >= 2.",
+      "veteran": "Count distinct tournaments in this linked player’s recorded history >= 3.",
+      "no-rest-for-the-weary": "Count distinct tournaments in this linked player’s recorded history >= 5.",
+      "hat-trick": "Count distinct tournaments with this player’s final rank === 1 >= 3.",
+      "corporation-collector": "Count distinct non-empty corporation identities in this player’s recorded matches >= 20; no fixed total-corporation denominator.",
+      "on-the-rise": "Current final standings rank is numerically lower than the immediately preceding tournament’s final rank in this player’s chronological history.",
+      "serial-finalist": "Count distinct tournaments where this player actually played a Final (round === 99) >= 3; tournaments without a Final do not count.",
+      "the-dynasty": "Final rank === 1 in two chronologically adjacent tournaments in this player’s own recorded history, with no intervening appearance.",
+      "fresh-blood": "Final rank === 1 in the earliest tournament with any recorded result for this player.",
+      "familiar-faces": "For at least one linked opponent, count distinct tournaments with a shared table >= 2. Use stable player identities once available; names alone can collide."
+    }
+  },
+  "jobs": [
+    {
+      "id": "giant-slayer",
+      "name": "Giant Slayer",
+      "symbol": "A sword cutting through a champion's crown.",
+      "description": "Beaten a player who has won a championship in some tournament.",
+      "preferredFrame": "gold",
+      "prompt": "Use case: logo-brand.\nAsset type: ONE minimal achievement emblem for the center of an existing game badge.\nReference image: MATERIAL AND STYLE only. Smooth ivory enamel, warm-gold edging, restrained shallow bevels, thin dark edges, upper-left highlights. Broad solid shapes, instantly recognizable at small sizes. No texture.\nComposition: one compact centered emblem, front-on, square canvas with at least 15 percent empty margin. Genuinely transparent alpha background, including all openings.\nAvoid: outer badge frame or backing, extra ornaments, scenery, glow, haze, cast shadow, presentation sheet. No lettering unless explicitly requested below.\nSubject: ONE simple broad ivory SWORD with a gold hilt, pointing diagonally upward through a large GOLD CROWN that has been cleanly split into two halves. The sword is the dominant silhouette, crown around its middle; two crown halves are separated by a generous transparent gap along the blade. Crown has exactly three large points, no gems or ornament. Keep the sword's straight blade broad, recognizable and ivory, with gold edges. Compact composition with just sword and broken crown. No people, blood, other weapons, text or spark particles.",
+      "referenced_image_paths": [
+        "output/imagegen/achievements/tied-games-v1/won-it-on-tiebreaker.png"
+      ],
+      "generated_path": "output/imagegen/achievements/cross-tournament-v1/giant-slayer.png"
+    },
+    {
+      "id": "regular",
+      "name": "Regular",
+      "symbol": "A bronze tournament ticket marked 2.",
+      "description": "Played in at least 2 different tournaments.",
+      "preferredFrame": "bronze",
+      "prompt": "Use case: logo-brand.\nAsset type: ONE minimal achievement emblem for the center of an existing game badge.\nReference image: MATERIAL AND STYLE only. Smooth ivory enamel, warm-gold edging, restrained shallow bevels, thin dark edges, upper-left highlights. Broad solid shapes, instantly recognizable at small sizes. No texture.\nComposition: one compact centered emblem, front-on, square canvas with at least 15 percent empty margin. Genuinely transparent alpha background, including all openings.\nAvoid: outer badge frame or backing, extra ornaments, scenery, glow, haze, cast shadow, presentation sheet. No lettering unless explicitly requested below.\nSubject: ONE simple broad EVENT ADMISSION TICKET, ivory enamel face with a thick polished COPPER-BRONZE rim and one large bold raised COPPER-BRONZE numeral exactly \"2\" centered on it. Wide rounded rectangle with one large semicircular notch centered on EACH short side; recognizable ticket silhouette, flat front view. Smooth copper-bronze metal has warmer reddish-brown shadows than gold. No perforations, tiny marks, other numbers, stripes or extra ticket. The numeral fills most of the ivory face, with ample space around it. Single ticket on transparent background. This is the base design of a bronze/silver/gold tournament attendance family.",
+      "referenced_image_paths": [
+        "output/imagegen/achievements/tied-games-v1/won-it-on-tiebreaker.png"
+      ],
+      "generated_path": "output/imagegen/achievements/cross-tournament-v1/regular.png"
+    },
+    {
+      "id": "veteran",
+      "name": "Veteran",
+      "symbol": "A silver tournament ticket marked 3.",
+      "description": "Played in at least 3 different tournaments.",
+      "preferredFrame": "silver",
+      "prompt": "Use case: precise-object-edit.\nEdit target: supplied ivory tournament ticket with bronze number 2.\nCreate a matching VETERAN attendance variant.\nChange ONLY: replace numeral \"2\" with large bold \"3\" centered on the ticket; change ALL bronze on the rim and numeral to cool polished SILVER.\nKeep unchanged: single wide ticket silhouette with one semicircular notch centered on EACH short side, ivory enamel face, rounded corners, thick metal rim, exact proportions and placement, shallow polished bevels, front-on view, highlights, square canvas and transparent alpha background.\nThe text is exactly \"3\", with no extra marks or text. \nDo not add extra objects, background, glow or cast shadows.",
+      "referenced_image_paths": [
+        "output/imagegen/achievements/cross-tournament-v1/regular.png"
+      ],
+      "generated_path": "output/imagegen/achievements/cross-tournament-v1/veteran.png"
+    },
+    {
+      "id": "no-rest-for-the-weary",
+      "name": "No Rest for the Weary",
+      "symbol": "A gold tournament ticket marked 5+.",
+      "description": "Played in at least 5 different tournaments.",
+      "preferredFrame": "gold",
+      "prompt": "Use case: precise-object-edit.\nEdit target: supplied ivory tournament ticket with bronze number 2.\nCreate a matching NO REST FOR THE WEARY attendance variant.\nChange ONLY: replace numeral \"2\" with large bold \"5+\" centered on the ticket; change ALL bronze on the rim and numeral to warm polished GOLD.\nKeep unchanged: single wide ticket silhouette with one semicircular notch centered on EACH short side, ivory enamel face, rounded corners, thick metal rim, exact proportions and placement, shallow polished bevels, front-on view, highlights, square canvas and transparent alpha background.\nThe text is exactly \"5+\", with no extra marks or text. The plus sign is bold and placed directly beside the 5, clearly legible.\nDo not add extra objects, background, glow or cast shadows.",
+      "referenced_image_paths": [
+        "output/imagegen/achievements/cross-tournament-v1/regular.png"
+      ],
+      "generated_path": "output/imagegen/achievements/cross-tournament-v1/no-rest-for-the-weary.png"
+    },
+    {
+      "id": "hat-trick",
+      "name": "Hat Trick",
+      "symbol": "Three championship trophies.",
+      "description": "Won at least 3 tournaments across your recorded history.",
+      "preferredFrame": "gold",
+      "prompt": "Use case: logo-brand.\nAsset type: ONE minimal achievement emblem for the center of an existing game badge.\nReference image: MATERIAL AND STYLE only. Smooth ivory enamel, warm-gold edging, restrained shallow bevels, thin dark edges, upper-left highlights. Broad solid shapes, instantly recognizable at small sizes. No texture.\nComposition: one compact centered emblem, front-on, square canvas with at least 15 percent empty margin. Genuinely transparent alpha background, including all openings.\nAvoid: outer badge frame or backing, extra ornaments, scenery, glow, haze, cast shadow, presentation sheet. No lettering unless explicitly requested below.\nSubject: EXACTLY THREE identical simple championship TROPHY CUPS in a compact triangular arrangement: ONE centered above TWO side by side below, each fully visible and clearly separate. Each cup has broad polished GOLD bowl, two thick loop handles, short stem and simple IVORY pedestal foot with gold edge. No ornament, writing or numbers. All three cups equal size, front-on, minimal broad silhouettes. Do not add a fourth cup or any stars. Keep enough transparent separation to count three cups instantly.",
+      "referenced_image_paths": [
+        "output/imagegen/achievements/tied-games-v1/won-it-on-tiebreaker.png"
+      ],
+      "generated_path": "output/imagegen/achievements/cross-tournament-v1/hat-trick.png"
+    },
+    {
+      "id": "corporation-collector",
+      "name": "Corporation Collector",
+      "symbol": "A stack of corporation cards marked 20.",
+      "description": "Played at least 20 different corporations across your tournament history.",
+      "preferredFrame": "gold",
+      "prompt": "Use case: logo-brand.\nAsset type: ONE minimal achievement emblem for the center of an existing game badge.\nReference image: MATERIAL AND STYLE only. Smooth ivory enamel, warm-gold edging, restrained shallow bevels, thin dark edges, upper-left highlights. Broad solid shapes, instantly recognizable at small sizes. No texture.\nComposition: one compact centered emblem, front-on, square canvas with at least 15 percent empty margin. Genuinely transparent alpha background, including all openings.\nAvoid: outer badge frame or backing, extra ornaments, scenery, glow, haze, cast shadow, presentation sheet. No lettering unless explicitly requested below.\nSubject: ONE compact fan of EXACTLY THREE rounded rectangular corporation CARDS, overlapping. Ivory enamel with polished gold rims. The large FRONT card is upright and bears the large bold GOLD number exactly \"20\", filling most of its face. Two plain cards peek out behind at small opposing angles, each clearly part of the stack. Cards otherwise blank: no logos, titles, suits, symbols, miniature text, stars or checkmarks. Thick simple contours, unmistakable card collection silhouette. Number 20 is large and readable.",
+      "referenced_image_paths": [
+        "output/imagegen/achievements/tied-games-v1/won-it-on-tiebreaker.png"
+      ],
+      "generated_path": "output/imagegen/achievements/cross-tournament-v1/corporation-collector.png"
+    },
+    {
+      "id": "on-the-rise",
+      "name": "On the Rise",
+      "symbol": "Steps with an upward arrow.",
+      "description": "Finished a tournament ranked higher than your immediately previous tournament.",
+      "preferredFrame": "gold",
+      "prompt": "Use case: logo-brand.\nAsset type: ONE minimal achievement emblem for the center of an existing game badge.\nReference image: MATERIAL AND STYLE only. Smooth ivory enamel, warm-gold edging, restrained shallow bevels, thin dark edges, upper-left highlights. Broad solid shapes, instantly recognizable at small sizes. No texture.\nComposition: one compact centered emblem, front-on, square canvas with at least 15 percent empty margin. Genuinely transparent alpha background, including all openings.\nAvoid: outer badge frame or backing, extra ornaments, scenery, glow, haze, cast shadow, presentation sheet. No lettering unless explicitly requested below.\nSubject: ONE solid ivory STAIRCASE of exactly THREE connected ascending steps, rising from bottom-left to top-right, with a slim polished gold outline. ONE thick polished GOLD ARROW diagonally rising above the steps, from lower-left toward upper-right, with a large unmistakable triangular arrowhead. The steps form ONE continuous solid staircase silhouette with a level base, not three separate chart bars. Front-on flat pictogram with restrained bevels. Just staircase and arrow, no numbers, axes, dots or text.",
+      "referenced_image_paths": [
+        "output/imagegen/achievements/tied-games-v1/won-it-on-tiebreaker.png"
+      ],
+      "generated_path": "output/imagegen/achievements/cross-tournament-v1/on-the-rise.png"
+    },
+    {
+      "id": "serial-finalist",
+      "name": "Serial Finalist",
+      "symbol": "A finish flag marked 3.",
+      "description": "Reached the Final in at least 3 different tournaments.",
+      "preferredFrame": "gold",
+      "prompt": "Use case: logo-brand.\nAsset type: ONE minimal achievement emblem for the center of an existing game badge.\nReference image: MATERIAL AND STYLE only. Smooth ivory enamel, warm-gold edging, restrained shallow bevels, thin dark edges, upper-left highlights. Broad solid shapes, instantly recognizable at small sizes. No texture.\nComposition: one compact centered emblem, front-on, square canvas with at least 15 percent empty margin. Genuinely transparent alpha background, including all openings.\nAvoid: outer badge frame or backing, extra ornaments, scenery, glow, haze, cast shadow, presentation sheet. No lettering unless explicitly requested below.\nSubject: ONE simple FINISH-LINE FLAG on a thick short GOLD pole, straight-on. Flag is a broad ivory rectangular panel extending right from the pole, with a very slight waving edge. Large bold GOLD numeral exactly \"3\" centered on its ivory face. Along the flag's upper edge, ONE compact unmistakable checker strip with alternating gold and ivory large squares, two rows by four columns. Thick gold flag perimeter. Minimal broad shapes. Only one flag with one numeral 3. No text, laurel, cup, base platform or multiple flags. Transparent outside the flag and pole.",
+      "referenced_image_paths": [
+        "output/imagegen/achievements/tied-games-v1/won-it-on-tiebreaker.png"
+      ],
+      "generated_path": "output/imagegen/achievements/cross-tournament-v1/serial-finalist.png"
+    },
+    {
+      "id": "the-dynasty",
+      "name": "The Dynasty",
+      "symbol": "Two championship crowns joined by a link.",
+      "description": "Won 2 consecutive tournaments in your own recorded history.",
+      "preferredFrame": "gold",
+      "prompt": "Use case: logo-brand.\nAsset type: ONE minimal achievement emblem for the center of an existing game badge.\nReference image: MATERIAL AND STYLE only. Smooth ivory enamel, warm-gold edging, restrained shallow bevels, thin dark edges, upper-left highlights. Broad solid shapes, instantly recognizable at small sizes. No texture.\nComposition: one compact centered emblem, front-on, square canvas with at least 15 percent empty margin. Genuinely transparent alpha background, including all openings.\nAvoid: outer badge frame or backing, extra ornaments, scenery, glow, haze, cast shadow, presentation sheet. No lettering unless explicitly requested below.\nSubject: EXACTLY TWO matching GOLD CROWNS side by side at equal height, each with THREE broad points and a thick simple ivory enamel base band outlined in gold. Connect their base bands with ONE prominent short GOLD OVAL CHAIN LINK spanning the transparent gap between the crowns. Crowns remain distinct and equally sized. The pair and single connecting link form one compact symmetrical horizontal emblem. No jewels, numbers, text, third crown, scepter, extra chains or background. Broad clear crown silhouettes.",
+      "referenced_image_paths": [
+        "output/imagegen/achievements/tied-games-v1/won-it-on-tiebreaker.png"
+      ],
+      "generated_path": "output/imagegen/achievements/cross-tournament-v1/the-dynasty.png"
+    },
+    {
+      "id": "fresh-blood",
+      "name": "Fresh Blood",
+      "symbol": "A crowned droplet.",
+      "description": "Won a tournament on your first recorded tournament appearance.",
+      "preferredFrame": "gold",
+      "prompt": "Use case: logo-brand.\nAsset type: ONE minimal achievement emblem for the center of an existing game badge.\nReference image: MATERIAL AND STYLE only. Smooth ivory enamel, warm-gold edging, restrained shallow bevels, thin dark edges, upper-left highlights. Broad solid shapes, instantly recognizable at small sizes. No texture.\nComposition: one compact centered emblem, front-on, square canvas with at least 15 percent empty margin. Genuinely transparent alpha background, including all openings.\nAvoid: outer badge frame or backing, extra ornaments, scenery, glow, haze, cast shadow, presentation sheet. No lettering unless explicitly requested below.\nSubject: ONE large smooth IVORY DROPLET with polished gold edging, point at top and broad round bottom. A small but bold polished GOLD CHAMPION CROWN with exactly THREE broad points sits just above the droplet's pointed top, separated by a small clean transparent gap. The crown has a plain thick base band; no gems or ornaments. Only droplet and crown, centered vertical composition, broad solid silhouettes, smooth enamel. No red color, blood splatter, face, text, star or extra symbols.",
+      "referenced_image_paths": [
+        "output/imagegen/achievements/tied-games-v1/won-it-on-tiebreaker.png"
+      ],
+      "generated_path": "output/imagegen/achievements/cross-tournament-v1/fresh-blood.png"
+    },
+    {
+      "id": "familiar-faces",
+      "name": "Familiar Faces",
+      "symbol": "Two players surrounded by repeat arrows.",
+      "description": "Played the same opponent in at least 2 different tournaments.",
+      "preferredFrame": "gold",
+      "prompt": "Use case: logo-brand.\nAsset type: ONE minimal achievement emblem for the center of an existing game badge.\nReference image: MATERIAL AND STYLE only. Smooth ivory enamel, warm-gold edging, restrained shallow bevels, thin dark edges, upper-left highlights. Broad solid shapes, instantly recognizable at small sizes. No texture.\nComposition: one compact centered emblem, front-on, square canvas with at least 15 percent empty margin. Genuinely transparent alpha background, including all openings.\nAvoid: outer badge frame or backing, extra ornaments, scenery, glow, haze, cast shadow, presentation sheet. No lettering unless explicitly requested below.\nSubject: EXACTLY TWO simple matching IVORY PLAYER BUST silhouettes side by side in the center, each with one circular head and broad rounded shoulders, thin gold outlines. Surround the pair with TWO thick curved GOLD REPEAT ARROWS forming one nearly circular loop: top arc curves clockwise to an arrowhead at upper-right, bottom arc curves clockwise to an arrowhead at lower-left. Arrows clearly separated from busts by transparent space. Thick clean shapes, no facial details, eyes, mouth, third person, equals sign, text or extra ornaments. Repeat loop and pair of people instantly recognizable.",
+      "referenced_image_paths": [
+        "output/imagegen/achievements/tied-games-v1/won-it-on-tiebreaker.png"
+      ],
+      "generated_path": "output/imagegen/achievements/cross-tournament-v1/familiar-faces.png"
+    }
+  ]
+}

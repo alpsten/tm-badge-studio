@@ -275,7 +275,11 @@ recorded match for this player, across every tournament, compared against the ti
 **Status**: Needs cross-tournament history — same constraint as the per-corporation ladder above
 and everything under the next heading.
 
-## Needs cross-tournament history
+## Cross-Tournament
+
+Artwork is available in the Cross-Tournament gallery. The current checklist labels these
+**Needs accounts**; evaluation needs stable player identities linked across tournament history.
+This studio previews the concepts and does not evaluate or award them.
 
 The Phase 1 identity-linking work itself — no new fields, just needs a player linked across
 tournaments (no account/login required for this, see `player-accounts-plan.md` §2).
@@ -288,9 +292,9 @@ tournaments (no account/login required for this, see `player-accounts-plan.md` �
 | No Rest for the Weary | Played in 5+ tournaments | Same count >= 5 | Needs history |
 | Hat Trick | Won 3 tournaments, lifetime | Count of tournaments where this player's final `rank === 1`, >= 3 | Needs history |
 | The Specialist | *(see Corporation loyalty above)* | | Needs history |
-| Corporation Collector | Played 20+ unique corporations across tournament history | Distinct `corporation` values across every recorded match for this player, count >= 20 (of 36 total) | Needs history |
+| Corporation Collector | Played 20+ unique corporations across tournament history | Distinct `corporation` values across every recorded match for this player, count >= 20; no fixed total-corporation denominator | Needs history |
 | On the Rise | Finished a tournament ranked higher than your previous one | Compare `rank` in this tournament's final standings against your immediately preceding tournament's | Needs history |
-| Serial Finalist | Reached the Final in 3+ different tournaments | Count of tournaments where this player appears in a `round === 99` match, >= 3 | Needs history |
+| Serial Finalist | Reached the Final in 3+ different tournaments | Count distinct tournaments where this player actually played the Final (`round === 99`), >= 3; tournaments without a Final do not count | Needs history |
 | The Dynasty | Won 2 tournaments back-to-back | Rank 1 in two tournaments that are chronologically adjacent in this player's history — no other tournament of theirs in between | Needs history |
 | Fresh Blood | Won a tournament on your very first recorded appearance | Rank 1 in the earliest tournament this player has any result in | Needs history |
 | Familiar Faces | Played the same opponent across 2+ different tournaments | Count distinct tournaments where a given opponent `player_name` also appears in one of your matches, >= 2 for any single opponent | Needs history |
