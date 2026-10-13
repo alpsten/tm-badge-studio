@@ -18,22 +18,6 @@ python3 -m http.server 8000 --directory public
 Open <http://localhost:8000/>. The entry page opens the badge studio; its
 **Achievement gallery** link opens all achievement sections.
 
-## Publish on GitHub Pages
-
-1. Create an empty GitHub repository and push this repository's files on `main`.
-2. Open **Settings → Pages → Build and deployment** and choose **GitHub Actions**.
-3. Run **Deploy badge studio to GitHub Pages** from the Actions tab. Later pushes
-   to `main` deploy automatically.
-
-The workflow checks the bundled assets, then publishes only `public/`. Your site
-will be at `https://YOUR-USERNAME.github.io/YOUR-REPOSITORY/`. Relative asset and
-navigation paths work with any repository name. If you use another branch name,
-update `.github/workflows/pages.yml` and your Pages environment's branch settings.
-
-This uses GitHub's [custom Pages workflow](https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages).
-Enabling Pages and pushing/publishing are separate steps; this local copy does not
-create a GitHub repository or deploy anything by itself.
-
 ## Files
 
 | Location | Contents |
