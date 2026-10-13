@@ -3,7 +3,7 @@
     "id": "won-it-on-tiebreaker",
     "name": "Won It on Tiebreaker",
     "symbol": "An equals sign paired with an upward rank arrow.",
-    "description": "Your final tournament rank was decided by a tiebreaker\u2014TR margin, Buchholz, or TPerf\u2014after a tie on tournament points.",
+    "description": "Your final tournament rank was decided by a tiebreaker—TR margin, Buchholz, or TPerf—after a tie on tournament points.",
     "preferredFrame": "gold",
     "file": "icons/won-it-on-tiebreaker.png",
     "sourceSha256": "b5ef8f5f47f365ebb00681c51141e30c763681df7e19fe262ccff326dd4ec958",
@@ -59,6 +59,166 @@
       "top": 5.442748091603051,
       "width": 82.9618320610687,
       "height": 82.9618320610687
+    }
+  },
+  {
+    "id": "impossible",
+    "name": "Impossible",
+    "symbol": "An impossible triangle.",
+    "description": "Still tied with another player on tournament points, TR margin, Buchholz, and TPerf in the final standings.",
+    "preferredFrame": "gold",
+    "file": "icons/impossible.png",
+    "sourceSha256": "c9eb31f7b9ac9a048d87a6e11728b853fc2f78dc0c20fc455e7d8101555fddbe",
+    "size": [
+      1254,
+      1254
+    ],
+    "crop": [
+      136,
+      195,
+      1119,
+      1055
+    ],
+    "cropAlphaThreshold": 16,
+    "badgePlacement": {
+      "left": 35.497407615184784,
+      "top": 35.11573374271393,
+      "width": 28.982073068618774,
+      "height": 28.982073068618774
+    },
+    "symbolPlacement": {
+      "left": 0.20854526958290903,
+      "top": 0.4069175991861641,
+      "width": 99.50356052899288,
+      "height": 99.50356052899288
+    }
+  },
+  {
+    "id": "dead-heat",
+    "name": "Dead Heat",
+    "symbol": "A TR tile with an equals sign.",
+    "description": "Recorded exactly the same TR as the player directly below you in a round.",
+    "preferredFrame": "gold",
+    "file": "icons/dead-heat.png",
+    "sourceSha256": "62e34d166c8993685c9ddca5430323aff303294f805e7df9d2058ea4423782b2",
+    "size": [
+      1254,
+      1254
+    ],
+    "crop": [
+      255,
+      163,
+      995,
+      1123
+    ],
+    "cropAlphaThreshold": 16,
+    "badgePlacement": {
+      "left": 36.518993973731995,
+      "top": 35.691287875175476,
+      "width": 27.048290491104126,
+      "height": 27.048290491104126
+    },
+    "symbolPlacement": {
+      "left": -0.78125,
+      "top": -2.24375,
+      "width": 101.8875,
+      "height": 101.8875
+    }
+  },
+  {
+    "id": "tied-game-win",
+    "name": "Tied Game Win",
+    "symbol": "Two matching gold first-place medals.",
+    "description": "Shared first place in a recorded tied game (1st, 1st, 3rd, 4th).",
+    "preferredFrame": "gold",
+    "file": "icons/tied-game-win.png",
+    "sourceSha256": "cbe267970b1fb289ccfea4175f5dd7662a4b9e4e727cc993f0754faf25c8abb5",
+    "size": [
+      1254,
+      1254
+    ],
+    "crop": [
+      77,
+      305,
+      1176,
+      970
+    ],
+    "cropAlphaThreshold": 16,
+    "badgePlacement": {
+      "left": 37.2349509767666,
+      "top": 36.57137089365715,
+      "width": 25.55047322447675,
+      "height": 25.55047322447675
+    },
+    "symbolPlacement": {
+      "left": 5.535031847133758,
+      "top": 4.754322111010004,
+      "width": 89.00090991810737,
+      "height": 89.00090991810737
+    }
+  },
+  {
+    "id": "tied-game-second",
+    "name": "Tied Game Second",
+    "symbol": "Two matching silver second-place medals.",
+    "description": "Shared second place in a recorded tied game (1st, 2nd, 2nd, 4th).",
+    "preferredFrame": "silver",
+    "file": "icons/tied-game-second.png",
+    "sourceSha256": "8b0165c6f45945a9c36ca4aff972f47a4f44b30297436083762380e4f142787d",
+    "size": [
+      1254,
+      1254
+    ],
+    "crop": [
+      72,
+      303,
+      1178,
+      971
+    ],
+    "cropAlphaThreshold": 16,
+    "badgePlacement": {
+      "left": 37.34611175806138,
+      "top": 36.663703978816166,
+      "width": 25.38876136862563,
+      "height": 25.38876136862563
+    },
+    "symbolPlacement": {
+      "left": 5.922242314647378,
+      "top": 5.075949367088606,
+      "width": 88.4376130198915,
+      "height": 88.4376130198915
+    }
+  },
+  {
+    "id": "tied-game-third",
+    "name": "Tied Game Third",
+    "symbol": "Two matching bronze third-place medals.",
+    "description": "Shared third place in a recorded tied game (1st, 2nd, 3rd, 3rd).",
+    "preferredFrame": "bronze",
+    "file": "icons/tied-game-third.png",
+    "sourceSha256": "a172feb0fbe0d69775de7040977f223c4df3fb0a856b32a1613f8af35be49a96",
+    "size": [
+      1254,
+      1254
+    ],
+    "crop": [
+      74,
+      304,
+      1178,
+      972
+    ],
+    "cropAlphaThreshold": 16,
+    "badgePlacement": {
+      "left": 37.302905148354135,
+      "top": 36.62005723386571,
+      "width": 25.434755501539808,
+      "height": 25.434755501539808
+    },
+    "symbolPlacement": {
+      "left": 5.771739130434782,
+      "top": 4.923913043478256,
+      "width": 88.59782608695653,
+      "height": 88.59782608695653
     }
   }
 ]

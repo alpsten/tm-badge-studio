@@ -64,9 +64,11 @@ achievement to define — Finalist already covers everyone who isn't podium.
 |---|---|---|---|
 | Won It on Tiebreaker | Your tournament rank was decided by TR margin or Opponent Strength rather than a clean TP lead | `tieKind(standing)` is non-null — this is the tournament-standings sense, not the in-game money-to-production tiebreak chain (that one isn't captured at all today, would need new fields; keeping to the standings sense since that data already exists app-wide) | Ready |
 | Identical Twins | Still tied with another player on tournament points and both configured tiebreakers in the final standings | `tieKind(standing, steps) === 'complete'` — `completeTieWith` identifies a complete tie; equal TP and both configured tiebreaker values mean the players share a rank | Ready |
-| Dead Heat | Recorded the exact same TR as the player directly below you in a round | `trMarginFor` for a non-last-place finish equals exactly 0 — same TR, separated only by some other call (e.g. VP tiebreak outside this app's data) | Ready |
-| Shared Glory | Part of a genuine Tied Game that resulted in joint 1st place | A recorded match where 2+ players share `position === 1` (the Tied Game placement shape — see `isValidTiedPlacementShape`), and this player is one of them | Ready |
-| Split Decision | Part of a genuine Tied Game at any placement other than 1st | Same shared-`position` check as Shared Glory, but the shared position is 2nd or lower | Ready |
+| Impossible | Still tied with another player on tournament points and all three metrics: TR margin, Buchholz, and TPerf | Compare TP and all three metric values directly. `tieKind === complete` covers only the configured pair, so it is insufficient by itself | Ready (explicit three-metric comparison needed) |
+| Dead Heat | Recorded exactly the same TR as the player directly below you in a round | Compare adjacent players in recorded placement order; this player is not last and both `terraform_rating` values are equal. Use `trMarginFor === 0` only where it represents this same adjacent comparison | Ready |
+| Tied Game Win | Shared first place in a recorded tied game (1st, 1st, 3rd, 4th) | Recorded placements are `[1, 1, 3, 4]`, and this player is one of the two players with `position === 1` | Ready |
+| Tied Game Second | Shared second place in a recorded tied game (1st, 2nd, 2nd, 4th) | Recorded placements are `[1, 2, 2, 4]`, and this player is one of the two players with `position === 2` | Ready |
+| Tied Game Third | Shared third place in a recorded tied game (1st, 2nd, 3rd, 3rd) | Recorded placements are `[1, 2, 3, 3]`, and this player is one of the two players with `position === 3` | Ready |
 
 ## Margins & peaks
 

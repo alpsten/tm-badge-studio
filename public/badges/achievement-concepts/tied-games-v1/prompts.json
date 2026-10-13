@@ -3,15 +3,21 @@
   "status": "First concepts for review",
   "style": "Minimal ivory-and-gold pictograms with smooth enamel faces, gold rims, and restrained raised bevels.",
   "notes": {
-    "meaning": "Standings tiebreakers and complete ties have separate emblems.",
-    "scope": "Final tournament standings using the tournament’s configured pair of tiebreakers: TR margin, Buchholz, or TPerf.",
+    "meaning": "Separate emblems for a resolved standings tiebreak, a tie after two configured metrics, a tie on all three metrics, equal round TR, and shared game placements.",
+    "scope": "Tournament standings and recorded round placements; each emblem uses the rule below.",
     "exclusion": "The in-game money-to-production tiebreak chain is not represented.",
     "implementation": "Artwork and preview only; no achievement eligibility code changed.",
     "rules": {
       "won-it-on-tiebreaker": "tieKind(standing) is non-null",
-      "identical-twins": "tieKind(standing, steps) === 'complete'; completeTieWith is non-null"
+      "identical-twins": "tieKind(standing, steps) === 'complete'; completeTieWith is non-null",
+      "impossible": "There exists another player with identical tournament points, TR margin, Buchholz, and TPerf. Requires an explicit comparison of all three metrics; tieKind === complete checks only the two configured tiebreakers and is insufficient on its own.",
+      "dead-heat": "A non-last-place player has the same terraform_rating as the player immediately below them in recorded placement order. Compare those adjacent players directly; trMarginFor is usable only when it represents that same comparison.",
+      "tied-game-win": "Recorded placements are [1, 1, 3, 4], and this player is one of the two position === 1 players.",
+      "tied-game-second": "Recorded placements are [1, 2, 2, 4], and this player is one of the two position === 2 players.",
+      "tied-game-third": "Recorded placements are [1, 2, 3, 3], and this player is one of the two position === 3 players."
     },
-    "identicalTwins": "Equal tournament points and both configured tiebreaker values; the players remain tied and share a rank. The second tiebreaker has not separated them."
+    "identicalTwins": "Equal tournament points and both configured tiebreaker values; the players remain tied and share a rank. The second tiebreaker has not separated them.",
+    "resolvedTieCaution": "A non-null tieKind also includes complete ties. Eligibility for Won It on Tiebreaker must require a resolving metric and exclude complete ties."
   },
   "jobs": [
     {
@@ -35,6 +41,66 @@
         "output/imagegen/achievements/tied-games-v1/won-it-on-tiebreaker.png"
       ],
       "generated_path": "output/imagegen/achievements/tied-games-v1/identical-twins.png"
+    },
+    {
+      "id": "impossible",
+      "name": "Impossible",
+      "symbol": "An impossible triangle.",
+      "description": "Still tied with another player on tournament points, TR margin, Buchholz, and TPerf in the final standings.",
+      "preferredFrame": "gold",
+      "prompt": "Use case: logo-brand.\nAsset type: ONE minimal achievement emblem for the center of an existing game badge.\nReference image: MATERIAL AND STYLE only. Smooth ivory enamel, warm-gold edging, restrained shallow bevels, thin dark edges, and upper-left highlights. Broad solid shapes, immediately recognizable at small sizes. No texture.\nComposition: one compact centered emblem, front-on, square canvas with at least 15 percent empty margin. Genuinely transparent alpha background, including all openings.\nAvoid: outer badge frame or backing, extra ornaments, extra text, scenery, glow, haze, cast shadow, presentation sheet. No lettering unless explicitly requested below.\nSubject: ONE unmistakable PENROSE IMPOSSIBLE TRIANGLE pictogram, formed from three thick ivory rectangular beams with slim polished gold beveled edges. Classic impossible-object optical illusion: each of its THREE corners appears locally joined at a right angle, but the three joins form an impossible closed triangular loop. The beams cyclically overlap front-to-back so the overall structure cannot exist. Match the familiar Penrose tribar icon, not a flat triangular frame or a recycling symbol. Compact equilateral triangular silhouette, a generous transparent triangular opening in the middle. Smooth broad ivory faces, warm-gold edge faces, and minimal dark seam lines only where needed to read the illusion. No arrows, numbers, letters, additional shapes or pedestal.",
+      "referenced_image_paths": [
+        "output/imagegen/achievements/tied-games-v1/won-it-on-tiebreaker.png"
+      ],
+      "generated_path": "output/imagegen/achievements/tied-games-v1/impossible.png"
+    },
+    {
+      "id": "dead-heat",
+      "name": "Dead Heat",
+      "symbol": "A TR tile with an equals sign.",
+      "description": "Recorded exactly the same TR as the player directly below you in a round.",
+      "preferredFrame": "gold",
+      "prompt": "Use case: logo-brand.\nAsset type: ONE minimal achievement emblem for the center of an existing game badge.\nReference image: MATERIAL AND STYLE only. Smooth ivory enamel, warm-gold edging, restrained shallow bevels, thin dark edges, and upper-left highlights. Broad solid shapes, immediately recognizable at small sizes. No texture.\nComposition: one compact centered emblem, front-on, square canvas with at least 15 percent empty margin. Genuinely transparent alpha background, including all openings.\nAvoid: outer badge frame or backing, extra ornaments, extra text, scenery, glow, haze, cast shadow, presentation sheet. No lettering unless explicitly requested below.\nSubject: ONE compact ivory rounded-square TR SCORE TILE with a thick polished gold rim and large raised bold gold letters exactly \"TR\" centered on its face. Preserve the tile design and the bold readable lettering from the reference. Replace the upward triangle in the reference with ONE clear GOLD EQUALS SIGN above the tile, made of exactly TWO thick parallel horizontal bars separated by a generous transparent gap. The tile is centered below the equals sign, with a clear transparent gap between them. Equal bars have exactly equal width; there are no arrows or triangles anywhere. This means equal TR scores. Only the tile with \"TR\" and the equals sign.",
+      "referenced_image_paths": [
+        "output/imagegen/achievements/margins-peaks-v1/high-score.png"
+      ],
+      "generated_path": "output/imagegen/achievements/tied-games-v1/dead-heat.png"
+    },
+    {
+      "id": "tied-game-win",
+      "name": "Tied Game Win",
+      "symbol": "Two matching gold first-place medals.",
+      "description": "Shared first place in a recorded tied game (1st, 1st, 3rd, 4th).",
+      "preferredFrame": "gold",
+      "prompt": "Use case: logo-brand.\nAsset type: ONE minimal achievement emblem for the center of an existing game badge.\nReference image: MATERIAL AND STYLE only. Smooth ivory enamel, warm-gold edging, restrained shallow bevels, thin dark edges, and upper-left highlights. Broad solid shapes, immediately recognizable at small sizes. No texture.\nComposition: one compact centered emblem, front-on, square canvas with at least 15 percent empty margin. Genuinely transparent alpha background, including all openings.\nAvoid: outer badge frame or backing, extra ornaments, extra text, scenery, glow, haze, cast shadow, presentation sheet. No lettering unless explicitly requested below.\nSubject: EXACTLY TWO identical FIRST-PLACE MEDALS side by side, equal size and aligned at precisely the same height, clearly separated by transparent space. Each medal is ONE simple circular ivory disc with a broad polished GOLD rim, one large bold raised GOLD numeral exactly \"1\" in the center, and two short broad GOLD ribbon tails below, each with a simple V-notched end. The gold numerals must contrast clearly with the plain ivory faces. Medals face straight forward, no perspective. Both medals carry \"1\", expressing shared first place. The pair forms one compact horizontal composition. No crowns, stars, laurels, third medal, letters, equals sign or extra numbers. Keep rims and ribbon shapes thick and minimal so both numerals remain readable at small size.",
+      "referenced_image_paths": [
+        "output/imagegen/achievements/tied-games-v1/won-it-on-tiebreaker.png"
+      ],
+      "generated_path": "output/imagegen/achievements/tied-games-v1/tied-game-win.png"
+    },
+    {
+      "id": "tied-game-second",
+      "name": "Tied Game Second",
+      "symbol": "Two matching silver second-place medals.",
+      "description": "Shared second place in a recorded tied game (1st, 2nd, 2nd, 4th).",
+      "preferredFrame": "silver",
+      "prompt": "Use case: precise-object-edit.\nEdit target: the supplied pair of first-place medals. Create the matching SECOND-PLACE variant.\nChange ONLY: replace BOTH gold numeral \"1\" with large bold numeral \"2\"; change ALL gold metal on rims, numerals and ribbon tails to cool polished SILVER.\nKeep unchanged: exactly two medals, same size and same height, circular ivory enamel faces, broad rims, two short notched ribbon tails per medal, identical spacing, front-on composition, subtle bevel and lighting, square canvas, empty margins and transparent alpha background.\nBoth medals must show \"2\", one numeral per medal. No gold or bronze remains. No extra text, shapes, background, glow or cast shadow. Preserve the exact visual family.",
+      "referenced_image_paths": [
+        "output/imagegen/achievements/tied-games-v1/tied-game-win.png"
+      ],
+      "generated_path": "output/imagegen/achievements/tied-games-v1/tied-game-second.png"
+    },
+    {
+      "id": "tied-game-third",
+      "name": "Tied Game Third",
+      "symbol": "Two matching bronze third-place medals.",
+      "description": "Shared third place in a recorded tied game (1st, 2nd, 3rd, 3rd).",
+      "preferredFrame": "bronze",
+      "prompt": "Use case: precise-object-edit.\nEdit target: the supplied pair of first-place medals. Create the matching THIRD-PLACE variant.\nChange ONLY: replace BOTH gold numeral \"1\" with large bold numeral \"3\"; change ALL gold metal on rims, numerals and ribbon tails to warm polished COPPER-BRONZE, clearly darker and more reddish than gold.\nKeep unchanged: exactly two medals, same size and same height, circular ivory enamel faces, broad rims, two short notched ribbon tails per medal, identical spacing, front-on composition, subtle bevel and lighting, square canvas, empty margins and transparent alpha background.\nBoth medals must show \"3\", one numeral per medal. No gold or silver metal remains. No extra text, shapes, background, glow or cast shadow. Preserve the exact visual family.",
+      "referenced_image_paths": [
+        "output/imagegen/achievements/tied-games-v1/tied-game-win.png"
+      ],
+      "generated_path": "output/imagegen/achievements/tied-games-v1/tied-game-third.png"
     }
   ]
 }
