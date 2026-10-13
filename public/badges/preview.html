@@ -57,6 +57,8 @@
     .tiers figure { padding: 12px; display: grid; justify-items: center; }
     .tiers .badge { width: 100%; max-width: 256px; }
     .tiers figcaption { font-size: 14px; }
+    .tiers-label { margin: 26px 0 14px; font-size: 14px; }
+    .tiers.levels { grid-template-columns: repeat(5, minmax(0, 1fr)); }
     figure { margin: 0; padding: 18px; text-align: center; }
     figure img { width: 100%; max-width: 256px; height: auto; }
     figcaption { margin-top: 12px; color: #f1f5f9; }
@@ -71,7 +73,7 @@
     .wide-subtitle { max-width: 100%; font-size: 2.5cqw; line-height: 1.2; color: #d9dfe8; overflow-wrap: anywhere; }
     #achievements-frame { width: 100%; display: block; border: 0; border-radius: 16px; min-height: 600px; background: #10151d; }
     footer { margin-top: 30px; }
-    @media (max-width: 600px) { body { padding: 16px; } .podium { grid-template-columns: 1fr; } .tiers { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+    @media (max-width: 600px) { body { padding: 16px; } .podium { grid-template-columns: 1fr; } .tiers { grid-template-columns: repeat(2, minmax(0, 1fr)); } .tiers.levels { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
   </style>
 </head>
 <body>
@@ -128,6 +130,14 @@
     <figure class="surface"><div class="badge" data-tier="small-wings-crest" role="img"></div><figcaption>Small wings + Crest</figcaption></figure>
     <figure class="surface"><div class="badge" data-tier="wings" role="img"></div><figcaption>Ascendant wings</figcaption></figure>
     <figure class="surface"><div class="badge" data-tier="crest" role="img"></div><figcaption>Ascendant wings + Crest</figcaption></figure>
+  </div>
+  <p class="tiers-label">Milestone levels · Border, crest, and wings progression</p>
+  <div class="tiers levels">
+    <figure class="surface"><div class="badge" data-tier="plate" data-border="off" role="img"></div><figcaption>Level 1 · Single border</figcaption></figure>
+    <figure class="surface"><div class="badge" data-tier="plate" data-border="on" role="img"></div><figcaption>Level 2 · Double border</figcaption></figure>
+    <figure class="surface"><div class="badge" data-tier="crest-only" data-border="on" role="img"></div><figcaption>Level 3 · + Crest</figcaption></figure>
+    <figure class="surface"><div class="badge" data-tier="small-wings-crest" data-border="on" role="img"></div><figcaption>Level 4 · + Small wings</figcaption></figure>
+    <figure class="surface"><div class="badge" data-tier="crest" data-border="on" role="img"></div><figcaption>Level 5 · + Ascendant wings</figcaption></figure>
   </div>
   <h2>Podium awards</h2>
   <div class="podium">

@@ -143,7 +143,10 @@ function update() {
   byId('status').textContent = `${preset ? preset.corp.name + ' · ' : ''}${count} aligned WebP layers · ${options.resolution} px source · ${value('display')} px display`;
   const duplicate = preset && activeDuplicates().find(group => group.center === preset.variant.center && group.frame === preset.variant.frame);
   byId('duplicate-note').textContent = duplicate ? `This original pair is also used by ${duplicate.corporations.filter(name => name !== preset.corp.name).join(', ')}. Switch to Distinct colors to compare the revised palettes.` : '';
-  for (const example of document.querySelectorAll('[data-tier]')) drawBadge(example, { ...options, tier: example.dataset.tier }, preset);
+  for (const example of document.querySelectorAll('[data-tier]')) {
+    const border = example.dataset.border ? example.dataset.border === 'on' : options.border;
+    drawBadge(example, { ...options, tier: example.dataset.tier, border }, preset);
+  }
   for (const image of document.querySelectorAll('[data-award]')) image.src = `${options.resolution}/awards/${image.dataset.award}.webp?v=${assetVersion}`;
   for (const surface of document.querySelectorAll('.surface')) surface.classList.toggle('light', value('background') === 'light');
   galleryDirty = true;
