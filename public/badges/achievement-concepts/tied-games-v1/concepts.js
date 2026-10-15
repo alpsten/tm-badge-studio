@@ -1,5 +1,37 @@
 window.TIED_GAMES_CONCEPTS = [
   {
+    "id": "megacredit-is-king",
+    "name": "Megacredit is King",
+    "symbol": "A crowned megacredit coin.",
+    "description": "Won a game on the megacredit tiebreaker.",
+    "preferredFrame": "gold",
+    "file": "icons/megacredit-is-king.png",
+    "sourceSha256": "31243720ce22f900100ad15d2bed98159eb123ac268cc81d4bfb1d71ff790e33",
+    "size": [
+      1254,
+      1254
+    ],
+    "crop": [
+      200,
+      79,
+      1053,
+      1169
+    ],
+    "cropAlphaThreshold": 16,
+    "badgePlacement": {
+      "left": 35.06867736577988,
+      "top": 34.68880653381348,
+      "width": 29.886478185653687,
+      "height": 29.886478185653687
+    },
+    "symbolPlacement": {
+      "left": 5.167889908256878,
+      "top": 5.346788990825687,
+      "width": 89.73577981651377,
+      "height": 89.73577981651377
+    }
+  },
+  {
     "id": "won-it-on-tiebreaker",
     "name": "Won It on Tiebreaker",
     "symbol": "An equals sign paired with an upward rank arrow.",

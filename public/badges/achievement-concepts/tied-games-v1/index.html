@@ -42,7 +42,7 @@
     @media (prefers-reduced-motion: no-preference) { .card { animation: appear .3s ease-out; } @keyframes appear { from { opacity: 0; } to { opacity: 1; } } }
   </style>
   <link rel="stylesheet" href="../navigation.css">
-  <script defer src="../sections.js"></script>
+  <script defer src="../sections.js?v=podium-v1"></script>
   <script defer src="../navigation.js?v=no-arrows-v1"></script>
 </head>
 <body>
@@ -50,7 +50,7 @@
     <div data-achievement-navigation></div>
     <p class="eyebrow">Achievement emblems · First concepts</p>
     <h1>Tied Games</h1>
-    <p class="intro">Standings tiebreakers, equal TR, and shared placements. Seven emblems for the different ways a tie can finish.</p>
+    <p class="intro">Standings tiebreakers, equal TR, and shared placements. Eight emblems for the different ways a tie can finish, including the megacredit tiebreaker.</p>
     <div class="controls" aria-label="Preview controls">
       <label>View<select id="view"><option value="badge">Inside the frame</option><option value="symbol">Emblem only</option></select></label>
       <label>Center<select id="center"><option value="black">Black</option><option value="navy">Navy</option><option value="purple">Purple</option><option value="teal">Teal</option></select></label>
@@ -61,7 +61,7 @@
     <div class="gallery" id="gallery"></div>
     <footer><span>First concepts for review · Minimal emblems in the shared ivory-and-gold style.</span><a href="prompts.json">Generation prompts &amp; concept notes</a></footer>
   </main>
-  <script src="concepts.js"></script>
+  <script src="concepts.js?v=achievement-additions-v1"></script>
   <script>
     const byId = id => document.getElementById(id);
     const artwork = window.TIED_GAMES_CONCEPTS;
@@ -98,7 +98,7 @@
       caption.className = 'caption';
       const number = document.createElement('div');
       number.className = 'number';
-      number.textContent = 'Concept 0' + (index + 1);
+      number.textContent = 'Concept ' + String(index + 1).padStart(2, '0');
       const title = document.createElement('h2');
       title.textContent = item.name;
       const description = document.createElement('p');

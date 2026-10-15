@@ -14,7 +14,8 @@
       "dead-heat": "A non-last-place player has the same terraform_rating as the player immediately below them in recorded placement order. Compare those adjacent players directly; trMarginFor is usable only when it represents that same comparison.",
       "tied-game-win": "Recorded placements are [1, 1, 3, 4], and this player is one of the two position === 1 players.",
       "tied-game-second": "Recorded placements are [1, 2, 2, 4], and this player is one of the two position === 2 players.",
-      "tied-game-third": "Recorded placements are [1, 2, 3, 3], and this player is one of the two position === 3 players."
+      "tied-game-third": "Recorded placements are [1, 2, 3, 3], and this player is one of the two position === 3 players.",
+      "megacredit-is-king": "Won a game using the megacredit tiebreaker. Equal TR with different recorded placements alone does not establish which in-game tiebreaker was used; explicit result data is required to verify this rule."
     },
     "identicalTwins": "Equal tournament points and both configured tiebreaker values; the players remain tied and share a rank. The second tiebreaker has not separated them.",
     "resolvedTieCaution": "A non-null tieKind also includes complete ties. Eligibility for Won It on Tiebreaker must require a resolving metric and exclude complete ties."
@@ -101,6 +102,20 @@
         "output/imagegen/achievements/tied-games-v1/tied-game-win.png"
       ],
       "generated_path": "output/imagegen/achievements/tied-games-v1/tied-game-third.png"
+    },
+    {
+      "id": "megacredit-is-king",
+      "name": "Megacredit is King",
+      "symbol": "A crowned megacredit coin.",
+      "description": "Won a game on the megacredit tiebreaker.",
+      "preferredFrame": "gold",
+      "prompt": "Use case: logo-brand.\nAsset type: ONE compact achievement emblem inside an existing badge frame, with a genuinely transparent background.\nReference image: style reference only. Match its clean ivory enamel faces, polished warm gold edges, shallow raised bevel, restrained dark edge and upper-left highlights. Bold simple silhouette, readable at 48 pixels, front-facing, centered with generous empty transparent margin on all sides. No outer badge frame, scenery, backing plate, decorative sparkles, extra icons or cast shadow outside the subject.\nSubject: one large round ivory coin with a thick polished gold rim and a simple three-point gold crown attached at its top. Center the big bold gold currency lettering \"M€\" on the ivory coin face. The crown and coin form one compact silhouette. No decorative engraving, ticks, additional coins or text. Text (verbatim): \"M€\".",
+      "tool": "Built-in image_gen",
+      "status": "First concept for review",
+      "referenced_image_paths": [
+        "output/imagegen/achievements/margins-peaks-v1/toperf-and-beyond.png"
+      ],
+      "generated_path": "output/imagegen/achievements/tied-games-v1/megacredit-is-king.png"
     }
   ]
 }
