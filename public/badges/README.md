@@ -35,7 +35,7 @@ and off by default. The repeated-pair list follows the selected palette.
 See `corporations.md` for the full table and the reasons for each proposal.
 Open any card in the mixer, then choose **Customize these colors** to edit its pair.
 
-## Corporation logos
+## Corporation and expansion logos
 
 Forty-seven supplied logos are available: Aphrodite, Arcadian Communities, Aridor, Arklight,
 Astrodrill, Celestic, Cheung Shing Mars, Credicor, Ecoline, Ecotec, Factorum, Helion, Interplanetary
@@ -49,6 +49,11 @@ United Nations Mars Initiative (UNMI), Utopia Invest, Valley Trust, Viron, and V
 The mixer starts with Aphrodite. **Logo = Match corporation** selects the matching
 artwork. You can also choose any available logo explicitly when experimenting with custom colors.
 **Customize these colors** keeps the current logo while unlocking the colors.
+
+The **Logo** selector groups the corporation choices separately from
+**Expansions: Venus, Colonies, Turmoil, Prelude, Prelude II, and Promos**. Choose an expansion to use its
+symbol in the mixer and style comparisons with any center, frame, and ornaments.
+The corporation gallery continues to match each corporation to its own artwork.
 
 **Show logos** toggles the layer without clearing its selection. **Logo size**
 offers 85%, fitted 100%, and 110%. **Logo contrast** offers a soft shadow,
@@ -130,7 +135,7 @@ Each size directory includes:
 - `corporations/`: 65 aligned corporation badge color combinations (53 originals and 12 revisions).
 - `corporation-ornaments/`: wings, crests, borders, plates, and seven rank markers in 24 additional colors.
 - `modular/centers/` and `modular/frames/`: 30 center layers and 30 frame layers for arbitrary color pairs.
-- `logos/`: forty-seven separate corporation logo layers, encoded as lossless WebP.
+- `logos/`: 47 corporation and 6 expansion/Promo logo layers, encoded as lossless WebP.
 
 `corporations.json` lists presets, alternatives, optional accents, colors, and all
 paths for the expanded palette. Each corporation keeps its original `variants`
@@ -203,3 +208,7 @@ python3 scripts/export_badge_webp.py
 The script requires Pillow with WebP support. It overwrites generated WebP copies
 and manifests, removes obsolete WebP files tracked by the previous manifest,
 and rebuilds `output/badges/badge-webp-testing-kit.zip`.
+
+Prelude and Prelude II have matching polished gold outer rims, with a white
+chevron and white II respectively. Both use their generated achievement artwork,
+as does Promo. The white II is a studio convention. The supplied visual references are retained with the achievement masters. Corporation lists are available on the Corporation Loyalty page.

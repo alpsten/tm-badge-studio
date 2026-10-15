@@ -175,6 +175,7 @@ def main():
         "assemblies": {web_path(name): [web_path(layer) for layer in layers] for name, layers in source_layout["assemblies"].items()},
         "colored_badge_layer": "layers/{metal}/badges/{color}.webp",
         "corporation_logos": {"manifest": "logos.json", "path": "logos/{corporation}.webp", "order": "After badge center/frame, before bottom plate and rank"},
+        "expansion_logos": {"manifest": "logos.json", "path": "logos/{expansion}.webp", "order": "After badge center/frame, before bottom plate and rank"},
         "coordinates": {},
         "notes": ["Paths are relative to either the 256/ or 512/ directory.", "Stack all layers from one size directory at the same origin and display size.", "Replace layers/{metal}/badge.webp with layers/{metal}/badges/{color}.webp for another center color.", "Standalone colors/ and framed/ images use a tighter canvas; use the aligned layers/ paths when adding ornaments.", "Plates are compact exports with their aspect ratio retained.", "Choose a precomposed progression/ or awards/ image for a single image request, or layers/ to build a combination."],
     }

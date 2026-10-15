@@ -1,10 +1,11 @@
 const palette = window.BADGE_CORPORATIONS;
 const corporations = new Map(palette.corporations.map(corp => [corp.id, corp]));
-const logos = new Map(window.BADGE_LOGOS.logos.map(logo => [logo.corporation, logo]));
+const logoId = logo => logo.id ?? logo.corporation;
+const logos = new Map(window.BADGE_LOGOS.logos.map(logo => [logoId(logo), logo]));
 const byId = id => document.getElementById(id);
 const value = id => byId(id).value;
 const colorName = key => palette.colors[key]?.label ?? key;
-const assetVersion = 'corporations-kuiper-manutech-v12';
+const assetVersion = 'prelude-gold-rims-v22';
 const distinctMode = () => value('palette-mode') === 'distinct';
 const variantsFor = corp => distinctMode() ? [corp.distinct_variant] : corp.variants;
 const activeDuplicates = () => distinctMode() ? palette.distinct_duplicates : palette.duplicates;
@@ -21,7 +22,14 @@ for (const key of palette.finish_colors) {
   for (const id of ['outer-color', 'wing-color', 'crest-color']) byId(id).add(new Option(colorName(key), key));
 }
 for (const corp of palette.corporations) byId('corporation').add(new Option(corp.name, corp.id));
-for (const logo of logos.values()) byId('logo').add(new Option(logo.name, logo.corporation));
+for (const [label, isExpansion] of [['Corporations', false], ['Expansions', true]]) {
+  const group = document.createElement('optgroup');
+  group.label = label;
+  for (const logo of logos.values()) {
+    if ((logo.kind === 'expansion') === isExpansion) group.append(new Option(logo.name, logoId(logo)));
+  }
+  if (group.children.length) byId('logo').append(group);
+}
 
 function selection() {
   const corp = corporations.get(value('corporation'));
@@ -52,7 +60,7 @@ function updateLogoHelp() {
   const preset = selection();
   const logo = selectedLogo(preset, options);
   byId('logo-help').textContent = !options.showLogos ? 'Logos are hidden. Your selection is kept for when you turn them back on.'
-    : activePanel === 'corporations' ? `${logos.size} corporation logos available. The gallery always matches each logo to its corporation.`
+    : activePanel === 'corporations' ? `${palette.corporations.filter(corp => logos.has(corp.id)).length} corporation logos available. The gallery always matches each logo to its corporation.`
     : logo ? `${logo.name} logo · ${logo.keep_original_square ? 'Original square artwork preserved.' : 'Original colors, fitted inside the frame.'}`
     : preset ? `No logo added for ${preset.corp.name} yet. Choose one above to experiment, or try a corporation with a logo.`
     : 'Choose a logo above, or select a corporation to use its matching logo.';
@@ -298,7 +306,7 @@ byId('edit-colors').addEventListener('click', () => {
   byId('metal').value = preset.variant.frame;
   byId('color').value = preset.variant.center;
   const logo = selectedLogo(preset, { ...settings(), showLogos: true });
-  if (logo) byId('logo').value = logo.corporation;
+  if (logo) byId('logo').value = logoId(logo);
   setCorporation('custom');
   update();
   byId('metal').focus();

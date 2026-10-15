@@ -1910,5 +1910,10 @@
     "Standalone colors/ and framed/ images use a tighter canvas; use the aligned layers/ paths when adding ornaments.",
     "Plates are compact exports with their aspect ratio retained.",
     "Choose a precomposed progression/ or awards/ image for a single image request, or layers/ to build a combination."
-  ]
+  ],
+  "expansion_logos": {
+    "manifest": "logos.json",
+    "path": "logos/{expansion}.webp",
+    "order": "After badge center/frame, before bottom plate and rank"
+  }
 }

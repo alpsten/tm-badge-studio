@@ -51,5 +51,13 @@
     {"corporation": "valley-trust", "file": "valley-trust-logo.png"},
     {"corporation": "viron", "file": "viron-logo.png"},
     {"corporation": "vitor", "file": "vitor-logo.png"}
+  ],
+  "expansions": [
+    {"id": "venus", "name": "Venus", "file": "venus.webp", "allow_upscale": true},
+    {"id": "colonies", "name": "Colonies", "file": "colonies.webp", "allow_upscale": true},
+    {"id": "turmoil", "name": "Turmoil", "file": "turmoil.webp", "allow_upscale": true},
+    {"id": "prelude", "name": "Prelude", "file": "prelude-emblem.png"},
+    {"id": "prelude-ii", "name": "Prelude II", "file": "prelude-ii-emblem.png"},
+    {"id": "promo", "name": "Promos", "file": "promo-emblem.png"}
   ]
 }

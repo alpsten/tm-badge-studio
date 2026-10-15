@@ -172,9 +172,12 @@ It reuses previous exports only when all their source and output hashes still
 match and the export settings agree. Changed or new files are encoded and checked
 normally; incompatible export settings require a normal full export.
 
-## Corporation logo layers
+## Corporation and expansion logo layers
 
 `scripts/badge_logos.json` maps the 47 supplied images to their corporation IDs.
+Its separate `expansions` list adds Venus, Colonies, Turmoil, Prelude, Prelude II, and Promos to the mixer's
+**Logo → Expansions** choices. Expansion IDs share the logo namespace but do not
+create corporation presets or entries in the corporation gallery.
 Splice uses the supplied `splice-logo-2.png` artwork.
 Import originals and render the aligned layers with:
 
@@ -185,6 +188,13 @@ python3 scripts/render_badge_logos.py --source-dir /path/to/new-logo-artwork
 The source folder is read only. Exact copies are kept in
 `output/badges/logos/originals/`; later runs can omit `--source-dir` to use these
 copies. Generated layers and placement data live in `output/badges/logos/`.
+Venus, Colonies, and Turmoil originals retain their supplied WebP format and alpha.
+Prelude and Prelude II use matching polished gold outer rims. Prelude retains its
+white chevron; Prelude II uses two broad white bars with a generous gap. Prelude,
+Prelude II, and Promo use PNG copies of their generated achievement masters; the supplied references live beside those masters in `references/`. Their
+`allow_upscale` setting enlarges the small source icons only while fitting the
+2048 px master canvas, keeping a useful display size in the 256/512 px exports.
+This does not add detail or change the imported source files.
 The script keeps colors, proportions, and source pixels intact before resizing;
 only fully transparent margins are trimmed. The Mons Insurance square is retained
 in full, including its orange background, per the user's preference. Manutech and

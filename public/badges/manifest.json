@@ -8,12 +8,12 @@
   "text_layers_lossless": true,
   "verified_original_pngs_unchanged": true,
   "verified_export_alpha_matches_resized_source": true,
-  "asset_count": 1286,
-  "webp_file_count": 2572,
-  "unique_source_png_bytes": 734281274,
+  "asset_count": 1292,
+  "webp_file_count": 2584,
+  "unique_source_png_bytes": 735579499,
   "bytes_by_size": {
-    "256": 11787514,
-    "512": 29310582
+    "256": 11817718,
+    "512": 29392788
   },
   "assets": [
     {
@@ -24993,6 +24993,34 @@
       }
     },
     {
+      "id": "logos/colonies.webp",
+      "category": "logos",
+      "source": "output/badges/logos/layers/colonies.png",
+      "source_size": [
+        2048,
+        2048
+      ],
+      "canvas_before_resize": [
+        2048,
+        2048
+      ],
+      "encoding": "lossless",
+      "variants": {
+        "256": {
+          "path": "256/logos/colonies.webp",
+          "width": 256,
+          "height": 256,
+          "bytes": 2022
+        },
+        "512": {
+          "path": "512/logos/colonies.webp",
+          "width": 512,
+          "height": 512,
+          "bytes": 5772
+        }
+      }
+    },
+    {
       "id": "logos/credicor.webp",
       "category": "logos",
       "source": "output/badges/logos/layers/credicor.png",
@@ -25581,6 +25609,62 @@
       }
     },
     {
+      "id": "logos/prelude-ii.webp",
+      "category": "logos",
+      "source": "output/badges/logos/layers/prelude-ii.png",
+      "source_size": [
+        2048,
+        2048
+      ],
+      "canvas_before_resize": [
+        2048,
+        2048
+      ],
+      "encoding": "lossless",
+      "variants": {
+        "256": {
+          "path": "256/logos/prelude-ii.webp",
+          "width": 256,
+          "height": 256,
+          "bytes": 5518
+        },
+        "512": {
+          "path": "512/logos/prelude-ii.webp",
+          "width": 512,
+          "height": 512,
+          "bytes": 15248
+        }
+      }
+    },
+    {
+      "id": "logos/prelude.webp",
+      "category": "logos",
+      "source": "output/badges/logos/layers/prelude.png",
+      "source_size": [
+        2048,
+        2048
+      ],
+      "canvas_before_resize": [
+        2048,
+        2048
+      ],
+      "encoding": "lossless",
+      "variants": {
+        "256": {
+          "path": "256/logos/prelude.webp",
+          "width": 256,
+          "height": 256,
+          "bytes": 5832
+        },
+        "512": {
+          "path": "512/logos/prelude.webp",
+          "width": 512,
+          "height": 512,
+          "bytes": 16376
+        }
+      }
+    },
+    {
       "id": "logos/pristar.webp",
       "category": "logos",
       "source": "output/badges/logos/layers/pristar.png",
@@ -25605,6 +25689,34 @@
           "width": 512,
           "height": 512,
           "bytes": 11676
+        }
+      }
+    },
+    {
+      "id": "logos/promo.webp",
+      "category": "logos",
+      "source": "output/badges/logos/layers/promo.png",
+      "source_size": [
+        2048,
+        2048
+      ],
+      "canvas_before_resize": [
+        2048,
+        2048
+      ],
+      "encoding": "lossless",
+      "variants": {
+        "256": {
+          "path": "256/logos/promo.webp",
+          "width": 256,
+          "height": 256,
+          "bytes": 4590
+        },
+        "512": {
+          "path": "512/logos/promo.webp",
+          "width": 512,
+          "height": 512,
+          "bytes": 13952
         }
       }
     },
@@ -25945,6 +26057,34 @@
       }
     },
     {
+      "id": "logos/turmoil.webp",
+      "category": "logos",
+      "source": "output/badges/logos/layers/turmoil.png",
+      "source_size": [
+        2048,
+        2048
+      ],
+      "canvas_before_resize": [
+        2048,
+        2048
+      ],
+      "encoding": "lossless",
+      "variants": {
+        "256": {
+          "path": "256/logos/turmoil.webp",
+          "width": 256,
+          "height": 256,
+          "bytes": 6330
+        },
+        "512": {
+          "path": "512/logos/turmoil.webp",
+          "width": 512,
+          "height": 512,
+          "bytes": 14812
+        }
+      }
+    },
+    {
       "id": "logos/tycho-magnetics.webp",
       "category": "logos",
       "source": "output/badges/logos/layers/tycho-magnetics.png",
@@ -26053,6 +26193,34 @@
           "width": 512,
           "height": 512,
           "bytes": 7526
+        }
+      }
+    },
+    {
+      "id": "logos/venus.webp",
+      "category": "logos",
+      "source": "output/badges/logos/layers/venus.png",
+      "source_size": [
+        2048,
+        2048
+      ],
+      "canvas_before_resize": [
+        2048,
+        2048
+      ],
+      "encoding": "lossless",
+      "variants": {
+        "256": {
+          "path": "256/logos/venus.webp",
+          "width": 256,
+          "height": 256,
+          "bytes": 5912
+        },
+        "512": {
+          "path": "512/logos/venus.webp",
+          "width": 512,
+          "height": 512,
+          "bytes": 16046
         }
       }
     },

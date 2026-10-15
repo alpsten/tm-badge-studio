@@ -80,8 +80,19 @@ def main():
     logos = load(BADGES / 'logos.json')
     check(assigned_json(BADGES / 'corporations.js') == corporations, 'Corporation JS/JSON differ')
     check(assigned_json(BADGES / 'logos.js') == logos, 'Logo JS/JSON differ')
-    configured = {entry['corporation']: entry for entry in load(ROOT / 'scripts/badge_logos.json')['logos']}
-    check({entry['id'] for entry in corporations['corporations']} == {entry['corporation'] for entry in logos['logos']} == set(configured), 'Corporation/logo catalogs differ')
+    config = load(ROOT / 'scripts/badge_logos.json')
+    configured = {entry['corporation']: entry for entry in config['logos']}
+    configured_expansions = {entry['id']: entry for entry in config.get('expansions', [])}
+    check(len(configured) == len(config['logos']), 'Duplicate configured corporation logo')
+    check(len(configured_expansions) == len(config.get('expansions', [])), 'Duplicate configured expansion logo')
+    check(not set(configured).intersection(configured_expansions), 'Corporation and expansion logo IDs overlap')
+    corporation_logos = [entry for entry in logos['logos'] if entry.get('kind', 'corporation') == 'corporation']
+    expansion_logos = [entry for entry in logos['logos'] if entry.get('kind') == 'expansion']
+    check(len(corporation_logos) + len(expansion_logos) == len(logos['logos']), 'Unknown logo kind')
+    check({entry['id'] for entry in corporations['corporations']} == {entry['corporation'] for entry in corporation_logos} == set(configured), 'Corporation/logo catalogs differ')
+    check({entry['id'] for entry in expansion_logos} == set(configured_expansions), 'Expansion/logo catalogs differ')
+    check(len(corporation_logos) == len(configured) and len(expansion_logos) == len(configured_expansions), 'Duplicate logo ID')
+    check(len({entry['path'] for entry in logos['logos']}) == len(logos['logos']), 'Duplicate logo layer path')
     paths = list(corporations['modular_centers'].values()) + list(corporations['modular_frames'].values())
     for entry in corporations['corporations']:
         paths.extend(variant['badge'] for variant in entry['variants'])
@@ -91,7 +102,8 @@ def main():
         paths.extend(f'{root}/rank-{rank}.webp' for rank in [1, 3, 5, 10, 20, 25, 50])
     for logo in logos['logos']:
         check_hash(ROOT / 'output/badges/logos/originals' / logo['source'], logo['source_sha256'])
-        check(configured[logo['corporation']]['file'] == logo['source'], 'Configured logo source differs')
+        settings = configured_expansions[logo['id']] if logo.get('kind') == 'expansion' else configured[logo['corporation']]
+        check(settings['file'] == logo['source'], 'Configured logo source differs')
         paths.append(logo['path'])
     for size in manifest['sizes']:
         for path in paths:
@@ -122,7 +134,7 @@ def main():
     for name in ('bottom-plate-silver', 'wings-silver'):
         require(ROOT / 'output/badges/upgrade-sketch/masters' / (name + '.png'))
     total = sum(path.stat().st_size for path in PUBLIC.rglob('*') if path.is_file())
-    print(f'Validated {len(logos["logos"])} logos, {achievement_count} achievements in {len(sections)} sections, {len(exports)} WebP exports, all HTML links, and source masters. Website: {total / 1024**2:.1f} MiB.')
+    print(f'Validated {len(corporation_logos)} corporation and {len(expansion_logos)} expansion logos, {achievement_count} achievements in {len(sections)} sections, {len(exports)} WebP exports, all HTML links, and source masters. Website: {total / 1024**2:.1f} MiB.')
 
 
 if __name__ == '__main__':

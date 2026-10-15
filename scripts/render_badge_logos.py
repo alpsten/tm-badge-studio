@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Import corporation artwork and fit separate logo layers inside the badge."""
+"""Import corporation and expansion artwork and fit logo layers inside the badge."""
 
 import argparse
 from hashlib import sha256
@@ -41,11 +41,19 @@ def main():
     safe.paste(inner, (397, 397))
     for folder in ("originals", "layers"):
         (OUTPUT / folder).mkdir(parents=True, exist_ok=True)
-    entries = []
-    for item in config["logos"]:
-        identifier = item["corporation"]
-        if identifier not in corporations:
+    entries, identifiers = [], set()
+    items = [(item, "corporation") for item in config["logos"]]
+    items.extend((item, "expansion") for item in config.get("expansions", []))
+    for item, kind in items:
+        identifier = item["corporation"] if kind == "corporation" else item["id"]
+        if kind == "corporation" and identifier not in corporations:
             raise ValueError(f"Unknown corporation: {identifier}")
+        if identifier in identifiers or (kind == "expansion" and identifier in corporations):
+            raise ValueError(f"Duplicate logo ID: {identifier}")
+        identifiers.add(identifier)
+        name = corporations[identifier] if kind == "corporation" else item["name"]
+        if not name.strip():
+            raise ValueError(f"Missing logo name: {identifier}")
         path = OUTPUT / "originals" / item["file"]
         if args.source_dir:
             incoming = args.source_dir / item["file"]
@@ -60,7 +68,10 @@ def main():
         if crop is None:
             raise ValueError(f"Empty logo: {path}")
         artwork = rgba.crop(crop)
-        low, high = 0.0, min(1.0, 1100 / max(artwork.size))
+        # Small supplied expansion icons need master-canvas upscaling to occupy
+        # the same badge area. Preserve their original source files unchanged.
+        limit = 1100 / max(artwork.size)
+        low, high = 0.0, limit if item.get("allow_upscale") else min(1.0, limit)
         for _ in range(16):
             candidate = (low + high) / 2
             resized, bounds = positioned(artwork, candidate, center)
@@ -96,13 +107,18 @@ def main():
         layer.save(OUTPUT / "layers" / f"{identifier}.png")
         if sha256(path.read_bytes()).hexdigest() != digest:
             raise AssertionError(f"Original logo changed: {path}")
-        entries.append({"corporation": identifier, "name": corporations[identifier], "path": f"logos/{identifier}.webp", "source": item["file"], "source_sha256": digest, "source_size": rgba.size, "crop": crop, "offset": offset, "corner_radius_fraction": corner_radius, "bounds": bounds, "maximum_scale_bounds": large_bounds, "keep_original_square": bool(item.get("keep_original_square"))})
+        entry = {"corporation" if kind == "corporation" else "id": identifier, "name": name, "path": f"logos/{identifier}.webp", "source": item["file"], "source_sha256": digest, "source_size": rgba.size, "crop": crop, "offset": offset, "corner_radius_fraction": corner_radius, "bounds": bounds, "maximum_scale_bounds": large_bounds, "keep_original_square": bool(item.get("keep_original_square"))}
+        if kind == "expansion":
+            entry["kind"] = kind
+        if item.get("allow_upscale"):
+            entry["allow_upscale"] = True
+        entries.append(entry)
     data = {"version": 1, "canvas": size, "center": center, "maximum_preview_scale": config["maximum_preview_scale"], "logos": entries, "notes": ["Separate layers: after the badge center/frame and before the bottom plate and rank.", "Original colors and proportions are preserved. Only fully transparent margins are trimmed.", "Requested corner rounding is recorded per logo and applied only to the derived layers.", "Mons Insurance retains its original opaque square artwork.", "The 110% preview size is checked against an inset badge-center mask."]}
     encoded = json.dumps(data, indent=2) + "\n"
     (OUTPUT / "layout.json").write_text(encoded)
     (WEB / "logos.json").write_text(encoded)
     (WEB / "logos.js").write_text("window.BADGE_LOGOS = " + json.dumps(data) + ";\n")
-    print(f"Imported and fitted {len(entries)} logos; originals preserved, including the Mons Insurance square", flush=True)
+    print(f"Imported and fitted {len(config['logos'])} corporation and {len(config.get('expansions', []))} expansion logos; originals preserved", flush=True)
 
 
 if __name__ == "__main__":
