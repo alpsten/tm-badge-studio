@@ -4,6 +4,7 @@
   const sections = window.ACHIEVEMENT_SECTIONS;
   const groups = [];
   const compositions = [];
+  const fullImageThumbs = [];
   for (const section of sections) byId('section').add(new Option(section.title, section.id));
   const image = (path, className) => {
     const element = new Image();
@@ -25,6 +26,7 @@
       for (const property of ['left', 'top', 'width', 'height']) emblem.style[property] = placement[property] + '%';
       thumb.dataset.background = byId('background').value;
     }
+    for (const thumb of fullImageThumbs) thumb.dataset.background = byId('background').value;
     byId('center').disabled = symbolOnly;
     byId('frame').disabled = symbolOnly;
   }
@@ -81,10 +83,16 @@
       thumb.className = 'thumb';
       const composition = document.createElement('div');
       composition.className = 'composition';
-      const center = image('../512/modular/centers/black.webp', 'base center');
-      const frame = image('../512/modular/frames/' + (item.preferredFrame || 'gold') + '.webp', 'base frame');
-      const emblem = image(section.id + '/' + item.file, 'emblem');
-      composition.append(center, frame, emblem);
+      if (item.fullImage) {
+        composition.append(image(section.id + '/' + item.file + '?v=' + item.sourceSha256.slice(0, 12), 'base'));
+        fullImageThumbs.push(thumb);
+      } else {
+        const center = image('../512/modular/centers/black.webp', 'base center');
+        const frame = image('../512/modular/frames/' + (item.preferredFrame || 'gold') + '.webp', 'base frame');
+        const emblem = image(section.id + '/' + item.file + '?v=' + item.sourceSha256.slice(0, 12), 'emblem');
+        composition.append(center, frame, emblem);
+        compositions.push({composition, center, frame, emblem, thumb, item});
+      }
       thumb.append(composition);
       const copy = document.createElement('div');
       copy.className = 'card-copy';
@@ -96,7 +104,6 @@
       card.append(thumb, copy);
       grid.append(card);
       cards.push({element: card, search: [section.title, item.name, item.description].join(' ').toLocaleLowerCase()});
-      compositions.push({composition, center, frame, emblem, thumb, item});
     }
     element.append(heading, grid);
     byId('sections').append(element);
@@ -111,7 +118,7 @@
   for (const id of ['view', 'center', 'frame', 'background']) byId(id).addEventListener('change', refreshArtwork);
   const load = section => new Promise((resolve, reject) => {
     const script = document.createElement('script');
-    script.src = new URL(section.id + '/concepts.js', root).href;
+    script.src = new URL(section.id + '/concepts.js?v=origin-achievements-v9', root).href;
     script.onload = () => Array.isArray(window[section.data]) ? resolve(window[section.data]) : reject(new Error(section.title));
     script.onerror = () => reject(new Error(section.title));
     document.head.append(script);

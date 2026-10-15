@@ -1,5 +1,6 @@
 window.ACHIEVEMENT_SECTIONS = [
   {id: 'final-table-v1', title: 'The Final Table', data: 'FINAL_TABLE_CONCEPTS'},
+  {id: 'podium-v1', title: 'The Podium', data: 'PODIUM_CONCEPTS'},
   {id: 'tournament-standings-v1', title: 'Tournament Standings', data: 'TOURNAMENT_STANDINGS_CONCEPTS'},
   {id: 'milestones-awards-v1', title: 'Milestones & Awards', data: 'MILESTONES_AWARDS_CONCEPTS'},
   {id: 'tr-milestones-v1', title: 'TR Milestones', data: 'TR_MILESTONES_CONCEPTS'},
@@ -8,4 +9,5 @@ window.ACHIEVEMENT_SECTIONS = [
   {id: 'tied-games-v1', title: 'Tied Games', data: 'TIED_GAMES_CONCEPTS'},
   {id: 'margins-peaks-v1', title: 'Margins & Peaks', data: 'MARGINS_PEAKS_CONCEPTS'},
   {id: 'cross-tournament-v1', title: 'Cross-Tournament', data: 'CROSS_TOURNAMENT_CONCEPTS'},
+  {id: 'event-day-v1', title: 'Event Day', data: 'EVENT_DAY_CONCEPTS'},
 ];
