@@ -41,6 +41,24 @@
         "exec-f7415e2e-bafe-4bc3-9c00-2baf69fd8791.png"
       ],
       "generated_path": "output/imagegen/achievements/milestones-awards-v1/shut-out.png"
+    },
+    {
+      "id": "the-full-package",
+      "name": "The Full Package",
+      "symbol": "A complete package with a checkmark.",
+      "description": "Won a round while claiming every milestone and every award.",
+      "preferredFrame": "gold",
+      "prompt": "Use case: logo-brand.\nAsset type: ONE minimal achievement emblem to sit inside an existing game badge.\nReference image: MATERIAL AND STYLE only, unless specified otherwise. Match smooth ivory enamel faces, warm polished gold edging, shallow raised bevels, very thin dark edges, and upper-left highlights. Broad solid pictogram shapes, immediately recognizable at small sizes.\nComposition: a single compact centered emblem, front-on, square canvas with generous empty margins. Genuinely transparent alpha outside the emblem and in every opening.\nAvoid: outer badge or frame, backing plate, presentation sheet, scenery, fine texture, ornament, sparkles, glow, haze, cast shadow, tiny details, or extra lettering.\nSubject: ONE closed GIFT PACKAGE, straight-on, with a broad square IVORY box, a simple overhanging lid edged in gold, and a tidy GOLD bow on top made of exactly two broad rounded loops. One broad GOLD CHECKMARK is centered on the front face of the ivory box and dominates that face, clearly signaling complete. Keep the lid, box and bow simple; no wrapping patterns, ribbon crossing the checkmark, small ornaments or text. Wide open gap inside each bow loop. The box, bow and single checkmark form one compact unmistakable parcel icon.",
+      "status": "First concept for review",
+      "referenced_image_paths": [
+        "output/imagegen/achievements/margins-peaks-v1/toperf-and-beyond.png"
+      ],
+      "generated_path": "output/imagegen/achievements/milestones-awards-v1/the-full-package.png"
     }
-  ]
+  ],
+  "notes": {
+    "rules": {
+      "the-full-package": "Won a round and claimed every milestone and every award: roundAchievements().perfect."
+    }
+  }
 }

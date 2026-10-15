@@ -91,5 +91,37 @@ window.MILESTONES_AWARDS_CONCEPTS = [
       "width": 83.24425531914893,
       "height": 83.24425531914893
     }
+  },
+  {
+    "id": "the-full-package",
+    "name": "The Full Package",
+    "symbol": "A complete package with a checkmark.",
+    "description": "Won a round while claiming every milestone and every award.",
+    "preferredFrame": "gold",
+    "file": "icons/the-full-package.png",
+    "sourceSha256": "760f11abc15d61059f9e24cbaaba6795a65ff407533cf4c4f834f0b85edcd510",
+    "size": [
+      1254,
+      1254
+    ],
+    "crop": [
+      231,
+      189,
+      1024,
+      1076
+    ],
+    "cropAlphaThreshold": 16,
+    "badgePlacement": {
+      "left": 36.87361106276512,
+      "top": 36.329565197229385,
+      "width": 26.23185932636261,
+      "height": 26.23185932636261
+    },
+    "symbolPlacement": {
+      "left": -5.1803833145434,
+      "top": -5.620067643742954,
+      "width": 110.27282976324689,
+      "height": 110.27282976324689
+    }
   }
 ];
