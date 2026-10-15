@@ -153,5 +153,260 @@ window.CORPORATION_LOYALTY_CONCEPTS = [
       "width": 78.56385542168675,
       "height": 78.56385542168675
     }
+  },
+  {
+    "id": "venus-veteran",
+    "name": "Venus Veteran",
+    "symbol": "The blue Venus hexagon and white V, with a polished gold edge.",
+    "description": "Won with every Venus-expansion corporation at least once.",
+    "preferredFrame": "gold",
+    "file": "icons/venus-veteran.png",
+    "sourceSha256": "2cf18a5d5d61f4c594555f251425f7a414327557d3559733196df03be212119d",
+    "size": [
+      1254,
+      1254
+    ],
+    "crop": [
+      162,
+      206,
+      1092,
+      1022
+    ],
+    "cropAlphaThreshold": 16,
+    "badgePlacement": {
+      "left": 36.6241789617846,
+      "top": 36.46205545958652,
+      "width": 26.751642076430784,
+      "height": 26.751642076430784
+    },
+    "symbolPlacement": {
+      "left": -2.5870967741935487,
+      "top": -1.4967741935483874,
+      "width": 105.17419354838711,
+      "height": 105.17419354838711
+    }
+  },
+  {
+    "id": "colonial-conqueror",
+    "name": "Colonial Conqueror",
+    "symbol": "The dark Colonies triangle, with a polished gold edge.",
+    "description": "Won with every Colonies corporation at least once.",
+    "preferredFrame": "gold",
+    "file": "icons/colonial-conqueror.png",
+    "sourceSha256": "69d3310be500fcecb42485c829520fc2877a6a8cf860ab8d2f560c1603426b7e",
+    "size": [
+      1254,
+      1254
+    ],
+    "crop": [
+      174,
+      228,
+      1078,
+      989
+    ],
+    "cropAlphaThreshold": 16,
+    "badgePlacement": {
+      "left": 36.261422753334045,
+      "top": 36.206035286188126,
+      "width": 27.521047711372375,
+      "height": 27.521047711372375
+    },
+    "symbolPlacement": {
+      "left": -4.013274336283186,
+      "top": -2.5033185840707977,
+      "width": 108.19911504424779,
+      "height": 108.19911504424779
+    }
+  },
+  {
+    "id": "agent-of-chaos",
+    "name": "Agent of Chaos",
+    "symbol": "The orange Turmoil diamond and downward arrow, with a polished gold edge.",
+    "description": "Won with every Turmoil corporation at least once.",
+    "preferredFrame": "gold",
+    "file": "icons/agent-of-chaos.png",
+    "sourceSha256": "1ee86fbe5b8ad072b1c004d41cda41ce6728157e02d2b1978b268dd364ec5931",
+    "size": [
+      1254,
+      1254
+    ],
+    "crop": [
+      167,
+      172,
+      1086,
+      1086
+    ],
+    "cropAlphaThreshold": 16,
+    "badgePlacement": {
+      "left": 36.47487083975716,
+      "top": 35.98144672848325,
+      "width": 27.071846714995242,
+      "height": 27.071846714995242
+    },
+    "symbolPlacement": {
+      "left": -3.1741022850924936,
+      "top": -3.3862894450489702,
+      "width": 106.43307943416758,
+      "height": 106.43307943416758
+    }
+  },
+  {
+    "id": "prelude-completionist",
+    "name": "Prelude Completionist",
+    "symbol": "The magenta Prelude token with its white chevron and a polished gold outer rim.",
+    "description": "Won with all five Prelude corporations at least once.",
+    "preferredFrame": "gold",
+    "file": "icons/prelude-completionist.png",
+    "sourceSha256": "4c0dbc85668db6055a4edc027393d8531630c70fe1a9a216ff3ac76b90dbfe46",
+    "size": [
+      1402,
+      1122
+    ],
+    "crop": [
+      274,
+      68,
+      1177,
+      1046
+    ],
+    "cropAlphaThreshold": 16,
+    "badgePlacement": {
+      "left": 33.26385545730591,
+      "top": 36.711432456970215,
+      "width": 32.341936111450195,
+      "height": 25.882776260375977
+    },
+    "symbolPlacement": {
+      "left": -7.861963190184042,
+      "top": 5.576687116564421,
+      "width": 111.8159509202454,
+      "height": 89.48466257668711
+    },
+    "corporations": [
+      "Cheung Shing Mars",
+      "Point Luna",
+      "Robinson Industries",
+      "Valley Trust",
+      "Vitor"
+    ],
+    "scopeNote": "Win at least once with every corporation listed below.",
+    "scopeSources": [
+      {
+        "title": "Prelude corporation list",
+        "url": "https://raw.githubusercontent.com/terraforming-mars/terraforming-mars/main/src/server/cards/prelude/PreludeCardManifest.ts"
+      }
+    ]
+  },
+  {
+    "id": "prelude-ii-completionist",
+    "name": "Prelude II Completionist",
+    "symbol": "The magenta Prelude token with two broad white bars forming II and a matching polished gold outer rim.",
+    "description": "Won with all five Prelude 2 corporations at least once.",
+    "preferredFrame": "gold",
+    "file": "icons/prelude-ii-completionist.png",
+    "sourceSha256": "0c99be77cc9df85adc8f4049760ed283b6eb216be52447c45d247cb331849ebe",
+    "size": [
+      1402,
+      1122
+    ],
+    "crop": [
+      274,
+      65,
+      1179,
+      1048
+    ],
+    "cropAlphaThreshold": 16,
+    "badgePlacement": {
+      "left": 34.405891478061676,
+      "top": 37.61543828248978,
+      "width": 30.093517065048218,
+      "height": 24.083399534225464
+    },
+    "symbolPlacement": {
+      "left": -7.646998982706009,
+      "top": 5.842319430315359,
+      "width": 111.24720244150559,
+      "height": 89.029501525941
+    },
+    "corporations": [
+      "Ecotec",
+      "Nirgal Enterprises",
+      "Palladin Shipping",
+      "Sagitta",
+      "Spire"
+    ],
+    "scopeNote": "Win at least once with every corporation listed below. The white II inside the logo is a studio marker for Prelude 2. Kuiper Cooperative and Tycho Magnetics belong to Promos.",
+    "scopeSources": [
+      {
+        "title": "Prelude 2 corporation list",
+        "url": "https://raw.githubusercontent.com/terraforming-mars/terraforming-mars/main/src/server/cards/prelude2/Prelude2CardManifest.ts"
+      },
+      {
+        "title": "Prelude 2 \u2014 FryxGames",
+        "url": "https://fryxgames.se/product/terraforming-mars-prelude-2/"
+      }
+    ]
+  },
+  {
+    "id": "promo-completionist",
+    "name": "Promo Completionist",
+    "symbol": "The black Promo square with a single ivory circle and polished gold edge.",
+    "description": "Won with all ten Promo corporations in the achievement catalogue at least once.",
+    "preferredFrame": "gold",
+    "file": "icons/promo-completionist.png",
+    "sourceSha256": "b3c610b6b32aa72b9a0d483227eeb22c2a3e47e6f2a04ef8e0d7eda195d60f90",
+    "size": [
+      1254,
+      1254
+    ],
+    "crop": [
+      206,
+      215,
+      1050,
+      1026
+    ],
+    "cropAlphaThreshold": 16,
+    "badgePlacement": {
+      "left": 35.098396062850945,
+      "top": 34.83690795302391,
+      "width": 29.75575053691864,
+      "height": 29.75575053691864
+    },
+    "symbolPlacement": {
+      "left": -8.03791469194313,
+      "top": -7.344786729857816,
+      "width": 115.8909952606635,
+      "height": 115.8909952606635
+    },
+    "corporations": [
+      "Arcadian Communities",
+      "Astrodrill",
+      "Factorum",
+      "Kuiper Cooperative",
+      "Mons Insurance",
+      "Pharmacy Union",
+      "Philares",
+      "Recyclon",
+      "Splice",
+      "Tycho Magnetics"
+    ],
+    "scopeNote": "Win at least once with every corporation listed below. This badge covers the ten Promo corporations in the current catalogue, including Kuiper Cooperative and Tycho Magnetics from the separate Prelude 2 Promo Pack.",
+    "scopeSources": [
+      {
+        "title": "Original Promo Pack",
+        "url": "https://fryxgames.se/product/terraforming-mars-promo-pack/"
+      },
+      {
+        "title": "Turmoil Kickstarter Promo Pack",
+        "url": "https://fryxgames.se/product/tm-turmoil-kickstarter-promo-pack/"
+      },
+      {
+        "title": "Big Box Promo Pack",
+        "url": "https://fryxgames.se/product/tm-big-box-promo-pack/"
+      },
+      {
+        "title": "Prelude 2 Promo Pack",
+        "url": "https://fryxgames.se/product/tm-prelude-2-promo-pack/"
+      }
+    ]
   }
 ];

@@ -73,6 +73,120 @@
         "output/imagegen/achievements/corporation-loyalty-v1/creature-of-habit.png"
       ],
       "generated_path": "output/imagegen/achievements/corporation-loyalty-v1/corporate-completionist.png"
+    },
+    {
+      "id": "venus-veteran",
+      "name": "Venus Veteran",
+      "symbol": "The blue Venus hexagon and white V, with a polished gold edge.",
+      "description": "Won with every Venus-expansion corporation at least once.",
+      "preferredFrame": "gold",
+      "prompt": "Use case: style-transfer.\nAsset type: one compact transparent achievement emblem for the existing badge studio.\nInput image 1: exact expansion SYMBOL and COLOR reference. Input image 2: MATERIAL and FINISH reference only, do not depict its rocket.\nRecreate the expansion symbol at high quality, preserving its recognizable geometry and main colors. Apply the clean polished enamel and restrained shallow bevel of reference 2, with warm gold trim, thin dark outer edge, subtle upper-left highlights. Remove the reference symbol’s white outer halo completely; outside the shaped symbol is genuinely transparent. Front-facing, bold simple forms, centered, generous transparent margin. No outer badge frame, additional decorations, cast shadows, sparkles, scenery, text other than specified, or backing plate outside the symbol.\nSubject: the Venus expansion symbol: a blue/cyan enamel hexagon, darker blue inset hexagon, one large white ivory-enamel capital V in its center. Keep the V exactly recognizable and centered. Replace the thick black-and-white outer border with a slim warm gold bevelled edge and thin dark rim. Text (verbatim): \"V\".",
+      "tool": "Built-in image_gen",
+      "status": "First concept for review",
+      "referenced_image_paths": [
+        "output/badges/logos/layers/venus.png",
+        "output/imagegen/achievements/margins-peaks-v1/toperf-and-beyond.png"
+      ],
+      "generated_path": "output/imagegen/achievements/corporation-loyalty-v1/venus-veteran.png",
+      "sourceArtwork": "output/badges/logos/originals/venus.webp",
+      "sourceArtworkSha256": "25e44da7f8d75158e8a6fd7f8d47f86c7139c498efe4c47fcda068736bf0b7d1"
+    },
+    {
+      "id": "colonial-conqueror",
+      "name": "Colonial Conqueror",
+      "symbol": "The dark Colonies triangle, with a polished gold edge.",
+      "description": "Won with every Colonies corporation at least once.",
+      "preferredFrame": "gold",
+      "prompt": "Use case: style-transfer.\nAsset type: one compact transparent achievement emblem for the existing badge studio.\nInput image 1: exact expansion SYMBOL and COLOR reference. Input image 2: MATERIAL and FINISH reference only, do not depict its rocket.\nRecreate the expansion symbol at high quality, preserving its recognizable geometry and main colors. Apply the clean polished enamel and restrained shallow bevel of reference 2, with warm gold trim, thin dark outer edge, subtle upper-left highlights. Remove the reference symbol’s white outer halo completely; outside the shaped symbol is genuinely transparent. Front-facing, bold simple forms, centered, generous transparent margin. No outer badge frame, additional decorations, cast shadows, sparkles, scenery, text other than specified, or backing plate outside the symbol.\nSubject: the Colonies expansion symbol: upright equilateral charcoal triangle, a broad near-black inset band around a smaller steel-gray triangle. Preserve the nested triangle silhouette with the single upward tip. Clean flat gray enamel faces with restrained metallic highlights and a slim polished warm gold outer bevel, thin dark rim. No white outer halo. No text.",
+      "tool": "Built-in image_gen",
+      "status": "First concept for review",
+      "referenced_image_paths": [
+        "output/badges/logos/layers/colonies.png",
+        "output/imagegen/achievements/margins-peaks-v1/toperf-and-beyond.png"
+      ],
+      "generated_path": "output/imagegen/achievements/corporation-loyalty-v1/colonial-conqueror.png",
+      "sourceArtwork": "output/badges/logos/originals/colonies.webp",
+      "sourceArtworkSha256": "340e42bfef593571dfaaa419aed724037c98039ef23ab9a6d3895184ea083bc1"
+    },
+    {
+      "id": "agent-of-chaos",
+      "name": "Agent of Chaos",
+      "symbol": "The orange Turmoil diamond and downward arrow, with a polished gold edge.",
+      "description": "Won with every Turmoil corporation at least once.",
+      "preferredFrame": "gold",
+      "prompt": "Use case: style-transfer.\nAsset type: one compact transparent achievement emblem for the existing badge studio.\nInput image 1: exact expansion SYMBOL and COLOR reference. Input image 2: MATERIAL and FINISH reference only, do not depict its rocket.\nRecreate the expansion symbol at high quality, preserving its recognizable geometry and main colors. Apply the clean polished enamel and restrained shallow bevel of reference 2, with warm gold trim, thin dark outer edge, subtle upper-left highlights. Remove the reference symbol’s white outer halo completely; outside the shaped symbol is genuinely transparent. Front-facing, bold simple forms, centered, generous transparent margin. No outer badge frame, additional decorations, cast shadows, sparkles, scenery, text other than specified, or backing plate outside the symbol.\nSubject: the Turmoil expansion symbol: an orange enamel diamond (square rotated 45 degrees), one bold black arrow pointing straight down in the center. Preserve the exact recognizable downward-arrow silhouette: wide vertical shaft and triangular arrowhead. A slim polished warm gold bevel replaces the white outer halo, with a thin dark outer rim. No other symbols. No text.",
+      "tool": "Built-in image_gen",
+      "status": "First concept for review",
+      "referenced_image_paths": [
+        "output/badges/logos/layers/turmoil.png",
+        "output/imagegen/achievements/margins-peaks-v1/toperf-and-beyond.png"
+      ],
+      "generated_path": "output/imagegen/achievements/corporation-loyalty-v1/agent-of-chaos.png",
+      "sourceArtwork": "output/badges/logos/originals/turmoil.webp",
+      "sourceArtworkSha256": "0b1652c59bf689ba0a77d189f6928e7690e1e323b6709d2a021f3d01666b076c"
+    },
+    {
+      "id": "prelude-completionist",
+      "name": "Prelude Completionist",
+      "symbol": "The magenta Prelude token with its white chevron and a polished gold outer rim.",
+      "description": "Won with all five Prelude corporations at least once.",
+      "preferredFrame": "gold",
+      "prompt": "Use case: precise-object-edit.\nInput image 1 is the edit target: the magenta Prelude logo with a white outer rim and a white chevron. Input image 2 is ONLY a reference for the polished GOLD material on its outer border; do not copy its hexagon, blue face, V, or gold-edged lettering.\nChange ONLY the thin WHITE OUTER RIM of image 1 to warm polished metallic GOLD, matching the hue and restrained beveled finish of the outer rim in image 2. Keep the rim the same width and follow the existing flared outline and rounded corners exactly. Use clean smooth gold edges, a thin dark edge and subtle upper-left highlights. Gold must be clearly visible around the entire perimeter; remove any leftover white fringe outside the rim.\nKeep the CENTER CHEVRON solid WHITE and unchanged. Preserve the magenta/pink face, dark-purple inset band, existing gradients, silhouette, proportions, view, layout, and padding. The only color/material change is the outer rim from white to gold. No extra borders, ornaments, frame, symbols, lettering, sparkles, background or cast shadow. Preserve a genuinely transparent background, including outside the smooth gold edge. One logo only.",
+      "tool": "Built-in image_gen",
+      "status": "Gold-rim revision for review",
+      "referenced_image_paths": [
+        "output/imagegen/achievements/corporation-loyalty-v1/references/prelude-logo.png",
+        "output/imagegen/achievements/corporation-loyalty-v1/venus-veteran.png"
+      ],
+      "generated_path": "output/imagegen/achievements/corporation-loyalty-v1/prelude-completionist.png",
+      "sourceArtwork": "output/imagegen/achievements/corporation-loyalty-v1/references/prelude-logo.png",
+      "sourceArtworkSha256": "261de4a74230580d4795c9106f307cfcc1a557fe8e61f2367723c18858e65a3a"
+    },
+    {
+      "id": "prelude-ii-completionist",
+      "name": "Prelude II Completionist",
+      "symbol": "The magenta Prelude token with two broad white bars forming II and a matching polished gold outer rim.",
+      "description": "Won with all five Prelude 2 corporations at least once.",
+      "preferredFrame": "gold",
+      "prompt": "Use case: precise-object-edit.\nInput image 1 is the edit target: the magenta Prelude II logo with two broad WHITE rectangular bars inside it and a WHITE outer rim. Input image 2 is the matching Prelude sibling with the desired polished GOLD rim.\nChange ONLY the outer rim of image 1 from white to gold, matching the gold border of image 2 exactly in hue, smoothness, width and shallow metallic bevel. Gold follows the existing flared outline and rounded corners, with a thin dark edge and restrained upper-left highlights. Make the entire perimeter gold and clean away stray white specks outside the rim.\nKeep both CENTER BARS solid WHITE. Preserve their existing shape, width, height, generous gap and position, keeping II as the ONLY symbol inside the token. Do not copy the chevron from image 2. Preserve the original magenta/pink face, purple inset band, gradients, silhouette, proportions, view and padding. Do not change any other color or part of the logo. No extra border, numeral, symbol, gold on the white bars, ornament, badge frame, scenery, backdrop, glow or cast shadow. Genuine transparent alpha around the smooth gold silhouette. One logo only. Text verbatim: \"II\".",
+      "tool": "Built-in image_gen",
+      "status": "Gold-rim revision for review",
+      "referenced_image_paths": [
+        "output/imagegen/achievements/corporation-loyalty-v1/references/prelude-ii-white-border.png",
+        "output/imagegen/achievements/corporation-loyalty-v1/prelude-completionist.png"
+      ],
+      "generated_path": "output/imagegen/achievements/corporation-loyalty-v1/prelude-ii-completionist.png",
+      "sourceArtwork": "output/imagegen/achievements/corporation-loyalty-v1/references/prelude-ii-white-border.png",
+      "sourceArtworkSha256": "ed9db03f928c442b61fef83b9fd8af43ffc1d98200c0e20834fc0521e1268ee8"
+    },
+    {
+      "id": "promo-completionist",
+      "name": "Promo Completionist",
+      "symbol": "The black Promo square with a single ivory circle and polished gold edge.",
+      "description": "Won with all ten Promo corporations in the achievement catalogue at least once.",
+      "preferredFrame": "gold",
+      "prompt": "Use case: style-transfer.\nAsset type: ONE standalone expansion emblem for an achievement badge. Genuinely transparent background.\nInput 1 is the exact symbol/color reference; input 2 is ONLY the style/material reference. Match reference 2’s polished gold trim, clean enamel face, shallow raised bevel, thin dark rim and upper-left highlights. Do not depict its Venus V or hexagon.\nFront-facing, minimal, centered, broad simple forms readable at small sizes, generous transparent margin. No badge outer frame, surrounding backing plate, scene, sparkles, captions, cast shadow, or extra objects. Preserve only the requested symbol.\nSubject: the supplied Promo symbol: one front-facing black square with ONE large centered solid white circle. Preserve the simple square-and-circle geometry, no perspective distortion. Clean black enamel square face, a slim polished warm-gold bevelled square rim replacing the original white/gray square border, and a solid ivory-enamel circle in its center. The ivory circle is a disk, not a hole or ring, and needs no concentric rings. Outside the square is transparent. No letters or numbers.",
+      "tool": "Built-in image_gen",
+      "status": "First concept for review",
+      "referenced_image_paths": [
+        "output/imagegen/achievements/corporation-loyalty-v1/references/promo-logo.png",
+        "output/imagegen/achievements/corporation-loyalty-v1/venus-veteran.png"
+      ],
+      "generated_path": "output/imagegen/achievements/corporation-loyalty-v1/promo-completionist.png",
+      "sourceArtwork": "output/imagegen/achievements/corporation-loyalty-v1/references/promo-logo.png",
+      "sourceArtworkSha256": "a28e72a38233b7fb183ddb6ad2efdb900c534c12d45104cbaa4b4e0ad1a939c0"
     }
-  ]
+  ],
+  "notes": {
+    "rules": {
+      "venus-veteran": "Won at least once with each of the five Venus corporations listed in the achievement plan.",
+      "colonial-conqueror": "Won at least once with each of the five Colonies corporations listed in the achievement plan.",
+      "agent-of-chaos": "Won at least once with each of the five Turmoil corporations listed in the achievement plan.",
+      "prelude-completionist": "Won at least once with every corporation in this badge’s explicitly listed set, across tournament history. Artwork and scope notes only; achievement evaluation is not implemented in the studio.",
+      "prelude-ii-completionist": "Won at least once with every corporation in this badge’s explicitly listed set, across tournament history. Artwork and scope notes only; achievement evaluation is not implemented in the studio.",
+      "promo-completionist": "Won at least once with every corporation in this badge’s explicitly listed set, across tournament history. Artwork and scope notes only; achievement evaluation is not implemented in the studio."
+    },
+    "expansionFamily": "Dedicated achievement emblems derived from the supplied Venus, Colonies and Turmoil symbols. The original expansion logos remain available unchanged in the logo picker.",
+    "preludeAndPromo": "Prelude and Prelude II share polished gold outer rims matching the expansion family. Prelude keeps its white chevron; Prelude II has two broad white bars forming II, with a generous gap for readability. White-rim reference artwork is retained beside the masters. The II is a studio-specific marker. Promo eligibility follows the ten corporations in the current private plan. Corporation lists and source links live in concepts.json and are shown on the section page."
+  }
 }

@@ -38,6 +38,8 @@
     .original { display: inline-block; margin-top: 18px; font-size: 12px; }
     footer { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 12px; margin-top: 22px; color: #9aa6b8; font-size: 12px; line-height: 1.7; }
     .completionist-scope { margin: 0 0 24px; padding: 16px 20px; border: 1px solid #343c49; border-radius: 10px; color: #b2bece; font-size: 13px; line-height: 1.7; }
+    .card .completionist-scope { margin: 18px 0 0; padding: 12px; }
+    .card .completionist-scope ul { columns: 1; }
     .completionist-scope summary { cursor: pointer; color: #dfbd79; }
     .completionist-scope ul { columns: 2; padding-left: 20px; }
     @media (max-width: 600px) { .completionist-scope ul { columns: 1; } }
@@ -46,7 +48,7 @@
     @media (prefers-reduced-motion: no-preference) { .card { animation: appear .3s ease-out; } @keyframes appear { from { opacity: 0; } to { opacity: 1; } } }
   </style>
   <link rel="stylesheet" href="../navigation.css">
-  <script defer src="../sections.js"></script>
+  <script defer src="../sections.js?v=podium-v1"></script>
   <script defer src="../navigation.js?v=no-arrows-v1"></script>
 </head>
 <body>
@@ -54,7 +56,7 @@
     <div data-achievement-navigation></div>
     <p class="eyebrow">Achievement emblems · First concepts</p>
     <h1>Corporation Loyalty</h1>
-    <p class="intro">Five achievements about choosing, mastering, and collecting corporations. One shared card design, with a distinct symbol for each achievement.</p>
+    <p class="intro">Eleven achievements about choosing, mastering, and collecting corporations. Includes completion badges for Venus, Colonies, Turmoil, Prelude, Prelude II, and Promos.</p>
     <div class="controls" aria-label="Preview controls">
       <label>View<select id="view"><option value="badge">Inside the frame</option><option value="symbol">Emblem only</option></select></label>
       <label>Center<select id="center"><option value="black">Black</option><option value="navy">Navy</option><option value="purple">Purple</option><option value="teal">Teal</option></select></label>
@@ -68,9 +70,9 @@
     </details>
     <p id="loading" role="status">Loading the emblem concepts…</p>
     <div class="gallery" id="gallery"></div>
-    <footer><span>First concepts for review · Corporation cards in the shared ivory-and-gold style.</span><a href="prompts.json">Generation prompts &amp; concept notes</a></footer>
+    <footer><span>First concepts for review · Corporation cards and expansion symbols with a shared polished finish.</span><a href="prompts.json">Generation prompts &amp; concept notes</a></footer>
   </main>
-  <script src="concepts.js"></script>
+  <script src="concepts.js?v=prelude-gold-rims-v6"></script>
   <script>
     const byId = id => document.getElementById(id);
     const artwork = window.CORPORATION_LOYALTY_CONCEPTS;
@@ -91,7 +93,7 @@
       if (size) element.style.setProperty('--size', size + 'px');
       const center = makeImage('', 'base center');
       const frame = makeImage('', 'base frame');
-      const emblem = makeImage(item.file, 'emblem');
+      const emblem = makeImage(item.file + '?v=' + item.sourceSha256.slice(0, 12), 'emblem');
       element.append(center, frame, emblem);
       compositions.push({element, center, frame, emblem, item});
       return element;
@@ -107,7 +109,7 @@
       caption.className = 'caption';
       const number = document.createElement('div');
       number.className = 'number';
-      number.textContent = 'Concept 0' + (index + 1);
+      number.textContent = 'Concept ' + String(index + 1).padStart(2, '0');
       const title = document.createElement('h2');
       title.textContent = item.name;
       const description = document.createElement('p');
@@ -130,7 +132,36 @@
       original.className = 'original';
       original.href = item.file;
       original.textContent = 'Open transparent emblem';
-      caption.append(number, title, description, label, sizes, original);
+      caption.append(number, title, description);
+      if (item.corporations?.length) {
+        const scope = document.createElement('details');
+        scope.className = 'completionist-scope';
+        const summary = document.createElement('summary');
+        summary.textContent = 'Included corporations (' + item.corporations.length + ')';
+        const note = document.createElement('p');
+        note.textContent = item.scopeNote;
+        const list = document.createElement('ul');
+        for (const name of item.corporations) {
+          const corporation = document.createElement('li');
+          corporation.textContent = name;
+          list.append(corporation);
+        }
+        scope.append(summary, note, list);
+        if (item.scopeSources?.length) {
+          const references = document.createElement('p');
+          references.append('References: ');
+          item.scopeSources.forEach((source, index) => {
+            if (index) references.append(' · ');
+            const link = document.createElement('a');
+            link.href = source.url;
+            link.textContent = source.title;
+            references.append(link);
+          });
+          scope.append(references);
+        }
+        caption.append(scope);
+      }
+      caption.append(label, sizes, original);
       article.append(visual, caption);
       byId('gallery').append(article);
     }
