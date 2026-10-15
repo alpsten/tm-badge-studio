@@ -6,7 +6,17 @@
     "underwater": "Below 50 TR, confirmed by the user. The emblem intentionally has no numeric threshold.",
     "theBigTable": "A five-player game in a tournament with a Final, as requested.",
     "beatTheFryx": "The F is a name cue, paired with a victory check; no portrait or likeness.",
-    "welcomeToMars": "A first-landing bootprint is the welcoming flavor metaphor; the description retains the last-place requirement."
+    "welcomeToMars": "A first-landing bootprint is the welcoming flavor metaphor; the description retains the last-place requirement.",
+    "rules": {
+      "from-behind": "Won while last in the match.players turn-order array. Use the actual table size rather than a fixed seat number.",
+      "martian-flu": "Starts from an organizer-chosen patient zero. Playing a recorded match against a currently infected player transfers the fictional Martian Flu regardless of result, from that match onward. Process contacts chronologically; artwork only, infection-state design remains pending.",
+      "fresh-faces": "Formerly Clean Slate. Complete all three qualifying rounds (Rounds 1, 2 and 3). Collect opponents at each shared table, excluding yourself; no opponent may recur across these rounds. A partial tournament does not qualify. Exclude the Final.",
+      "so-we-meet-again": "At least one opponent appears with you in two distinct recorded matches in different rounds of the same tournament. A Final may be the repeat encounter. Compare player identity within the tournament; no cross-tournament account history is needed.",
+      "growth-mindset": "Complete all qualifying rounds. terraform_rating must strictly increase between each consecutive qualifying round (Round 1 < Round 2 < Round 3). The Final is excluded; a tied TR total does not qualify.",
+      "climbing-the-ranks": "Complete all qualifying rounds. Recorded finishing position must strictly improve each round, so the position numbers decrease (e.g. 3 > 2 > 1). The Final is excluded; equal positions do not qualify. Separate from Growth Mindset, which measures TR.",
+      "patient-zero": "An organizer designates exactly one original Martian Flu carrier and records that player identity and the seed time. Only that original carrier receives Patient Zero, and also receives Martian Flu. Patient Zero does not transfer to later contacts and is not recomputed from the earliest imported match. Artwork and rule definition only; infection-state implementation remains pending."
+    },
+    "names": "Backseat is the current catalogue name for From Behind; its stable from-behind asset ID and artwork are retained. Fresh Faces replaces the provisional name Clean Slate. Climbing the Ranks names the placement counterpart to Growth Mindset."
   },
   "jobs": [
     {
@@ -46,12 +56,49 @@
       "id": "growth-mindset",
       "name": "Growth Mindset",
       "symbol": "Three rising bars with an upward arrow.",
-      "description": "Improved your TR in every successive round of a tournament.",
+      "description": "Improved your TR in every successive qualifying round of a tournament.",
       "prompt": "Input image is a MATERIAL AND STYLE reference only. Match its smooth ivory enamel, warm gold, restrained raised bevels, thin dark edges and upper-left highlights. Do not copy the heart or card silhouette.\nUse case: logo-brand.\nAsset type: ONE minimalist achievement emblem for the center of an existing game badge.\nStyle: front-on orthographic pictogram, broad solid shapes, smooth surfaces, no texture or engraved detail. Immediately readable at small display sizes.\nComposition: one compact centered icon, square canvas, at least 15 percent clear margin all around. Only the described objects.\nBackground: actual transparent alpha PNG. Fully transparent outside the objects and in all gaps. No backdrop, black fill, glow, haze or cast shadow.\nAvoid: outer badge frame, extra objects, background panels, laurels, scenery, captions, tiny markings, presentation sheet. No letters or numerals unless explicitly requested below.\nSubject: Exactly THREE broad ivory vertical bars with narrow gold rims, aligned along one baseline, strictly increasing in height from left to right. Above their tops is ONE simple chunky gold arrow running diagonally upward from lower left to upper right, indicating steady growth. Keep the arrow separated from the bars by transparent space and visually dominant. No axes, grid, numbers, points or labels.",
       "referenced_image_paths": [
         "output/imagegen/achievements/corporation-loyalty-v1/one-corp-wonder.png"
       ],
       "generated_path": "output/imagegen/achievements/flavor-v1/growth-mindset.png"
+    },
+    {
+      "id": "climbing-the-ranks",
+      "name": "Climbing the Ranks",
+      "symbol": "A three-rung ladder reaching toward a gold star.",
+      "description": "Improved your finishing position in every successive qualifying round, such as 3rd → 2nd → 1st.",
+      "prompt": "Use case: logo-brand.\nAsset type: ONE minimalist achievement emblem for the center of an existing game badge.\nStyle: front-on orthographic pictogram, broad solid shapes, smooth ivory enamel faces, narrow polished warm-gold rims, restrained shallow raised bevels, tiny dark edge accents and upper-left highlights. Match a premium ivory-and-gold board-game achievement icon family. Readable at 48 pixels. No surface texture.\nComposition: one compact centered emblem on a square canvas, with at least 15 percent clear margin all around. Only the described objects. No outer badge frame.\nBackground: actual transparent alpha PNG. Transparent outside the objects and in all gaps. No black fill, checkerboard, background panel, glow, haze, floor or cast shadow.\nAvoid: scenery, laurels, confetti, labels, tiny details, facial features, extra objects, presentation sheet, text, letters or numerals.\nSubject: ONE upright ladder with two thick parallel ivory rails, rounded rail ends, narrow gold edging, and exactly THREE broad ivory rungs joined to both rails. Clean open transparent gaps between rungs. Centered directly ABOVE the ladder is ONE small solid five-point gold star, separated by a generous clear gap. Ladder and star form a compact tall emblem. No arrows, chart bars, numbers or other marks.",
+      "tool": "Built-in image_gen",
+      "status": "First concept for review",
+      "generated_path": "output/imagegen/achievements/flavor-v1/climbing-the-ranks.png",
+      "revisions": [
+        {
+          "prompt": "Use case: background-extraction.\nEdit this ladder-and-star achievement emblem. Preserve the exact simple three-rung ivory enamel ladder, warm-gold edges, and single gold star, with their existing shapes and front-facing highlights. Remove ALL surrounding golden glow, halo, dark backdrop, haze and cast shadow. All space around the objects, the gaps between the rungs, and the space between star and ladder must become genuinely transparent (alpha 0), clean crisp antialiased edges only. Render on a SQUARE canvas with the tall ladder-and-star group centered, keep all objects fully visible with 15% clear margin above and below. No replacement background, no added objects, no text. The final image is a transparent PNG cutout to be layered on an existing badge.",
+          "purpose": "Remove the generated glow and preserve a genuinely transparent cutout.",
+          "tool": "Built-in image_gen"
+        }
+      ]
+    },
+    {
+      "id": "fresh-faces",
+      "name": "Fresh Faces",
+      "symbol": "Three distinct player silhouettes with a small sparkle.",
+      "description": "Played all three qualifying rounds without facing the same opponent twice.",
+      "prompt": "Use case: logo-brand.\nAsset type: ONE minimalist achievement emblem for the center of an existing game badge.\nStyle: front-on orthographic pictogram, broad solid shapes, smooth ivory enamel faces, narrow polished warm-gold rims, restrained shallow raised bevels, tiny dark edge accents and upper-left highlights. Match a premium ivory-and-gold board-game achievement icon family. Readable at 48 pixels. No surface texture.\nComposition: one compact centered emblem on a square canvas, with at least 15 percent clear margin all around. Only the described objects. No outer badge frame.\nBackground: actual transparent alpha PNG. Transparent outside the objects and in all gaps. No black fill, checkerboard, background panel, glow, haze, floor or cast shadow.\nAvoid: scenery, laurels, confetti, labels, tiny details, facial features, extra objects, presentation sheet, text, letters or numerals.\nSubject: Exactly THREE simple ivory head-and-shoulders person silhouettes, side by side with clear transparent gaps, each narrowly edged in gold. Make the three silhouettes distinguishable by simple head outlines: left circular head, center softly oval head, right rounded-square head; no faces or hair details. The center person is slightly taller. Above the upper-right shoulder group, ONE small four-point gold sparkle signifies new faces. Broad uncomplicated silhouettes; one compact group.",
+      "tool": "Built-in image_gen",
+      "status": "First concept for review",
+      "generated_path": "output/imagegen/achievements/flavor-v1/fresh-faces.png"
+    },
+    {
+      "id": "so-we-meet-again",
+      "name": "So We Meet Again",
+      "symbol": "A handshake beneath a return arrow.",
+      "description": "Shared a table with an opponent you had already faced earlier in the same tournament.",
+      "prompt": "Use case: logo-brand.\nAsset type: ONE minimalist achievement emblem for the center of an existing game badge.\nStyle: front-on orthographic pictogram, broad solid shapes, smooth ivory enamel faces, narrow polished warm-gold rims, restrained shallow raised bevels, tiny dark edge accents and upper-left highlights. Match a premium ivory-and-gold board-game achievement icon family. Readable at 48 pixels. No surface texture.\nComposition: one compact centered emblem on a square canvas, with at least 15 percent clear margin all around. Only the described objects. No outer badge frame.\nBackground: actual transparent alpha PNG. Transparent outside the objects and in all gaps. No black fill, checkerboard, background panel, glow, haze, floor or cast shadow.\nAvoid: scenery, laurels, confetti, labels, tiny details, facial features, extra objects, presentation sheet, text, letters or numerals.\nSubject: A single simple handshake: two ivory hands clasped in the center, narrowly edged in gold, with two short plain cuffs. Simplify fingers into broad interlocking shapes; avoid tiny finger lines. Above it, one thick gold curved return arrow makes a short upside-down U arc, with its head pointing down toward the handshake at the left. Only ONE arrow, not a surrounding circle. Strong compact readable silhouette. Handshake and arrow separated by transparent space.",
+      "tool": "Built-in image_gen",
+      "status": "First concept for review",
+      "generated_path": "output/imagegen/achievements/flavor-v1/so-we-meet-again.png"
     },
     {
       "id": "jack-of-all-trades",
@@ -108,6 +155,47 @@
         "output/imagegen/achievements/corporation-loyalty-v1/one-corp-wonder.png"
       ],
       "generated_path": "output/imagegen/achievements/flavor-v1/lucky-seat.png"
+    },
+    {
+      "id": "from-behind",
+      "name": "Backseat",
+      "symbol": "A seat with an arrow sweeping forward.",
+      "description": "Won a game while seated last in turn order.",
+      "preferredFrame": "gold",
+      "prompt": "Use case: logo-brand.\nAsset type: ONE minimal achievement emblem to sit inside an existing game badge.\nReference image: MATERIAL AND STYLE only, unless specified otherwise. Match smooth ivory enamel faces, warm polished gold edging, shallow raised bevels, very thin dark edges, and upper-left highlights. Broad solid pictogram shapes, immediately recognizable at small sizes.\nComposition: a single compact centered emblem, front-on, square canvas with generous empty margins. Genuinely transparent alpha outside the emblem and in every opening.\nAvoid: outer badge or frame, backing plate, presentation sheet, scenery, fine texture, ornament, sparkles, glow, haze, cast shadow, tiny details, or extra lettering.\nSubject: ONE simple IVORY CHAIR in the same seat family as the reference, with gold rims, broad backrest, two short armrests, thick seat cushion and two short sturdy legs. REMOVE the clover entirely; leave the chair back plain ivory. ONE thick gold U-TURN ARROW sweeps from low behind the chair on the LEFT, curves upward around the left edge, and ends in a broad arrowhead pointing RIGHT above the backrest. The arrow is clearly separated from the chair, with a generous transparent gap, and suggests overtaking from the rear. Keep the chair compact with the arrow closely framing its upper-left edge. Just chair and arrow, no clover, crown, words, numbers or extra objects.",
+      "status": "First concept for review",
+      "referenced_image_paths": [
+        "output/imagegen/achievements/flavor-v1/lucky-seat.png"
+      ],
+      "generated_path": "output/imagegen/achievements/flavor-v1/from-behind.png"
+    },
+    {
+      "id": "martian-flu",
+      "name": "Martian Flu",
+      "symbol": "A simple germ with six rounded spokes.",
+      "description": "Caught the “Martian Flu” by playing a recorded match against an infected player.",
+      "preferredFrame": "gold",
+      "prompt": "Use case: logo-brand.\nAsset type: ONE compact achievement emblem inside an existing badge frame, with a genuinely transparent background.\nReference image: style reference only. Match its clean ivory enamel faces, polished warm gold edges, shallow raised bevel, restrained dark edge and upper-left highlights. Bold simple silhouette, readable at 48 pixels, front-facing, centered with generous empty transparent margin on all sides. No outer badge frame, scenery, backing plate, decorative sparkles, extra icons or cast shadow outside the subject.\nSubject: a single simple stylized germ icon: a circular ivory enamel body edged in gold, exactly six short stout radial gold stems ending in round ivory bulbs with gold edges, evenly spaced around the body. Three simple small round gold dots inside the main body. Flat front view, clean symmetry, friendly game achievement pictogram rather than a realistic pathogen. No face, eyes, tentacles, orbit, planet, lettering or extra germs. No text.",
+      "tool": "Built-in image_gen",
+      "status": "First concept for review",
+      "referenced_image_paths": [
+        "output/imagegen/achievements/margins-peaks-v1/toperf-and-beyond.png"
+      ],
+      "generated_path": "output/imagegen/achievements/flavor-v1/martian-flu.png"
+    },
+    {
+      "id": "patient-zero",
+      "name": "Patient Zero",
+      "symbol": "The Martian Flu germ with a bold gold zero at its center.",
+      "description": "Was the original carrier who started the Martian Flu.",
+      "preferredFrame": "gold",
+      "prompt": "Use case: precise-object-edit.\nEdit target: the supplied Martian Flu germ achievement emblem.\nCreate its matching \"Patient Zero\" variant. Preserve the exact ivory central circular germ body, six short gold stems and six round ivory outer lobes, all gold edging, compact silhouette, shallow raised bevels, upper-left highlights and square composition.\nChange ONLY the three small gold dots on the central ivory disc: remove all three dots and replace them with ONE large centered bold gold numeral \"0\". This is the digit ZERO, tall and oval with a large open counter showing the ivory beneath. Use broad rounded sans-serif strokes and the same polished gold materials as the rim. The zero should occupy about 65 percent of the central disc's height. The disc remains ivory and solid behind the zero.\nKeep the exact original germ shape recognizable. No extra crown, star, arrows, label, or decorations.\nText (verbatim): \"0\". No other text.\nPreserve genuinely transparent alpha outside the entire germ silhouette and in the gaps between its arms. No background, black fill, glow, haze, backdrop, floor, cast shadow or badge frame. Return ONE clean transparent PNG emblem.",
+      "tool": "Built-in image_gen",
+      "status": "First concept for review",
+      "generated_path": "output/imagegen/achievements/flavor-v1/patient-zero.png",
+      "referenced_image_paths": [
+        "output/imagegen/achievements/flavor-v1/martian-flu.png"
+      ]
     }
   ]
 }

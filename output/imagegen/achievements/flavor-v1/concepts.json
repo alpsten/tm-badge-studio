@@ -96,7 +96,7 @@
     "id": "growth-mindset",
     "name": "Growth Mindset",
     "symbol": "Three rising bars with an upward arrow.",
-    "description": "Improved your TR in every successive round of a tournament.",
+    "description": "Improved your TR in every successive qualifying round of a tournament.",
     "preferredFrame": "gold",
     "file": "icons/growth-mindset.png",
     "sourceSha256": "a01500784b072f5206c862d3b0d24162d11274e1c39788e68e3b8d43296ba4fa",
@@ -121,6 +121,102 @@
       "top": 8.850891410048618,
       "width": 79.26418152350081,
       "height": 79.26418152350081
+    }
+  },
+  {
+    "id": "climbing-the-ranks",
+    "name": "Climbing the Ranks",
+    "symbol": "A three-rung ladder reaching toward a gold star.",
+    "description": "Improved your finishing position in every successive qualifying round, such as 3rd → 2nd → 1st.",
+    "preferredFrame": "gold",
+    "file": "icons/climbing-the-ranks.png",
+    "sourceSha256": "dd0704e7c4d4fac3742c4c9db28e5a6b7b6ed90426189d8c087a84769db99584",
+    "size": [
+      1254,
+      1254
+    ],
+    "crop": [
+      373,
+      46,
+      881,
+      1204
+    ],
+    "cropAlphaThreshold": 16,
+    "badgePlacement": {
+      "left": 36.47570707328579,
+      "top": 36.07939363864213,
+      "width": 27.04858585342842,
+      "height": 27.04858585342842
+    },
+    "symbolPlacement": {
+      "left": 7.766839378238347,
+      "top": 7.901554404145082,
+      "width": 84.46632124352331,
+      "height": 84.46632124352331
+    }
+  },
+  {
+    "id": "fresh-faces",
+    "name": "Fresh Faces",
+    "symbol": "Three distinct player silhouettes with a small sparkle.",
+    "description": "Played all three qualifying rounds without facing the same opponent twice.",
+    "preferredFrame": "gold",
+    "file": "icons/fresh-faces.png",
+    "sourceSha256": "58e4e8e55c74d55e11a11e5f448ed8bd5f26c1b8b89ee630356c4853fa648786",
+    "size": [
+      1254,
+      1254
+    ],
+    "crop": [
+      140,
+      351,
+      1130,
+      913
+    ],
+    "cropAlphaThreshold": 16,
+    "badgePlacement": {
+      "left": 35.95868622064591,
+      "top": 35.58557001113892,
+      "width": 27.728830676078793,
+      "height": 27.728830676078793
+    },
+    "symbolPlacement": {
+      "left": -0.03030303030302548,
+      "top": 0.20606060606060622,
+      "width": 98.8,
+      "height": 98.8
+    }
+  },
+  {
+    "id": "so-we-meet-again",
+    "name": "So We Meet Again",
+    "symbol": "A handshake beneath a return arrow.",
+    "description": "Shared a table with an opponent you had already faced earlier in the same tournament.",
+    "preferredFrame": "gold",
+    "file": "icons/so-we-meet-again.png",
+    "sourceSha256": "dc5ca514e65aa316193e05d12366260d8612c7118c58b6bf70c38ca10648bf90",
+    "size": [
+      1254,
+      1254
+    ],
+    "crop": [
+      111,
+      186,
+      1145,
+      1071
+    ],
+    "cropAlphaThreshold": 16,
+    "badgePlacement": {
+      "left": 36.14259123802185,
+      "top": 35.69210514426231,
+      "width": 27.670685648918152,
+      "height": 27.670685648918152
+    },
+    "symbolPlacement": {
+      "left": 2.6266924564796907,
+      "top": 2.588974854932303,
+      "width": 94.59574468085106,
+      "height": 94.59574468085106
     }
   },
   {
@@ -189,7 +285,7 @@
     "id": "beat-the-fryx",
     "name": "Beat the Fryx",
     "symbol": "An F with a victory check mark.",
-    "description": "Finished ahead of a player whose name contains \u201cFryx\u201d at the same table.",
+    "description": "Finished ahead of a player whose name contains “Fryx” at the same table.",
     "preferredFrame": "gold",
     "file": "icons/beat-the-fryx.png",
     "sourceSha256": "325accc7da644b7a8bd464acd65c6efc3e5602fe40c75cb539c95c1eb8f17bfd",
@@ -276,6 +372,102 @@
       "top": 9.534313725490199,
       "width": 79.91176470588235,
       "height": 79.91176470588235
+    }
+  },
+  {
+    "id": "from-behind",
+    "name": "Backseat",
+    "symbol": "A seat with an arrow sweeping forward.",
+    "description": "Won a game while seated last in turn order.",
+    "preferredFrame": "gold",
+    "file": "icons/from-behind.png",
+    "sourceSha256": "561b081120936dcf98bd6fd1e83222c37b99aedd8e94151abd3e203a3353d3a4",
+    "size": [
+      1254,
+      1254
+    ],
+    "crop": [
+      194,
+      60,
+      1048,
+      1179
+    ],
+    "cropAlphaThreshold": 16,
+    "badgePlacement": {
+      "left": 36.371223840253286,
+      "top": 35.96469046443141,
+      "width": 27.520910312918485,
+      "height": 27.520910312918485
+    },
+    "symbolPlacement": {
+      "left": 6.71313672922252,
+      "top": 6.817694369973191,
+      "width": 87.41018766756032,
+      "height": 87.41018766756032
+    }
+  },
+  {
+    "id": "martian-flu",
+    "name": "Martian Flu",
+    "symbol": "A simple germ with six rounded spokes.",
+    "description": "Caught the “Martian Flu” by playing a recorded match against an infected player.",
+    "preferredFrame": "gold",
+    "file": "icons/martian-flu.png",
+    "sourceSha256": "85c66f8c404d1565bf58bf25efd90eaccdc474700662753e752a708b2e718ebc",
+    "size": [
+      1254,
+      1254
+    ],
+    "crop": [
+      165,
+      121,
+      1084,
+      1120
+    ],
+    "cropAlphaThreshold": 16,
+    "badgePlacement": {
+      "left": 34.849035180807114,
+      "top": 34.506625865697856,
+      "width": 30.42323440074921,
+      "height": 30.42323440074921
+    },
+    "symbolPlacement": {
+      "left": 1.240240240240246,
+      "top": 1.5525525525525539,
+      "width": 97.9099099099099,
+      "height": 97.9099099099099
+    }
+  },
+  {
+    "id": "patient-zero",
+    "name": "Patient Zero",
+    "symbol": "The Martian Flu germ with a bold gold zero at its center.",
+    "description": "Was the original carrier who started the Martian Flu.",
+    "preferredFrame": "gold",
+    "file": "icons/patient-zero.png",
+    "sourceSha256": "0f692edf8ab60a4daeaa7677c98f0e669a2f18d2c206c1abc1d64a4a1dded49d",
+    "size": [
+      1254,
+      1254
+    ],
+    "crop": [
+      163,
+      118,
+      1086,
+      1122
+    ],
+    "cropAlphaThreshold": 16,
+    "badgePlacement": {
+      "left": 35.88775473833084,
+      "top": 35.54999113082886,
+      "width": 28.33747887611389,
+      "height": 28.33747887611389
+    },
+    "symbolPlacement": {
+      "left": 1.483067729083666,
+      "top": 1.8326693227091653,
+      "width": 97.42231075697211,
+      "height": 97.42231075697211
     }
   }
 ]
