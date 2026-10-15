@@ -1,0 +1,28 @@
+{
+  "tool": "Existing podium award assets and built-in image_gen",
+  "status": "Existing podium awards retained; Missed the Podium concept for review.",
+  "style": "Minimal ivory-and-gold pictograms with a subtle raised finish",
+  "jobs": [
+    {
+      "id": "missed-the-podium",
+      "name": "Missed the Podium",
+      "symbol": "A bold fourth-place numeral.",
+      "description": "Finished the tournament in 4th place.",
+      "preferredFrame": "silver",
+      "prompt": "Use case: logo-brand.\nAsset type: ONE compact achievement emblem inside an existing badge frame, with a genuinely transparent background.\nReference image: style reference only. Match its clean ivory enamel faces, polished warm gold edges, shallow raised bevel, restrained dark edge and upper-left highlights. Bold simple silhouette, readable at 48 pixels, front-facing, centered with generous empty transparent margin on all sides. No outer badge frame, scenery, backing plate, decorative sparkles, extra icons or cast shadow outside the subject.\nSubject: one large bold upright sans-serif numeral 4, with an ivory enamel face and gold bevelled outline. A confident simple fourth-place symbol. Text (verbatim): \"4\". No other text, ribbons, medals, laurels or decoration.",
+      "tool": "Built-in image_gen",
+      "status": "First concept for review",
+      "referenced_image_paths": [
+        "output/imagegen/achievements/margins-peaks-v1/toperf-and-beyond.png"
+      ],
+      "generated_path": "output/imagegen/achievements/podium-v1/missed-the-podium.png"
+    }
+  ],
+  "notes": {
+    "podiumAwards": "Champion, Silver Medalist, and Bronze Medalist use the studio's existing champion/second-place/third-place podium award artwork (output/badges/awards-kit/awards/*.png) directly, marked fullImage in concepts.json so the gallery renders them as-is instead of compositing them onto a selectable center/frame.",
+    "scope": "Split out of The Final Table so these three work for every tournament format, not just ones that play a Final. Rule is the player's rank in the tournament's final standings (1st/2nd/3rd) regardless of how those standings were reached. When a tournament does play a Final, its result simply decides who holds that rank — there's no separate Final-specific condition to satisfy.",
+    "rules": {
+      "missed-the-podium": "Final tournament standings rank === 4, whether or not a Final was played."
+    }
+  }
+}

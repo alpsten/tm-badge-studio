@@ -1,6 +1,6 @@
 {
   "tool": "Built-in image_gen",
-  "status": "Approved by the user; proceed to Tournament Standings",
+  "status": "Original three emblems approved by the user.",
   "style": "Minimal ivory-and-gold pictograms with a subtle raised finish",
   "jobs": [
     {
@@ -18,5 +18,8 @@
       "prompt": "Use case: logo-brand.\nAsset type: ONE minimalist achievement emblem for a Terraforming Mars tournament badge, isolated on a genuinely transparent square canvas.\nStyle: a clean pictogram with broad, solid, instantly recognizable geometric shapes. Restrained raised enamel finish: flat ivory and warm gold faces, very narrow smooth bevels, consistent soft upper-left highlights and a thin dark edge. Front-on orthographic view, no perspective. Same visual language as a simple embossed game logo. Maximum two foreground materials (ivory and gold). Crisp clean silhouette, generous gaps between parts. Readable when the emblem is only 48 pixels tall. No surface texture, no scratches, no gems, no sparkles, no gradients across a background, no glow.\nComposition: one centered, compact emblem occupying about 75 percent of the square with empty transparent margins. All parts fully visible.\nDo not include any badge frame, hexagon, circular backing, wings, laurels, plate, letters, words, numbers, background, presentation sheet, or alternate versions.\nSubject: exactly THREE separate solid right-pointing arrows on one horizontal centerline. Two identical small ivory arrows trail on the left. ONE distinctly larger warm gold arrow leads on the right, roughly 1.65 times their height. Each arrow has a short thick rectangular shaft and a simple triangular head; obvious arrows, not play buttons. Clear empty gaps separate all three. Compact balanced overall silhouette, with the first two still large enough to read at small sizes. No extra lines, motion trails, lettering, circles, or symbols. The arrangement expresses one competitor clearly ahead of the others.",
       "generated_path": "output/imagegen/achievements/final-table-v1/front-runner.png"
     }
-  ]
+  ],
+  "notes": {
+    "scope": "All three require an actual played Final (round === 99): Underdog needs to win it, Front Runner and Worth the Wait describe how a player got there. Tournaments that end after qualifying rounds don't produce any of these three; see The Podium for the standings-based placements that work in every format."
+  }
 }
