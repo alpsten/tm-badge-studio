@@ -1,0 +1,137 @@
+{
+  "tool": "Built-in image_gen",
+  "status": "First concepts for review",
+  "style": "Minimal ivory enamel pictograms with polished gold edges and restrained raised bevels.",
+  "notes": {
+    "scope": "Artwork and preview only. Event Day achievements are manually awarded by organizers.",
+    "shoppingFamily": "Retail Therapy and Merch Mogul share a shopping bag; Merch Mogul adds a crown.",
+    "rules": {
+      "retail-therapy": "Manual organizer award: bought something from the tournament store.",
+      "early-bird": "Manual organizer award: the first player to check in on tournament day.",
+      "the-helper": "Manual organizer award: volunteered to help run the tournament.",
+      "costume-contest": "Manual organizer award: wore a Mars or science-fiction costume to the event; does not require winning a contest.",
+      "the-raffle-winner": "Manual organizer award: won a door prize or raffle at the event.",
+      "merch-mogul": "Manual organizer award: biggest spender at the tournament store during the event.",
+      "dressed-for-the-part": "Manual organizer award: wore tournament merchandise during the event.",
+      "globe-trotter": "Manual organizer award: traveled from outside the host country to attend. The plane is a travel symbol, not a required mode of transport.",
+      "day-one": "Organizer-awarded to everyone who actually competed in the designated first tournament where this achievement system was used. Record that launch tournament ID explicitly once and confirm participation from its results or organizer records. Do not choose the oldest imported tournament or each player's personal first tournament. No launch tournament is selected by the badge studio."
+    }
+  },
+  "jobs": [
+    {
+      "id": "retail-therapy",
+      "name": "Retail Therapy",
+      "symbol": "A shopping bag.",
+      "description": "Bought something from the tournament store.",
+      "preferredFrame": "gold",
+      "prompt": "Use case: logo-brand.\nAsset type: ONE minimal achievement emblem to sit inside an existing game badge.\nReference image: MATERIAL AND STYLE only, unless specified otherwise. Match smooth ivory enamel faces, warm polished gold edging, shallow raised bevels, very thin dark edges, and upper-left highlights. Broad solid pictogram shapes, immediately recognizable at small sizes.\nComposition: a single compact centered emblem, front-on, square canvas with generous empty margins. Genuinely transparent alpha outside the emblem and in every opening.\nAvoid: outer badge or frame, backing plate, presentation sheet, scenery, fine texture, ornament, sparkles, glow, haze, cast shadow, tiny details, or extra lettering.\nSubject: ONE unmistakable SHOPPING BAG, straight-on. Broad IVORY enamel bag body with a slightly wider base, rounded lower corners, restrained GOLD edging and a flat top edge. ONE thick GOLD inverted-U handle arches above the top with a generous transparent opening. The ivory bag face is plain and empty. Compact balanced silhouette, broad solid shapes, only shallow beveling. Exactly one shopping bag, no lettering, logo, price tag, crown, tissue paper, second handle or extra objects. This will be the simple base for a related crowned-shopping-bag achievement.",
+      "status": "First concept for review",
+      "referenced_image_paths": [
+        "output/imagegen/achievements/margins-peaks-v1/toperf-and-beyond.png"
+      ],
+      "generated_path": "output/imagegen/achievements/event-day-v1/retail-therapy.png"
+    },
+    {
+      "id": "early-bird",
+      "name": "Early Bird",
+      "symbol": "A bird beside a rising sun.",
+      "description": "Was the first player to check in on tournament day.",
+      "preferredFrame": "gold",
+      "prompt": "Use case: logo-brand.\nAsset type: ONE minimal achievement emblem to sit inside an existing game badge.\nReference image: MATERIAL AND STYLE only, unless specified otherwise. Match smooth ivory enamel faces, warm polished gold edging, shallow raised bevels, very thin dark edges, and upper-left highlights. Broad solid pictogram shapes, immediately recognizable at small sizes.\nComposition: a single compact centered emblem, front-on, square canvas with generous empty margins. Genuinely transparent alpha outside the emblem and in every opening.\nAvoid: outer badge or frame, backing plate, presentation sheet, scenery, fine texture, ornament, sparkles, glow, haze, cast shadow, tiny details, or extra lettering.\nSubject: ONE compact small BIRD in profile facing right, with a simple rounded IVORY body, a gold outline, a short pointed gold beak, one tiny dark eye, and one broad gold wing shape. The bird has a simple short tail and two short thick gold feet. Above and slightly behind the bird is ONE small rising GOLD SUN: a clean half-circle above a short horizontal gold horizon bar, with exactly THREE thick short rays above it. Sun and bird are distinct with transparent space between them. Bird remains the main shape; sunrise is a simple secondary symbol. Only bird and sunrise, no branch, scenery, clouds, words, clock or extra birds.",
+      "status": "First concept for review",
+      "referenced_image_paths": [
+        "output/imagegen/achievements/margins-peaks-v1/toperf-and-beyond.png"
+      ],
+      "generated_path": "output/imagegen/achievements/event-day-v1/early-bird.png"
+    },
+    {
+      "id": "the-helper",
+      "name": "The Helper",
+      "symbol": "A helping hand holding a heart.",
+      "description": "Volunteered to help run the tournament.",
+      "preferredFrame": "gold",
+      "prompt": "Use case: logo-brand.\nAsset type: ONE minimal achievement emblem to sit inside an existing game badge.\nReference image: MATERIAL AND STYLE only, unless specified otherwise. Match smooth ivory enamel faces, warm polished gold edging, shallow raised bevels, very thin dark edges, and upper-left highlights. Broad solid pictogram shapes, immediately recognizable at small sizes.\nComposition: a single compact centered emblem, front-on, square canvas with generous empty margins. Genuinely transparent alpha outside the emblem and in every opening.\nAvoid: outer badge or frame, backing plate, presentation sheet, scenery, fine texture, ornament, sparkles, glow, haze, cast shadow, tiny details, or extra lettering.\nSubject: ONE broad stylized open HAND extending horizontally from the left, palm facing upward, in smooth IVORY enamel with a narrow GOLD rim. Minimal pictogram anatomy: a short wrist, a clear thumb and a smooth grouped-finger silhouette, no fingernails or individual fine finger lines. Above the open palm sits ONE bold GOLD HEART, separated from the hand by a small transparent gap. The heart is centered above the palm, broad and instantly recognizable. Only hand and heart, front-on icon, no second hand, sleeve details, sparkles, text, people or background.",
+      "status": "First concept for review",
+      "referenced_image_paths": [
+        "output/imagegen/achievements/margins-peaks-v1/toperf-and-beyond.png"
+      ],
+      "generated_path": "output/imagegen/achievements/event-day-v1/the-helper.png"
+    },
+    {
+      "id": "costume-contest",
+      "name": "Costume Contest",
+      "symbol": "A space helmet.",
+      "description": "Wore a Mars or science-fiction costume to the event.",
+      "preferredFrame": "gold",
+      "prompt": "Use case: logo-brand.\nAsset type: ONE minimal achievement emblem to sit inside an existing game badge.\nReference image: MATERIAL AND STYLE only, unless specified otherwise. Match smooth ivory enamel faces, warm polished gold edging, shallow raised bevels, very thin dark edges, and upper-left highlights. Broad solid pictogram shapes, immediately recognizable at small sizes.\nComposition: a single compact centered emblem, front-on, square canvas with generous empty margins. Genuinely transparent alpha outside the emblem and in every opening.\nAvoid: outer badge or frame, backing plate, presentation sheet, scenery, fine texture, ornament, sparkles, glow, haze, cast shadow, tiny details, or extra lettering.\nSubject: ONE unmistakable ASTRONAUT SPACE HELMET, front-on. A broad round IVORY enamel helmet shell edged in GOLD, one large horizontal rounded rectangular GOLD visor inset in its center, and a short sturdy ivory collar with gold edging below. Visor is plain polished gold with one simple highlight; no face or interior. Two small simple matching side attachments integrated into the helmet silhouette. Broad solid shapes and a compact rounded outline. No body, hoses, antenna, stars, flag, lettering or extra objects. A simple costume helmet, not a robot head.",
+      "status": "First concept for review",
+      "referenced_image_paths": [
+        "output/imagegen/achievements/margins-peaks-v1/toperf-and-beyond.png"
+      ],
+      "generated_path": "output/imagegen/achievements/event-day-v1/costume-contest.png"
+    },
+    {
+      "id": "the-raffle-winner",
+      "name": "The Raffle Winner",
+      "symbol": "A winning raffle ticket with a star.",
+      "description": "Won a door prize or raffle at the event.",
+      "preferredFrame": "gold",
+      "prompt": "Use case: logo-brand.\nAsset type: ONE minimal achievement emblem to sit inside an existing game badge.\nReference image: MATERIAL AND STYLE only, unless specified otherwise. Match smooth ivory enamel faces, warm polished gold edging, shallow raised bevels, very thin dark edges, and upper-left highlights. Broad solid pictogram shapes, immediately recognizable at small sizes.\nComposition: a single compact centered emblem, front-on, square canvas with generous empty margins. Genuinely transparent alpha outside the emblem and in every opening.\nAvoid: outer badge or frame, backing plate, presentation sheet, scenery, fine texture, ornament, sparkles, glow, haze, cast shadow, tiny details, or extra lettering.\nSubject: ONE winning RAFFLE TICKET based on the reference ticket. Preserve its broad ivory enamel face, gold-edged ticket silhouette, rounded corners and one semicircular notch centered on EACH short side. Change bronze metal to warm polished GOLD. REMOVE the numeral 2 and replace it with exactly ONE large raised GOLD FIVE-POINT STAR centered on the ticket, one point at the top. The star fills most of the face, with generous ivory space around it. One plain ticket and one star only. No numerals, letters, confetti, perforations, smaller stars or extra tickets.",
+      "status": "First concept for review",
+      "referenced_image_paths": [
+        "output/imagegen/achievements/cross-tournament-v1/regular.png"
+      ],
+      "generated_path": "output/imagegen/achievements/event-day-v1/the-raffle-winner.png"
+    },
+    {
+      "id": "merch-mogul",
+      "name": "Merch Mogul",
+      "symbol": "A crowned shopping bag.",
+      "description": "Was the biggest spender at the tournament store during the event.",
+      "preferredFrame": "gold",
+      "prompt": "Use case: logo-brand.\nAsset type: ONE minimal achievement emblem to sit inside an existing game badge.\nReference image: MATERIAL AND STYLE only, unless specified otherwise. Match smooth ivory enamel faces, warm polished gold edging, shallow raised bevels, very thin dark edges, and upper-left highlights. Broad solid pictogram shapes, immediately recognizable at small sizes.\nComposition: a single compact centered emblem, front-on, square canvas with generous empty margins. Genuinely transparent alpha outside the emblem and in every opening.\nAvoid: outer badge or frame, backing plate, presentation sheet, scenery, fine texture, ornament, sparkles, glow, haze, cast shadow, tiny details, or extra lettering.\nSubject: Create a matching advanced variant of the SHOPPING BAG in the reference. Preserve its single plain ivory bag body, gold edges, one gold inverted-U handle, straight-on view, proportions and simple surfaces. Add ONE broad simple GOLD CROWN hovering just above the handle, separated by a small transparent gap. Crown has exactly THREE large points and a plain thick base; no gems or ornaments. The crown must be large and readable, about two thirds the bag width. Keep the bag and crown as one centered compact vertical emblem on transparent alpha. No text, price tag, additional bags, coins, dollar signs, extra stars or background. The only change to the bag design is the crown above it.",
+      "status": "First concept for review",
+      "referenced_image_paths": [
+        "output/imagegen/achievements/event-day-v1/retail-therapy.png"
+      ],
+      "generated_path": "output/imagegen/achievements/event-day-v1/merch-mogul.png"
+    },
+    {
+      "id": "dressed-for-the-part",
+      "name": "Dressed for the Part",
+      "symbol": "A tournament T-shirt.",
+      "description": "Wore tournament merchandise during the event.",
+      "preferredFrame": "gold",
+      "prompt": "Use case: logo-brand.\nAsset type: ONE minimal achievement emblem to sit inside an existing game badge.\nReference image: MATERIAL AND STYLE only, unless specified otherwise. Match smooth ivory enamel faces, warm polished gold edging, shallow raised bevels, very thin dark edges, and upper-left highlights. Broad solid pictogram shapes, immediately recognizable at small sizes.\nComposition: a single compact centered emblem, front-on, square canvas with generous empty margins. Genuinely transparent alpha outside the emblem and in every opening.\nAvoid: outer badge or frame, backing plate, presentation sheet, scenery, fine texture, ornament, sparkles, glow, haze, cast shadow, tiny details, or extra lettering.\nSubject: ONE unmistakable T-SHIRT, front-on, broad IVORY enamel body with polished GOLD edging. Simple short sleeves extend diagonally from its upper sides, a clean round neck opening is truly transparent, and the hem is straight. Centered on the chest is ONE large simple GOLD CIRCLE with one small curved ivory cutout, a minimal planet mark suggesting Mars. Keep the shirt body broad and the sleeves short. No fabric folds, seams, labels, words, numbers, hanger, person or accessories. Single compact T-shirt pictogram.",
+      "status": "First concept for review",
+      "referenced_image_paths": [
+        "output/imagegen/achievements/margins-peaks-v1/toperf-and-beyond.png"
+      ],
+      "generated_path": "output/imagegen/achievements/event-day-v1/dressed-for-the-part.png"
+    },
+    {
+      "id": "globe-trotter",
+      "name": "Globe Trotter",
+      "symbol": "A globe with a traveling plane.",
+      "description": "Traveled from outside the tournament's host country to attend.",
+      "preferredFrame": "gold",
+      "prompt": "Use case: logo-brand.\nAsset type: ONE minimal achievement emblem to sit inside an existing game badge.\nReference image: MATERIAL AND STYLE only, unless specified otherwise. Match smooth ivory enamel faces, warm polished gold edging, shallow raised bevels, very thin dark edges, and upper-left highlights. Broad solid pictogram shapes, immediately recognizable at small sizes.\nComposition: a single compact centered emblem, front-on, square canvas with generous empty margins. Genuinely transparent alpha outside the emblem and in every opening.\nAvoid: outer badge or frame, backing plate, presentation sheet, scenery, fine texture, ornament, sparkles, glow, haze, cast shadow, tiny details, or extra lettering.\nSubject: ONE simple round IVORY GLOBE with a thick GOLD outer rim, one clear gold equator and two broad curved gold meridians. No continents or fine grid. In front of the globe, ONE small but bold GOLD AIRPLANE silhouette crosses diagonally from lower-left toward upper-right, with a clear pointed nose, broad wings and short tail wings. Plane is about two thirds the globe diameter and clearly distinct from the globe grid; ivory gaps separate its silhouette where needed. Just globe and one plane, a compact travel pictogram. No stand, orbit lines, clouds, dotted trail, text, numbers or extra icons.",
+      "status": "First concept for review",
+      "referenced_image_paths": [
+        "output/imagegen/achievements/margins-peaks-v1/toperf-and-beyond.png"
+      ],
+      "generated_path": "output/imagegen/achievements/event-day-v1/globe-trotter.png"
+    },
+    {
+      "id": "day-one",
+      "name": "Day One",
+      "symbol": "A calendar page displaying a large gold number one.",
+      "description": "Competed in the first tournament where the achievement system was used.",
+      "preferredFrame": "gold",
+      "prompt": "Use case: logo-brand.\nAsset type: ONE minimalist achievement emblem for the center of an existing game badge.\nSubject: ONE simple front-facing CALENDAR PAGE, a broad square ivory enamel tile with softly rounded corners and a narrow polished warm-gold rim. Two short chunky gold binding tabs at the top edge make it unmistakably a calendar. A single thin gold horizontal divider separates the blank short header from the main ivory face. The face displays ONE LARGE BOLD GOLD NUMERAL \"1\", centered with generous padding. Bold rounded sans-serif type, immediately readable at small sizes. No weekday letters, dates, grid, months or extra pages.\nStyle: clean raised ivory-and-gold pictogram, smooth enamel surfaces, restrained shallow bevels, thin dark edge accents, upper-left highlights. Premium simple game-achievement icon matching the shared ivory enamel and gold icon family.\nComposition: one compact centered square icon, front-on orthographic view, on a square canvas with at least 15 percent clear margin all around.\nText (verbatim): \"1\". No other text.\nBackground: actual transparent alpha PNG outside the calendar and in gaps around the binding tabs. No black fill, background rectangle behind the icon, checkerboard, halo, glow, floor or cast shadow.\nAvoid: outer badge frame, scenery, people, laurels, ornament, tiny marks, extra objects, presentation sheet.",
+      "tool": "Built-in image_gen",
+      "status": "First concept for review",
+      "generated_path": "output/imagegen/achievements/event-day-v1/day-one.png"
+    }
+  ]
+}
