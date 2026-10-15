@@ -160,8 +160,40 @@
     }
   },
   {
+    "id": "corporation-collector-i",
+    "name": "Corporation Collector I",
+    "symbol": "A stack of corporation cards marked 10.",
+    "description": "Played at least 10 different corporations across your tournament history.",
+    "preferredFrame": "gold",
+    "file": "icons/corporation-collector-i.png",
+    "sourceSha256": "93bce08700da303338004186fd01c8207c8d03abd92b29a53e84443aaddfccb2",
+    "size": [
+      1254,
+      1254
+    ],
+    "crop": [
+      90,
+      244,
+      1165,
+      1002
+    ],
+    "cropAlphaThreshold": 16,
+    "badgePlacement": {
+      "left": 36.33588373661041,
+      "top": 35.994420289993286,
+      "width": 27.306457042694092,
+      "height": 27.306457042694092
+    },
+    "symbolPlacement": {
+      "left": 4.469767441860465,
+      "top": 4.796279069767442,
+      "width": 90.9879069767442,
+      "height": 90.9879069767442
+    }
+  },
+  {
     "id": "corporation-collector",
-    "name": "Corporation Collector",
+    "name": "Corporation Collector II",
     "symbol": "A stack of corporation cards marked 20.",
     "description": "Played at least 20 different corporations across your tournament history.",
     "preferredFrame": "gold",
@@ -189,6 +221,38 @@
       "top": 4.675675675675674,
       "width": 91.15750232991613,
       "height": 91.15750232991613
+    }
+  },
+  {
+    "id": "corporation-collector-iii",
+    "name": "Corporation Collector III",
+    "symbol": "A stack of corporation cards marked 30.",
+    "description": "Played at least 30 different corporations across your tournament history.",
+    "preferredFrame": "gold",
+    "file": "icons/corporation-collector-iii.png",
+    "sourceSha256": "b66173336df71b024c1fa3163cd77ac1a352eefd969622abd359ca3b8df80cd8",
+    "size": [
+      1254,
+      1254
+    ],
+    "crop": [
+      89,
+      243,
+      1166,
+      1003
+    ],
+    "cropAlphaThreshold": 16,
+    "badgePlacement": {
+      "left": 36.361258140070746,
+      "top": 36.01961272562004,
+      "width": 27.255748673069775,
+      "height": 27.255748673069775
+    },
+    "symbolPlacement": {
+      "left": 4.554317548746525,
+      "top": 4.880222841225634,
+      "width": 90.81894150417827,
+      "height": 90.81894150417827
     }
   },
   {

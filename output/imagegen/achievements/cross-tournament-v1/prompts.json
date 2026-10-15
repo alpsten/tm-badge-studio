@@ -17,8 +17,11 @@
       "serial-finalist": "Count distinct tournaments where this player actually played a Final (round === 99) >= 3; tournaments without a Final do not count.",
       "the-dynasty": "Final rank === 1 in two chronologically adjacent tournaments in this player’s own recorded history, with no intervening appearance.",
       "fresh-blood": "Final rank === 1 in the earliest tournament with any recorded result for this player.",
-      "familiar-faces": "For at least one linked opponent, count distinct tournaments with a shared table >= 2. Use stable player identities once available; names alone can collide."
-    }
+      "familiar-faces": "For at least one linked opponent, count distinct tournaments with a shared table >= 2. Use stable player identities once available; names alone can collide.",
+      "corporation-collector-i": "Played at least 10 distinct corporation identities across linked tournament history. Display the highest earned collector tier.",
+      "corporation-collector-iii": "Played at least 30 distinct corporation identities across linked tournament history. Replaces tier II on display; no fixed total-corporation denominator."
+    },
+    "collectorFamily": "Matching 10/20/30 card stacks. The existing 20-card master and stable corporation-collector ID are retained as tier II."
   },
   "jobs": [
     {
@@ -83,7 +86,7 @@
     },
     {
       "id": "corporation-collector",
-      "name": "Corporation Collector",
+      "name": "Corporation Collector II",
       "symbol": "A stack of corporation cards marked 20.",
       "description": "Played at least 20 different corporations across your tournament history.",
       "preferredFrame": "gold",
@@ -152,6 +155,34 @@
         "output/imagegen/achievements/tied-games-v1/won-it-on-tiebreaker.png"
       ],
       "generated_path": "output/imagegen/achievements/cross-tournament-v1/familiar-faces.png"
+    },
+    {
+      "id": "corporation-collector-i",
+      "name": "Corporation Collector I",
+      "symbol": "A stack of corporation cards marked 10.",
+      "description": "Played at least 10 different corporations across your tournament history.",
+      "preferredFrame": "gold",
+      "prompt": "Use case: precise-object-edit.\nEdit target: the supplied Corporation Collector card-stack emblem.\nCreate a matching variant by changing only the central number from \"20\" to \"10\". Preserve the exact arrangement of three cards, their sizes, rounded corners, ivory enamel faces, warm gold frames, raised gold number style, lighting and generous transparent padding. Keep the same frontal composition and proportions. No other text, objects, new frame, background or decoration. Text (verbatim): \"10\". Background must remain genuinely transparent.",
+      "tool": "Built-in image_gen",
+      "status": "First concept for review",
+      "referenced_image_paths": [
+        "output/imagegen/achievements/cross-tournament-v1/corporation-collector.png"
+      ],
+      "generated_path": "output/imagegen/achievements/cross-tournament-v1/corporation-collector-i.png"
+    },
+    {
+      "id": "corporation-collector-iii",
+      "name": "Corporation Collector III",
+      "symbol": "A stack of corporation cards marked 30.",
+      "description": "Played at least 30 different corporations across your tournament history.",
+      "preferredFrame": "gold",
+      "prompt": "Use case: precise-object-edit.\nEdit target: the supplied Corporation Collector card-stack emblem.\nCreate a matching variant by changing only the central number from \"20\" to \"30\". Preserve the exact arrangement of three cards, their sizes, rounded corners, ivory enamel faces, warm gold frames, raised gold number style, lighting and generous transparent padding. Keep the same frontal composition and proportions. No other text, objects, new frame, background or decoration. Text (verbatim): \"30\". Background must remain genuinely transparent.",
+      "tool": "Built-in image_gen",
+      "status": "First concept for review",
+      "referenced_image_paths": [
+        "output/imagegen/achievements/cross-tournament-v1/corporation-collector.png"
+      ],
+      "generated_path": "output/imagegen/achievements/cross-tournament-v1/corporation-collector-iii.png"
     }
   ]
 }
