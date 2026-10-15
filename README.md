@@ -3,8 +3,8 @@
 A standalone badge mixer and achievement gallery. Everything shown in the browser
 is bundled here: no database, API keys, npm install, or build step is required.
 
-Includes 47 corporation logos and their color presets, 57 achievement emblems in
-9 sections, the three podium awards, and 2,572 WebP badge/layer exports at 256 and
+Includes 47 corporation logos and their color presets, 6 expansion/Promo logos, 91 achievement emblems in
+11 sections, the three podium awards, and 2,584 WebP badge/layer exports at 256 and
 512 pixels. Mix center/frame colors, wings, crests, borders, rank plates, and logos.
 
 ## Preview locally
@@ -28,7 +28,7 @@ Open <http://localhost:8000/>. The entry page opens the badge studio; its
 | `scripts/` | Python renderers, palette/logo settings, and verification |
 | `output/badges/badge-original.png` / `badge-center-mask.png` | Original badge and center mask |
 | `output/badges/awards-kit/masters/` | Original ornament and wide-badge artwork |
-| `output/badges/logos/originals/` | All 47 original corporation logos |
+| `output/badges/logos/originals/` | Original artwork for 47 corporations and 6 expansion/Promo emblems |
 | `output/imagegen/achievements/` | Achievement masters, placement metadata, and prompts |
 | `output/badges/upgrade-sketch/masters/` | Earlier progression sketch source artwork |
 | `docs/` | Achievement and progression design notes |
@@ -77,9 +77,12 @@ The bundled artwork is unchanged; newly rendered labels may vary by installed
 font. Set `BADGE_FONT_REGULAR` and `BADGE_FONT_BOLD` to local font files if needed.
 
 Edit corporation palettes in `scripts/corporation_badges.json` and logo fitting
-in `scripts/badge_logos.json`. Achievement names, descriptions, and fitted
-positions live in each `output/imagegen/achievements/<section>/concepts.json`;
-`sync_achievements.py` copies those and the unchanged masters into the gallery.
+in `scripts/badge_logos.json`. The authoritative achievement catalogue is the local,
+Git-ignored `docs/achievements-plan.md`; it is not included when cloning this repo.
+The gallery's current names, descriptions, and fitted positions live in each
+`output/imagegen/achievements/<section>/concepts.json`. Reflect reviewed catalogue
+changes there, then run `sync_achievements.py` to copy the metadata and unchanged
+masters into the gallery. The script does not read the local Markdown plan.
 When replacing an emblem, update its crop, fitted positions, and SHA-256 together.
 When adding a section, create its page and register it in the gallery's
 `sections.js`. See [scripts/README.md](scripts/README.md) for the rendering details.

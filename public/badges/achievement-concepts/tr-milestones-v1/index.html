@@ -42,7 +42,7 @@
     @media (prefers-reduced-motion: no-preference) { .card { animation: appear .3s ease-out; } @keyframes appear { from { opacity: 0; } to { opacity: 1; } } }
   </style>
   <link rel="stylesheet" href="../navigation.css">
-  <script defer src="../sections.js"></script>
+  <script defer src="../sections.js?v=podium-v1"></script>
   <script defer src="../navigation.js?v=no-arrows-v1"></script>
 </head>
 <body>
@@ -50,7 +50,7 @@
     <div data-achievement-navigation></div>
     <p class="eyebrow">Achievement emblems · First concepts</p>
     <h1>TR Milestones</h1>
-    <p class="intro">One shared emblem for three TR milestones: bronze at 100, silver at 200, and gold at 300. Compare the emblems on their own and inside the existing badge frame.</p>
+    <p class="intro">Five TR milestones: 100, 150, 200, 250, and 300. Each uses the same gold numeral-and-laurel design and standard gold frame. Compare the emblems on their own and inside the frame.</p>
     <div class="controls" aria-label="Preview controls">
       <label>View<select id="view"><option value="badge">Inside the frame</option><option value="symbol">Emblem only</option></select></label>
       <label>Center<select id="center"><option value="black">Black</option><option value="navy">Navy</option><option value="purple">Purple</option><option value="teal">Teal</option></select></label>
@@ -59,9 +59,9 @@
     </div>
     <p id="loading" role="status">Loading the emblem concepts…</p>
     <div class="gallery" id="gallery"></div>
-    <footer><span>First concepts for review · A shared design with three metal finishes.</span><a href="prompts.json">Generation prompts &amp; concept notes</a></footer>
+    <footer><span>First concepts for review · Five milestones in the shared gold design.</span><a href="prompts.json">Generation prompts &amp; concept notes</a></footer>
   </main>
-  <script src="concepts.js"></script>
+  <script src="concepts.js?v=tr-five-gold-v1"></script>
   <script>
     const byId = id => document.getElementById(id);
     const artwork = window.TR_MILESTONES_CONCEPTS;
@@ -82,7 +82,7 @@
       if (size) element.style.setProperty('--size', size + 'px');
       const center = makeImage('', 'base center');
       const frame = makeImage('', 'base frame');
-      const emblem = makeImage(item.file, 'emblem');
+      const emblem = makeImage(item.file + '?v=' + item.sourceSha256.slice(0, 12), 'emblem');
       element.append(center, frame, emblem);
       compositions.push({element, center, frame, emblem, item});
       return element;
@@ -119,7 +119,7 @@
       }
       const original = document.createElement('a');
       original.className = 'original';
-      original.href = item.file;
+      original.href = item.file + '?v=' + item.sourceSha256.slice(0, 12);
       original.textContent = 'Open transparent emblem';
       caption.append(number, title, description, label, sizes, original);
       article.append(visual, caption);

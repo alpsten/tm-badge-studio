@@ -1,43 +1,88 @@
 {
   "tool": "Built-in image_gen",
   "status": "First concepts for review",
-  "style": "Shared numeral-and-laurel design in bronze, silver, and gold. Silver and gold derived from the bronze original.",
+  "style": "One shared gold numeral-and-laurel design for 100, 150, 200, 250 and 300 TR; all use the standard gold frame.",
   "jobs": [
     {
       "id": "century-club",
       "name": "Century Club",
-      "symbol": "Bronze 100 with a simple laurel.",
+      "symbol": "Gold 100 with the shared simple laurel.",
       "description": "Recorded a game with 100 or more TR.",
       "threshold": 100,
-      "preferredFrame": "bronze",
-      "prompt": "Use case: logo-brand.\nAsset type: one minimalist achievement emblem for a game's existing badge frame.\nSubject: the large bold numeral \"100\" above a short open laurel made from just two symmetrical curved bronze stems with three large plain leaves on each side. The leaves cradle only the lower corners of the number; they do not form a complete enclosing ring. All three digits are equally tall and on one baseline; the numeral is by far the largest and most prominent element.\nStyle: clean raised metal pictogram matching a set of simple beveled game achievement icons. Front-on orthographic view, broad solid shapes, bold rounded sans-serif numerals, restrained shallow bevels, narrow dark edges, soft upper-left highlights. Easy to recognize at small sizes. No engraved detail, no texture.\nColor palette: warm copper-bronze throughout. Light champagne-bronze front faces and deeper copper-bronze bevels; no silver, no yellow gold. This is the bronze tier of a bronze/silver/gold family.\nComposition: compact centered horizontal numeral with the small laurel below; balanced square transparent canvas with at least 15 percent empty space on all sides. The two zeros have large open counters. Keep gaps between digits.\nBackground: actual transparent alpha PNG cutout. Fully transparent outside the numeral and laurel, inside both zero holes and between all shapes. No black background, no backdrop at all, no glow or haze, no floor, no shadow outside the shapes.\nText (verbatim): \"100\". No other text.\nConstraints: ONE emblem only. Do not draw a medal disc, hexagon, outer badge frame, border, crown, ribbon, stars, pedestal, ball, bat, or additional objects. No presentation sheet.",
-      "generated_path": "output/imagegen/achievements/tr-milestones-v1/century-club.png"
+      "preferredFrame": "gold",
+      "tool": "Built-in image_gen",
+      "generated_path": "output/imagegen/achievements/tr-milestones-v1/century-club.png",
+      "prompt": "Use case: precise-object-edit.\nEdit target: the supplied gold \"300\" numeral-and-laurel achievement emblem.\nMake the matching \"100\" variant of this EXACT design. Change only the numeral from \"300\" to \"100\". Keep the polished warm yellow-gold finish identical to the reference, with pale champagne-gold front faces, deeper golden bevels and upper-left highlights. All metal surfaces must stay GOLD, without bronze, copper or silver.\nPreserve the exact two separate laurel sprigs, each with three broad plain leaves: same shapes, positions, size and open gap at the bottom. Preserve the bold rounded sans-serif type style, digit height, baseline, stroke weights, spacing, bevel depth, overall composition and square canvas. The numeral is the largest element. All three digits distinct and fully readable with clear counters. Keep the group centered at the same size as the reference.\nText (verbatim): \"100\". No other text.\nPreserve genuinely transparent alpha outside the objects, inside the zero counter(s) and between all shapes. No background, black fill, checkerboard, halo, glow, floor, cast shadow, badge frame or added decoration.\nReturn ONE transparent PNG emblem, not a grid or presentation sheet.",
+      "referenced_image_paths": [
+        "output/imagegen/achievements/tr-milestones-v1/triple-century.png"
+      ],
+      "status": "Matching gold variant for review"
+    },
+    {
+      "id": "century-and-a-half",
+      "name": "Century and a Half",
+      "symbol": "Gold 150 with the shared simple laurel.",
+      "description": "Recorded a game with 150 or more TR.",
+      "threshold": 150,
+      "preferredFrame": "gold",
+      "tool": "Built-in image_gen",
+      "generated_path": "output/imagegen/achievements/tr-milestones-v1/century-and-a-half.png",
+      "prompt": "Use case: precise-object-edit.\nEdit target: the supplied gold \"300\" numeral-and-laurel achievement emblem.\nMake the matching \"150\" variant of this EXACT design. Change only the numeral from \"300\" to \"150\". Keep the polished warm yellow-gold finish identical to the reference, with pale champagne-gold front faces, deeper golden bevels and upper-left highlights. All metal surfaces must stay GOLD, without bronze, copper or silver.\nPreserve the exact two separate laurel sprigs, each with three broad plain leaves: same shapes, positions, size and open gap at the bottom. Preserve the bold rounded sans-serif type style, digit height, baseline, stroke weights, spacing, bevel depth, overall composition and square canvas. The numeral is the largest element. All three digits distinct and fully readable with clear counters. Keep the group centered at the same size as the reference.\nText (verbatim): \"150\". No other text.\nPreserve genuinely transparent alpha outside the objects, inside the zero counter(s) and between all shapes. No background, black fill, checkerboard, halo, glow, floor, cast shadow, badge frame or added decoration.\nReturn ONE transparent PNG emblem, not a grid or presentation sheet.",
+      "referenced_image_paths": [
+        "output/imagegen/achievements/tr-milestones-v1/triple-century.png"
+      ],
+      "status": "Matching gold variant for review"
     },
     {
       "id": "double-century",
       "name": "Double Century",
-      "symbol": "Silver 200 with the same laurel.",
+      "symbol": "Gold 200 with the shared simple laurel.",
       "description": "Recorded a game with 200 or more TR.",
       "threshold": 200,
-      "preferredFrame": "silver",
+      "preferredFrame": "gold",
+      "tool": "Built-in image_gen",
+      "generated_path": "output/imagegen/achievements/tr-milestones-v1/double-century.png",
+      "prompt": "Use case: precise-object-edit.\nEdit target: the supplied gold \"300\" numeral-and-laurel achievement emblem.\nMake the matching \"200\" variant of this EXACT design. Change only the numeral from \"300\" to \"200\". Keep the polished warm yellow-gold finish identical to the reference, with pale champagne-gold front faces, deeper golden bevels and upper-left highlights. All metal surfaces must stay GOLD, without bronze, copper or silver.\nPreserve the exact two separate laurel sprigs, each with three broad plain leaves: same shapes, positions, size and open gap at the bottom. Preserve the bold rounded sans-serif type style, digit height, baseline, stroke weights, spacing, bevel depth, overall composition and square canvas. The numeral is the largest element. All three digits distinct and fully readable with clear counters. Keep the group centered at the same size as the reference.\nText (verbatim): \"200\". No other text.\nPreserve genuinely transparent alpha outside the objects, inside the zero counter(s) and between all shapes. No background, black fill, checkerboard, halo, glow, floor, cast shadow, badge frame or added decoration.\nReturn ONE transparent PNG emblem, not a grid or presentation sheet.",
       "referenced_image_paths": [
-        "output/imagegen/achievements/tr-milestones-v1/century-club.png"
+        "output/imagegen/achievements/tr-milestones-v1/triple-century.png"
       ],
-      "prompt": "Use case: precise-object-edit.\nEdit target: the attached bronze \"100\" achievement emblem on a transparent background.\nMake the matching SILVER tier of this EXACT emblem. Change the numeral to \"200\" and recolor all metal surfaces to cool polished silver, with pale silver front faces and darker steel-silver bevels. Use only neutral silver tones, with no copper or gold.\nPreserve the exact laurel shape: same two separate curved sprigs with three broad leaves on each side, same leaf sizes, same positions. Preserve the two zero shapes, stroke weights, numeral height, baseline, overall layout, spacing, lighting direction, restrained bevel depth, silhouette and square canvas. Replace only the first digit with a matching bold sans-serif \"2\".\nKeep the group the same overall size and centered at the same position. All three digits must be distinct and fully readable.\nPreserve actual transparent alpha outside the objects, inside both zero holes and all gaps. No background, no black fill, no halo, no glow, no floor or cast shadow, no frame, no new ornament, no other text. Return a single transparent PNG emblem.",
-      "generated_path": "output/imagegen/achievements/tr-milestones-v1/double-century.png"
+      "status": "Matching gold variant for review"
+    },
+    {
+      "id": "two-and-a-half-centuries",
+      "name": "Two and a Half Centuries",
+      "symbol": "Gold 250 with the shared simple laurel.",
+      "description": "Recorded a game with 250 or more TR.",
+      "threshold": 250,
+      "preferredFrame": "gold",
+      "tool": "Built-in image_gen",
+      "generated_path": "output/imagegen/achievements/tr-milestones-v1/two-and-a-half-centuries.png",
+      "prompt": "Use case: precise-object-edit.\nEdit target: the supplied gold \"300\" numeral-and-laurel achievement emblem.\nMake the matching \"250\" variant of this EXACT design. Change only the numeral from \"300\" to \"250\". Keep the polished warm yellow-gold finish identical to the reference, with pale champagne-gold front faces, deeper golden bevels and upper-left highlights. All metal surfaces must stay GOLD, without bronze, copper or silver.\nPreserve the exact two separate laurel sprigs, each with three broad plain leaves: same shapes, positions, size and open gap at the bottom. Preserve the bold rounded sans-serif type style, digit height, baseline, stroke weights, spacing, bevel depth, overall composition and square canvas. The numeral is the largest element. All three digits distinct and fully readable with clear counters. Keep the group centered at the same size as the reference.\nText (verbatim): \"250\". No other text.\nPreserve genuinely transparent alpha outside the objects, inside the zero counter(s) and between all shapes. No background, black fill, checkerboard, halo, glow, floor, cast shadow, badge frame or added decoration.\nReturn ONE transparent PNG emblem, not a grid or presentation sheet.",
+      "referenced_image_paths": [
+        "output/imagegen/achievements/tr-milestones-v1/triple-century.png"
+      ],
+      "status": "Matching gold variant for review"
     },
     {
       "id": "triple-century",
       "name": "Triple Century",
-      "symbol": "Gold 300 with the same laurel.",
+      "symbol": "Gold 300 with the shared simple laurel.",
       "description": "Recorded a game with 300 or more TR.",
       "threshold": 300,
       "preferredFrame": "gold",
-      "referenced_image_paths": [
-        "output/imagegen/achievements/tr-milestones-v1/century-club.png"
-      ],
+      "tool": "Built-in image_gen",
+      "generated_path": "output/imagegen/achievements/tr-milestones-v1/triple-century.png",
       "prompt": "Use case: precise-object-edit.\nEdit target: the attached bronze \"100\" achievement emblem on a transparent background.\nMake the matching GOLD tier of this EXACT emblem. Change the numeral to \"300\" and recolor all metal surfaces to warm polished yellow gold, with pale champagne-gold front faces and deeper golden bevels. Use only warm yellow-gold tones, with no copper or silver.\nPreserve the exact laurel shape: same two separate curved sprigs with three broad leaves on each side, same leaf sizes, same positions. Preserve the two zero shapes, stroke weights, numeral height, baseline, overall layout, spacing, lighting direction, restrained bevel depth, silhouette and square canvas. Replace only the first digit with a matching bold sans-serif \"3\".\nKeep the group the same overall size and centered at the same position. All three digits must be distinct and fully readable.\nPreserve actual transparent alpha outside the objects, inside both zero holes and all gaps. No background, no black fill, no halo, no glow, no floor or cast shadow, no frame, no new ornament, no other text. Return a single transparent PNG emblem.",
-      "generated_path": "output/imagegen/achievements/tr-milestones-v1/triple-century.png"
+      "referenced_image_paths": [
+        "output/imagegen/achievements/tr-milestones-v1/references/century-club-bronze-original.png"
+      ],
+      "status": "Existing gold artwork retained; placement matched to the five-milestone family."
     }
-  ]
+  ],
+  "notes": {
+    "finish": "All five milestones share gold artwork and the same default gold frame. The displayed number identifies the threshold; there is no bronze/silver tier progression.",
+    "names": "150 TR is Century and a Half; 250 TR is Two and a Half Centuries.",
+    "rules": "Recorded terraform_rating >= the named threshold in any match; the five thresholds are cumulative, not exclusive ranges.",
+    "source": "Gold 300 is the existing reference for the four matching variants. Its original bronze source is retained under references for provenance."
+  }
 }
