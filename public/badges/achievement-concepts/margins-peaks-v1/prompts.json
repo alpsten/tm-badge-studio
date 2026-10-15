@@ -9,7 +9,10 @@
     "soClose": "The intended meaning is second place exactly 1 TR behind the winner. Current trMarginFor(second) compares to the next lower distinct placement when one exists, so it cannot generally implement this condition; compare second's TR directly with first's.",
     "statsScope": "The current biggestWins, closestGames and tableSpreads highlights are built from completeMatches excluding round 99. Match inclusion should be explicitly settled when these achievements are implemented.",
     "recordScope": "Descriptions retain the user's single-highest/single-lowest wording. Handling equal records belongs to eligibility implementation.",
-    "toperfName": "Use the user's requested name ToPerf and Beyond! for the highest tournament TPerf; the older plan calls this Efficiency Expert."
+    "toperfName": "Use the user's requested name ToPerf and Beyond! for the highest tournament TPerf; the older plan calls this Efficiency Expert.",
+    "rules": {
+      "overachiever": "Recorded tperfFor >= 2.0 in a single round, rather than the tournament-wide TPerf superlative."
+    }
   },
   "jobs": [
     {
@@ -132,6 +135,19 @@
         "output/imagegen/achievements/corporation-loyalty-v1/one-corp-wonder.png"
       ],
       "generated_path": "output/imagegen/achievements/margins-peaks-v1/so-close.png"
+    },
+    {
+      "id": "overachiever",
+      "name": "Overachiever",
+      "symbol": "A star marked 2×.",
+      "description": "Recorded a TPerf of 2.0 or higher in a single round.",
+      "preferredFrame": "gold",
+      "prompt": "Use case: logo-brand.\nAsset type: ONE minimal achievement emblem to sit inside an existing game badge.\nReference image: MATERIAL AND STYLE only, unless specified otherwise. Match smooth ivory enamel faces, warm polished gold edging, shallow raised bevels, very thin dark edges, and upper-left highlights. Broad solid pictogram shapes, immediately recognizable at small sizes.\nComposition: a single compact centered emblem, front-on, square canvas with generous empty margins. Genuinely transparent alpha outside the emblem and in every opening.\nAvoid: outer badge or frame, backing plate, presentation sheet, scenery, fine texture, ornament, sparkles, glow, haze, cast shadow, tiny details, or extra lettering.\nSubject: ONE bold FIVE-POINT STAR with a broad smooth IVORY enamel face and polished gold edging. Centered on the star is the large, thick raised GOLD inscription exactly \"2×\": numeral 2 followed by a multiplication sign, both on the SAME line. This means twice the expected performance. The number and multiplication sign are large enough to be immediately legible, with generous clear ivory space around them. Five thick simple star points, one point vertically at the top. Only this star and 2× lettering; no rocket, flames, trails, background disc, smaller stars or extra numbers.",
+      "status": "First concept for review",
+      "referenced_image_paths": [
+        "output/imagegen/achievements/margins-peaks-v1/toperf-and-beyond.png"
+      ],
+      "generated_path": "output/imagegen/achievements/margins-peaks-v1/overachiever.png"
     }
   ]
 }

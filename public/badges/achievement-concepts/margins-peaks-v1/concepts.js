@@ -339,5 +339,37 @@ window.MARGINS_PEAKS_CONCEPTS = [
       "width": 79.0080775444265,
       "height": 79.0080775444265
     }
+  },
+  {
+    "id": "overachiever",
+    "name": "Overachiever",
+    "symbol": "A star marked 2\u00d7.",
+    "description": "Recorded a TPerf of 2.0 or higher in a single round.",
+    "preferredFrame": "gold",
+    "file": "icons/overachiever.png",
+    "sourceSha256": "bc6252984b8d6fb4239d948346058fec231cddee7e57dbf0d13c4fcf2a0d8de5",
+    "size": [
+      1254,
+      1254
+    ],
+    "crop": [
+      98,
+      109,
+      1155,
+      1104
+    ],
+    "cropAlphaThreshold": 16,
+    "badgePlacement": {
+      "left": 37.044869750738144,
+      "top": 37.01898822188377,
+      "width": 25.930939078330994,
+      "height": 25.930939078330994
+    },
+    "symbolPlacement": {
+      "left": 3.768211920529801,
+      "top": 5.244087038789023,
+      "width": 92.53736991485336,
+      "height": 92.53736991485336
+    }
   }
 ];
