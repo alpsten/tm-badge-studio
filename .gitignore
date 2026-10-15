@@ -22,3 +22,6 @@ __pycache__/
 /output/badges/retired-wings-v1/
 /output/imagegen/achievements/**/*-preview.png
 /output/imagegen/achievements/*-preview.png
+
+# Local achievement planning; keep the working catalogue out of Git.
+/docs/achievements-plan.md
