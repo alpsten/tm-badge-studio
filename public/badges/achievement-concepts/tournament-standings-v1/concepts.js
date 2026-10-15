@@ -1,5 +1,69 @@
 window.TOURNAMENT_STANDINGS_CONCEPTS = [
   {
+    "id": "im-gonna-win",
+    "name": "I'm Gonna Win!",
+    "symbol": "A crowned leader's flag marked R1.",
+    "description": "Ranked 1st after the first round, including a shared lead.",
+    "preferredFrame": "gold",
+    "file": "icons/im-gonna-win.png",
+    "sourceSha256": "6f80727652baa303e0208f093c4a5a29e3e2d53a5ff49d708fc9d6e55bad015a",
+    "size": [
+      1254,
+      1254
+    ],
+    "crop": [
+      192,
+      163,
+      1083,
+      1069
+    ],
+    "cropAlphaThreshold": 16,
+    "badgePlacement": {
+      "left": 35.88784630261115,
+      "top": 35.924332478777984,
+      "width": 27.759436449451947,
+      "height": 27.759436449451947
+    },
+    "symbolPlacement": {
+      "left": -4.884105960264899,
+      "top": -3.0331125827814556,
+      "width": 107.96026490066225,
+      "height": 107.96026490066225
+    }
+  },
+  {
+    "id": "im-in-the-lead",
+    "name": "I'm in the Lead?!",
+    "symbol": "A crowned leader's flag marked R2.",
+    "description": "Ranked 1st after the second round, including a shared lead.",
+    "preferredFrame": "gold",
+    "file": "icons/im-in-the-lead.png",
+    "sourceSha256": "ef9d4f3ac8f5117c259e320354a5d23cedf399d700f3533182330671013cbb32",
+    "size": [
+      1254,
+      1254
+    ],
+    "crop": [
+      191,
+      162,
+      1082,
+      1069
+    ],
+    "cropAlphaThreshold": 16,
+    "badgePlacement": {
+      "left": 35.9255177628994,
+      "top": 35.95042304635048,
+      "width": 27.728830676078793,
+      "height": 27.728830676078793
+    },
+    "symbolPlacement": {
+      "left": -4.737596471885333,
+      "top": -2.931642778390298,
+      "width": 107.8412348401323,
+      "height": 107.8412348401323
+    }
+  },
+  {
     "id": "finish-top-ten",
     "name": "Finish Top Ten",
     "symbol": "A bold ten.",
