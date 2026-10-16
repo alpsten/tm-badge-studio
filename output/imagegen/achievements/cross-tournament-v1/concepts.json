@@ -32,6 +32,38 @@
     }
   },
   {
+    "id": "clash-of-champions",
+    "name": "Clash of Champions",
+    "symbol": "A champion's crown above two crossed swords.",
+    "description": "Played at a table where everyone, including you, had already won a tournament.",
+    "preferredFrame": "gold",
+    "file": "icons/clash-of-champions.png",
+    "sourceSha256": "1b819eca8b1a217e9a5f3199f6ae3a3e619aedda87573f5b13549eff6c7ab6cf",
+    "size": [
+      1254,
+      1254
+    ],
+    "crop": [
+      137,
+      146,
+      1118,
+      1106
+    ],
+    "cropAlphaThreshold": 16,
+    "badgePlacement": {
+      "left": 36.44367605447769,
+      "top": 36.03662848472595,
+      "width": 27.091044187545776,
+      "height": 27.091044187545776
+    },
+    "symbolPlacement": {
+      "left": 0.10703363914373085,
+      "top": 0.22629969418960627,
+      "width": 99.70642201834862,
+      "height": 99.70642201834862
+    }
+  },
+  {
     "id": "regular",
     "name": "Regular",
     "symbol": "A bronze tournament ticket marked 2.",
@@ -157,6 +189,134 @@
       "top": 6.060230292294065,
       "width": 86.63596102745794,
       "height": 86.63596102745794
+    }
+  },
+  {
+    "id": "win-streak",
+    "name": "Win Streak",
+    "symbol": "A single rising flame.",
+    "description": "Won at least five consecutive games outright across your recorded tournament history.",
+    "preferredFrame": "gold",
+    "file": "icons/win-streak.png",
+    "sourceSha256": "8d9882759d51262c4ec504d4977f2b1585660ccedc6f3c459a93d3f8894ace13",
+    "size": [
+      1254,
+      1254
+    ],
+    "crop": [
+      210,
+      65,
+      1053,
+      1197
+    ],
+    "cropAlphaThreshold": 16,
+    "badgePlacement": {
+      "left": 36.5518105561868,
+      "top": 36.12300524547327,
+      "width": 26.70471823046991,
+      "height": 26.70471823046991
+    },
+    "symbolPlacement": {
+      "left": 6.486749116607775,
+      "top": 6.521201413427559,
+      "width": 86.40636042402828,
+      "height": 86.40636042402828
+    }
+  },
+  {
+    "id": "streak-breaker",
+    "name": "Streak Breaker",
+    "symbol": "The Win Streak flame split by a clear diagonal crack.",
+    "description": "Won outright against an opponent who entered the game on a streak of at least five consecutive outright wins.",
+    "preferredFrame": "gold",
+    "file": "icons/streak-breaker.png",
+    "sourceSha256": "6d6c67923db6757af595c33cd2081c40ae215e665b98bb15be043ded17c5aa4b",
+    "size": [
+      1254,
+      1254
+    ],
+    "crop": [
+      201,
+      65,
+      1068,
+      1199
+    ],
+    "cropAlphaThreshold": 16,
+    "badgePlacement": {
+      "left": 36.83014568828401,
+      "top": 36.44258324221118,
+      "width": 26.028364549868954,
+      "height": 26.028364549868954
+    },
+    "symbolPlacement": {
+      "left": 6.357142857142861,
+      "top": 6.529100529100532,
+      "width": 86.25396825396825,
+      "height": 86.25396825396825
+    }
+  },
+  {
+    "id": "persistence-pays",
+    "name": "Persistence Pays",
+    "symbol": "A winding path leading to a gold trophy.",
+    "description": "Won outright after at least five consecutive played games without an outright win.",
+    "preferredFrame": "gold",
+    "file": "icons/persistence-pays.png",
+    "sourceSha256": "dfa920705fd3321cc3fcd8ad2d0b86f097cae89918d0a1e5a269b7c3ec7e164c",
+    "size": [
+      1254,
+      1254
+    ],
+    "crop": [
+      348,
+      83,
+      930,
+      1189
+    ],
+    "cropAlphaThreshold": 16,
+    "badgePlacement": {
+      "left": 36.10761529929384,
+      "top": 35.73338463767743,
+      "width": 27.26298969434355,
+      "height": 27.26298969434355
+    },
+    "symbolPlacement": {
+      "left": 4.934900542495479,
+      "top": 5.146473779385173,
+      "width": 88.4376130198915,
+      "height": 88.4376130198915
+    }
+  },
+  {
+    "id": "podium-collection",
+    "name": "Podium Collection",
+    "symbol": "Three matching medals marked 1, 2, and 3.",
+    "description": "Finished first, second, and third in final tournament standings across different tournaments.",
+    "preferredFrame": "gold",
+    "file": "icons/podium-collection.png",
+    "sourceSha256": "189d84ebaac9b7c1f4df204419e153b67760f131f501410c7074dc61c00a7599",
+    "size": [
+      1254,
+      1254
+    ],
+    "crop": [
+      95,
+      79,
+      1158,
+      1192
+    ],
+    "cropAlphaThreshold": 16,
+    "badgePlacement": {
+      "left": 36.48655615137808,
+      "top": 35.852975341401866,
+      "width": 27.048457440018975,
+      "height": 27.048457440018975
+    },
+    "symbolPlacement": {
+      "left": 6.094339622641508,
+      "top": 5.463611859838273,
+      "width": 87.88140161725067,
+      "height": 87.88140161725067
     }
   },
   {
@@ -413,6 +573,134 @@
       "top": -1.604407135362014,
       "width": 102.63588667366211,
       "height": 102.63588667366211
+    }
+  },
+  {
+    "id": "the-reunion",
+    "name": "The Reunion",
+    "symbol": "A round table with four seats and a return arrow.",
+    "description": "Played with exactly the same full group at a table in two different tournaments.",
+    "preferredFrame": "gold",
+    "file": "icons/the-reunion.png",
+    "sourceSha256": "84e1e87e48c729bc913588d657e454947f8ab8801c57f995fb8c62d78fd8bed0",
+    "size": [
+      1254,
+      1254
+    ],
+    "crop": [
+      106,
+      96,
+      1148,
+      1134
+    ],
+    "cropAlphaThreshold": 16,
+    "badgePlacement": {
+      "left": 36.45447790622711,
+      "top": 36.274269223213196,
+      "width": 27.091044187545776,
+      "height": 27.091044187545776
+    },
+    "symbolPlacement": {
+      "left": 3.0652591170825305,
+      "top": 3.9635316698656426,
+      "width": 93.86948176583493,
+      "height": 93.86948176583493
+    }
+  },
+  {
+    "id": "nemesis",
+    "name": "Nemesis",
+    "symbol": "Two crossed swords.",
+    "description": "Finished ahead of the same opponent in shared games in three different tournaments.",
+    "preferredFrame": "gold",
+    "file": "icons/nemesis.png",
+    "sourceSha256": "618cf4a95a5a9db6fe0dcbf605a080e6e62df916e1bfb5670ab35a5783967edf",
+    "size": [
+      1254,
+      1254
+    ],
+    "crop": [
+      107,
+      118,
+      1147,
+      1135
+    ],
+    "cropAlphaThreshold": 16,
+    "badgePlacement": {
+      "left": 37.01274251937866,
+      "top": 36.583646059036255,
+      "width": 25.974514961242676,
+      "height": 25.974514961242676
+    },
+    "symbolPlacement": {
+      "left": 2.975,
+      "top": 3.0125,
+      "width": 94.05,
+      "height": 94.05
+    }
+  },
+  {
+    "id": "friendly-rivalry",
+    "name": "Friendly Rivalry",
+    "symbol": "Two fists meeting in a friendly fist bump.",
+    "description": "Finished ahead of the same opponent in one tournament and behind them in another, in shared games.",
+    "preferredFrame": "gold",
+    "file": "icons/friendly-rivalry.png",
+    "sourceSha256": "4a280f02c91d3835188dc9dc4acd8af7668b6bb102690782f28d693742c13904",
+    "size": [
+      1254,
+      1254
+    ],
+    "crop": [
+      37,
+      451,
+      1217,
+      853
+    ],
+    "cropAlphaThreshold": 16,
+    "badgePlacement": {
+      "left": 34.26296774108531,
+      "top": 33.196041240530505,
+      "width": 31.474064517829365,
+      "height": 31.474064517829365
+    },
+    "symbolPlacement": {
+      "left": 8.554237288135589,
+      "top": 6.901694915254234,
+      "width": 82.89152542372882,
+      "height": 82.89152542372882
+    }
+  },
+  {
+    "id": "seat-sweep",
+    "name": "Seat Sweep",
+    "symbol": "Four chairs surrounding a gold star.",
+    "description": "Won from each of the four starting seats across recorded four-player games.",
+    "preferredFrame": "gold",
+    "file": "icons/seat-sweep.png",
+    "sourceSha256": "f5b017f9fd33ce5781f23a1d9ce23c9cb9f0199acfb79f40e6ad813ff0c89bf4",
+    "size": [
+      1254,
+      1254
+    ],
+    "crop": [
+      154,
+      142,
+      1096,
+      1126
+    ],
+    "cropAlphaThreshold": 16,
+    "badgePlacement": {
+      "left": 36.17641627788544,
+      "top": 35.53790354728699,
+      "width": 27.73563838005066,
+      "height": 27.73563838005066
+    },
+    "symbolPlacement": {
+      "left": 0.4573170731707307,
+      "top": -0.2560975609756099,
+      "width": 99.40243902439025,
+      "height": 99.40243902439025
     }
   }
 ]

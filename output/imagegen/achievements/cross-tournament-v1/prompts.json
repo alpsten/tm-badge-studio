@@ -19,7 +19,16 @@
       "fresh-blood": "Final rank === 1 in the earliest tournament with any recorded result for this player.",
       "familiar-faces": "For at least one linked opponent, count distinct tournaments with a shared table >= 2. Use stable player identities once available; names alone can collide.",
       "corporation-collector-i": "Played at least 10 distinct corporation identities across linked tournament history. Display the highest earned collector tier.",
-      "corporation-collector-iii": "Played at least 30 distinct corporation identities across linked tournament history. Replaces tier II on display; no fixed total-corporation denominator."
+      "corporation-collector-iii": "Played at least 30 distinct corporation identities across linked tournament history. Replaces tier II on display; no fixed total-corporation denominator.",
+      "seat-sweep": "Across linked player history, consider completed recorded matches with exactly four players where this player has position 1. Collect their starting seat index in match.players; all four indices 0, 1, 2 and 3 must occur. Use actual starting turn order, never position-sorted results. Four-player Finals may count; five-player games do not. The wins may be in one or several tournaments. Needs stable linked player identities, not a login account.",
+      "podium-collection": "Across at least three different completed tournaments in linked player history, this player has official final standings ranks 1, 2 and 3 at least once each. Use final tournament standings, not individual round placements. Tournaments with and without a played Final both count. Needs stable linked player identities, not a login account.",
+      "win-streak": "Across chronologically ordered played games in linked player history, record at least five consecutive outright wins: this player has position 1 and nobody else shares first. Any played result other than an outright win, including shared first, resets the current streak to zero. Include played Finals and continue across tournament boundaries. Exclude byes, unplayed forfeits and cancelled games; do not skip known missing results or invent an order for ambiguous games. Track currentWinStreak and longestWinStreak separately; award at longestWinStreak >= 5.",
+      "nemesis": "For each opponent identified by a stable linked player identity, count distinct tournaments containing a completed shared game where this player has a strictly lower position number than that opponent. At least three different tournaments for the same opponent qualify; they need not be consecutive. Multiple qualifying games in one tournament count once, tied positions do not count, and a table win is not required. Played Finals may count.",
+      "streak-breaker": "In a completed played game, this player is the sole player with position 1. At least one opponent had currentWinStreak >= 5 immediately before this game, using the Win Streak chronology and outright-win rules below. Use the active pre-game run, not that opponent's longest historical streak or their post-game value. Played Finals may count.",
+      "friendly-rivalry": "For the same pair of stable linked player identities, find completed shared games in two distinct tournaments with strictly opposite placement comparisons. Neither player needs to win the table; equal positions do not count. Award to both players once the reciprocal results exist. Played Finals may count.",
+      "clash-of-champions": "For a completed played game with at least two participants, every participant must have official final rank 1 in a tournament completed before this game began. Tournaments with and without a played Final both count as prior championships. A future title, including winning the current event later, cannot satisfy the earlier condition. Award to all participants at the qualifying table, regardless of game placement.",
+      "the-reunion": "Find completed played games in two distinct tournaments whose full sets of stable linked participant identities are identical, including this player. Seat order, corporations and finishing positions may differ; the table size and every participant must match. Use multiplayer games with at least two participants. Award to every member of the group when the repeat encounter is completed. Played Finals may count.",
+      "persistence-pays": "In chronological linked player history, this player is the sole player with position 1 immediately after a run of at least five consecutive played games in which they were not the sole winner. Shared first place counts as a non-outright result for this rule. Any earlier outright win ends that non-win run. Use the same chronology and continuity rules as Win Streak; include played Finals and allow tournament boundaries. Exclude byes, cancelled games and unplayed forfeits; do not bridge known missing results."
     },
     "collectorFamily": "Matching 10/20/30 card stacks. The existing 20-card master and stable corporation-collector ID are retained as tier II."
   },
@@ -35,6 +44,17 @@
         "output/imagegen/achievements/tied-games-v1/won-it-on-tiebreaker.png"
       ],
       "generated_path": "output/imagegen/achievements/cross-tournament-v1/giant-slayer.png"
+    },
+    {
+      "id": "clash-of-champions",
+      "name": "Clash of Champions",
+      "symbol": "A champion's crown above two crossed swords.",
+      "description": "Played at a table where everyone, including you, had already won a tournament.",
+      "preferredFrame": "gold",
+      "prompt": "Use case: logo-brand.\nAsset type: ONE minimalist achievement emblem for the center of an existing hexagonal game badge.\nStyle: front-on polished enamel pictogram, broad smooth warm-IVORY faces, narrow WARM GOLD beveled edges and details, subtle upper-left highlights, very thin dark edge accents, restrained shallow relief. Match a premium ivory-and-gold game achievement family. Clear chunky silhouettes recognizable at small sizes; no fine texture.\nComposition: one compact, centered emblem on a square canvas, all parts visible, with at least 15 percent clear margin on all sides.\nBackground: genuine transparent alpha outside the objects and in every gap. No black backdrop, white backdrop, checkerboard, halo, glow, haze or cast shadow.\nAvoid: outer badge frame, surrounding hexagon, backing plate, ribbon, laurel, decorative flourishes, scenery, presentation sheet, tiny detail, lettering or numbers. Produce just this one emblem.\nSubject: EXACTLY TWO matching simple SWORDS crossed in a balanced X, with broad ivory blades pointing toward the upper left and upper right and short plain gold hilts at the lower left and lower right. A bold intact GOLD CHAMPION CROWN with exactly THREE broad points sits in the open space between the upper blades, immediately above their crossing, with clear transparent gaps from both blades. Crown has a simple solid base and no gems. Sword blades have narrow gold bevels, uncomplicated crossguards, smooth compact hilts. One sword passes in front at the crossing. Crown is large enough to remain recognizable at small size, yet both swords are fully visible. Only crown and two swords. No broken crown, links, shield, star, engraving or additional ornament.",
+      "tool": "Built-in image_gen",
+      "status": "First concept for review",
+      "generated_path": "output/imagegen/achievements/cross-tournament-v1/clash-of-champions.png"
     },
     {
       "id": "regular",
@@ -85,6 +105,67 @@
       "generated_path": "output/imagegen/achievements/cross-tournament-v1/hat-trick.png"
     },
     {
+      "id": "win-streak",
+      "name": "Win Streak",
+      "symbol": "A single rising flame.",
+      "description": "Won at least five consecutive games outright across your recorded tournament history.",
+      "preferredFrame": "gold",
+      "prompt": "Use case: logo-brand.\nAsset type: ONE minimalist achievement emblem for the center of an existing hexagonal game badge.\nStyle: front-on clean raised enamel pictogram. Smooth ivory faces with narrow warm-gold bevels, thin dark perimeter and gentle upper-left highlights. Broad solid shapes, restrained depth, no fine texture. Instantly recognizable at 48 pixels.\nComposition: one compact balanced centered emblem occupying about 70 percent of a square canvas, at least 15 percent clear margin on all sides. Every part fully visible.\nBackground: genuinely transparent alpha outside the subject and in all gaps. No black backdrop, glow, haze, cast shadow, border or backing.\nAvoid: badge frame, hexagon, disc, laurel, ribbon, extra objects, scenery, people, lettering unless explicitly requested below. Produce a single asset, not a contact sheet.\nSubject: ONE compact stylized FLAME with exactly three broad upward tongues, a large central tongue and two shorter side tongues. Smooth ivory enamel face with a slim warm-gold beveled rim and ONE simple gold inner flame-shaped inset. A clear broad teardrop-based silhouette, no tiny wisps. Flame stands upright and reads immediately as being on a winning streak. No numeral: the streak length will be displayed separately in the interface. No logs, torch, candle, trophy, smoke, sparks, lettering or other objects.",
+      "tool": "Built-in image_gen",
+      "status": "First concept for review",
+      "generated_path": "output/imagegen/achievements/cross-tournament-v1/win-streak.png"
+    },
+    {
+      "id": "streak-breaker",
+      "name": "Streak Breaker",
+      "symbol": "The Win Streak flame split by a clear diagonal crack.",
+      "description": "Won outright against an opponent who entered the game on a streak of at least five consecutive outright wins.",
+      "preferredFrame": "gold",
+      "prompt": "Use case: precise-object-edit.\nEdit target: the supplied ivory-and-gold Win Streak flame. Create a new companion achievement emblem called Streak Breaker.\nChange: break this flame cleanly into EXACTLY TWO pieces with one broad jagged diagonal TRANSPARENT crack crossing its entire body from the lower-left outer edge to the upper-right outer edge. Separate the pieces enough for the empty crack to be unmistakable at small icon sizes (roughly 7 percent of the flame's width). The two pieces stay close and aligned so the original flame silhouette remains immediately recognizable. The inner gold flame is also interrupted by the same crack. Add narrow gold beveled edges along the broken edges to match its existing rim.\nPreserve: the original flame's curved silhouette, warm ivory enamel, gold inner flame, polished gold perimeter, simple broad surfaces, restrained shallow relief and upper-left highlights. Square canvas, centered complete emblem with generous transparent margins.\nBackground: genuinely transparent alpha outside the two pieces AND throughout the crack. No opaque black, shadow, haze, glow or background.\nAvoid: additional shards, explosion, particles, sparks, weapon, slash line, circle, badge frame, numbers, lettering, extra symbols. This is a broken flame pictogram, not a burning scene.",
+      "tool": "Built-in image_gen",
+      "status": "First concept for review",
+      "generated_path": "output/imagegen/achievements/cross-tournament-v1/streak-breaker.png",
+      "referenced_image_paths": [
+        "output/imagegen/achievements/cross-tournament-v1/win-streak.png"
+      ]
+    },
+    {
+      "id": "persistence-pays",
+      "name": "Persistence Pays",
+      "symbol": "A winding path leading to a gold trophy.",
+      "description": "Won outright after at least five consecutive played games without an outright win.",
+      "preferredFrame": "gold",
+      "prompt": "Use case: logo-brand.\nAsset type: ONE minimalist achievement emblem for the center of an existing hexagonal game badge.\nStyle: front-on polished enamel pictogram, broad smooth warm-IVORY faces, narrow WARM GOLD beveled edges and details, subtle upper-left highlights, very thin dark edge accents, restrained shallow relief. Match a premium ivory-and-gold game achievement family. Clear chunky silhouettes recognizable at small sizes; no fine texture.\nComposition: one compact, centered emblem on a square canvas, all parts visible, with at least 15 percent clear margin on all sides.\nBackground: genuine transparent alpha outside the objects and in every gap. No black backdrop, white backdrop, checkerboard, halo, glow, haze or cast shadow.\nAvoid: outer badge frame, surrounding hexagon, backing plate, ribbon, laurel, decorative flourishes, scenery, presentation sheet, tiny detail, lettering or numbers. Produce just this one emblem.\nSubject: ONE broad winding IVORY PATH with narrow GOLD edging leads to ONE large simple GOLD TROPHY CUP at its upper end. The path begins at the bottom center, curves left and then right in exactly TWO broad gentle bends, and ends beneath the trophy at the upper center. The trophy has a chunky smooth cup, exactly two simple open handles, a short stem and solid flat foot; no engraved text. Path is a single smooth solid ribbon of ivory enamel, wide and easy to follow, with no dashed road markings, stair steps, arrowhead or extra trails. The trophy dominates the top third, path dominates lower two-thirds. Clear silhouette and generous gaps between bends. Compact vertically balanced composition conveys persevering through a long winding route to a win. Only winding path and trophy. No people, feet, mountains, clock, flame, number, finish flag or scenery.",
+      "tool": "Built-in image_gen",
+      "status": "First concept for review",
+      "generated_path": "output/imagegen/achievements/cross-tournament-v1/persistence-pays.png"
+    },
+    {
+      "id": "podium-collection",
+      "name": "Podium Collection",
+      "symbol": "Three matching medals marked 1, 2, and 3.",
+      "description": "Finished first, second, and third in final tournament standings across different tournaments.",
+      "preferredFrame": "gold",
+      "prompt": "Use case: logo-brand.\nAsset type: ONE minimalist achievement emblem for the center of an existing game badge.\nStyle: front-on orthographic pictogram, smooth IVORY enamel faces with polished WARM GOLD edging and details, restrained shallow bevels, thin dark edge accents, upper-left highlights. Broad solid shapes readable at small sizes. Match a simple premium ivory-and-gold game achievement icon family.\nComposition: one compact centered icon on a SQUARE canvas, at least 15 percent clear margin on all sides. Only the described objects.\nBackground: genuine transparent alpha outside the icon and in every gap. No backdrop, black fill, checkerboard, halo, glow, haze, floor or cast shadow.\nAvoid: outer badge frame, surrounding medallion, laurels, scenery, detailed texture, tiny engraved details, ornament, extra symbols, presentation sheet. No text or numbers unless explicitly requested.\nSubject: Exactly THREE matching round MEDALS, each with an ivory enamel face, narrow polished gold rim, and two short plain gold ribbon tabs below. Arrange compactly as a triangle: one medal centered above, and two medals side-by-side below. Clear transparent gaps between the medals, no overlap. The top medal displays one large bold GOLD numeral \"1\"; the bottom-left medal displays \"2\"; the bottom-right medal displays \"3\". Use broad simple rounded sans-serif numerals, one digit per medal. All three medals use the SAME ivory-and-gold finish and equal size. Digits dominate the plain circular faces. Text verbatim: \"1\", \"2\", \"3\". No other writing, no extra medals, no crown, no laurel or podium.",
+      "tool": "Built-in image_gen",
+      "status": "First concept for review",
+      "generated_path": "output/imagegen/achievements/cross-tournament-v1/podium-collection.png"
+    },
+    {
+      "id": "corporation-collector-i",
+      "name": "Corporation Collector I",
+      "symbol": "A stack of corporation cards marked 10.",
+      "description": "Played at least 10 different corporations across your tournament history.",
+      "preferredFrame": "gold",
+      "prompt": "Use case: precise-object-edit.\nEdit target: the supplied Corporation Collector card-stack emblem.\nCreate a matching variant by changing only the central number from \"20\" to \"10\". Preserve the exact arrangement of three cards, their sizes, rounded corners, ivory enamel faces, warm gold frames, raised gold number style, lighting and generous transparent padding. Keep the same frontal composition and proportions. No other text, objects, new frame, background or decoration. Text (verbatim): \"10\". Background must remain genuinely transparent.",
+      "tool": "Built-in image_gen",
+      "status": "First concept for review",
+      "referenced_image_paths": [
+        "output/imagegen/achievements/cross-tournament-v1/corporation-collector.png"
+      ],
+      "generated_path": "output/imagegen/achievements/cross-tournament-v1/corporation-collector-i.png"
+    },
+    {
       "id": "corporation-collector",
       "name": "Corporation Collector II",
       "symbol": "A stack of corporation cards marked 20.",
@@ -95,6 +176,20 @@
         "output/imagegen/achievements/tied-games-v1/won-it-on-tiebreaker.png"
       ],
       "generated_path": "output/imagegen/achievements/cross-tournament-v1/corporation-collector.png"
+    },
+    {
+      "id": "corporation-collector-iii",
+      "name": "Corporation Collector III",
+      "symbol": "A stack of corporation cards marked 30.",
+      "description": "Played at least 30 different corporations across your tournament history.",
+      "preferredFrame": "gold",
+      "prompt": "Use case: precise-object-edit.\nEdit target: the supplied Corporation Collector card-stack emblem.\nCreate a matching variant by changing only the central number from \"20\" to \"30\". Preserve the exact arrangement of three cards, their sizes, rounded corners, ivory enamel faces, warm gold frames, raised gold number style, lighting and generous transparent padding. Keep the same frontal composition and proportions. No other text, objects, new frame, background or decoration. Text (verbatim): \"30\". Background must remain genuinely transparent.",
+      "tool": "Built-in image_gen",
+      "status": "First concept for review",
+      "referenced_image_paths": [
+        "output/imagegen/achievements/cross-tournament-v1/corporation-collector.png"
+      ],
+      "generated_path": "output/imagegen/achievements/cross-tournament-v1/corporation-collector-iii.png"
     },
     {
       "id": "on-the-rise",
@@ -157,32 +252,52 @@
       "generated_path": "output/imagegen/achievements/cross-tournament-v1/familiar-faces.png"
     },
     {
-      "id": "corporation-collector-i",
-      "name": "Corporation Collector I",
-      "symbol": "A stack of corporation cards marked 10.",
-      "description": "Played at least 10 different corporations across your tournament history.",
+      "id": "the-reunion",
+      "name": "The Reunion",
+      "symbol": "A round table with four seats and a return arrow.",
+      "description": "Played with exactly the same full group at a table in two different tournaments.",
       "preferredFrame": "gold",
-      "prompt": "Use case: precise-object-edit.\nEdit target: the supplied Corporation Collector card-stack emblem.\nCreate a matching variant by changing only the central number from \"20\" to \"10\". Preserve the exact arrangement of three cards, their sizes, rounded corners, ivory enamel faces, warm gold frames, raised gold number style, lighting and generous transparent padding. Keep the same frontal composition and proportions. No other text, objects, new frame, background or decoration. Text (verbatim): \"10\". Background must remain genuinely transparent.",
+      "prompt": "Use case: logo-brand.\nAsset type: ONE minimalist achievement emblem for the center of an existing hexagonal game badge.\nStyle: front-on polished enamel pictogram, broad smooth warm-IVORY faces, narrow WARM GOLD beveled edges and details, subtle upper-left highlights, very thin dark edge accents, restrained shallow relief. Match a premium ivory-and-gold game achievement family. Clear chunky silhouettes recognizable at small sizes; no fine texture.\nComposition: one compact, centered emblem on a square canvas, all parts visible, with at least 15 percent clear margin on all sides.\nBackground: genuine transparent alpha outside the objects and in every gap. No black backdrop, white backdrop, checkerboard, halo, glow, haze or cast shadow.\nAvoid: outer badge frame, surrounding hexagon, backing plate, ribbon, laurel, decorative flourishes, scenery, presentation sheet, tiny detail, lettering or numbers. Produce just this one emblem.\nSubject: ONE ROUND TABLE seen directly FROM ABOVE. The tabletop is a broad warm-IVORY circle with a thin polished GOLD rim. Exactly FOUR identical short chunky GOLD CHAIR-SEAT blocks surround it at north, east, south, and west, evenly spaced, separated from the tabletop by narrow TRANSPARENT gaps. The seats are plain rounded rectangles viewed from above, no legs, arms or fine detail. On the center of the IVORY tabletop is ONE large broad GOLD CLOCKWISE RETURN ARROW, almost a full circle with one clear triangular arrowhead and a generous break, a simple repeat/return pictogram. The gold return arrow is embossed on the ivory surface, its inner area remains ivory. Top-down orthographic composition, immediately reads as returning to the same table. Only tabletop, four seats, and return arrow. No people, crown, star, playing cards, text or extra objects.",
       "tool": "Built-in image_gen",
       "status": "First concept for review",
-      "referenced_image_paths": [
-        "output/imagegen/achievements/cross-tournament-v1/corporation-collector.png"
-      ],
-      "generated_path": "output/imagegen/achievements/cross-tournament-v1/corporation-collector-i.png"
+      "generated_path": "output/imagegen/achievements/cross-tournament-v1/the-reunion.png"
     },
     {
-      "id": "corporation-collector-iii",
-      "name": "Corporation Collector III",
-      "symbol": "A stack of corporation cards marked 30.",
-      "description": "Played at least 30 different corporations across your tournament history.",
+      "id": "nemesis",
+      "name": "Nemesis",
+      "symbol": "Two crossed swords.",
+      "description": "Finished ahead of the same opponent in shared games in three different tournaments.",
       "preferredFrame": "gold",
-      "prompt": "Use case: precise-object-edit.\nEdit target: the supplied Corporation Collector card-stack emblem.\nCreate a matching variant by changing only the central number from \"20\" to \"30\". Preserve the exact arrangement of three cards, their sizes, rounded corners, ivory enamel faces, warm gold frames, raised gold number style, lighting and generous transparent padding. Keep the same frontal composition and proportions. No other text, objects, new frame, background or decoration. Text (verbatim): \"30\". Background must remain genuinely transparent.",
+      "prompt": "Use case: logo-brand.\nAsset type: ONE minimalist achievement emblem for the center of an existing hexagonal game badge.\nStyle: front-on clean raised enamel pictogram. Smooth ivory faces with narrow warm-gold bevels, thin dark perimeter and gentle upper-left highlights. Broad solid shapes, restrained depth, no fine texture. Instantly recognizable at 48 pixels.\nComposition: one compact balanced centered emblem occupying about 70 percent of a square canvas, at least 15 percent clear margin on all sides. Every part fully visible.\nBackground: genuinely transparent alpha outside the subject and in all gaps. No black backdrop, glow, haze, cast shadow, border or backing.\nAvoid: badge frame, hexagon, disc, laurel, ribbon, extra objects, scenery, people, lettering unless explicitly requested below. Produce a single asset, not a contact sheet.\nSubject: EXACTLY TWO matching simple SWORDS crossed in a symmetrical X, with broad ivory blades pointing toward the upper left and upper right and short gold hilts at the lower left and lower right. Straight simple blades, narrow gold bevels, compact plain crossguards and rounded pommels. One sword passes clearly in front of the other at the crossing; the two swords remain individually recognizable. Broad shapes, generous transparent negative spaces between the arms of the X. No shield, crown, circle, ribbon, lettering, blood or decoration.",
       "tool": "Built-in image_gen",
       "status": "First concept for review",
+      "generated_path": "output/imagegen/achievements/cross-tournament-v1/nemesis.png"
+    },
+    {
+      "id": "friendly-rivalry",
+      "name": "Friendly Rivalry",
+      "symbol": "Two fists meeting in a friendly fist bump.",
+      "description": "Finished ahead of the same opponent in one tournament and behind them in another, in shared games.",
+      "preferredFrame": "gold",
+      "prompt": "Use case: logo-brand.\nAsset type: ONE minimalist achievement emblem for the center of an existing hexagonal game badge.\nStyle: front-on polished enamel pictogram, broad smooth warm-IVORY faces, narrow WARM GOLD beveled edges and details, subtle upper-left highlights, very thin dark edge accents, restrained shallow relief. Match a premium ivory-and-gold game achievement family. Clear chunky silhouettes recognizable at small sizes; no fine texture.\nComposition: one compact, centered emblem on a square canvas, all parts visible, with at least 15 percent clear margin on all sides.\nBackground: genuine transparent alpha outside the objects and in every gap. No black backdrop, white backdrop, checkerboard, halo, glow, haze or cast shadow.\nAvoid: outer badge frame, surrounding hexagon, backing plate, ribbon, laurel, decorative flourishes, scenery, presentation sheet, tiny detail, lettering or numbers. Produce just this one emblem.\nSubject: EXACTLY TWO simple stylized fists meet knuckle-to-knuckle in a friendly FIST BUMP, mirrored left and right. Left hand extends horizontally inward from the left; right hand extends horizontally inward from the right. Broad warm-ivory enamel fists and short wrists, plain polished gold cuff on each wrist. Both thumbs curl naturally over their own folded fingers. Minimal hand detail: only a few broad knuckle divisions, no fingernails or skin texture. Each hand belongs to a separate player and has equal size. Their front knuckles lightly touch at the center. Compact horizontal silhouette with two unmistakable closed fists. No handshake, arm wrestling, punching motion, impact spark, arrows, heart or additional symbol.",
+      "tool": "Built-in image_gen",
+      "status": "First concept for review",
+      "generated_path": "output/imagegen/achievements/cross-tournament-v1/friendly-rivalry.png",
+      "edit_prompt": "Use case: background-extraction.\nEdit target: the supplied ivory-and-gold FIST BUMP emblem.\nRemove ALL black backdrop, gold glow, haze and cast shadow around the hands. Return ONLY the exact two solid ivory-and-gold fists and their cuffs as a transparent PNG cutout.\nPreserve their shapes, anatomy, knuckles, meeting point, mirrored layout, ivory faces, thin polished gold borders, cuffs and highlights. Do not redesign the fists. Every pixel outside the actual solid hand/cuff silhouettes must have genuinely transparent alpha. The gold metal reflections inside each solid object remain; there must be no diffuse gold light outside its edge.\nPlace the intact pair centered on a SQUARE transparent canvas, preserving proportions, with clear margins on every side. No lettering, added objects, backdrop, floor or shadow.",
       "referenced_image_paths": [
-        "output/imagegen/achievements/cross-tournament-v1/corporation-collector.png"
-      ],
-      "generated_path": "output/imagegen/achievements/cross-tournament-v1/corporation-collector-iii.png"
+        "output/imagegen/achievements/cross-tournament-v1/references/friendly-rivalry-first-draft.png"
+      ]
+    },
+    {
+      "id": "seat-sweep",
+      "name": "Seat Sweep",
+      "symbol": "Four chairs surrounding a gold star.",
+      "description": "Won from each of the four starting seats across recorded four-player games.",
+      "preferredFrame": "gold",
+      "prompt": "Use case: logo-brand.\nAsset type: ONE minimalist achievement emblem for the center of an existing game badge.\nStyle: front-on orthographic pictogram, smooth IVORY enamel faces with polished WARM GOLD edging and details, restrained shallow bevels, thin dark edge accents, upper-left highlights. Broad solid shapes readable at small sizes. Match a simple premium ivory-and-gold game achievement icon family.\nComposition: one compact centered icon on a SQUARE canvas, at least 15 percent clear margin on all sides. Only the described objects.\nBackground: genuine transparent alpha outside the icon and in every gap. No backdrop, black fill, checkerboard, halo, glow, haze, floor or cast shadow.\nAvoid: outer badge frame, surrounding medallion, laurels, scenery, detailed texture, tiny engraved details, ornament, extra symbols, presentation sheet. No text or numbers unless explicitly requested.\nSubject: Exactly FOUR identical simple CHAIR pictograms arranged at the four compass points around ONE small gold five-point STAR in the center. One chair above the star, one below, one left, one right; all four chairs upright and front-facing. Each chair consists of one broad rounded ivory backrest outlined in gold, a thick gold seat bar, and two short thick gold legs. Very simple sturdy silhouettes without fine rails or furniture details. Generous transparent gaps separate every chair from the star. Compact diamond arrangement, all four chairs equal size. No table, people, numerals, arrows, extra chairs or other objects.",
+      "tool": "Built-in image_gen",
+      "status": "First concept for review",
+      "generated_path": "output/imagegen/achievements/cross-tournament-v1/seat-sweep.png"
     }
   ]
 }
