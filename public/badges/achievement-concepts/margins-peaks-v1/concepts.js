@@ -248,6 +248,38 @@ window.MARGINS_PEAKS_CONCEPTS = [
     }
   },
   {
+    "id": "terraforming-titan",
+    "name": "Terraforming Titan",
+    "symbol": "Three stacked TR tiles topped with a gold crown.",
+    "description": "Recorded the highest combined TR across all qualifying rounds of a tournament, including a shared highest total.",
+    "preferredFrame": "gold",
+    "file": "icons/terraforming-titan.png",
+    "sourceSha256": "4083a6b45b8e0bf8ecb4a43be182880f379aae06192f3b87417449660d1f12a8",
+    "size": [
+      1254,
+      1254
+    ],
+    "crop": [
+      237,
+      55,
+      1078,
+      1185
+    ],
+    "cropAlphaThreshold": 16,
+    "badgePlacement": {
+      "left": 36.170575616106525,
+      "top": 36.519872931252536,
+      "width": 26.37581471848277,
+      "height": 26.37581471848277
+    },
+    "symbolPlacement": {
+      "left": 4.615044247787614,
+      "top": 7.2035398230088505,
+      "width": 86.55929203539822,
+      "height": 86.55929203539822
+    }
+  },
+  {
     "id": "low-score",
     "name": "Low Score",
     "symbol": "A TR score tile with a downward marker.",
@@ -338,6 +370,38 @@ window.MARGINS_PEAKS_CONCEPTS = [
       "top": 9.330371567043613,
       "width": 79.0080775444265,
       "height": 79.0080775444265
+    }
+  },
+  {
+    "id": "by-a-whisker",
+    "name": "By a Whisker",
+    "symbol": "A bold gold +1.",
+    "description": "Won a game exactly 1 TR ahead of second place.",
+    "preferredFrame": "gold",
+    "file": "icons/by-a-whisker.png",
+    "sourceSha256": "1e381e68f8d6154b70ecd9adaf79aa75c15779085fed5fedb756157a9ff382a4",
+    "size": [
+      1254,
+      1254
+    ],
+    "crop": [
+      108,
+      294,
+      1178,
+      952
+    ],
+    "cropAlphaThreshold": 16,
+    "badgePlacement": {
+      "left": 34.47813308238983,
+      "top": 34.521475195884705,
+      "width": 30.27126145362854,
+      "height": 30.27126145362854
+    },
+    "symbolPlacement": {
+      "left": 3.127102803738319,
+      "top": 4.585046728971964,
+      "width": 91.41308411214953,
+      "height": 91.41308411214953
     }
   },
   {

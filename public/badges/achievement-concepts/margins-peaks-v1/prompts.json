@@ -11,7 +11,9 @@
     "recordScope": "Descriptions retain the user's single-highest/single-lowest wording. Handling equal records belongs to eligibility implementation.",
     "toperfName": "Use the user's requested name ToPerf and Beyond! for the highest tournament TPerf; the older plan calls this Efficiency Expert.",
     "rules": {
-      "overachiever": "Recorded tperfFor >= 2.0 in a single round, rather than the tournament-wide TPerf superlative."
+      "overachiever": "Recorded tperfFor >= 2.0 in a single round, rather than the tournament-wide TPerf superlative.",
+      "by-a-whisker": "In a completed played game with at least two players, this player is the sole player with position 1 and their TR is exactly 1 above the runner-up. Compare against the highest TR among players sharing second place. A shared first or a zero-TR-margin tiebreak win does not qualify. Qualifying rounds and played Finals both count.",
+      "terraforming-titan": "After all qualifying results are finalized, sum each player's recorded terraform_rating across qualifying rounds only; exclude round 99, byes and other unplayed games. Award to every player tied for the highest total. Missing or unconfirmed TR is not zero: wait until qualifying results are complete before identifying the record. Tournament placement does not affect eligibility."
     }
   },
   "jobs": [
@@ -104,6 +106,17 @@
       "generated_path": "output/imagegen/achievements/margins-peaks-v1/high-score.png"
     },
     {
+      "id": "terraforming-titan",
+      "name": "Terraforming Titan",
+      "symbol": "Three stacked TR tiles topped with a gold crown.",
+      "description": "Recorded the highest combined TR across all qualifying rounds of a tournament, including a shared highest total.",
+      "preferredFrame": "gold",
+      "prompt": "Use case: logo-brand.\nAsset type: ONE minimalist achievement emblem for the center of an existing game badge, named Terraforming Titan.\nPrimary request: a compact stack of THREE ivory score tiles, with the exact large gold letters \"TR\" on the front tile, and a small simple gold crown immediately above the stack. The stack represents accumulated terraforming rating; the crown indicates the tournament's highest combined total.\nStyle: straight-on polished enamel pictogram, smooth warm ivory faces, narrow warm-gold beveled rims and details, subtle upper-left highlights, thin dark edge accents, restrained shallow depth. Broad shapes legible at 48 pixels, matching a premium ivory-and-gold achievement family.\nComposition: square image, one centered compact symbol with generous transparent margin on every side. Three rounded square tiles: front tile fully visible, two behind offset slightly upward and to the right so their top and right edges clearly show three layers. The front tile dominates. Large bold sans-serif \"TR\", one line, fills its ivory face. Center a simple three-point solid gold crown above the whole stack, separated by a narrow transparent gap. No gems, no decorations.\nBackground: genuine transparent alpha outside the objects and in all gaps. No background color or black backdrop.\nAvoid: outer badge frame, surrounding hexagon, extra text or numerals, texture, scenery, glow, haze, cast shadows, laurels, sparkle, extra symbols, contact sheet. Only stacked tiles, TR, and crown.",
+      "tool": "Built-in image_gen",
+      "status": "First concept for review",
+      "generated_path": "output/imagegen/achievements/margins-peaks-v1/terraforming-titan.png"
+    },
+    {
       "id": "low-score",
       "name": "Low Score",
       "symbol": "A TR score tile with a downward marker.",
@@ -135,6 +148,21 @@
         "output/imagegen/achievements/corporation-loyalty-v1/one-corp-wonder.png"
       ],
       "generated_path": "output/imagegen/achievements/margins-peaks-v1/so-close.png"
+    },
+    {
+      "id": "by-a-whisker",
+      "name": "By a Whisker",
+      "symbol": "A bold gold +1.",
+      "description": "Won a game exactly 1 TR ahead of second place.",
+      "preferredFrame": "gold",
+      "prompt": "Use case: logo-brand.\nAsset type: ONE minimalist achievement emblem for the center of an existing hexagonal game badge.\nStyle: front-on clean raised enamel pictogram. Smooth ivory faces with narrow warm-gold bevels, thin dark perimeter and gentle upper-left highlights. Broad solid shapes, restrained depth, no fine texture. Instantly recognizable at 48 pixels.\nComposition: one compact balanced centered emblem occupying about 70 percent of a square canvas, at least 15 percent clear margin on all sides. Every part fully visible.\nBackground: genuinely transparent alpha outside the subject and in all gaps. No black backdrop, glow, haze, cast shadow, border or backing.\nAvoid: badge frame, hexagon, disc, laurel, ribbon, extra objects, scenery, people, lettering unless explicitly requested below. Produce a single asset, not a contact sheet.\nSubject: the exact mathematical text \"+1\", a large bold PLUS SIGN followed by the NUMERAL ONE. Both symbols have broad polished warm-gold faces, narrow darker-gold beveled edges and subtle ivory highlights. Equal visual weight, clear generous transparent gap between symbols. The plus is an unmistakable equal-armed upright cross centered vertically beside the numeral, not an x. The 1 is a chunky upright sans-serif numeral with a short top flag and stable base. Only +1; no heart, cat, trophy, other text or objects.",
+      "tool": "Built-in image_gen",
+      "status": "First concept for review",
+      "generated_path": "output/imagegen/achievements/margins-peaks-v1/by-a-whisker.png",
+      "edit_prompt": "Use case: background-extraction.\nEdit target: the supplied gold \"+1\" achievement emblem.\nRemove ALL of the black background, gold glow, haze and cast shadow around and between the two symbols. Return ONLY the exact gold plus sign and numeral one as a clean transparent PNG cutout.\nPreserve the +1 shapes, broad gold faces, narrow bevels, highlights, proportions and spacing. The gold light that is part of each metal face stays; every pixel outside the actual solid symbols must be genuinely transparent, including the gap between + and 1. No halo, no dark backdrop, no luminous aura.\nPlace the preserved pair centered on a square canvas with generous transparent margins. Do not add, redraw, decorate or change the symbols.",
+      "referenced_image_paths": [
+        "output/imagegen/achievements/margins-peaks-v1/references/by-a-whisker-first-draft.png"
+      ]
     },
     {
       "id": "overachiever",
