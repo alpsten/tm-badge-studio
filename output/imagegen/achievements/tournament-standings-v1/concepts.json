@@ -95,6 +95,38 @@
     }
   },
   {
+    "id": "wooden-spoon",
+    "name": "Wooden Spoon",
+    "symbol": "A single wooden spoon with a gold edge.",
+    "description": "Finished last in a tournament’s final standings, including joint last.",
+    "preferredFrame": "gold",
+    "file": "icons/wooden-spoon.png",
+    "sourceSha256": "daa6e173d98429ce36f9fee8eb9cd68f52ff7b815f21f9cb07ae2f5a8446510a",
+    "size": [
+      1254,
+      1254
+    ],
+    "crop": [
+      116,
+      115,
+      1154,
+      1140
+    ],
+    "cropAlphaThreshold": 16,
+    "badgePlacement": {
+      "left": 35.672961473464966,
+      "top": 35.402725338935845,
+      "width": 28.293080806732178,
+      "height": 28.293080806732178
+    },
+    "symbolPlacement": {
+      "left": 2.2832369942196578,
+      "top": 2.846820809248556,
+      "width": 94.23121387283236,
+      "height": 94.23121387283236
+    }
+  },
+  {
     "id": "clean-sweep",
     "name": "Clean Sweep",
     "symbol": "A simple sweeping broom.",

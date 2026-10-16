@@ -1,8 +1,36 @@
 {
   "tool": "Built-in image_gen",
-  "status": "Original five emblems approved; new Round 1 and Round 2 leader concepts for review.",
+  "status": "Original five emblems approved; round leaders and Wooden Spoon concepts for review.",
   "style": "Minimal pictograms matching the approved Final Table set, with related silver and bronze recurring-placement emblems.",
   "jobs": [
+    {
+      "id": "im-gonna-win",
+      "name": "I'm Gonna Win!",
+      "symbol": "A crowned leader's flag marked R1.",
+      "description": "Ranked 1st after the first round, including a shared lead.",
+      "preferredFrame": "gold",
+      "prompt": "Use case: logo-brand.\nAsset type: ONE compact achievement emblem inside an existing badge frame, with a genuinely transparent background.\nReference image: style reference only. Match its clean ivory enamel faces, polished warm gold edges, shallow raised bevel, restrained dark edge and upper-left highlights. Bold simple silhouette, readable at 48 pixels, front-facing, centered with generous empty transparent margin on all sides. No outer badge frame, scenery, backing plate, decorative sparkles, extra icons or cast shadow outside the subject.\nSubject: one compact ivory flag on a short gold pole, the flag bearing the large clear gold text \"R1\" for Round 1. A small simple three-point gold crown is attached to the top of the pole, indicating the tournament leader. Flag is a broad horizontal rectangle with a shallow notch on its right edge. Keep the pole short so the broad flag dominates; text readable at small size. Only one flag and one crown, no base or floor. Text (verbatim): \"R1\".",
+      "tool": "Built-in image_gen",
+      "status": "First concept for review",
+      "referenced_image_paths": [
+        "output/imagegen/achievements/margins-peaks-v1/toperf-and-beyond.png"
+      ],
+      "generated_path": "output/imagegen/achievements/tournament-standings-v1/im-gonna-win.png"
+    },
+    {
+      "id": "im-in-the-lead",
+      "name": "I'm in the Lead?!",
+      "symbol": "A crowned leader's flag marked R2.",
+      "description": "Ranked 1st after the second round, including a shared lead.",
+      "preferredFrame": "gold",
+      "prompt": "Use case: precise-object-edit.\nEdit target: the supplied crowned R1 flag achievement emblem.\nChange ONLY the text \"R1\" to \"R2\" for Round 2. Preserve the same ivory flag shape, notch, gold crown and pole, gold raised lettering style, proportions, perspective, lighting, and transparent padding. Match it closely as the next badge in the same family. No other objects or text. Text (verbatim): \"R2\". Preserve genuine background transparency.",
+      "tool": "Built-in image_gen",
+      "status": "First concept for review",
+      "referenced_image_paths": [
+        "output/imagegen/achievements/tournament-standings-v1/im-gonna-win.png"
+      ],
+      "generated_path": "output/imagegen/achievements/tournament-standings-v1/im-in-the-lead.png"
+    },
     {
       "id": "finish-top-ten",
       "name": "Finish Top Ten",
@@ -15,6 +43,17 @@
         "exec-e55b56d1-53b4-4606-b695-0724465bb821.png"
       ],
       "generated_path": "output/imagegen/achievements/tournament-standings-v1/finish-top-ten.png"
+    },
+    {
+      "id": "wooden-spoon",
+      "name": "Wooden Spoon",
+      "symbol": "A single wooden spoon with a gold edge.",
+      "description": "Finished last in a tournament’s final standings, including joint last.",
+      "preferredFrame": "gold",
+      "prompt": "Use case: logo-brand.\nAsset type: ONE minimalist tournament achievement emblem, transparent PNG cutout for the center of an existing hexagonal badge.\nSubject: Wooden Spoon — a single unmistakable wooden cooking spoon. Broad oval concave bowl at upper left, a short thick rounded handle extending diagonally toward lower right. The bowl is large enough to read at 48 pixels. One continuous spoon silhouette, no separate pieces.\nStyle: clean raised enamel pictogram matching a collection of ivory and warm-gold game achievement emblems. Smooth pale honey-tan wooden face with just two broad restrained darker wood-grain curves. A narrow warm-gold bevel along the outside contour, subtle upper-left highlights and a thin dark edge. Shallow concave bowl clearly visible, simplified depth, front-facing view. Minimal and friendly, no photorealism or fine texture.\nComposition: compact balanced centered spoon occupying about 75 percent of a square canvas, generous clear margins, whole spoon visible.\nBackground: genuinely transparent alpha everywhere outside the spoon; no glow, haze, ground shadow or colored backdrop.\nDo not include a badge frame, backing disc, hexagon, medal, ribbon, laurel, letters, numerals, face, sparkles, extra objects or a scene. Produce one asset, not a contact sheet.",
+      "tool": "Built-in image_gen",
+      "status": "First concept for review",
+      "generated_path": "output/imagegen/achievements/tournament-standings-v1/wooden-spoon.png"
     },
     {
       "id": "clean-sweep",
@@ -52,40 +91,13 @@
       "description": "Finished last in every round.",
       "prompt": "Use case: logo-brand.\nAsset type: ONE minimalist tournament achievement emblem, a transparent PNG cutout for the center of a hexagonal game badge.\nStyle: match a clean raised enamel pictogram collection. Broad solid geometric shapes, almost-flat smooth faces, narrow polished beveled edges, thin dark perimeter, gentle upper-left highlights. Front-on orthographic view. Warm gold and ivory only, except when a specific medal metal is requested below. Consistent restrained depth, no texture, no photographic detail. Instantly recognizable at 48 pixels tall.\nComposition: one compact balanced centered emblem occupying around 75 percent of a square canvas, generous transparent margins; every part fully visible. Genuinely transparent background and open negative spaces. No opaque or translucent backdrop, no stray pixels or haze.\nDo not add a badge frame, hexagon, backing disc, laurels, wings, sparkles, scene, shadows on an imaginary background, letters, words, labels or extra objects. Only include numerals when explicitly requested below. Produce a single asset, not a contact sheet.\nSubject: ONE simple masonry trowel above TWO broad gold rectangular bricks arranged as a short staggered stack. The trowel has a large ivory triangular blade with gently rounded corners and a short thick gold handle, resting diagonally above the bricks. Strong iconic tool silhouette, no realistic hardware, no screw holes. The two bricks are solid plain rectangles with a broad transparent gap, no holes or engravings. A compact, optimistic construction symbol. Three clear objects only; no broken pieces, cracks, rubble, people, letters, or extra tools.",
       "generated_path": "output/imagegen/achievements/tournament-standings-v1/rebuilding-season.png"
-    },
-    {
-      "id": "im-gonna-win",
-      "name": "I'm Gonna Win!",
-      "symbol": "A crowned leader's flag marked R1.",
-      "description": "Ranked 1st after the first round, including a shared lead.",
-      "preferredFrame": "gold",
-      "prompt": "Use case: logo-brand.\nAsset type: ONE compact achievement emblem inside an existing badge frame, with a genuinely transparent background.\nReference image: style reference only. Match its clean ivory enamel faces, polished warm gold edges, shallow raised bevel, restrained dark edge and upper-left highlights. Bold simple silhouette, readable at 48 pixels, front-facing, centered with generous empty transparent margin on all sides. No outer badge frame, scenery, backing plate, decorative sparkles, extra icons or cast shadow outside the subject.\nSubject: one compact ivory flag on a short gold pole, the flag bearing the large clear gold text \"R1\" for Round 1. A small simple three-point gold crown is attached to the top of the pole, indicating the tournament leader. Flag is a broad horizontal rectangle with a shallow notch on its right edge. Keep the pole short so the broad flag dominates; text readable at small size. Only one flag and one crown, no base or floor. Text (verbatim): \"R1\".",
-      "tool": "Built-in image_gen",
-      "status": "First concept for review",
-      "referenced_image_paths": [
-        "output/imagegen/achievements/margins-peaks-v1/toperf-and-beyond.png"
-      ],
-      "generated_path": "output/imagegen/achievements/tournament-standings-v1/im-gonna-win.png"
-    },
-    {
-      "id": "im-in-the-lead",
-      "name": "I'm in the Lead?!",
-      "symbol": "A crowned leader's flag marked R2.",
-      "description": "Ranked 1st after the second round, including a shared lead.",
-      "preferredFrame": "gold",
-      "prompt": "Use case: precise-object-edit.\nEdit target: the supplied crowned R1 flag achievement emblem.\nChange ONLY the text \"R1\" to \"R2\" for Round 2. Preserve the same ivory flag shape, notch, gold crown and pole, gold raised lettering style, proportions, perspective, lighting, and transparent padding. Match it closely as the next badge in the same family. No other objects or text. Text (verbatim): \"R2\". Preserve genuine background transparency.",
-      "tool": "Built-in image_gen",
-      "status": "First concept for review",
-      "referenced_image_paths": [
-        "output/imagegen/achievements/tournament-standings-v1/im-gonna-win.png"
-      ],
-      "generated_path": "output/imagegen/achievements/tournament-standings-v1/im-in-the-lead.png"
     }
   ],
   "notes": {
     "rules": {
       "im-gonna-win": "Ranked first in the standings after Round 1, including all players sharing that lead.",
-      "im-in-the-lead": "Ranked first in the standings after Round 2, including all players sharing that lead."
+      "im-in-the-lead": "Ranked first in the standings after Round 2, including all players sharing that lead.",
+      "wooden-spoon": "In a completed tournament, this player has the largest numeric rank in the official final standings, and that rank is greater than 1. Include all players sharing last place. Use the worst actual rank, not participant count, because tied ranks may skip places. Works with or without a played Final. A last-place finish at one table is insufficient."
     }
   }
 }
