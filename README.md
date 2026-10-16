@@ -3,7 +3,7 @@
 A standalone badge mixer and achievement gallery. Everything shown in the browser
 is bundled here: no database, API keys, npm install, or build step is required.
 
-Includes 47 corporation logos and their color presets, 6 expansion/Promo logos, 91 achievement emblems in
+Includes 47 corporation logos and their color presets, 6 expansion/Promo logos, 105 achievement emblems in
 11 sections, the three podium awards, and 2,584 WebP badge/layer exports at 256 and
 512 pixels. Mix center/frame colors, wings, crests, borders, rank plates, and logos.
 

@@ -118,7 +118,7 @@
   for (const id of ['view', 'center', 'frame', 'background']) byId(id).addEventListener('change', refreshArtwork);
   const load = section => new Promise((resolve, reject) => {
     const script = document.createElement('script');
-    script.src = new URL(section.id + '/concepts.js?v=origin-achievements-v9', root).href;
+    script.src = new URL(section.id + '/concepts.js?v=cross-four-v14', root).href;
     script.onload = () => Array.isArray(window[section.data]) ? resolve(window[section.data]) : reject(new Error(section.title));
     script.onerror = () => reject(new Error(section.title));
     document.head.append(script);
