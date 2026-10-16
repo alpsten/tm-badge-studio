@@ -220,6 +220,38 @@ window.FLAVOR_CONCEPTS = [
     }
   },
   {
+    "id": "redemption",
+    "name": "Redemption",
+    "symbol": "A sword with a curved return arrow.",
+    "description": "Finished ahead of an opponent who beat you earlier in the same tournament.",
+    "preferredFrame": "gold",
+    "file": "icons/redemption.png",
+    "sourceSha256": "25d87271aa018d7e4705d0094731960e173e7e9d171c29dd0146987e449aaa46",
+    "size": [
+      1254,
+      1254
+    ],
+    "crop": [
+      195,
+      77,
+      1130,
+      1169
+    ],
+    "cropAlphaThreshold": 16,
+    "badgePlacement": {
+      "left": 34.62030217051506,
+      "top": 35.09782725572586,
+      "width": 29.111156344413757,
+      "height": 29.111156344413757
+    },
+    "symbolPlacement": {
+      "left": 2.6785714285714275,
+      "top": 5.5,
+      "width": 89.57142857142858,
+      "height": 89.57142857142858
+    }
+  },
+  {
     "id": "jack-of-all-trades",
     "name": "Jack of All Trades",
     "symbol": "One milestone flag paired with one award medal.",
@@ -341,6 +373,38 @@ window.FLAVOR_CONCEPTS = [
       "top": 1.3548387096774193,
       "width": 87.64516129032259,
       "height": 87.64516129032259
+    }
+  },
+  {
+    "id": "second-wind",
+    "name": "Second Wind",
+    "symbol": "An upward arrow lifted by two wind strokes.",
+    "description": "Finished last in one qualifying round, then won the very next qualifying round.",
+    "preferredFrame": "gold",
+    "file": "icons/second-wind.png",
+    "sourceSha256": "3cd0bc4227a7d3fc5f6fcef2760c02c929394832fb560217b5dee3095d20efd2",
+    "size": [
+      1254,
+      1254
+    ],
+    "crop": [
+      195,
+      166,
+      1030,
+      1113
+    ],
+    "cropAlphaThreshold": 16,
+    "badgePlacement": {
+      "left": 35.80231815576553,
+      "top": 34.73700803518295,
+      "width": 29.067580461502075,
+      "height": 29.067580461502075
+    },
+    "symbolPlacement": {
+      "left": -0.4487856388595617,
+      "top": -2.672650475184798,
+      "width": 103.28616684266105,
+      "height": 103.28616684266105
     }
   },
   {

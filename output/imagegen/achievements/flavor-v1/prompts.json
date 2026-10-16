@@ -14,7 +14,9 @@
       "so-we-meet-again": "At least one opponent appears with you in two distinct recorded matches in different rounds of the same tournament. A Final may be the repeat encounter. Compare player identity within the tournament; no cross-tournament account history is needed.",
       "growth-mindset": "Complete all qualifying rounds. terraform_rating must strictly increase between each consecutive qualifying round (Round 1 < Round 2 < Round 3). The Final is excluded; a tied TR total does not qualify.",
       "climbing-the-ranks": "Complete all qualifying rounds. Recorded finishing position must strictly improve each round, so the position numbers decrease (e.g. 3 > 2 > 1). The Final is excluded; equal positions do not qualify. Separate from Growth Mindset, which measures TR.",
-      "patient-zero": "An organizer designates exactly one original Martian Flu carrier and records that player identity and the seed time. Only that original carrier receives Patient Zero, and also receives Martian Flu. Patient Zero does not transfer to later contacts and is not recomputed from the earliest imported match. Artwork and rule definition only; infection-state implementation remains pending."
+      "patient-zero": "An organizer designates exactly one original Martian Flu carrier and records that player identity and the seed time. Only that original carrier receives Patient Zero, and also receives Martian Flu. Patient Zero does not transfer to later contacts and is not recomputed from the earliest imported match. Artwork and rule definition only; infection-state implementation remains pending.",
+      "redemption": "Two completed matches in different rounds of the same tournament share this player and the same opponent. In the earlier match your position is numerically greater than theirs; in the later match it is strictly lower. Ties do not count as beating or losing to that opponent. A played Final may be the later match. You need not win the whole table. No linked cross-tournament history is required.",
+      "second-wind": "In a completed qualifying round r, your position equals the largest recorded position at your table and is greater than 1; this includes joint last, but not a whole table tied for first. In the very next scheduled qualifying round r+1, your position is 1. Both results must exist; do not skip a missing round. Exclude Finals and byes. A recorded shared win counts as position 1."
     },
     "names": "Backseat is the current catalogue name for From Behind; its stable from-behind asset ID and artwork are retained. Fresh Faces replaces the provisional name Clean Slate. Climbing the Ranks names the placement counterpart to Growth Mindset."
   },
@@ -101,6 +103,17 @@
       "generated_path": "output/imagegen/achievements/flavor-v1/so-we-meet-again.png"
     },
     {
+      "id": "redemption",
+      "name": "Redemption",
+      "symbol": "A sword with a curved return arrow.",
+      "description": "Finished ahead of an opponent who beat you earlier in the same tournament.",
+      "preferredFrame": "gold",
+      "prompt": "Use case: logo-brand.\nAsset type: ONE minimalist achievement emblem for the center of an existing game badge.\nStyle: front-on orthographic pictogram, smooth IVORY enamel faces with polished WARM GOLD edging and details, restrained shallow bevels, thin dark edge accents, upper-left highlights. Broad solid shapes readable at small sizes. Match a simple premium ivory-and-gold game achievement icon family.\nComposition: one compact centered icon on a SQUARE canvas, at least 15 percent clear margin on all sides. Only the described objects.\nBackground: genuine transparent alpha outside the icon and in every gap. No backdrop, black fill, checkerboard, halo, glow, haze, floor or cast shadow.\nAvoid: outer badge frame, surrounding medallion, laurels, scenery, detailed texture, tiny engraved details, ornament, extra symbols, presentation sheet. No text or numbers unless explicitly requested.\nSubject: ONE simple upright SWORD, with a broad ivory blade pointed upward, a short straight gold crossguard and a short chunky gold grip. To its left and across the lower half, ONE thick gold curved return arrow wraps three-quarters of the way around the sword, ending in a clear triangular arrowhead pointing upward on the right. Keep the point of the blade unobstructed and the curved arrow separated from the sword by generous transparent gaps. Compact balanced silhouette. Only one sword and one return arrow. No lettering.",
+      "tool": "Built-in image_gen",
+      "status": "First concept for review",
+      "generated_path": "output/imagegen/achievements/flavor-v1/redemption.png"
+    },
+    {
       "id": "jack-of-all-trades",
       "name": "Jack of All Trades",
       "symbol": "One milestone flag paired with one award medal.",
@@ -144,6 +157,17 @@
         "output/imagegen/achievements/corporation-loyalty-v1/one-corp-wonder.png"
       ],
       "generated_path": "output/imagegen/achievements/flavor-v1/welcome-to-mars.png"
+    },
+    {
+      "id": "second-wind",
+      "name": "Second Wind",
+      "symbol": "An upward arrow lifted by two wind strokes.",
+      "description": "Finished last in one qualifying round, then won the very next qualifying round.",
+      "preferredFrame": "gold",
+      "prompt": "Use case: logo-brand.\nAsset type: ONE minimalist achievement emblem for the center of an existing game badge.\nStyle: front-on orthographic pictogram, smooth IVORY enamel faces with polished WARM GOLD edging and details, restrained shallow bevels, thin dark edge accents, upper-left highlights. Broad solid shapes readable at small sizes. Match a simple premium ivory-and-gold game achievement icon family.\nComposition: one compact centered icon on a SQUARE canvas, at least 15 percent clear margin on all sides. Only the described objects.\nBackground: genuine transparent alpha outside the icon and in every gap. No backdrop, black fill, checkerboard, halo, glow, haze, floor or cast shadow.\nAvoid: outer badge frame, surrounding medallion, laurels, scenery, detailed texture, tiny engraved details, ornament, extra symbols, presentation sheet. No text or numbers unless explicitly requested.\nSubject: ONE large thick upright arrow pointing straight UP, with an ivory enamel face and narrow polished gold rim. Under and to the lower left of the arrow, exactly TWO short thick gold wind strokes sweep toward the right and gently curl upward at their right ends, suggesting a gust lifting the arrow. The wind strokes are smooth uncomplicated solid curves with rounded ends, clearly separate from each other and from the arrow. Broad arrowhead, short sturdy shaft. Compact centered composition, only arrow and two wind strokes. No lettering.",
+      "tool": "Built-in image_gen",
+      "status": "First concept for review",
+      "generated_path": "output/imagegen/achievements/flavor-v1/second-wind.png"
     },
     {
       "id": "lucky-seat",
