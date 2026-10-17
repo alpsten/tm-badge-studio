@@ -123,5 +123,37 @@ window.MILESTONES_AWARDS_CONCEPTS = [
       "width": 110.27282976324689,
       "height": 110.27282976324689
     }
+  },
+  {
+    "id": "making-your-mark",
+    "name": "Making Your Mark",
+    "symbol": "A milestone flag paired with a star-centred award medal.",
+    "description": "Recorded the highest combined milestone and award total across a tournament\u2019s qualifying rounds, including ties.",
+    "preferredFrame": "gold",
+    "file": "icons/making-your-mark.png",
+    "sourceSha256": "8d8afa860e388c49f6fec9f70a7391297632e02dce8666178777a76fbabcf009",
+    "size": [
+      1145,
+      1374
+    ],
+    "crop": [
+      271,
+      97,
+      912,
+      1275
+    ],
+    "cropAlphaThreshold": 16,
+    "badgePlacement": {
+      "left": 36.40409680949097,
+      "top": 33.792517139261726,
+      "width": 26.318358669708935,
+      "height": 31.582030403650723
+    },
+    "symbolPlacement": {
+      "left": 4.808998302207129,
+      "top": -2.4108658743633327,
+      "width": 87.47877758913413,
+      "height": 104.97453310696095
+    }
   }
 ];

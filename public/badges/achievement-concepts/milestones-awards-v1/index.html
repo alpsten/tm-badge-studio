@@ -41,16 +41,16 @@
     @media (max-width: 960px) { .gallery { grid-template-columns: 1fr; } main { padding: 24px 18px; } .visual { min-height: 260px; } .composition { width: 256px; } .description { min-height: 0; } }
     @media (prefers-reduced-motion: no-preference) { .card { animation: appear .3s ease-out; } @keyframes appear { from { opacity: 0; } to { opacity: 1; } } }
   </style>
-  <link rel="stylesheet" href="../navigation.css">
-  <script defer src="../sections.js?v=podium-v1"></script>
-  <script defer src="../navigation.js?v=no-arrows-v1"></script>
+  <link rel="stylesheet" href="../navigation.css?v=tiebreakers-six-v1">
+  <script defer src="../sections.js?v=tiebreakers-six-v1"></script>
+  <script defer src="../navigation.js?v=tiebreakers-six-v1"></script>
 </head>
 <body>
   <main>
     <div data-achievement-navigation></div>
     <p class="eyebrow">Achievement emblems · First concepts</p>
     <h1>Milestones &amp; Awards</h1>
-    <p class="intro">Four milestone and award achievements in the approved style. Compare the standalone emblems with the existing corporation badge frame.</p>
+    <p class="intro">Five milestone and award achievements in the shared ivory-and-gold style. Compare the standalone emblems with the existing corporation badge frame.</p>
     <div class="controls" aria-label="Preview controls">
       <label>View<select id="view"><option value="badge">Inside the frame</option><option value="symbol">Emblem only</option></select></label>
       <label>Center<select id="center"><option value="black">Black</option><option value="navy">Navy</option><option value="purple">Purple</option><option value="teal">Teal</option></select></label>
@@ -61,7 +61,7 @@
     <div class="gallery" id="gallery"></div>
     <footer><span>First concepts for review · Matching the two approved sections.</span><a href="prompts.json">Generation prompts &amp; concept notes</a></footer>
   </main>
-  <script src="concepts.js?v=final-table-podium-v1"></script>
+  <script src="concepts.js?v=well-connected-mark-v1"></script>
   <script>
     const byId = id => document.getElementById(id);
     const artwork = window.MILESTONES_AWARDS_CONCEPTS;

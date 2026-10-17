@@ -54,11 +54,24 @@
         "output/imagegen/achievements/margins-peaks-v1/toperf-and-beyond.png"
       ],
       "generated_path": "output/imagegen/achievements/milestones-awards-v1/the-full-package.png"
+    },
+    {
+      "id": "making-your-mark",
+      "name": "Making Your Mark",
+      "symbol": "A milestone flag paired with a star-centred award medal.",
+      "description": "Recorded the highest combined milestone and award total across a tournament\u2019s qualifying rounds, including ties.",
+      "prompt": "Use case: logo-brand.\nAsset type: ONE minimalist achievement emblem for the center of an existing hexagonal game badge.\nStyle: front-on polished enamel pictogram, broad smooth warm-IVORY faces, narrow WARM GOLD beveled edges and details, subtle upper-left highlights, very thin dark edge accents, restrained shallow relief. Match a premium ivory-and-gold game achievement family. Clear chunky silhouettes recognizable at small sizes; no fine texture.\nComposition: one compact, centered emblem on a square canvas, all parts visible, generous transparent margin on all sides.\nBackground: genuine transparent alpha outside the objects and in every gap. No black backdrop, white backdrop, checkerboard, halo, glow, haze, floor or cast shadow.\nAvoid: outer badge frame, surrounding hexagon, decorative backing plate, laurel, decorative flourishes, scenery, presentation sheet, tiny detail. Produce just this one emblem.\nSubject: ONE upright milestone FLAG combined with ONE award MEDAL in a compact unified symbol. At left, a thick polished-gold vertical flagpole with a small round finial; near the top, a broad ivory enamel swallowtail pennant with a narrow gold border, pointing right. In the lower right, partially in front of the flagpole, one large round ivory enamel medal with a gold rim, a single bold gold five-point STAR centered on the medal, and two short broad gold ribbon tails below it. The flag and medal are both plainly recognizable, balanced in size, with no extra objects. Flat front view with simple smooth enamel relief. A cohesive slightly taller-than-wide emblem. No text, numbers, letters, extra flags, extra medals, wreath, crown, tiny engraving, ornamental patterns, or surrounding frame.",
+      "preferredFrame": "gold",
+      "tool": "Built-in image_gen",
+      "status": "First concept for review",
+      "generated_path": "output/imagegen/achievements/milestones-awards-v1/making-your-mark.png"
     }
   ],
   "notes": {
     "rules": {
-      "the-full-package": "Won a round and claimed every milestone and every award: roundAchievements().perfect."
-    }
+      "the-full-package": "Won a round and claimed every milestone and every award: roundAchievements().perfect.",
+      "making-your-mark": "After all qualifying milestone and award records are finalized, sum milestones_claimed + awards_won per player across completed played qualifying games in this tournament. Award to everyone tied for the highest positive total. Exclude Finals, byes and unplayed games; missing records are unknown, not zero. No table win or podium finish is required."
+    },
+    "makingYourMark": "A milestone flag and star-centred award medal combine the two established symbols. First concept awaiting review. Artwork does not implement achievement evaluation."
   }
 }
