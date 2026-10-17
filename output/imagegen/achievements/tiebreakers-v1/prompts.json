@@ -1,0 +1,91 @@
+{
+  "tool": "Built-in image_gen",
+  "status": "First concepts for review",
+  "style": "Minimal ivory enamel pictograms with polished gold rims and restrained raised bevels.",
+  "notes": {
+    "implementation": "Artwork and preview only; achievement evaluation is not implemented.",
+    "thresholds": "The six concepts use the current proposed catalogue thresholds. Holding Your Own includes exactly 1.0 each qualifying round.",
+    "rules": {
+      "breathing-room": "Require a completed played result in every qualifying round and raw `trMarginFor >= 10` in each. There must be a lower distinct placement to compare against. First, second, and third place can qualify; a win is not required. Final matches do not count. Apply the completeness rules below.",
+      "building-a-cushion": "Sum the three raw `trMarginFor` values from qualifying rounds 1, 2, and 3; require a total >= 50. Include negative margins rather than discarding them. Require a played, complete result in all three rounds, excluding the Final.",
+      "tough-crowd": "Across all qualifying games, sum each opponent encounter's final qualifying TP and divide by the number of encounters. Require this average >= 1.20 times the field average defined below, after qualifying results are finalized. Require participation in every qualifying round. Use encounter count, not distinct-opponent count.",
+      "trial-by-fire": "For each qualifying game, average the opponents' final qualifying TP; require that average to be strictly greater than the tournament-wide field average in every qualifying round. Require a played, complete result in every round. Evaluate retrospectively using final qualifying TP, not TP immediately before or after that round.",
+      "holding-your-own": "Require raw `tperfFor >= 1.0` separately in every qualifying round, with a played, complete result in each. Exactly 1.0 qualifies. An overall average >= 1.0 is insufficient if any individual round was below it.",
+      "high-gear": "Sum raw per-game `tperfFor` values and divide by the number of qualifying rounds; require an average >= 1.25 and a played, complete result in every round. In the current three-round format this is a raw total >= 3.75. Do not compare the rounded display total against 1.25."
+    }
+  },
+  "jobs": [
+    {
+      "id": "breathing-room",
+      "name": "Breathing Room",
+      "symbol": "Two bold arrows pointing outward across a clear gap.",
+      "description": "Finished every qualifying round at least 10 TR ahead of the next lower placement.",
+      "prompt": "Use case: logo-brand.\nAsset type: ONE minimalist achievement emblem for the center of an existing hexagonal game badge.\nStyle: front-on polished enamel pictogram, broad smooth warm-IVORY faces, narrow WARM GOLD beveled edges and details, subtle upper-left highlights, very thin dark edge accents, restrained shallow relief. Match a premium ivory-and-gold game achievement family. Clear chunky silhouettes recognizable at small sizes; no fine texture.\nComposition: one compact, centered emblem on a square canvas, all parts visible, generous transparent margin on all sides.\nBackground: genuine transparent alpha outside the objects and in every gap. No black backdrop, white backdrop, checkerboard, halo, glow, haze, floor, cast shadow.\nAvoid: outer badge frame, surrounding hexagon, backing plate, ribbon, laurel, decorative flourishes, scenery, presentation sheet, tiny detail. No text, letters or numerals. Produce just this one emblem.\nSubject: EXACTLY TWO bold horizontal arrows pointing AWAY from one another: the left arrow points left and the right arrow points right, on the same horizontal axis. An unmistakable wide transparent gap separates the flat ends of their short thick shafts in the center. Each arrow has a broad ivory enamel face and polished gold beveled edge. Both arrows are equal in size, large and chunky, not long thin lines. Entire pair forms a compact wide silhouette. Only these two arrows; no numerals, ruler, divider, brackets or surrounding circle.",
+      "subsection": "TR Margin",
+      "preferredFrame": "gold",
+      "tool": "Built-in image_gen",
+      "status": "First concept for review",
+      "generated_path": "output/imagegen/achievements/tiebreakers-v1/breathing-room.png"
+    },
+    {
+      "id": "building-a-cushion",
+      "name": "Building a Cushion",
+      "symbol": "Three plump cushions stacked into a comfortable buffer.",
+      "description": "Built a combined TR margin of at least +50 over three qualifying rounds.",
+      "prompt": "Use case: logo-brand.\nAsset type: ONE minimalist achievement emblem for the center of an existing hexagonal game badge.\nStyle: front-on polished enamel pictogram, broad smooth warm-IVORY faces, narrow WARM GOLD beveled edges and details, subtle upper-left highlights, very thin dark edge accents, restrained shallow relief. Match a premium ivory-and-gold game achievement family. Clear chunky silhouettes recognizable at small sizes; no fine texture.\nComposition: one compact, centered emblem on a square canvas, all parts visible, generous transparent margin on all sides.\nBackground: genuine transparent alpha outside the objects and in every gap. No black backdrop, white backdrop, checkerboard, halo, glow, haze, floor, cast shadow.\nAvoid: outer badge frame, surrounding hexagon, backing plate, ribbon, laurel, decorative flourishes, scenery, presentation sheet, tiny detail. No text, letters or numerals. Produce just this one emblem.\nSubject: A neat stack of EXACTLY THREE plump rectangular seat cushions or pillows, viewed almost front-on with just enough visible top surface to recognize them. Smooth ivory enamel cushion faces, softly bulging sides, rounded corners, narrow polished gold piping edges. Three clearly separated horizontal cushion layers, stacked one above another, each equal width. One broad simple gold seam per perimeter only. Compact roughly square silhouette. No tufting, tassels, embroidery, tiny folds, sofa, pedestal, books, numbers or decorative pattern. The stack must read immediately as soft pillows, not metal ingots or books.",
+      "subsection": "TR Margin",
+      "preferredFrame": "gold",
+      "tool": "Built-in image_gen",
+      "status": "First concept for review",
+      "generated_path": "output/imagegen/achievements/tiebreakers-v1/building-a-cushion.png"
+    },
+    {
+      "id": "tough-crowd",
+      "name": "Tough Crowd",
+      "symbol": "Three player silhouettes behind a protective shield.",
+      "description": "Faced opponents whose average final tournament points were at least 20% above the field average.",
+      "prompt": "Use case: logo-brand.\nAsset type: ONE minimalist achievement emblem for the center of an existing hexagonal game badge.\nStyle: front-on polished enamel pictogram, broad smooth warm-IVORY faces, narrow WARM GOLD beveled edges and details, subtle upper-left highlights, very thin dark edge accents, restrained shallow relief. Match a premium ivory-and-gold game achievement family. Clear chunky silhouettes recognizable at small sizes; no fine texture.\nComposition: one compact, centered emblem on a square canvas, all parts visible, generous transparent margin on all sides.\nBackground: genuine transparent alpha outside the objects and in every gap. No black backdrop, white backdrop, checkerboard, halo, glow, haze, floor, cast shadow.\nAvoid: outer badge frame, surrounding hexagon, backing plate, ribbon, laurel, decorative flourishes, scenery, presentation sheet, tiny detail. No text, letters or numerals. Produce just this one emblem.\nSubject: A compact group of EXACTLY THREE simplified human bust silhouettes, with round ivory heads and broad rounded ivory shoulders, all trimmed in narrow polished gold. Larger central person slightly forward, two smaller people behind at left and right. A single small but bold polished gold SHIELD in front of the central torso signifies a tough group. The shield is solid gold with an ivory face inset, no markings. Heads are blank, no facial features. Three heads clearly countable, transparent gaps between heads, no crown or stars. Clean familiar people/group pictogram, no detailed human anatomy, no tiny decorative details.",
+      "subsection": "Buchholz",
+      "preferredFrame": "gold",
+      "tool": "Built-in image_gen",
+      "status": "First concept for review",
+      "generated_path": "output/imagegen/achievements/tiebreakers-v1/tough-crowd.png"
+    },
+    {
+      "id": "trial-by-fire",
+      "name": "Trial by Fire",
+      "symbol": "A bold flame rising through a protective shield.",
+      "description": "Faced opponents with above-average final tournament points in every qualifying round.",
+      "prompt": "Use case: logo-brand.\nAsset type: ONE minimalist achievement emblem for the center of an existing hexagonal game badge.\nStyle: front-on polished enamel pictogram, broad smooth warm-IVORY faces, narrow WARM GOLD beveled edges and details, subtle upper-left highlights, very thin dark edge accents, restrained shallow relief. Match a premium ivory-and-gold game achievement family. Clear chunky silhouettes recognizable at small sizes; no fine texture.\nComposition: one compact, centered emblem on a square canvas, all parts visible, generous transparent margin on all sides.\nBackground: genuine transparent alpha outside the objects and in every gap. No black backdrop, white backdrop, checkerboard, halo, glow, haze, floor, cast shadow.\nAvoid: outer badge frame, surrounding hexagon, backing plate, ribbon, laurel, decorative flourishes, scenery, presentation sheet, tiny detail. No text, letters or numerals. Produce just this one emblem.\nSubject: One simple upright knight's SHIELD with a broad ivory enamel face and narrow polished gold rim, overlaid with one bold GOLD FLAME rising from its center, flame tip slightly higher than the shield top. Flame has a simple three-tongue silhouette with one small ivory teardrop inner shape. Compact, symmetrical overall shape, flat front view. Read instantly as shield and fire. No sword, person, sparks, smoke, orange or red colors, separate surround, text, elaborate heraldic details or background. Shield is the subject itself, not an outer badge frame.",
+      "subsection": "Buchholz",
+      "preferredFrame": "gold",
+      "tool": "Built-in image_gen",
+      "status": "First concept for review",
+      "generated_path": "output/imagegen/achievements/tiebreakers-v1/trial-by-fire.png"
+    },
+    {
+      "id": "holding-your-own",
+      "name": "Holding Your Own",
+      "symbol": "A balanced set of scales with both pans level.",
+      "description": "Recorded a TPerf of at least 1.0 in every qualifying round.",
+      "prompt": "Use case: logo-brand.\nAsset type: ONE minimalist achievement emblem for the center of an existing hexagonal game badge.\nStyle: front-on polished enamel pictogram, broad smooth warm-IVORY faces, narrow WARM GOLD beveled edges and details, subtle upper-left highlights, very thin dark edge accents, restrained shallow relief. Match a premium ivory-and-gold game achievement family. Clear chunky silhouettes recognizable at small sizes; no fine texture.\nComposition: one compact, centered emblem on a square canvas, all parts visible, generous transparent margin on all sides.\nBackground: genuine transparent alpha outside the objects and in every gap. No black backdrop, white backdrop, checkerboard, halo, glow, haze, floor, cast shadow.\nAvoid: outer badge frame, surrounding hexagon, backing plate, ribbon, laurel, decorative flourishes, scenery, presentation sheet, tiny detail. No text, letters or numerals. Produce just this one emblem.\nSubject: One unmistakable set of BALANCED SCALES: a sturdy central gold upright on a short ivory-and-gold base; a thick perfectly horizontal gold crossbeam; two equally sized broad IVORY bowl-shaped scale pans hanging at exactly the same height on simple thick gold supports. Clean flat front view and symmetrical composition. Use two smooth support lines per pan, no tiny chain links. Both pans visibly level and equal. Compact broad silhouette, each element thick enough for a tiny icon. No sword, legal book, person, wreath, fine chain, lettering, numerals or other objects.",
+      "subsection": "TPerf",
+      "preferredFrame": "gold",
+      "tool": "Built-in image_gen",
+      "status": "First concept for review",
+      "generated_path": "output/imagegen/achievements/tiebreakers-v1/holding-your-own.png"
+    },
+    {
+      "id": "high-gear",
+      "name": "High Gear",
+      "symbol": "A chunky cogwheel with a bold upward arrow.",
+      "description": "Averaged a TPerf of at least 1.25 across all qualifying rounds.",
+      "prompt": "Use case: logo-brand.\nAsset type: ONE minimalist achievement emblem for the center of an existing hexagonal game badge.\nStyle: front-on polished enamel pictogram, broad smooth warm-IVORY faces, narrow WARM GOLD beveled edges and details, subtle upper-left highlights, very thin dark edge accents, restrained shallow relief. Match a premium ivory-and-gold game achievement family. Clear chunky silhouettes recognizable at small sizes; no fine texture.\nComposition: one compact, centered emblem on a square canvas, all parts visible, generous transparent margin on all sides.\nBackground: genuine transparent alpha outside the objects and in every gap. No black backdrop, white backdrop, checkerboard, halo, glow, haze, floor, cast shadow.\nAvoid: outer badge frame, surrounding hexagon, backing plate, ribbon, laurel, decorative flourishes, scenery, presentation sheet, tiny detail. No text, letters or numerals. Produce just this one emblem.\nSubject: One chunky eight-tooth COGWHEEL, ivory enamel face with a narrow polished gold bevel around its outer edge. In the broad ivory center face, one large solid polished GOLD UPWARD ARROW with a thick short shaft and wide triangular arrowhead. The arrow is centered and easily readable, filling most of the center. Flat front view, approximately circular compact silhouette. Eight broad simple gear teeth, clear gaps, no tiny mechanical detail. No extra gears, speed lines, engine, meter, letters, numerals, frame or other objects.",
+      "subsection": "TPerf",
+      "preferredFrame": "gold",
+      "tool": "Built-in image_gen",
+      "status": "First concept for review",
+      "generated_path": "output/imagegen/achievements/tiebreakers-v1/high-gear.png"
+    }
+  ]
+}
