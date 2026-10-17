@@ -1,6 +1,6 @@
 {
   "tool": "Built-in image_gen",
-  "status": "Original three emblems approved by the user.",
+  "status": "Original three emblems approved by the user; Seal the Deal is a first concept awaiting review.",
   "style": "Minimal ivory-and-gold pictograms with a subtle raised finish",
   "jobs": [
     {
@@ -17,9 +17,23 @@
       "id": "front-runner",
       "prompt": "Use case: logo-brand.\nAsset type: ONE minimalist achievement emblem for a Terraforming Mars tournament badge, isolated on a genuinely transparent square canvas.\nStyle: a clean pictogram with broad, solid, instantly recognizable geometric shapes. Restrained raised enamel finish: flat ivory and warm gold faces, very narrow smooth bevels, consistent soft upper-left highlights and a thin dark edge. Front-on orthographic view, no perspective. Same visual language as a simple embossed game logo. Maximum two foreground materials (ivory and gold). Crisp clean silhouette, generous gaps between parts. Readable when the emblem is only 48 pixels tall. No surface texture, no scratches, no gems, no sparkles, no gradients across a background, no glow.\nComposition: one centered, compact emblem occupying about 75 percent of the square with empty transparent margins. All parts fully visible.\nDo not include any badge frame, hexagon, circular backing, wings, laurels, plate, letters, words, numbers, background, presentation sheet, or alternate versions.\nSubject: exactly THREE separate solid right-pointing arrows on one horizontal centerline. Two identical small ivory arrows trail on the left. ONE distinctly larger warm gold arrow leads on the right, roughly 1.65 times their height. Each arrow has a short thick rectangular shaft and a simple triangular head; obvious arrows, not play buttons. Clear empty gaps separate all three. Compact balanced overall silhouette, with the first two still large enough to read at small sizes. No extra lines, motion trails, lettering, circles, or symbols. The arrangement expresses one competitor clearly ahead of the others.",
       "generated_path": "output/imagegen/achievements/final-table-v1/front-runner.png"
+    },
+    {
+      "id": "seal-the-deal",
+      "name": "Seal the Deal",
+      "symbol": "A bold ivory checkmark topped by a gold crown.",
+      "description": "Qualified for the Final in first place, then won the played Final outright.",
+      "prompt": "Use case: logo-brand.\nAsset type: ONE minimalist achievement emblem for the centre of an existing hexagonal game badge.\nStyle: a clean front-on enamel pictogram with broad smooth warm IVORY faces, narrow polished warm GOLD bevels, restrained shallow raised relief, subtle soft upper-left highlights and very thin dark edge accents. Premium ivory-and-gold family; chunky instantly recognizable silhouettes, generous negative space, no fine texture. Maximum two foreground materials, ivory and gold. Readable at small badge sizes.\nComposition: ONE compact centered emblem on a square canvas, complete silhouette with generous transparent margins on all sides. Front-on orthographic view.\nBackground: genuine transparent alpha outside the objects and in all gaps. No backdrop, checkerboard, shadow, floor, halo, glow or haze.\nAvoid: outer badge frame, surrounding hexagon, backing plate, ribbon, laurels, decorative flourishes, scenery, labels, text, numbers, multiple versions or presentation sheet.\nSubject: ONE bold IVORY CHECKMARK with a narrow polished GOLD beveled edge, topped by ONE small simple GOLD THREE-POINT CROWN, centered above it with a clean gap. The checkmark is the dominant shape: short rising left arm and long rising right arm forming an unmistakable tick, broad solid strokes and a crisp angled bend. The crown is a single chunky symmetrical silhouette without jewels or ornament, about half the checkmark's width. Keep the overall composition compact and balanced, visually like a crowned achievement symbol. Only one checkmark and one crown, floating separately on transparency. No circle, seal disc, medal, rosette, shield, document, pen, paw, trophy, numeral or lettering.",
+      "preferredFrame": "gold",
+      "tool": "Built-in image_gen",
+      "status": "First concept for review",
+      "generated_path": "output/imagegen/achievements/final-table-v1/seal-the-deal.png"
     }
   ],
   "notes": {
-    "scope": "All three require an actual played Final (round === 99): Underdog needs to win it, Front Runner and Worth the Wait describe how a player got there. Tournaments that end after qualifying rounds don't produce any of these three; see The Podium for the standings-based placements that work in every format."
+    "scope": "All four require an actually played Final (round === 99). Underdog and Seal the Deal require winning it; Front Runner and Worth the Wait describe qualification. Tournaments ending after qualifying rounds award none of these; The Podium covers standings-based placements in every format. Artwork does not implement automatic granting.",
+    "rules": {
+      "seal-the-deal": "Rank 1 in finalized pre-Final qualifying standings using the event's configured tiebreakers, followed by a sole position-1 finish in the same event's actually played Final. Require final_round_enabled and a completed played round-99 game; shared Final wins, byes, unplayed forfeits, cancellations and synthetic records do not count. Leading after every earlier round is not required. Every eligible tournament is another opportunity."
+    }
   }
 }

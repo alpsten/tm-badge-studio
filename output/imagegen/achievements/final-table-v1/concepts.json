@@ -88,5 +88,37 @@
       "width": 83.24425531914893,
       "height": 83.24425531914893
     }
+  },
+  {
+    "id": "seal-the-deal",
+    "name": "Seal the Deal",
+    "symbol": "A bold ivory checkmark topped by a gold crown.",
+    "description": "Qualified for the Final in first place, then won the played Final outright.",
+    "preferredFrame": "gold",
+    "file": "icons/seal-the-deal.png",
+    "sourceSha256": "2bf552be5e4147c73edea3417dfc7ff2a6aff3f8a7178a414257a209d8eb20d4",
+    "size": [
+      1254,
+      1254
+    ],
+    "crop": [
+      230,
+      263,
+      1120,
+      1089
+    ],
+    "cropAlphaThreshold": 16,
+    "badgePlacement": {
+      "left": 35.185806440670845,
+      "top": 34.72440636224961,
+      "width": 27.521479590220395,
+      "height": 27.521479590220395
+    },
+    "symbolPlacement": {
+      "left": -18.25842696629214,
+      "top": -18.359550561797754,
+      "width": 126.80898876404495,
+      "height": 126.80898876404495
+    }
   }
 ]
