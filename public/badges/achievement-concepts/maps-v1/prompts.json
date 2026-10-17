@@ -1,0 +1,60 @@
+{
+  "tool": "Built-in image_gen",
+  "status": "First concepts for review",
+  "style": "Minimal ivory enamel pictograms with polished gold edges and restrained raised bevels.",
+  "notes": {
+    "implementation": "Artwork and preview only. Actual map recording, canonical map mapping, linked history, and achievement evaluation remain future work.",
+    "maps": [
+      "Tharsis",
+      "Elysium",
+      "Hellas",
+      "Utopia Planitia",
+      "Terra Cimmeria",
+      "Amazonis Planitia",
+      "Vastitas Borealis"
+    ],
+    "rules": {
+      "martian-atlas": "Completed played games linked to this player cover every map in the current Maps list: Tharsis, Elysium, Hellas, Utopia Planitia, Terra Cimmeria, Amazonis Planitia, and Vastitas Borealis. Use canonical map IDs and the shared map-tracking requirements; repeats count once, and unknown maps cannot be inferred. Qualifying games and played Finals both count; no wins are required.",
+      "home-field": "In a completed played match, this player has position 1, their canonical corporation is Tharsis Republic, and the recorded map is Tharsis. Use the usual position-1 win rule, including shared first place; this is not restricted to outright wins. Qualifying rounds and played Finals both count. Needs the actual map recorded for that match; never infer it from the corporation. See the shared map-tracking note below.",
+      "travel-companions": "For each pair of stable linked players, count distinct canonical maps across completed shared games; require at least three. Award both regardless of placement. Qualifying games and actually played Finals in one or several tournaments count; the rest of the table may differ. Repeated maps count once; exclude byes, cancellations, unplayed forfeits and synthetic results. Unknown maps cannot be inferred. Needs map mapping, match-level map tracking and linked history; no login account or first-appearance requirement."
+    }
+  },
+  "jobs": [
+    {
+      "id": "martian-atlas",
+      "name": "Martian Atlas",
+      "symbol": "A folded map with a gold location pin.",
+      "description": "Played on all seven listed maps across your recorded tournament history.",
+      "prompt": "Use case: logo-brand.\nAsset type: ONE minimalist achievement emblem for the center of an existing hexagonal game badge.\nStyle: front-on polished enamel pictogram, broad smooth warm-IVORY faces, narrow WARM GOLD beveled edges and details, subtle upper-left highlights, very thin dark edge accents, restrained shallow relief. Match a premium ivory-and-gold game achievement family. Clear chunky silhouettes recognizable at small sizes; no fine texture.\nComposition: one compact, centered emblem on a square canvas, all parts visible, with generous transparent margin on all sides.\nBackground: genuine transparent alpha outside the objects and in every gap. No black backdrop, white backdrop, checkerboard, halo, glow, haze, floor, cast shadow.\nAvoid: outer badge frame, surrounding hexagon, backing plate, ribbon, laurel, decorative flourishes, scenery, presentation sheet, tiny detail. Produce just this one emblem.\nSubject: ONE simple folded MAP with exactly THREE broad accordion-folded IVORY panels, a thin polished GOLD perimeter, and just two simple gold fold lines. The map has an unmistakable zigzag top and bottom silhouette; an almost front-on view rather than deep perspective. ONE LARGE GOLD map LOCATION PIN is centered over the middle panel, with a single clean circular TRANSPARENT hole and a downward-pointing teardrop tip. The pin sits visibly in front of the map, its top projecting above the map. The pin is chunky and instantly recognizable, without tiny detail. The ivory map panels are otherwise plain: no text, numbers, country outlines, roads, terrain, or extra markers. Only one map and one location pin. No globe, book, compass, background, shadow or scenery.",
+      "preferredFrame": "gold",
+      "tool": "Built-in image_gen",
+      "status": "First concept for review",
+      "generated_path": "output/imagegen/achievements/maps-v1/martian-atlas.png"
+    },
+    {
+      "id": "home-field",
+      "name": "Home Field",
+      "symbol": "A house containing the Tharsis Republic mountain motif.",
+      "description": "Won a game with Tharsis Republic on the Tharsis map.",
+      "prompt": "Use case: style-transfer.\nReference/edit source: supplied Tharsis Republic corporation emblem. Create a NEW companion HOME FIELD achievement emblem. Preserve the recognizable internal FOUR-TRIANGLE mountain motif: one large triangle toward the upper-left and three smaller triangles descending diagonally from upper-right to lower-left. Do not retain the orange rectangular token or its rectangular rim.\nTransform the surrounding silhouette into ONE simple front-on HOUSE: a broad peaked roof over a squat square house body. Smooth warm-IVORY enamel house face, narrow polished WARM GOLD beveled perimeter, shallow raised relief, subtle upper-left highlights and very thin dark edge accents. The four mountain triangles are solid WARM GOLD inlays within the ivory house body, clearly separated, large and simple. No door, windows, chimney or other house details; the mountain motif occupies the blank facade. The image should immediately read as a house with the Tharsis mountain symbol inside it.\nComposition: one compact centered house emblem on a square canvas, complete silhouette and generous clear margins. Premium minimal game-achievement pictogram, broad chunky shapes, recognizable at small sizes.\nBackground: genuinely transparent alpha outside the house. No rectangular backing, outer badge frame, glow, haze, cast shadow, floor, scenery, text, letters, numbers, trophy, map pin, extra triangles or ornaments.",
+      "preferredFrame": "gold",
+      "tool": "Built-in image_gen",
+      "status": "First concept for review",
+      "generated_path": "output/imagegen/achievements/maps-v1/home-field.png",
+      "referenced_image_paths": [
+        "output/badges/logos/originals/tharsis-republic-logo.png"
+      ]
+    },
+    {
+      "id": "travel-companions",
+      "name": "Travel Companions",
+      "symbol": "Two location pins connected by a curved gold route.",
+      "description": "Shared a table with the same opponent on three different maps. Awarded to both players, regardless of placement.",
+      "prompt": "Use case: logo-brand.\nAsset type: ONE minimalist achievement emblem for the centre of an existing hexagonal game badge.\nStyle: a clean front-on enamel pictogram with broad smooth warm IVORY faces, narrow polished warm GOLD bevels, restrained shallow raised relief, subtle soft upper-left highlights and very thin dark edge accents. Premium ivory-and-gold family; chunky instantly recognizable silhouettes, generous negative space, no fine texture. Maximum two foreground materials, ivory and gold. Readable at small badge sizes.\nComposition: ONE compact centered emblem on a square canvas, complete silhouette with generous transparent margins on all sides. Front-on orthographic view.\nBackground: genuine transparent alpha outside the objects and in all gaps. No backdrop, checkerboard, shadow, floor, halo, glow or haze.\nAvoid: outer badge frame, surrounding hexagon, backing plate, ribbon, laurels, decorative flourishes, scenery, labels, text, numbers, multiple versions or presentation sheet.\nSubject: exactly TWO equally prominent classic LOCATION PINS, upright side by side. Each pin has a broad IVORY enamel teardrop body, a narrow GOLD beveled rim, and ONE large round TRANSPARENT hole near the top. Leave a clear gap between the two pins, no overlap. A single short chunky GOLD gently U-curved route connects their bottom tips beneath them, with open transparent space between the pins and the curve. It should read immediately as two map markers connected on a shared journey. Compact nearly square arrangement, pins dominant, their tips clearly discernible. Only two pins and one simple curved route. No underlying map, no extra pins, no arrows, no people, no dotted lines, no stars.",
+      "preferredFrame": "gold",
+      "tool": "Built-in image_gen",
+      "status": "First concept for review",
+      "generated_path": "output/imagegen/achievements/maps-v1/travel-companions.png"
+    }
+  ]
+}
