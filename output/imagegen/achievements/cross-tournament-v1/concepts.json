@@ -224,6 +224,38 @@
     }
   },
   {
+    "id": "commanding-run",
+    "name": "Commanding Run",
+    "symbol": "Three bold upward-pointing command chevrons.",
+    "description": "Won three consecutive games outright, each by at least 20 TR over second place.",
+    "preferredFrame": "gold",
+    "file": "icons/commanding-run.png",
+    "sourceSha256": "fffb64f07c156cb4ea116b04c2993a471044aa8d1a8b880b482e85c14f1711b5",
+    "size": [
+      1182,
+      1330
+    ],
+    "crop": [
+      250,
+      117,
+      930,
+      1259
+    ],
+    "cropAlphaThreshold": 16,
+    "badgePlacement": {
+      "left": 36.562819424820916,
+      "top": 33.89142783140133,
+      "width": 26.919910915019802,
+      "height": 30.290593499979977
+    },
+    "symbolPlacement": {
+      "left": 3.5026269702276682,
+      "top": -4.220665499124343,
+      "width": 93.15236427320491,
+      "height": 104.81611208406305
+    }
+  },
+  {
     "id": "streak-breaker",
     "name": "Streak Breaker",
     "symbol": "The Win Streak flame split by a clear diagonal crack.",
@@ -576,6 +608,134 @@
     }
   },
   {
+    "id": "well-connected-i",
+    "name": "Well Connected I",
+    "symbol": "A network of connected nodes with a large 25 at its centre.",
+    "description": "Played against 25 or more different opponents across your tournament history.",
+    "preferredFrame": "gold",
+    "file": "icons/well-connected-i.png",
+    "sourceSha256": "d3539e6d6bad166b7f4395ea491ee4af589fd566d840b916e64c8fde80d86428",
+    "size": [
+      1254,
+      1254
+    ],
+    "crop": [
+      43,
+      60,
+      1210,
+      1192
+    ],
+    "cropAlphaThreshold": 16,
+    "badgePlacement": {
+      "left": 37.08745791454113,
+      "top": 36.658310090487234,
+      "width": 25.845694772809924,
+      "height": 25.845694772809924
+    },
+    "symbolPlacement": {
+      "left": 1.6838046272493523,
+      "top": 1.7223650385604083,
+      "width": 96.70951156812339,
+      "height": 96.70951156812339
+    }
+  },
+  {
+    "id": "well-connected-ii",
+    "name": "Well Connected II",
+    "symbol": "A network of connected nodes with a large 50 at its centre.",
+    "description": "Played against 50 or more different opponents across your tournament history.",
+    "preferredFrame": "gold",
+    "file": "icons/well-connected-ii.png",
+    "sourceSha256": "8434b171bfe921cdfb4402c6aa75eff3f8cabe7b46c091c0bba8749112703849",
+    "size": [
+      1254,
+      1254
+    ],
+    "crop": [
+      42,
+      58,
+      1211,
+      1193
+    ],
+    "cropAlphaThreshold": 16,
+    "badgePlacement": {
+      "left": 37.08745791454113,
+      "top": 36.66861539143332,
+      "width": 25.845694772809924,
+      "height": 25.845694772809924
+    },
+    "symbolPlacement": {
+      "left": 1.7664670658682657,
+      "top": 1.8434559452523536,
+      "width": 96.54405474764756,
+      "height": 96.54405474764756
+    }
+  },
+  {
+    "id": "well-connected-iii",
+    "name": "Well Connected III",
+    "symbol": "A network of connected nodes with a large 75 at its centre.",
+    "description": "Played against 75 or more different opponents across your tournament history.",
+    "preferredFrame": "gold",
+    "file": "icons/well-connected-iii.png",
+    "sourceSha256": "9ca204d81f9a5162d4f05f26792dbdf7ff4da64161d6e6b382787bc97e1a6a7e",
+    "size": [
+      1254,
+      1254
+    ],
+    "crop": [
+      42,
+      58,
+      1211,
+      1193
+    ],
+    "cropAlphaThreshold": 16,
+    "badgePlacement": {
+      "left": 37.08745791454113,
+      "top": 36.66861539143332,
+      "width": 25.845694772809924,
+      "height": 25.845694772809924
+    },
+    "symbolPlacement": {
+      "left": 1.7664670658682657,
+      "top": 1.8434559452523536,
+      "width": 96.54405474764756,
+      "height": 96.54405474764756
+    }
+  },
+  {
+    "id": "well-connected-iv",
+    "name": "Well Connected IV",
+    "symbol": "A network of connected nodes with a large 100 at its centre.",
+    "description": "Played against 100 or more different opponents across your tournament history.",
+    "preferredFrame": "gold",
+    "file": "icons/well-connected-iv.png",
+    "sourceSha256": "8880b4dae80aceb301d0dbe5636829101f9e988991b3e634d5d6f3f95119c67b",
+    "size": [
+      1254,
+      1254
+    ],
+    "crop": [
+      42,
+      58,
+      1211,
+      1193
+    ],
+    "cropAlphaThreshold": 16,
+    "badgePlacement": {
+      "left": 37.08745791454113,
+      "top": 36.66861539143332,
+      "width": 25.845694772809924,
+      "height": 25.845694772809924
+    },
+    "symbolPlacement": {
+      "left": 1.7664670658682657,
+      "top": 1.8434559452523536,
+      "width": 96.54405474764756,
+      "height": 96.54405474764756
+    }
+  },
+  {
     "id": "the-reunion",
     "name": "The Reunion",
     "symbol": "A round table with four seats and a return arrow.",
@@ -701,6 +861,38 @@
       "top": -0.2560975609756099,
       "width": 99.40243902439025,
       "height": 99.40243902439025
+    }
+  },
+  {
+    "id": "any-format-any-day",
+    "name": "Any Format, Any Day",
+    "symbol": "A championship trophy between two curved arrows.",
+    "description": "Won a tournament with a played Final and a tournament decided entirely by standings.",
+    "preferredFrame": "gold",
+    "file": "icons/any-format-any-day.png",
+    "sourceSha256": "4a7f34683746857627b5fc3dccc50a82052f0a5402b17dca0576e62c6f3a8ad7",
+    "size": [
+      1254,
+      1254
+    ],
+    "crop": [
+      40,
+      149,
+      1215,
+      1104
+    ],
+    "cropAlphaThreshold": 16,
+    "badgePlacement": {
+      "left": 36.120778362643215,
+      "top": 35.70344351913701,
+      "width": 27.736324993219778,
+      "height": 27.736324993219778
+    },
+    "symbolPlacement": {
+      "left": 1.936170212765953,
+      "top": 2.012765957446805,
+      "width": 96.05106382978724,
+      "height": 96.05106382978724
     }
   }
 ]

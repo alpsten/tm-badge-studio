@@ -8,14 +8,14 @@
     "attendanceFamily": "Regular: bronze 2; Veteran: silver 3; No Rest for the Weary: gold 5+.",
     "rules": {
       "giant-slayer": "At query time, find an opponent beaten at a shared table who has a championship win in some tournament: position === 1 in a round === 99 match. This rule does not require the title to predate the game.",
-      "regular": "Count distinct tournaments in this linked player’s recorded history >= 2.",
-      "veteran": "Count distinct tournaments in this linked player’s recorded history >= 3.",
-      "no-rest-for-the-weary": "Count distinct tournaments in this linked player’s recorded history >= 5.",
-      "hat-trick": "Count distinct tournaments with this player’s final rank === 1 >= 3.",
-      "corporation-collector": "Count distinct non-empty corporation identities in this player’s recorded matches >= 20; no fixed total-corporation denominator.",
-      "on-the-rise": "Current final standings rank is numerically lower than the immediately preceding tournament’s final rank in this player’s chronological history.",
+      "regular": "Count distinct tournaments in this linked player\u2019s recorded history >= 2.",
+      "veteran": "Count distinct tournaments in this linked player\u2019s recorded history >= 3.",
+      "no-rest-for-the-weary": "Count distinct tournaments in this linked player\u2019s recorded history >= 5.",
+      "hat-trick": "Count distinct tournaments with this player\u2019s final rank === 1 >= 3.",
+      "corporation-collector": "Count distinct non-empty corporation identities in this player\u2019s recorded matches >= 20; no fixed total-corporation denominator.",
+      "on-the-rise": "Current final standings rank is numerically lower than the immediately preceding tournament\u2019s final rank in this player\u2019s chronological history.",
       "serial-finalist": "Count distinct tournaments where this player actually played a Final (round === 99) >= 3; tournaments without a Final do not count.",
-      "the-dynasty": "Final rank === 1 in two chronologically adjacent tournaments in this player’s own recorded history, with no intervening appearance.",
+      "the-dynasty": "Final rank === 1 in two chronologically adjacent tournaments in this player\u2019s own recorded history, with no intervening appearance.",
       "fresh-blood": "Final rank === 1 in the earliest tournament with any recorded result for this player.",
       "familiar-faces": "For at least one linked opponent, count distinct tournaments with a shared table >= 2. Use stable player identities once available; names alone can collide.",
       "corporation-collector-i": "Played at least 10 distinct corporation identities across linked tournament history. Display the highest earned collector tier.",
@@ -28,9 +28,16 @@
       "friendly-rivalry": "For the same pair of stable linked player identities, find completed shared games in two distinct tournaments with strictly opposite placement comparisons. Neither player needs to win the table; equal positions do not count. Award to both players once the reciprocal results exist. Played Finals may count.",
       "clash-of-champions": "For a completed played game with at least two participants, every participant must have official final rank 1 in a tournament completed before this game began. Tournaments with and without a played Final both count as prior championships. A future title, including winning the current event later, cannot satisfy the earlier condition. Award to all participants at the qualifying table, regardless of game placement.",
       "the-reunion": "Find completed played games in two distinct tournaments whose full sets of stable linked participant identities are identical, including this player. Seat order, corporations and finishing positions may differ; the table size and every participant must match. Use multiplayer games with at least two participants. Award to every member of the group when the repeat encounter is completed. Played Finals may count.",
-      "persistence-pays": "In chronological linked player history, this player is the sole player with position 1 immediately after a run of at least five consecutive played games in which they were not the sole winner. Shared first place counts as a non-outright result for this rule. Any earlier outright win ends that non-win run. Use the same chronology and continuity rules as Win Streak; include played Finals and allow tournament boundaries. Exclude byes, cancelled games and unplayed forfeits; do not bridge known missing results."
+      "persistence-pays": "In chronological linked player history, this player is the sole player with position 1 immediately after a run of at least five consecutive played games in which they were not the sole winner. Shared first place counts as a non-outright result for this rule. Any earlier outright win ends that non-win run. Use the same chronology and continuity rules as Win Streak; include played Finals and allow tournament boundaries. Exclude byes, cancelled games and unplayed forfeits; do not bridge known missing results.",
+      "commanding-run": "Across chronologically ordered played games, each of three consecutive games has this player as the sole position-1 finisher and their TR at least 20 above the runner-up. For joint second place, compare against the highest TR among those players. A shared first, non-win, or outright win with a margin below 20 breaks the run; do not skip such games. Use Win Streak chronology and continuity rules, including played Finals and tournament boundaries, excluding byes, cancellations and unplayed games, and never bridging known missing results. Any qualifying run counts, not only the first three games in history.",
+      "any-format-any-day": "Across this player's linked history, find official final rank 1 in two completed tournaments covering both formats. One must have final_round_enabled true and an actually played Final won by this player; the other must have final_round_enabled false and this player as a champion derived from final qualifying standings. Follow the ordinary Champion rules, including shared first where applicable. Never treat an unfinished or cancelled Final as a standings-only format, or infer a played Final from a synthetic round-99 record. Either format can be won first; this is not limited to first appearances.",
+      "well-connected-i": "Count distinct stable linked opponent identities across completed played multiplayer matches, including actually played Finals; require at least 25. Exclude self, byes, cancelled or unplayed games, and synthetic Finals. Rematches and aliases of one linked opponent count once. Display the highest earned Well Connected tier; continue tracking the actual count. No win requirement or first-appearance restriction. Needs linked history, not login accounts.",
+      "well-connected-ii": "Count distinct stable linked opponent identities across completed played multiplayer matches, including actually played Finals; require at least 50. Exclude self, byes, cancelled or unplayed games, and synthetic Finals. Rematches and aliases of one linked opponent count once. Display the highest earned Well Connected tier; continue tracking the actual count. No win requirement or first-appearance restriction. Needs linked history, not login accounts.",
+      "well-connected-iii": "Count distinct stable linked opponent identities across completed played multiplayer matches, including actually played Finals; require at least 75. Exclude self, byes, cancelled or unplayed games, and synthetic Finals. Rematches and aliases of one linked opponent count once. Display the highest earned Well Connected tier; continue tracking the actual count. No win requirement or first-appearance restriction. Needs linked history, not login accounts.",
+      "well-connected-iv": "Count distinct stable linked opponent identities across completed played multiplayer matches, including actually played Finals; require at least 100. Exclude self, byes, cancelled or unplayed games, and synthetic Finals. Rematches and aliases of one linked opponent count once. Display the highest earned Well Connected tier; continue tracking the actual count. No win requirement or first-appearance restriction. Needs linked history, not login accounts."
     },
-    "collectorFamily": "Matching 10/20/30 card stacks. The existing 20-card master and stable corporation-collector ID are retained as tier II."
+    "collectorFamily": "Matching 10/20/30 card stacks. The existing 20-card master and stable corporation-collector ID are retained as tier II.",
+    "wellConnectedFamily": "Four matching network emblems marked 25, 50, 75 and 100; all use ivory enamel and the standard gold finish. Later tiers edit only the number in the first concept. Artwork awaits visual review; identity linking, progress tracking and automatic granting are not implemented. All four use the same fitted scale inside the frame."
   },
   "jobs": [
     {
@@ -298,6 +305,85 @@
       "tool": "Built-in image_gen",
       "status": "First concept for review",
       "generated_path": "output/imagegen/achievements/cross-tournament-v1/seat-sweep.png"
+    },
+    {
+      "id": "commanding-run",
+      "name": "Commanding Run",
+      "symbol": "Three bold upward-pointing command chevrons.",
+      "description": "Won three consecutive games outright, each by at least 20 TR over second place.",
+      "prompt": "Use case: logo-brand.\nAsset type: ONE minimalist achievement emblem for the center of an existing hexagonal game badge.\nStyle: front-on polished enamel pictogram, broad smooth warm-IVORY faces, narrow WARM GOLD beveled edges and details, subtle upper-left highlights, very thin dark edge accents, restrained shallow relief. Match a premium ivory-and-gold game achievement family. Clear chunky silhouettes recognizable at small sizes; no fine texture.\nComposition: one compact, centered emblem on a square canvas, all parts visible, with generous transparent margin on all sides.\nBackground: genuine transparent alpha outside the objects and in every gap. No black backdrop, white backdrop, checkerboard, halo, glow, haze, floor, cast shadow.\nAvoid: outer badge frame, surrounding hexagon, backing plate, ribbon, laurel, decorative flourishes, scenery, presentation sheet, tiny detail. Produce just this one emblem.\nSubject: EXACTLY THREE identical, broad UPWARD-POINTING CHEVRONS stacked vertically like a command-rank insignia. Each chevron is a thick symmetrical inverted V, with a smooth IVORY enamel face and a polished GOLD rim. The three chevrons have equal width and equal thickness; clear even transparent gaps separate them so they are instantly countable. A compact slightly taller-than-wide silhouette. Only the three chevrons. No shaft beneath them, no arrows with stems, no fourth chevron, no shield or backing, no stars, flame, crown, weapon, text, letters or numerals.",
+      "preferredFrame": "gold",
+      "tool": "Built-in image_gen",
+      "status": "First concept for review",
+      "generated_path": "output/imagegen/achievements/cross-tournament-v1/commanding-run.png"
+    },
+    {
+      "id": "any-format-any-day",
+      "name": "Any Format, Any Day",
+      "symbol": "A championship trophy between two curved arrows.",
+      "description": "Won a tournament with a played Final and a tournament decided entirely by standings.",
+      "prompt": "Use case: logo-brand.\nAsset type: ONE minimalist achievement emblem for the center of an existing hexagonal game badge.\nStyle: front-on polished enamel pictogram, broad smooth warm-IVORY faces, narrow WARM GOLD beveled edges and details, subtle upper-left highlights, very thin dark edge accents, restrained shallow relief. Match a premium ivory-and-gold game achievement family. Clear chunky silhouettes recognizable at small sizes; no fine texture.\nComposition: one compact, centered emblem on a square canvas, all parts visible, with generous transparent margin on all sides.\nBackground: genuine transparent alpha outside the objects and in every gap. No black backdrop, white backdrop, checkerboard, halo, glow, haze, floor, cast shadow.\nAvoid: outer badge frame, surrounding hexagon, backing plate, ribbon, laurel, decorative flourishes, scenery, presentation sheet, tiny detail. Produce just this one emblem.\nSubject: ONE simple IVORY championship TROPHY CUP with warm GOLD rim, stem and pedestal, between EXACTLY TWO broad GOLD curved arrows. Trophy has two thick simple open loop handles and dominates the center. The arrows occupy the left and right sides in a loose broken circular loop around the trophy: left arrow curves upward with a broad triangular tip near the upper-left; right arrow curves downward with its tip near the lower-right. They never touch the trophy, and wide transparent gaps separate all objects. Compact balanced nearly circular silhouette, three bold elements only: trophy and two arrows. Trophy face is blank. No text, numbers, calendar, infinity sign, extra ring, laurel, crown or stars.",
+      "preferredFrame": "gold",
+      "tool": "Built-in image_gen",
+      "status": "First concept for review",
+      "generated_path": "output/imagegen/achievements/cross-tournament-v1/any-format-any-day.png"
+    },
+    {
+      "id": "well-connected-i",
+      "name": "Well Connected I",
+      "symbol": "A network of connected nodes with a large 25 at its centre.",
+      "description": "Played against 25 or more different opponents across your tournament history.",
+      "prompt": "Use case: logo-brand.\nAsset type: ONE minimalist achievement emblem for the center of an existing hexagonal game badge.\nStyle: front-on polished enamel pictogram, broad smooth warm-IVORY faces, narrow WARM GOLD beveled edges and details, subtle upper-left highlights, very thin dark edge accents, restrained shallow relief. Match a premium ivory-and-gold game achievement family. Clear chunky silhouettes recognizable at small sizes; no fine texture.\nComposition: one compact, centered emblem on a square canvas, all parts visible, generous transparent margin on all sides.\nBackground: genuine transparent alpha outside the objects and in every gap. No black backdrop, white backdrop, checkerboard, halo, glow, haze, floor or cast shadow.\nAvoid: outer badge frame, surrounding hexagon, decorative backing plate, laurel, decorative flourishes, scenery, presentation sheet, tiny detail. Produce just this one emblem.\nSubject: A clean compact NETWORK symbol: one LARGE round central ivory enamel disc with polished gold rim, connected by FOUR short thick gold spokes to FOUR small round ivory-and-gold satellite nodes, one directly above, one directly below, one at left, one at right. Exactly five discs total. All connected spokes visible in the transparent spaces. The central disc dominates, at least half the total emblem width. On its face place the exact large bold gold numerals \"25\", centered, thick plain sans-serif digits, very easy to read. Satellites have blank ivory faces. Symmetrical front view, broad smooth shapes, no extra nodes or crossing lines. Keep the whole network as a single compact plus-shaped silhouette. Text (verbatim): \"25\". No other letters, numerals, plus sign, small marks, people, stars or decorations.",
+      "preferredFrame": "gold",
+      "tool": "Built-in image_gen",
+      "status": "First concept for review",
+      "generated_path": "output/imagegen/achievements/cross-tournament-v1/well-connected-i.png",
+      "threshold": 25
+    },
+    {
+      "id": "well-connected-ii",
+      "name": "Well Connected II",
+      "symbol": "A network of connected nodes with a large 50 at its centre.",
+      "description": "Played against 50 or more different opponents across your tournament history.",
+      "prompt": "Use case: precise-object-edit.\nEdit target: the provided Well Connected network emblem marked 25.\nChange ONLY the central number from \"25\" to \"50\". Use the same large, bold, polished gold, plain sans-serif numerals, centered in the ivory disc and easily readable. Fit all digits comfortably within the central disc.\nPreserve the original canvas dimensions, emblem scale and position, five discs, their geometry, all four spokes, gold and ivory palette, bevels, lighting and transparent alpha. Do not redesign or reposition the network; no new nodes or other marks. Text (verbatim): \"50\". No other text. One emblem on genuine transparent background, including all gaps.",
+      "preferredFrame": "gold",
+      "tool": "Built-in image_gen",
+      "status": "First concept for review",
+      "generated_path": "output/imagegen/achievements/cross-tournament-v1/well-connected-ii.png",
+      "threshold": 50,
+      "referenced_image_paths": [
+        "output/imagegen/achievements/cross-tournament-v1/well-connected-i.png"
+      ]
+    },
+    {
+      "id": "well-connected-iii",
+      "name": "Well Connected III",
+      "symbol": "A network of connected nodes with a large 75 at its centre.",
+      "description": "Played against 75 or more different opponents across your tournament history.",
+      "prompt": "Use case: precise-object-edit.\nEdit target: the provided Well Connected network emblem marked 25.\nChange ONLY the central number from \"25\" to \"75\". Use the same large, bold, polished gold, plain sans-serif numerals, centered in the ivory disc and easily readable. Fit all digits comfortably within the central disc.\nPreserve the original canvas dimensions, emblem scale and position, five discs, their geometry, all four spokes, gold and ivory palette, bevels, lighting and transparent alpha. Do not redesign or reposition the network; no new nodes or other marks. Text (verbatim): \"75\". No other text. One emblem on genuine transparent background, including all gaps.",
+      "preferredFrame": "gold",
+      "tool": "Built-in image_gen",
+      "status": "First concept for review",
+      "generated_path": "output/imagegen/achievements/cross-tournament-v1/well-connected-iii.png",
+      "threshold": 75,
+      "referenced_image_paths": [
+        "output/imagegen/achievements/cross-tournament-v1/well-connected-i.png"
+      ]
+    },
+    {
+      "id": "well-connected-iv",
+      "name": "Well Connected IV",
+      "symbol": "A network of connected nodes with a large 100 at its centre.",
+      "description": "Played against 100 or more different opponents across your tournament history.",
+      "prompt": "Use case: precise-object-edit.\nEdit target: the provided Well Connected network emblem marked 25.\nChange ONLY the central number from \"25\" to \"100\". Use the same large, bold, polished gold, plain sans-serif numerals, centered in the ivory disc and easily readable. Fit all digits comfortably within the central disc.\nPreserve the original canvas dimensions, emblem scale and position, five discs, their geometry, all four spokes, gold and ivory palette, bevels, lighting and transparent alpha. Do not redesign or reposition the network; no new nodes or other marks. Text (verbatim): \"100\". No other text. One emblem on genuine transparent background, including all gaps.",
+      "preferredFrame": "gold",
+      "tool": "Built-in image_gen",
+      "status": "First concept for review",
+      "generated_path": "output/imagegen/achievements/cross-tournament-v1/well-connected-iv.png",
+      "threshold": 100,
+      "referenced_image_paths": [
+        "output/imagegen/achievements/cross-tournament-v1/well-connected-i.png"
+      ]
     }
   ]
 }
