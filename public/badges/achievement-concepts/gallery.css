@@ -20,12 +20,16 @@ input:focus-visible, select:focus-visible, button:focus-visible, a:focus-visible
 select:disabled { opacity: .5; }
 #summary, #empty, #load-error { font-size: 13px; line-height: 1.6; color: #aab7c9; }
 #empty { padding: 40px 20px; text-align: center; border: 1px dashed #485366; border-radius: 12px; }
-.achievement-section { margin-top: 32px; }
+.achievement-section { margin-top: 32px; scroll-margin-top: var(--achievement-nav-offset, 160px); }
 .section-heading { display: flex; justify-content: space-between; align-items: baseline; gap: 15px; margin-bottom: 14px; }
 .section-heading h2 { font-size: 22px; font-weight: 650; margin: 0; letter-spacing: -.025em; }
 .section-heading a { font-size: 12px; white-space: nowrap; }
 .section-heading .count { color: #98a7bd; font-size: 13px; margin-left: 8px; }
 .achievement-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 16px; }
+.achievement-grid.has-subsections { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.subsection-heading { grid-column: 1 / -1; margin: 8px 0 0; font-size: 17px; font-weight: 600; }
+.subsection-heading a { text-decoration: none; }
+.subsection-heading a:hover { text-decoration: underline; }
 .achievement-card { display: flex; flex-direction: column; min-width: 0; color: #eef1f5; text-decoration: none; background: #19212d; border: 1px solid #343c49; border-radius: 13px; overflow: hidden; }
 .achievement-card:hover { border-color: #cfaf6e; }
 .thumb { display: grid; place-items: center; min-height: 210px; padding: 10px; background: #141c28; }
@@ -35,8 +39,8 @@ select:disabled { opacity: .5; }
 .composition > .emblem { position: absolute; }
 .composition.symbol-only > .base { display: none; }
 .card-copy { padding: 18px; }
-.card-copy h3 { margin: 0 0 9px; font-size: 17px; letter-spacing: -.015em; }
+.card-copy h3, .card-copy h4 { margin: 0 0 9px; font-size: 17px; letter-spacing: -.015em; }
 .card-copy p { margin: 0; font-size: 12px; line-height: 1.6; color: #afbbce; }
 @media (max-width: 1000px) { .achievement-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
 @media (max-width: 760px) { .achievement-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } main { padding: 24px 18px; } }
-@media (max-width: 480px) { .achievement-grid { grid-template-columns: 1fr; } .search-label { min-width: 100%; } .filters > label { width: 100%; } .controls { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); } .controls select { width: 100%; min-width: 0; } .section-heading { flex-wrap: wrap; gap: 8px; } }
+@media (max-width: 480px) { .achievement-grid, .achievement-grid.has-subsections { grid-template-columns: 1fr; } .search-label { min-width: 100%; } .filters > label { width: 100%; } .controls { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); } .controls select { width: 100%; min-width: 0; } .section-heading { flex-wrap: wrap; gap: 8px; } }

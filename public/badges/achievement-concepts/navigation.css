@@ -10,7 +10,7 @@
 .achievement-pager { display: flex; flex-wrap: wrap; gap: 12px; justify-content: space-between; border-top: 1px solid #303745; padding-top: 20px; margin-top: 28px; }
 .achievement-pager a { font-size: 13px; line-height: 1.5; }
 .achievement-pager .next { margin-left: auto; }
-.card[id] { scroll-margin-top: 160px; }
+.card[id] { scroll-margin-top: var(--achievement-nav-offset, 160px); }
 @media (max-width: 640px) {
   .achievement-navigation { position: static; padding-top: 0; }
   .achievement-navigation .section-links { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); }

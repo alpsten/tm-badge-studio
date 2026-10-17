@@ -41,6 +41,9 @@
         card.element.hidden = !visible;
         if (visible) count++;
       }
+      for (const subsection of group.subsections) {
+        subsection.heading.hidden = !subsection.cards.some(card => !card.hidden);
+      }
       group.element.hidden = !count;
       group.count.textContent = count;
       total += count;
@@ -74,8 +77,26 @@
     heading.append(title, open);
     const grid = document.createElement('div');
     grid.className = 'achievement-grid';
+    grid.classList.toggle('has-subsections', items.some(item => item.subsection));
     const cards = [];
+    const subsections = new Map();
     for (const item of items) {
+      let subsection;
+      if (item.subsection) {
+        subsection = subsections.get(item.subsection);
+        if (!subsection) {
+          const heading = document.createElement('h3');
+          heading.className = 'subsection-heading';
+          const link = document.createElement('a');
+          link.textContent = item.subsection;
+          const anchor = item.subsection.toLowerCase().replace(/\s+/g, '-');
+          link.href = new URL(section.id + '/index.html#' + anchor, root).href;
+          heading.append(link);
+          grid.append(heading);
+          subsection = {heading, cards: []};
+          subsections.set(item.subsection, subsection);
+        }
+      }
       const card = document.createElement('a');
       card.className = 'achievement-card';
       card.href = new URL(section.id + '/index.html#' + item.id, root).href;
@@ -96,18 +117,19 @@
       thumb.append(composition);
       const copy = document.createElement('div');
       copy.className = 'card-copy';
-      const name = document.createElement('h3');
+      const name = document.createElement(item.subsection ? 'h4' : 'h3');
       name.textContent = item.name;
       const description = document.createElement('p');
       description.textContent = item.description;
       copy.append(name, description);
       card.append(thumb, copy);
       grid.append(card);
-      cards.push({element: card, search: [section.title, item.name, item.description].join(' ').toLocaleLowerCase()});
+      if (subsection) subsection.cards.push(card);
+      cards.push({element: card, search: [section.title, item.subsection || '', item.name, item.description].join(' ').toLocaleLowerCase()});
     }
     element.append(heading, grid);
     byId('sections').append(element);
-    groups.push({element, section, cards, count});
+    groups.push({element, section, cards, count, subsections: [...subsections.values()]});
   }
   const query = new URLSearchParams(location.search);
   byId('search').value = query.get('q') || '';
@@ -118,7 +140,7 @@
   for (const id of ['view', 'center', 'frame', 'background']) byId(id).addEventListener('change', refreshArtwork);
   const load = section => new Promise((resolve, reject) => {
     const script = document.createElement('script');
-    script.src = new URL(section.id + '/concepts.js?v=cross-four-v14', root).href;
+    script.src = new URL(section.id + '/concepts.js?v=companions-seal-v1', root).href;
     script.onload = () => Array.isArray(window[section.data]) ? resolve(window[section.data]) : reject(new Error(section.title));
     script.onerror = () => reject(new Error(section.title));
     document.head.append(script);

@@ -27,6 +27,13 @@
     nav.append(item);
   });
   mount.append(top, nav);
+  // The menu wraps as sections are added. Keep linked headings below its actual height.
+  const updateScrollOffset = () => {
+    const offset = getComputedStyle(mount).position === 'sticky' ? mount.getBoundingClientRect().height + 20 : 20;
+    document.documentElement.style.setProperty('--achievement-nav-offset', offset + 'px');
+  };
+  new ResizeObserver(updateScrollOffset).observe(mount);
+  updateScrollOffset();
   if (activeIndex !== -1) {
     const pager = document.createElement('nav');
     pager.className = 'achievement-pager';
