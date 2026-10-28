@@ -533,5 +533,37 @@
       "width": 97.42231075697211,
       "height": 97.42231075697211
     }
+  },
+  {
+    "id": "hidden-gem",
+    "name": "Hidden Gem",
+    "symbol": "A faceted gemstone revealed beneath a gold magnifying glass.",
+    "description": "Won a game with a corporation no other player used in that qualifying round across all tables.",
+    "preferredFrame": "gold",
+    "file": "icons/hidden-gem.png",
+    "sourceSha256": "6788f5dcaab92cb28c19f0252c86ff86fcb0326d3e977c3eaeefd7b2f1ff911b",
+    "size": [
+      1254,
+      1254
+    ],
+    "crop": [
+      228,
+      175,
+      1116,
+      1117
+    ],
+    "cropAlphaThreshold": 16,
+    "badgePlacement": {
+      "left": 31.79,
+      "top": 32.49,
+      "width": 34,
+      "height": 34
+    },
+    "symbolPlacement": {
+      "left": -7.88,
+      "top": -5.64,
+      "width": 108,
+      "height": 108
+    }
   }
 ]

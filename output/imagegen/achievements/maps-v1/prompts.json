@@ -16,7 +16,9 @@
     "rules": {
       "martian-atlas": "Completed played games linked to this player cover every map in the current Maps list: Tharsis, Elysium, Hellas, Utopia Planitia, Terra Cimmeria, Amazonis Planitia, and Vastitas Borealis. Use canonical map IDs and the shared map-tracking requirements; repeats count once, and unknown maps cannot be inferred. Qualifying games and played Finals both count; no wins are required.",
       "home-field": "In a completed played match, this player has position 1, their canonical corporation is Tharsis Republic, and the recorded map is Tharsis. Use the usual position-1 win rule, including shared first place; this is not restricted to outright wins. Qualifying rounds and played Finals both count. Needs the actual map recorded for that match; never infer it from the corporation. See the shared map-tracking note below.",
-      "travel-companions": "For each pair of stable linked players, count distinct canonical maps across completed shared games; require at least three. Award both regardless of placement. Qualifying games and actually played Finals in one or several tournaments count; the rest of the table may differ. Repeated maps count once; exclude byes, cancellations, unplayed forfeits and synthetic results. Unknown maps cannot be inferred. Needs map mapping, match-level map tracking and linked history; no login account or first-appearance requirement."
+      "travel-companions": "For each pair of stable linked players, count distinct canonical maps across completed shared games; require at least three. Award both regardless of placement. Qualifying games and actually played Finals in one or several tournaments count; the rest of the table may differ. Repeated maps count once; exclude byes, cancellations, unplayed forfeits and synthetic results. Unknown maps cannot be inferred. Needs map mapping, match-level map tracking and linked history; no login account or first-appearance requirement.",
+      "home-office": "In a completed played match, this player has position 1, their canonical corporation is Utopia Invest, and the recorded map is Utopia Planitia. Use the usual position-1 win rule, including shared first place. Qualifying rounds and played Finals both count. Require the actual map to be recorded for that match; never infer it from the corporation. Award once per qualifying match; later qualifying matches offer another opportunity.",
+      "terra-firma": "In a completed played match, this player has position 1, their canonical corporation is Teractor, and the recorded map is Terra Cimmeria. Use the usual position-1 win rule, including shared first place. Qualifying rounds and played Finals both count. Require the actual map to be recorded for that match; never infer it from the corporation. Award once per qualifying match; later qualifying matches offer another opportunity."
     }
   },
   "jobs": [
@@ -55,6 +57,36 @@
       "tool": "Built-in image_gen",
       "status": "First concept for review",
       "generated_path": "output/imagegen/achievements/maps-v1/travel-companions.png"
+    },
+    {
+      "id": "home-office",
+      "name": "Home Office",
+      "symbol": "A peaked ivory office with Utopia Invest’s three linked currency marks.",
+      "description": "Won a game with Utopia Invest on the Utopia Planitia map.",
+      "prompt": "Use case: logo-brand.\nAsset type: one minimalist achievement emblem for the center of an existing hexagonal game badge.\nInput images: Image 1, the Home Field badge, is a style and treatment reference only. Image 2, the Utopia Invest corporation emblem, is the exact identity reference; simplify its distinctive three interlocking white dollar-sign forms, but do not copy its green rectangular token or rectangular frame.\nPrimary request: create “Home Office,” the companion achievement for winning on Utopia Planitia while playing Utopia Invest.\nSubject: one compact front-facing ivory map marker whose central inset contains the recognizable three interlocking Utopia Invest currency forms in warm gold. Let the marker silhouette suggest a small grounded home/office shape with a simple broad peaked top, echoing the Home Field achievement, while the three linked currency marks clearly identify Utopia Invest. Keep the map-marker point and the corporation motif visually distinct.\nStyle: polished raised ivory enamel, rich warm-gold beveled edge, thin dark contour, bright upper-left highlight, restrained shallow relief, broad shapes readable at small badge sizes; match Image 1 closely.\nComposition: square canvas, centered balanced emblem, generous transparent margins, every part visible.\nBackground: genuine transparent alpha outside the emblem and through open gaps.\nAvoid: green, orange, rectangular token/frame, extra maps, additional icons, tiny detail, scenery, lettering, numbers beyond the currency motif, halo, glow, shadow, or background. Produce one emblem only.",
+      "preferredFrame": "gold",
+      "tool": "Built-in image_gen",
+      "status": "First concept for review",
+      "generated_path": "output/imagegen/achievements/maps-v1/home-office.png",
+      "referenced_image_paths": [
+        "output/imagegen/achievements/maps-v1/home-field.png",
+        "output/badges/logos/originals/utopia-invest-logo.png"
+      ]
+    },
+    {
+      "id": "terra-firma",
+      "name": "Terra Firma",
+      "symbol": "Teractor’s three-pronged mark rising from a terraced Martian ridge.",
+      "description": "Won a game with Teractor on the Terra Cimmeria map.",
+      "prompt": "Use case: logo-brand.\nAsset type: one minimalist achievement emblem for the center of an existing hexagonal game badge.\nInput images: Image 1, the Home Field achievement, is the style reference. Image 2, the Teractor corporation emblem, is the exact identity reference; preserve its unmistakable three-pronged T/terrain motif while simplifying it. Do not copy its orange fill or black rectangular artwork background.\nPrimary request: create “Terra Firma,” a companion achievement for winning on Terra Cimmeria while playing Teractor.\nSubject: a broad, front-on ivory map/landform tile with a low, stepped Terra Cimmeria highland silhouette. Integrate the exact recognizable Teractor mark in warm gold: two wide horizontal upper arms meeting at center, with a single long central point extending downward. The symbol should feel carved into or rising from the Martian terrain, with its pointed lower part following the terrain ridge. Make the three-pronged Teractor identity clear and keep the landscape simple.\nStyle: match Image 1’s polished raised ivory enamel, rich warm-gold beveled edge, thin dark contour, bright upper-left highlight, restrained shallow relief, and small-size legibility. One clean emblem, no fine texture.\nComposition: square canvas, compact centered balanced emblem with generous transparent margins, entire silhouette visible.\nBackground: genuine transparent alpha outside the emblem and through open gaps.\nAvoid: outer badge frame, map labels, text, letters, numbers, extra planets, stars, scenery, additional icons, orange or black fills, glow, haze, cast shadow, or background. Produce one emblem only.",
+      "preferredFrame": "gold",
+      "tool": "Built-in image_gen",
+      "status": "First concept for review",
+      "generated_path": "output/imagegen/achievements/maps-v1/terra-firma.png",
+      "referenced_image_paths": [
+        "output/imagegen/achievements/maps-v1/home-field.png",
+        "output/badges/logos/originals/teractor-logo.png"
+      ]
     }
   ]
 }

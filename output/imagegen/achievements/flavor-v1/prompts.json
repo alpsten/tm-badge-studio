@@ -16,7 +16,8 @@
       "climbing-the-ranks": "Complete all qualifying rounds. Recorded finishing position must strictly improve each round, so the position numbers decrease (e.g. 3 > 2 > 1). The Final is excluded; equal positions do not qualify. Separate from Growth Mindset, which measures TR.",
       "patient-zero": "An organizer designates exactly one original Martian Flu carrier and records that player identity and the seed time. Only that original carrier receives Patient Zero, and also receives Martian Flu. Patient Zero does not transfer to later contacts and is not recomputed from the earliest imported match. Artwork and rule definition only; infection-state implementation remains pending.",
       "redemption": "Two completed matches in different rounds of the same tournament share this player and the same opponent. In the earlier match your position is numerically greater than theirs; in the later match it is strictly lower. Ties do not count as beating or losing to that opponent. A played Final may be the later match. You need not win the whole table. No linked cross-tournament history is required.",
-      "second-wind": "In a completed qualifying round r, your position equals the largest recorded position at your table and is greater than 1; this includes joint last, but not a whole table tied for first. In the very next scheduled qualifying round r+1, your position is 1. Both results must exist; do not skip a missing round. Exclude Finals and byes. A recorded shared win counts as position 1."
+      "second-wind": "In a completed qualifying round r, your position equals the largest recorded position at your table and is greater than 1; this includes joint last, but not a whole table tied for first. In the very next scheduled qualifying round r+1, your position is 1. Both results must exist; do not skip a missing round. Exclude Finals and byes. A recorded shared win counts as position 1.",
+      "hidden-gem": "Award in a completed qualifying round only when at least two tables have completed played results. Across all played matches in that tournament and round, the player’s canonical corporation must be selected by exactly one distinct player: that player. The player must finish position 1; shared first place qualifies. Wait for all played results and corporation selections in the round to be confirmed; unknown selections do not count as unique. Check uniqueness across the whole round, not just the winner’s table. Exclude single-table qualifying rounds and Finals. The achievement can be earned again in each qualifying round."
     },
     "names": "Backseat is the current catalogue name for From Behind; its stable from-behind asset ID and artwork are retained. Fresh Faces replaces the provisional name Clean Slate. Climbing the Ranks names the placement counterpart to Growth Mindset."
   },
@@ -217,6 +218,20 @@
       "tool": "Built-in image_gen",
       "status": "First concept for review",
       "generated_path": "output/imagegen/achievements/flavor-v1/patient-zero.png",
+      "referenced_image_paths": [
+        "output/imagegen/achievements/flavor-v1/martian-flu.png"
+      ]
+    },
+    {
+      "id": "hidden-gem",
+      "name": "Hidden Gem",
+      "symbol": "A faceted gemstone revealed beneath a gold magnifying glass.",
+      "description": "Won a game with a corporation no other player used in that qualifying round across all tables.",
+      "preferredFrame": "gold",
+      "prompt": "Use case: logo-brand.\nAsset type: one achievement emblem for the center of a hexagonal game badge.\nInput image: the supplied Martian Flu emblem is a style reference only; match its polished raised ivory enamel, rich warm-gold beveled edges, thin dark contours, bright upper-left highlights, restrained relief, and bold small-size legibility.\nSubject: Hidden Gem, shown as one distinctive, faceted ivory gemstone being revealed through a simple gold magnifying glass. The gemstone is the focal point, with broad crisp facets and one small warm-gold facet. The circular lens frames and slightly enlarges the crystal; a short sturdy handle points diagonally down-right. Keep the crystal unmistakably visible inside the lens.\nComposition: square canvas, compact centered emblem, generous transparent margins, front-on balanced silhouette, entire lens and handle visible.\nBackground: genuinely transparent alpha outside the objects and in all gaps.\nAvoid: badge frames, outer hexagons, backing plates, extra gems, rock piles, scenery, text, numerals, sparkles, glow, haze, shadows, or background. Produce only the emblem.",
+      "tool": "Built-in image_gen",
+      "status": "First concept for review",
+      "generated_path": "output/imagegen/achievements/flavor-v1/hidden-gem.png",
       "referenced_image_paths": [
         "output/imagegen/achievements/flavor-v1/martian-flu.png"
       ]

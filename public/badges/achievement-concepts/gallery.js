@@ -140,7 +140,7 @@
   for (const id of ['view', 'center', 'frame', 'background']) byId(id).addEventListener('change', refreshArtwork);
   const load = section => new Promise((resolve, reject) => {
     const script = document.createElement('script');
-    script.src = new URL(section.id + '/concepts.js?v=companions-seal-v1', root).href;
+    script.src = new URL(section.id + '/concepts.js?v=map-corporation-pairs-v1', root).href;
     script.onload = () => Array.isArray(window[section.data]) ? resolve(window[section.data]) : reject(new Error(section.title));
     script.onerror = () => reject(new Error(section.title));
     document.head.append(script);

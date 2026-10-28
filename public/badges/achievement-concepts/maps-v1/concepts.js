@@ -94,5 +94,69 @@ window.MAPS_CONCEPTS = [
       "width": 111.08267716535434,
       "height": 111.08267716535434
     }
+  },
+  {
+    "id": "home-office",
+    "name": "Home Office",
+    "symbol": "A peaked ivory office with Utopia Invest\u2019s three linked currency marks.",
+    "description": "Won a game with Utopia Invest on the Utopia Planitia map.",
+    "preferredFrame": "gold",
+    "file": "icons/home-office.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "crop": [
+      47,
+      48,
+      1202,
+      1157
+    ],
+    "cropAlphaThreshold": 16,
+    "badgePlacement": {
+      "left": 34.56,
+      "top": 35.09,
+      "width": 31,
+      "height": 31
+    },
+    "symbolPlacement": {
+      "left": 1.0,
+      "top": 2.7,
+      "width": 98.4,
+      "height": 98.4
+    },
+    "sourceSha256": "f4b8137d67836ed35c3a962c97bf4d0abba04d135c9d9f00bc9fe69037cbb75c"
+  },
+  {
+    "id": "terra-firma",
+    "name": "Terra Firma",
+    "symbol": "Teractor\u2019s three-pronged mark rising from a terraced Martian ridge.",
+    "description": "Won a game with Teractor on the Terra Cimmeria map.",
+    "preferredFrame": "gold",
+    "file": "icons/terra-firma.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "crop": [
+      38,
+      257,
+      1216,
+      1033
+    ],
+    "cropAlphaThreshold": 16,
+    "badgePlacement": {
+      "left": 34.0,
+      "top": 33.54,
+      "width": 32,
+      "height": 32
+    },
+    "symbolPlacement": {
+      "left": -2.0,
+      "top": -3.49,
+      "width": 104,
+      "height": 104
+    },
+    "sourceSha256": "6ce2cdd6963af91f7f78c518007ea83d997ca205fc31d95e3df47f4bb3162811"
   }
 ];
